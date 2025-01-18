@@ -51,7 +51,7 @@ init -3 python:
     version_number = 0.2
 
     VIDEOFORMATS = (".webm", ".mkv", ".avi", ".mpg", ".mpeg") # Took out ".mp4" because of missing codecs
-    IMGFORMATS = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp") # animated gifs and .webp do not work in Ren'py for now
+    IMGFORMATS = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp",".avif") # animated gifs and .webp do not work in Ren'py for now
 
     config.layers.append("myoverlay")
 

@@ -2171,19 +2171,21 @@ screen girl_stats(girl, context = "girls"): # context can be girls, slavemarket,
                     text "" size res_font(3)
 
                     hbox spacing xres(10):
-                        text _("Upkeep: ") size res_font(18)
-                        text "{image=img_gold} %s" % str(round_int(girl.upkeep)):
-                            size res_font(14)
-                            yalign 1.0
-                            if girl.get_upkeep_modifier() < 0:
-                                color c_red
+                        text "Upkeep: " size res_font(18) yalign 0.5
+                        text "{image=img_gold_18} %i" % round_int(girl.upkeep) size res_font(16) yalign 0.5
 
-                            elif girl.get_upkeep_modifier() == 0:
-                                color c_white
+                        if girl.get_upkeep_modifier() != 0:
+                            text " (%s mood)" % plus_text(girl.get_upkeep_modifier()):
+                                size res_font(14)
+                                yalign 0.5
+                                if girl.get_upkeep_modifier() < 0:
+                                    color c_red
 
-                            else:
-                                color c_emerald
+                                elif girl.get_upkeep_modifier() == 0:
+                                    color c_white
 
+                                else:
+                                    color c_emerald
 
                     if girl.locked_upkeep:
                         text _("Her upkeep is currently withdrawn.") size res_font(14) italic True

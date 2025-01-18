@@ -14774,10 +14774,24 @@ label loan_repaid():
 
     $ NPC_banker.love += 5
 
-    if NPC_banker.love // 5 == 5:
+    if NPC_banker.love == 25:
         banker "Wow! 5 points! You have completed your loyalty card!"
 
         call banker_special1 from _call_banker_special1
+
+    elif NPC_banker.love > 25:
+        banker "Your loyalty card is overfloing with stamps, hehe... Do you want a special customer reward again?"
+
+        menu:
+            extend ""
+
+            "当然":
+                you "我现在就想要特殊服务!"
+
+                call banker_special1
+
+            "不是现在":
+                banker "好吧，你知道在哪里能找到我... *purr*"
 
     else:
         $ renpy.say(banker, "That makes it " + str_int(NPC_banker.love // 5) + " points. Only " + str_int(5 - NPC_banker.love // 5) + " more to go!")

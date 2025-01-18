@@ -1482,47 +1482,61 @@ init -2 python:
         def update_upkeep_ratio(self):
             self.upkeep_ratio = (self.upkeep - self.get_med_upkeep())/float(self.rank)
 
+        def get_upkeep_threshold(self, step): # Only use integers from +5 to -5 as step values, or "min".
+            if step == "min":
+                return self.get_med_upkeep() // 4
+
+            base_value = {5 : 10, 4 : 8, 3 : 6, 2 : 4, 1 : 2, 0 : -2, -1 : -4, -2 : -6, -3 : -8, -4 : -10, -5 : -15}[step]
+
+            r = self.get_med_upkeep() + (base_value * self.rank * 2 ** self.rank)
+
+            if step <= 0: # To emulate the legacy switch from >= to >
+                r += 1
+            
+            return r
+
         def get_upkeep_modifier(self):
 
             m = self.get_med_upkeep()
 
-            if self.upkeep >= (m + 10 * self.rank * 2 ** self.rank):
+            if self.upkeep >= self.get_upkeep_threshold(5):
                 modifier = +5
 
-            elif self.upkeep >= (m + 8 * self.rank * 2 ** self.rank):
+            elif self.upkeep >= self.get_upkeep_threshold(4):
                 modifier = +4
 
-            elif self.upkeep >= (m + 6 * self.rank * 2 ** self.rank):
+            elif self.upkeep >= self.get_upkeep_threshold(3):
                 modifier = +3
 
-            elif self.upkeep >= (m + 4 * self.rank * 2 ** self.rank):
+            elif self.upkeep >= self.get_upkeep_threshold(2):
                 modifier = +2
 
-            elif self.upkeep >= (m + 2 * self.rank * 2 ** self.rank):
+            elif self.upkeep >= self.get_upkeep_threshold(1):
                 modifier = +1
 
-            # Higher mood penalties for negative upkeep
+            elif self.upkeep >= self.get_upkeep_threshold(0):
+                modifier = 0
 
-            elif self.upkeep <= (m - 15 * self.rank * 2 ** self.rank):
-                modifier = -20
-
-            elif self.upkeep <= (m - 10 * self.rank * 2 ** self.rank):
-                modifier = -10
-
-            elif self.upkeep <= (m - 8 * self.rank * 2 ** self.rank):
-                modifier = -8
-
-            elif self.upkeep <= (m - 6 * self.rank * 2 ** self.rank):
-                modifier = -4
-
-            elif self.upkeep <= (m - 4 * self.rank * 2 ** self.rank):
-                modifier = -2
-
-            elif self.upkeep <= (m - 2 * self.rank * 2 ** self.rank):
+            elif self.upkeep >= self.get_upkeep_threshold(-1):
                 modifier = -1
 
+            elif self.upkeep >= self.get_upkeep_threshold(-2):
+                modifier = -2
+
+            # Higher mood penalties incurred for very negative upkeep
+
+            elif self.upkeep >= self.get_upkeep_threshold(-3):
+                modifier = -4
+
+            elif self.upkeep >= self.get_upkeep_threshold(-4):
+                modifier = -8
+
+            elif self.upkeep >= self.get_upkeep_threshold(-5):
+                modifier = -12
+
             else:
-                modifier = 0
+                modifier = -20
+
 
             if modifier > 0:
                 modifier += self.get_effect("change", "positive upkeep mood modifier")
@@ -1530,6 +1544,24 @@ init -2 python:
                 modifier += self.get_effect("change", "negative upkeep mood modifier")
 
             return modifier
+
+        def get_next_upkeep_step(self):
+            m = self.get_upkeep_modifier()
+            step = {-20 : -6, -12 : -5, -8 : -4, -4 : -3, -2 : -2, -1 : -1, 0 : 0, 1 : 1, 2 : 2, 3 : 3, 4 : 4, 5 : 5}[m]
+            
+            if step < 5:
+                return self.get_upkeep_threshold(step + 1)
+            else:
+                return get_upkeep_threshold(5)
+
+        def get_previous_upkeep_step(self):
+            m = self.get_upkeep_modifier()
+            step = {-20 : -6, -12 : -5, -8 : -4, -4 : -3, -2 : -2, -1 : -1, 0 : 0, 1 : 1, 2 : 2, 3 : 3, 4 : 4, 5 : 5}[m]
+            
+            if step > -6:
+                return max(self.get_upkeep_threshold(step - 1), self.get_upkeep_threshold("min"))
+            else:
+                return self.get_upkeep_threshold("min")
 
 
 
@@ -5126,14 +5158,14 @@ init -2 python:
                 neg_unlocked = []
 
                 for act in self.pos_acts:
-                    if self.personality_unlock[act] or always_show_personality[self]:
-                        if act in self.neg_acts:
+                    if act in self.notebook_unlocks:
+                        if act in self.neg_acts: # Ambivalent acts
                             amb_unlocked.append(girl_related_dict[act])
                         else:
                             pos_unlocked.append(girl_related_dict[act])
 
                 for act in self.neg_acts:
-                    if (self.personality_unlock[act] and act not in self.pos_acts) or always_show_personality[self]:
+                    if act in self.notebook_unlocks and act not in self.pos_acts:
                         neg_unlocked.append(girl_related_dict[act])
 
                 if pos_unlocked:

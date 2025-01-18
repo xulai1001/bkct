@@ -15,11 +15,14 @@ label security(working_girls, ev_type=None): # Happens when the threat level ove
 
     ## Pick targets for attacks
 
+    $ target_girls = []
+
     if working_girls:
         $ target_girls = working_girls
-    elif MC.girls:
+    else:
         $ target_girls = [g for g in MC.girls if not g.away]
-    else: # In the unlikely case a player has no girls in the brothel when a security event procs
+
+    if not target_girls: # In the unlikely case a player has no girls in the brothel when a security event procs
         return
 
     ## Get event type

@@ -70,12 +70,10 @@ label slavemarket:
                 jump headhunter_main
 ############ Jman - Headhunter Mod End ########
 
-    show screen girls(slavemarket.girls, context = "slavemarket")
-
-
 label slavemarket_loop:
 
     $ result = None
+    show screen girls(slavemarket.girls, context = "slavemarket")
 
     while True:
 
@@ -126,6 +124,10 @@ label slavemarket_loop:
                     $ game.headhunter_button_enabled = 0
 ############ Jman - Headhunter Mod End ########
 
+            # Disables buttons and shortcuts until the end of the acquisition process
+            hide screen girls
+            show screen girl_profile(girl)
+
             call acquire_girl(girl, price, context = "slavemarket") from _call_acquire_girl_3 # Checks that MC has the necessary money and room in the brothel or farm.
 
             if slavemarket_firstvisit and _return:
@@ -141,6 +143,8 @@ label slavemarket_loop:
                 $ game.headhunter_button_enabled = 1
 ############ Jman - Headhunter Mod End ########
 
+            jump slavemarket_loop
+
 ## DISTRICT ##
 
 label districts:
@@ -155,11 +159,14 @@ label districts:
     show screen districts()
     with Dissolve(0.15)
 
+    $ _selected = None
+
     while True:
 
-        $ selected_district = ui.interact()
+        $ _selected = ui.interact()
 
-        if selected_district:
+        if isinstance(_selected, District):
+            $ selected_district = _selected
             jump visit_district
 
 

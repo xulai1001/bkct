@@ -716,7 +716,7 @@ label power_use(_pow, girl, girl2):
         $ girl.refresh_pictures()
 
     elif _pow.power == "negative fixation":
-        $ neg_fix = [fix for fix in girl.neg_fixations if (girl.personality_unlock[fix.name])]
+        $ neg_fix = [fix for fix in girl.neg_fixations if (girl.personality_unlock[fix.name] or NGP_settings_dict["fixation"].get())]
 
         if neg_fix:
             $ fix = menu([("Choose negative fixation to remove", None)] + [(f.name.capitalize(), f) for f in neg_fix] + [("Cancel", "back")])
