@@ -5219,7 +5219,7 @@ screen brothel_report():
                 xfill True
                 yfill False
 
-                text "昨 天" color c_prune
+                text "昨   天" color c_prune
 
                 text "" size res_font(14)
 
@@ -5247,7 +5247,7 @@ screen brothel_report():
                 xfill True
                 yfill False
 
-                text "今 天" color c_prune #关联NPC姓名，不作标记
+                text "今   天" color c_prune #关联NPC姓名，不作标记
 
                 text "" size res_font(14)
 

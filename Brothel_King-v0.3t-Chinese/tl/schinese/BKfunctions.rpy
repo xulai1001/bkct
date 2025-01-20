@@ -145,6 +145,8 @@ translate schinese strings:
     # game/BKfunctions.rpy:1515
     old "Very easy"
     new "十拿九稳"
+    old "Very Easy"
+    new "十拿九稳"
 
     # game/BKfunctions.rpy:1519
     old "Easy"
@@ -160,6 +162,8 @@ translate schinese strings:
 
     # game/BKfunctions.rpy:1531
     old "Very hard"
+    new "难于登天"
+    old "Very Hard"
     new "难于登天"
 
     # game/BKfunctions.rpy:1667

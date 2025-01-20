@@ -2517,7 +2517,7 @@ label cheat_menu():
 
             return
 
-        "Nothing":
+        "返回游戏":
 
             return
 
