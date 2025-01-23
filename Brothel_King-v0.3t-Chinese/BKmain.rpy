@@ -529,7 +529,7 @@ label farm_loop():
 
             show magic fire
 
-            $ you("Uh? What's going on here?", interact=False)
+            $ you("哈? 这里发生什么事了?", interact=False)
 
             hide magic fire
 
@@ -948,7 +948,7 @@ label main_wait_for_input:
 
         if result:
             if result == "advance":
-                if renpy.call_screen("yes_no", __("Do you really want to advance to the next chapter?\n\n{size=-2}This will reset all your room improvements, but you will keep your furniture and decorations.\nIt will cost you {b}") + str(blist[game.chapter+1].cost) + " gold{/b}."):
+                if renpy.call_screen("yes_no", __("Do you really want to advance to the next chapter?\n\n{size=-2}This will reset all your room improvements, but you will keep your furniture and decorations.\nIt will cost you {b}") + str(blist[game.chapter+1].cost) + "金币{/b}。"):
                     call advance_to_chapter(game.chapter+1) from _call_advance_to_chapter_1
                     jump brothel
 

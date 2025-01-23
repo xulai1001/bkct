@@ -180,15 +180,15 @@ init python:
             self.sanity_cost = sanity_cost # Sanity cost should range from 1 (mild) to 6 (very high)
 
             if self.sanity_cost >= 10:
-                self.sanity_lvl = __("Break")
+                self.sanity_lvl = "Break"
             elif self.sanity_cost > 5:
-                self.sanity_lvl = __("Very high")
+                self.sanity_lvl = "Very high"
             elif self.sanity_cost > 3:
-                self.sanity_lvl = __("High")
+                self.sanity_lvl = "High"
             elif self.sanity_cost > 1:
-                self.sanity_lvl = __("Medium")
+                self.sanity_lvl = "Medium"
             else:
-                self.sanity_lvl = __("Low")
+                self.sanity_lvl = "Low"
 
         def get(self, _super=False):
             if _super:
@@ -591,7 +591,7 @@ label power_use(_pow, girl, girl2):
                 for g in MC.girls + farm.girls:
                     add_effects(g, _pow.effects)
 
-                notify("All girls: Fear increased")
+                notify("所有女孩: 恐惧值增长了")
 
         "[witness.fullname] cannot avert her eyes."
 

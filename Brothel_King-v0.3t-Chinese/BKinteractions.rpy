@@ -2560,7 +2560,7 @@ label slave_reward_day(girl):
     return
 
 label slave_reward_sex(girl):
-    $ act = menu(get_act_menu(prompt="What do you want to reward her with?", extended=False, girl=girl))
+    $ act = menu(get_act_menu(prompt="你为什么要奖励她？", extended=False, girl=girl))
 
     if act == "back":
         $ inter.canceled = True
@@ -2857,7 +2857,7 @@ label slave_punish_beat(girl): # To do: add a special reaction if she loves/hate
 label slave_punish_rape(girl):
     you "You need a good lesson! I will make sure that you learn it this time."
 
-    $ result = menu(get_act_menu(prompt="How will you punish her this time?", extended=False, girl=girl, conditions=False))
+    $ result = menu(get_act_menu(prompt="这次你打算怎么惩罚她？", extended=False, girl=girl, conditions=False))
 
     if result == "back":
         $ inter.canceled = True
@@ -5551,7 +5551,7 @@ label slave_story8(girl):
 
         girl.char "And the fire runes should flow from East to West..."
 
-        if MC.playerclass == "Wizard":
+        if MC.playerclass == "法师":
             "You recognize crude runes among the various symbols she is drawing. It is amateurishly done, however."
         else:
             "It seems like some magical gibberish."
@@ -5584,7 +5584,7 @@ label slave_story8(girl):
 
         girl.char "Do you know a lot about witches, Master?"
 
-        if MC.playerclass == "Wizard":
+        if MC.playerclass == "法师":
             you "Well, I studied alongside a few in Karkyr... They're usually pretty haughty and ill-tempered."
 
             you "But they're wild in bed, so there's that."
