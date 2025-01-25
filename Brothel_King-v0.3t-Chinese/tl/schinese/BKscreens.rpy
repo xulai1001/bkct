@@ -2312,7 +2312,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:8296
     old "Next unlock:"
-    new "Next unlock:"
+    new "解锁下阶段需要:"
 
     # game/BKscreens.rpy:8305
     old "Reset achievements"

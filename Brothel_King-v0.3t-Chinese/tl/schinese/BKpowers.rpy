@@ -232,7 +232,7 @@ translate schinese power_use_5a239df6:
 translate schinese power_use_d286a9be:
 
     # "You use the dark powers at your disposal to leech [girl.name]'s life memories, sharing them with your less experienced slaves."
-    "You use the dark powers at your disposal to leech [girl.name]'s life memories, sharing them with your less experienced slaves."
+    "你使用你所掌握的黑暗力量来吸取[girl.name]的生活经验，并与你经验不足的奴隶分享。"
 
 # game/BKpowers.rpy:946
 translate schinese power_use_89684bdf:
@@ -244,7 +244,7 @@ translate schinese power_use_89684bdf:
 translate schinese power_use_6d581ed6:
 
     # "You use the dark powers at your disposal to leech [girl.name]'s work memories, sharing them with your less experienced slaves."
-    "You use the dark powers at your disposal to leech [girl.name]'s work memories, sharing them with your less experienced slaves."
+    "你使用你所掌握的黑暗力量来吸取[girl.name]的工作经验，并与你经验不足的奴隶分享。"
 
 # game/BKpowers.rpy:953
 translate schinese power_use_ce711cc5:
@@ -256,379 +256,379 @@ translate schinese power_use_ce711cc5:
 translate schinese power_use_e78594dc:
 
     # "[girl.fullname] has transferred {b}[chg] [target]{/b} to [girl2.fullname]."
-    "[girl.fullname] has transferred {b}[chg] [target]{/b} to [girl2.fullname]."
+    "[girl.fullname]已转移{b}[chg][target]{/b}给[girl2.fullname]。"
 
 # game/BKpowers.rpy:969
 translate schinese power_use_b34872f2:
 
     # "Back in her room, [girl2.fullname] wakes up abruptly from a feverish dream, not quite recognizing herself or the source of her newfound confidence."
-    "Back in her room, [girl2.fullname] wakes up abruptly from a feverish dream, not quite recognizing herself or the source of her newfound confidence."
+    "回到她的房间，[girl2.fullname]突然从高烧中醒来，她感觉自己变了，不知道为何内心感到一阵自信。"
 
 # game/BKpowers.rpy:975
 translate schinese power_use_f436218f:
 
     # "[girl.fullname] has become temporarily more obedient."
-    "[girl.fullname] has become temporarily more obedient."
+    "[girl.fullname]暂时变得更加服从了。"
 
 # game/BKpowers.rpy:979
 translate schinese power_use_1809ad4f:
 
     # "As your conduit falls into a trance, you focus the dark energies on your other girls, and quickly find your mark: [girl2.fullname]. Unbeknownst to her, she now shares a bond with [girl.fullname] and will be affected by her obedience and loyalty."
-    "As your conduit falls into a trance, you focus the dark energies on your other girls, and quickly find your mark: [girl2.fullname]. Unbeknownst to her, she now shares a bond with [girl.fullname] and will be affected by her obedience and loyalty."
+    "当你让她进入恍惚状态时，你将黑暗能量集中在其他女孩身上，并迅速找到你的目标：[girl2.fullname]。她并不知道，她现在和[girl.fullname]建立了一种联系。她的服从和忠诚会影响到她。"
 
 # game/BKpowers.rpy:986
 translate schinese power_use_e9200e56:
 
     # "All girls will be more receptive to farm training for some time."
-    "All girls will be more receptive to farm training for some time."
+    "在一段时间内，所有女孩都将更容易接受农场培训。"
 
 # game/BKpowers.rpy:989
 translate schinese power_use_4f4a2671:
 
     # "[girl.fullname] will be more receptive to farm training for some time."
-    "[girl.fullname] will be more receptive to farm training for some time."
+    "[girl.fullname]在一段时间内会更容易接受农场培训。"
 
 # game/BKpowers.rpy:994
 translate schinese power_use_9f1f4fca:
 
     # "This girl's XP is too low to cast that power."
-    "This girl's XP is too low to cast that power."
+    "这个女孩的经验太少，无法使用这个力量。"
 
 # game/BKpowers.rpy:999
 translate schinese power_use_cd1fc471:
 
     # "[girl.fullname] lies on the cold floor in a state of daze. Focusing your mind on the farm, you choose the target of your next power."
-    "[girl.fullname] lies on the cold floor in a state of daze. Focusing your mind on the farm, you choose the target of your next power."
+    "[girl.fullname]躺在冰冷的地板上发呆。把注意力集中在农场里，你选择了下一个施法的目标。"
 
 # game/BKpowers.rpy:1052
 translate schinese power_use_6dd11419:
 
     # "The [room.name] can now accomodate [_val] more customers."
-    "The [room.name] can now accomodate [_val] more customers."
+    "[room.name]现在可以额外容纳[_val]位顾客。"
 
 # game/BKpowers.rpy:1058
 translate schinese power_use_60db114e:
 
     # "All common rooms in your brothel can now accomodate [_val] more customers."
-    "All common rooms in your brothel can now accomodate [_val] more customers."
+    "青楼的所有营业场所现在可以额外容纳[_val]位顾客。"
 
 # game/BKpowers.rpy:1065
 translate schinese power_use_1257a559:
 
     # "Her mind is now entirely focused on giving customers a good time."
-    "Her mind is now entirely focused on giving customers a good time."
+    "她现在的心思完全集中在让顾客玩得开心上。"
 
 # game/BKpowers.rpy:1069
 translate schinese power_use_0cbb7ba0:
 
     # "Some of her life energy will be used to sustain the other girls while they serve customers."
-    "Some of her life energy will be used to sustain the other girls while they serve customers."
+    "她的一些生命能量将用来维持其他女孩服务顾客。"
 
 # game/BKpowers.rpy:1075
 translate schinese power_use_a39fbb31:
 
     # "[girl.fullname] doesn't love you enough to use that power."
-    "[girl.fullname] doesn't love you enough to use that power."
+    "[girl.fullname]还不够爱你，无法使用那种力量。"
 
 # game/BKpowers.rpy:1122
 translate schinese power_use_6b461982:
 
     # "The girls in the [_pow.target] now love you more."
-    "The girls in the [_pow.target] now love you more."
+    "她对你的好感度提升了[_pow.target]。"
 
 # game/BKpowers.rpy:1125
 translate schinese power_use_c14e8f8a:
 
     # "Using your powers, you place [girl.fullname] into a trance, until she is ready to obey your commands."
-    "Using your powers, you place [girl.fullname] into a trance, until she is ready to obey your commands."
+    "使用你的力量，让[girl.fullname]进入恍惚状态，直到她准备好服从你的命令。"
 
 # game/BKpowers.rpy:1127
 translate schinese power_use_b4f4c940:
 
     # you "Go to the city, and find [girl2.fullname]. Fly, my pretty!"
-    you "Go to the city, and find [girl2.fullname]. Fly, my pretty!"
+    you "到城里去, 给我把[girl2.fullname]抓回来。去吧，我的宝贝!"
 
 # game/BKpowers.rpy:1129
 translate schinese power_use_5f4082b6:
 
     # "She will be back in the morning."
-    "She will be back in the morning."
+    "她会在早上回来。"
 
 # game/BKpowers.rpy:1143
 translate schinese power_use_c46dd503:
 
     # "All your formerly free girls have forgotten they once weren't slaves."
-    "All your formerly free girls have forgotten they once weren't slaves."
+    "所有的自由女孩都被洗脑，以为自己是你的奴隶。"
 
 # game/BKpowers.rpy:1147
 translate schinese power_use_361eef99:
 
     # "[girl.fullname] has forgotten she once wasn't a slave."
-    "[girl.fullname] has forgotten she once wasn't a slave."
+    "[girl.fullname]认为自己是你的奴隶。"
 
 # game/BKpowers.rpy:1150
 translate schinese power_use_1e88cb97:
 
     # "[girl.fullname] is not a former free girl, she is already fully enslaved."
-    "[girl.fullname] is not a former free girl, she is already fully enslaved."
+    "[girl.fullname]不再像以前一样是个自由的女孩，她已经完全被你奴役了。"
 
 # game/BKpowers.rpy:1158
 translate schinese power_use_ec5a52cc:
 
     # "Quests and classes will bring more rewards to all girls."
-    "Quests and classes will bring more rewards to all girls."
+    "委托任务和培训课程将给所有女孩带来更多的奖励。"
 
 # game/BKpowers.rpy:1160
 translate schinese power_use_3a08d8b2:
 
     # "Quests and classes will bring more rewards to her."
-    "Quests and classes will bring more rewards to her."
+    "委托任务和培训课程将给她带来更多的奖励。"
 
 # game/BKpowers.rpy:1232
 translate schinese power_use_c3687f3e:
 
     # "[girl.fullname] has received a new negative trait, replacing [old_neg.name]."
-    "[girl.fullname] has received a new negative trait, replacing [old_neg.name]."
+    "[girl.fullname]得到了一个新的负面特质, 取代了[old_neg.name]。"
 
 # game/BKpowers.rpy:1242
 translate schinese power_use_01f09ba6:
 
     # "[girl.fullname] has let go of some of her past knowledge. [r] perk points have been refunded."
-    "[girl.fullname] has let go of some of her past knowledge. [r] perk points have been refunded."
+    "[girl.fullname]已经遗忘了她过去所学一些知识。[r]个天赋点被返还。"
 
 # game/BKpowers.rpy:1244
 translate schinese power_use_f6d2b0e3:
 
     # "[girl.fullname] does not have any affected perks to refund."
-    "[girl.fullname] does not have any affected perks to refund."
+    "[girl.fullname]没有天赋可以被重置。"
 
 # game/BKpowers.rpy:1285
 translate schinese incubus_scene_c9378c93:
 
     # girl.char "Oooh, aaah, aaaaaaaah!!!"
-    girl.char "Oooh, aaah, aaaaaaaah!!!"
+    girl.char "哦, 啊, 啊啊啊啊啊啊啊!!!"
 
 # game/BKpowers.rpy:1287
 translate schinese incubus_scene_cdd908e8:
 
     # "[girl.fullname]'s screams echo through the sanctum as she is abused mercilessly by a [text1] demon."
-    "[girl.fullname]'s screams echo through the sanctum as she is abused mercilessly by a [text1] demon."
+    "当她被一个[text1]恶魔无情地虐待时，[girl.fullname]的尖叫声回荡在房间里。"
 
 # game/BKpowers.rpy:1320
 translate schinese kidnap_return_35a2c6c1:
 
     # "[girl.fullname] was successful in kidnapping [girl2.fullname] and bringing her back. She drops her unconscious prey at your feet, before collapsing with exhaustion. You gesture for her to be taken to her room and instruct Sill to take charge of your new acquisition."
-    "[girl.fullname] was successful in kidnapping [girl2.fullname] and bringing her back. She drops her unconscious prey at your feet, before collapsing with exhaustion. You gesture for her to be taken to her room and instruct Sill to take charge of your new acquisition."
+    "[girl.fullname]成功地绑架了[girl2.fullname]。她把失去知觉的猎物扔在你的脚下，然后因疲惫而倒下。你做手势让人把她送回她的房间休息，然后让希露检查你的新收获。"
 
 # game/BKpowers.rpy:1334
 translate schinese kidnap_return_8fc440c0:
 
     # girl2.char "Oh... My head... Where... Where am I?"
-    girl2.char "Oh... My head... Where... Where am I?"
+    girl2.char "哦... 我的头... 我... 我这是在哪?"
 
 # game/BKpowers.rpy:1341
 translate schinese kidnap_return_4537df81:
 
     # girl2.char "[MC.name]? But... I trusted you!!!" with vpunch
-    girl2.char "[MC.name]? But... I trusted you!!!" with vpunch
+    girl2.char "[MC.name]? 我... 我明明那么相信你!!!" with vpunch
 
 # game/BKpowers.rpy:1344
 translate schinese kidnap_return_b6a37bd2:
 
     # girl2.char "Wait, you're [MC.name]! What have you done to me?"
-    girl2.char "Wait, you're [MC.name]! What have you done to me?"
+    girl2.char "等等, 你是[MC.name]!你对我做了什么?"
 
 # game/BKpowers.rpy:1349
 translate schinese kidnap_return_09fefce8:
 
     # you "Listen carefully. You're mine now, and from now on I will be your master. Don't even think about escaping: we caught you once, we can catch you again."
-    you "Listen carefully. You're mine now, and from now on I will be your master. Don't even think about escaping: we caught you once, we can catch you again."
+    you "听好了。你现在是我的奴隶了，从现在起我就是你的主人。别想着逃跑：我能抓住你一次，就能抓住你第二次。"
 
 # game/BKpowers.rpy:1352
 translate schinese kidnap_return_1ade255c:
 
     # you "Damn, I should have thought of that before... Hmph, just tell the goons to dump her in the back alley, before she wakes up and makes a scene."
-    you "Damn, I should have thought of that before... Hmph, just tell the goons to dump her in the back alley, before she wakes up and makes a scene."
+    you "该死, 我早该想到这一点的。告诉那些打手把她丢在后巷，免得她醒来大吵大闹。"
 
 # game/BKpowers.rpy:1354
 translate schinese kidnap_return_09aed474:
 
     # "You have to let [girl2.fullname] go... this time."
-    "You have to let [girl2.fullname] go... this time."
+    "你饶过了[girl2.fullname]... 只是这次。"
 
 # game/BKpowers.rpy:1365
 translate schinese kidnap_return_ad65f2e1:
 
     # "[girl.fullname]'s attempt to abduct [girl2.fullname] failed.[text1]"
-    "[girl.fullname]'s attempt to abduct [girl2.fullname] failed.[text1]"
+    "[girl.fullname]对[girl2.fullname]的绑架行动失败了。[text1]"
 
 # game/BKpowers.rpy:1381
 translate schinese powers_intro_00f58e42:
 
     # "*Indistinct mumbling*"
-    "*Indistinct mumbling*"
+    "*模糊的喃喃自语声*"
 
 # game/BKpowers.rpy:1383
 translate schinese powers_intro_54049127:
 
     # you "Gizel? Is that you?"
-    you "Gizel? Is that you?"
+    you "吉泽尔? 是你吗?"
 
 # game/BKpowers.rpy:1388
 translate schinese powers_intro_72cf28dd:
 
     # "A strange noise and light originate from the center of the room. Hesitantly, you approach the source."
-    "A strange noise and light originate from the center of the room. Hesitantly, you approach the source."
+    "一种奇怪的声音和光线从房间的中央发出。犹豫着，你走近了源头。"
 
 # game/BKpowers.rpy:1400
 translate schinese powers_intro_a0730db8:
 
     # gizel "What's up?"
-    gizel "What's up?"
+    gizel "怎么了?"
 
 # game/BKpowers.rpy:1402
 translate schinese powers_intro_6049edc4:
 
     # you "Hyaah!!!" with vpunch
-    you "Hyaah!!!" with vpunch
+    you "哈耶啊!!!" with vpunch
 
 # game/BKpowers.rpy:1404
 translate schinese powers_intro_677281ac:
 
     # gizel surprise "What?"
-    gizel surprise "What?"
+    gizel surprise "什么?"
 
 # game/BKpowers.rpy:1406
 translate schinese powers_intro_a9ba7286:
 
     # you "You startled me!"
-    you "You startled me!"
+    you "你吓了我一跳!"
 
 # game/BKpowers.rpy:1408
 translate schinese powers_intro_9f0bfdf8:
 
     # gizel smirk "You look like you've seen a ghost... Even though I've driven the evil spirit out of this place. Or I thought I did, anyway."
-    gizel smirk "You look like you've seen a ghost... Even though I've driven the evil spirit out of this place. Or I thought I did, anyway."
+    gizel smirk "你看起来像见了鬼一样...尽管我已经把恶魔赶出了这里。反正我是这么想的。"
 
 # game/BKpowers.rpy:1410
 translate schinese powers_intro_fec1fe3c:
 
     # you "What do you mean?"
-    you "What do you mean?"
+    you "什么意思?"
 
 # game/BKpowers.rpy:1412
 translate schinese powers_intro_26a8a620:
 
     # gizel normal "See this room? It was here in the basement, abandoned for a long time. I had Bob excavate the entrance a while back."
-    gizel normal "See this room? It was here in the basement, abandoned for a long time. I had Bob excavate the entrance a while back."
+    gizel normal "看到这个房间了吗？就在地下室，被遗弃很久了。前阵子我让鲍勃挖通了入口。"
 
 # game/BKpowers.rpy:1414
 translate schinese powers_intro_fa803099:
 
     # you "This doesn't look like it belongs in a farm."
-    you "This doesn't look like it belongs in a farm."
+    you "这看起来不像是农场的东西。"
 
 # game/BKpowers.rpy:1416
 translate schinese powers_intro_7fb92799:
 
     # gizel smirk "Such sharp wits. That's what I like about you."
-    gizel smirk "Such sharp wits. That's what I like about you."
+    gizel smirk "如此敏锐的智慧。这就是我喜欢你的地方。"
 
 # game/BKpowers.rpy:1418
 translate schinese powers_intro_fc357fc7:
 
     # gizel normal "Ever wonder how a simple farmhouse would become haunted?"
-    gizel normal "Ever wonder how a simple farmhouse would become haunted?"
+    gizel normal "你有没有想过一个普普通通的农舍为什么会闹鬼？"
 
 # game/BKpowers.rpy:1420
 translate schinese powers_intro_d3dca03b:
 
     # gizel "This place is much more than it looks. It oozes with dark powers. And I'm thinking that it all started here, in this very basement."
-    gizel "This place is much more than it looks. It oozes with dark powers. And I'm thinking that it all started here, in this very basement."
+    gizel "这地方比我想的要复杂得多。它散发着黑暗的力量。我觉得一切都是从这里开始的，就在这个地下室。"
 
 # game/BKpowers.rpy:1422
 translate schinese powers_intro_0d926a2a:
 
     # you "Why didn't you tell me about this place before?"
-    you "Why didn't you tell me about this place before?"
+    you "你之前为什么不告诉我还有这么个地方？"
 
 # game/BKpowers.rpy:1424
 translate schinese powers_intro_e7356cfe:
 
     # gizel upset "I didn't see the need. Nothing was going on here, it was just a dark cellar full of dust and cobwebs!"
-    gizel upset "I didn't see the need. Nothing was going on here, it was just a dark cellar full of dust and cobwebs!"
+    gizel upset "我觉得没必要。这里什么也没发生，只是一个满是灰尘和蜘蛛网的黑暗地窖！"
 
 # game/BKpowers.rpy:1426
 translate schinese powers_intro_81590b9f:
 
     # you "But look at it! It's doing all kinds of weird lights, and buzzing with ungodly energy!" with vpunch
-    you "But look at it! It's doing all kinds of weird lights, and buzzing with ungodly energy!" with vpunch
+    you "但是看看它！它发出各种奇怪的光，发出邪恶的能量！" with vpunch
 
 # game/BKpowers.rpy:1428
 translate schinese powers_intro_99881c29:
 
     # gizel upset "Yes, but it only just started mere moments ago! When {b}you{/b} walked in, I might add!"
-    gizel upset "Yes, but it only just started mere moments ago! When {b}you{/b} walked in, I might add!"
+    gizel upset "是的，但它几分钟前才开始！就在{b}你{/b}走进来的时候，我懂了！"
 
 # game/BKpowers.rpy:1430
 translate schinese powers_intro_eff1a2d7:
 
     # you "Me?"
-    you "Me?"
+    you "我?"
 
 # game/BKpowers.rpy:1432
 translate schinese powers_intro_43f67828:
 
     # gizel "Yes! You are the cause of this!" with vpunch
-    gizel "Yes! You are the cause of this!" with vpunch
+    gizel "没错！是你引起了这个现象！" with vpunch
 
 # game/BKpowers.rpy:1436
 translate schinese powers_intro_415ce12a:
 
     # gizel normal "I've been wondering about that myself, and I have a theory."
-    gizel normal "I've been wondering about that myself, and I have a theory."
+    gizel normal "我自己也在想这个问题，我有个理论。"
 
 # game/BKpowers.rpy:1438
 translate schinese powers_intro_fe4ea925:
 
     # gizel "It's the fear, you see!"
-    gizel "It's the fear, you see!"
+    gizel "恐惧！你听不懂吗!"
 
 # game/BKpowers.rpy:1440
 translate schinese powers_intro_ea7f64ea:
 
     # you "The fear? What are you rambling about?"
-    you "The fear? What are you rambling about?"
+    you "恐惧? 你到底在说什么?"
 
 # game/BKpowers.rpy:1442
 translate schinese powers_intro_d5b4edd8:
 
     # gizel "The fear that you have been causing people around you. It sticks with you. Around you."
-    gizel "The fear that you have been causing people around you. It sticks with you. Around you."
+    gizel "你给周围的人带来的恐惧。它会一直伴随着你。环绕在你的周围。"
 
 # game/BKpowers.rpy:1444
 translate schinese powers_intro_8698264c:
 
     # gizel "I can sense it... And this place can, too. The fear is strong with you."
-    gizel "I can sense it... And this place can, too. The fear is strong with you."
+    gizel "我能感觉到...这个地方也可以。你的恐惧气场很强烈。"
 
 # game/BKpowers.rpy:1446
 translate schinese powers_intro_3e849511:
 
     # you "You're the one to talk..."
-    you "You're the one to talk..."
+    you "你确定说的不是你自己..."
 
 # game/BKpowers.rpy:1448
 translate schinese powers_intro_38b48f13:
 
     # gizel "This place also absorbs the fear I cause your girls... But it only seems to actively react to you."
-    gizel "This place also absorbs the fear I cause your girls... But it only seems to actively react to you."
+    gizel "这个地方也吸收了我给你的女孩们带来的恐惧。。。但它似乎只对你有积极的反应。"
 
 # game/BKpowers.rpy:1450
 translate schinese powers_intro_c2289b51:
 
     # gizel smirk "Probably because you ordered me to do all those bad things, so you're the evil one."
-    gizel smirk "Probably because you ordered me to do all those bad things, so you're the evil one."
+    gizel smirk "可能是因为你命令我做那些坏事，所以你才是那个邪恶的人。"
 
 # game/BKpowers.rpy:1452
 translate schinese powers_intro_760aa20c:
