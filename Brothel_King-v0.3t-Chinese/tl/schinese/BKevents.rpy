@@ -4180,7 +4180,7 @@ translate schinese run_contract_end_f6139c85:
 translate schinese run_contract_end_c489819d:
 
     # "Because of [girl_names]'s poor performance, you have received no reward for this contract. Your brothel's reputation has suffered."
-    "由于[girl_names]的表现不佳,你没有得到任何奖励。你的青楼声望受损。"
+    "由于[girl_names]的表现不佳,你没有得到任何奖励。你的青楼的知名度受损。"
 
 # game/BKevents.rpy:4673
 translate schinese contract_MC_event_83c87956:
@@ -8505,8 +8505,8 @@ translate schinese strings:
     new "\n请选择一个免费激活的青楼的经营项目。"
 
     # game/BKevents.rpy:699
-    old "{i}[chosen_district.description]{/i}\n\nDo you really want to move your brothel to {b}[chosen_district.name]{/b}?\n\n{size=-2}This will reset all your room improvements, but you will keep your furniture and decorations."
-    new "[chosen_district.description]\n\n你确定要把青楼搬到 [chosen_district.name] 吗?\n\n{size=-2}这将会重置你所有房间的改造,但会保留你的家具和装饰。"
+    old "{i}[chosen_district.description]{/i}\n\nDo you really want to move your brothel to {b}[chosen_district.name_cn]{/b}?\n\n{size=-2}This will reset all your room improvements, but you will keep your furniture and decorations."
+    new "[chosen_district.description]\n\n你确定要把青楼搬到 [chosen_district.name_cn] 吗?\n\n{size=-2}这将会重置你所有房间的改造,但会保留你的家具和装饰。"
 
     # game/BKevents.rpy:756
     old "What will you use as a front for your business?"

@@ -1756,7 +1756,7 @@ screen girl_stats(girl, context = "girls"): # context can be girls, slavemarket,
                                 add ProportionalScale(girl.get_mood_picture(), *res_tb(16))
 
                     elif context == "powers":
-                        text _("Sanity: ") + girl.get_sanity() size res_font(16)
+                        text "理智: " + girl.get_sanity() size res_font(16)
 
 
                 if context in ["girls", "farm", "contract", "postings", "powers"]:
@@ -2298,7 +2298,7 @@ screen assign_job(girl):
                 button background None xpadding 2 ypadding 2 xalign 0:
                     if brothel.has_room(job_room_dict[j]):
                         action Return(j)
-                        tooltip __("Ask ") + girl.fullname + __(" to work as a ") + __(j)
+                        tooltip "要求" + girl.fullname + "从事" + girl_related_dict[j] + "的工作。"
                         at alpha_transform
                         fixed fit_first True:
                             add "tb " + j xalign 0.5 yalign 0.5 # idle_alpha 0.66 selected_hover_alpha 1.0 selected_idle_alpha 1.0 hover_alpha 1.0
@@ -3267,9 +3267,9 @@ screen perks(girl):
                                     $ title = selected_perk.name
                                     $ pic = selected_perk.get_pic()
                                     if selected_perk.min_rank:
-                                        $ text1 = "Rank " + rank_name[selected_perk.min_rank] + "天赋"
+                                        $ text1 = " " + rank_name[selected_perk.min_rank] + "阶天赋"
                                     else:
-                                        $ text1 = "C阶天赋"
+                                        $ text1 = " 基础天赋"
                                     $ text2 = selected_perk.get_description()
 
                                 else:
@@ -3440,13 +3440,13 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
                 xfill True
                 yfill False
 
-                textbutton "昨天" action SetScreenVariable("days", 1) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
+                textbutton "昨 天" action SetScreenVariable("days", 1) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
 
-                textbutton "上周" action SetScreenVariable("days", 7) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
+                textbutton "上 周" action SetScreenVariable("days", 7) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
 
                 textbutton "上个月" action SetScreenVariable("days", 28) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
 
-                textbutton "总计" action SetScreenVariable("days", 0) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
+                textbutton "总 计" action SetScreenVariable("days", 0) xsize xres(200) background c_brown + "AA" text_color c_white selected_idle_background c_orange + "AA" selected_hover_background c_orange + "AA" hover_background c_orange + "55"
 
 
         frame:
@@ -3472,7 +3472,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
                         spacing 150
 
                         vbox:
-                            text "General" size average color c_prune
+                            text "{b}总  览{/b}" size average color c_prune
 
                             text "" size average
 
@@ -3481,7 +3481,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
                                 transpose True
                                 spacing 3
 
-                                text "{b}Days{/b}" color c_darkgrey size small xalign 0.5
+                                text "{b}时间{/b}" color c_darkgrey size small xalign 0.5
 
                                 if days == 0:
                                     text str(log_dict["age"]) size average color c_prune xalign 0.5
@@ -3492,7 +3492,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
                                 else:
                                     text str(days) size average color c_prune xalign 0.5
 
-                                text "{b}Gold{/b}" color c_darkgold size small xalign 0.5
+                                text "{b}盈利{/b}" color c_darkgold size small xalign 0.5
 
                                 $ j_gold = log_dict["total_gold"][days]
                                 $ q_gold = log_dict["quest_gold"][days]
@@ -3513,20 +3513,20 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
                                 textbutton str_int(j_gold + q_gold) background None xpadding 0 ypadding 0 xmargin 0 ymargin 0 text_size average text_color c_prune xalign 0.5 action NullAction() tooltip ttip
 
-                                text "{b}XP{/b}" color c_emerald size small xalign 0.5
+                                text "{b}经验增长{/b}" color c_emerald size small xalign 0.5
 
                                 text str_int(log_dict["total_xp"][days]) size average color c_prune xalign 0.5
 
-                                text "{b}JP{/b}" color c_orange size small xalign 0.5
+                                text "{b}职业经验增长{/b}" color c_orange size small xalign 0.5
 
                                 text str_int(log_dict["total_jp"][days]) size average color c_prune xalign 0.5
 
-                                text "{b}Reputation{/b}" color c_purple size small xalign 0.5
+                                text "{b}人气增长{/b}" color c_purple size small xalign 0.5
 
                                 text str_int(log_dict["total_rep"][days]) size average color c_prune xalign 0.5
 
                         vbox:
-                            text "Activity" size average color c_prune
+                            text "活 动 记 录" size average color c_prune
 
                             hbox:
 
@@ -3538,7 +3538,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
                                     text "" size small
 
-                                    text "{b}Days{/b}" color c_darkgrey size small xalign 0.5
+                                    text "{b}天数{/b}" color c_darkgrey size small xalign 0.5
 
                                     text "{b}工作{/b}" color c_orange size small xalign 0.5
 
@@ -3560,9 +3560,9 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
                                     text "" size small
 
-                                    text "{b}Days{/b}" color c_darkgrey size small xalign 0.5
+                                    text "{b}天数{/b}" color c_darkgrey size small xalign 0.5
 
-                                    text "{b}遇袭{/b}" color c_red size small xalign 0.5
+                                    text "{b} 遇   袭 {/b}" color c_red size small xalign 0.5
 
                                     text str_int(log_dict["strike_days"][days]) size average color c_brown xalign 0.5
 
@@ -3578,7 +3578,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
     #            vbox:
 
-                    text "Jobs" size average color c_prune
+                    text "{b}工  作{/b}" size average color c_prune
 
 #                    text "" size average
 
@@ -3588,15 +3588,15 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
                         text "" size small
 
-                        text "{b}Customers{/b}" color c_darkgrey size small xalign 0.5
+                        text "{b}接客人数{/b}" color c_darkgrey size small xalign 0.5
 
-                        text "{b}Gold{/b}" color c_darkgold size small xalign 0.5
+                        text "{b}盈利{/b}" color c_darkgold size small xalign 0.5
 
-                        text "{b}XP{/b}" color c_emerald size small xalign 0.5
+                        text "{b}经验增长{/b}" color c_emerald size small xalign 0.5
 
-                        text "{b}JP{/b}" color c_orange size small xalign 0.5
+                        text "{b}职业经验增长{/b}" color c_orange size small xalign 0.5
 
-                        text "{b}Reputation{/b}" color c_purple size small xalign 0.5
+                        text "{b}人气增长{/b}" color c_purple size small xalign 0.5
 
                         text "{b}平均得分{/b}" color c_crimson size small xalign 0.5
 
@@ -3633,7 +3633,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
                             textbutton str(perf) background None xpadding 0 ypadding 0 xmargin 0 ymargin 0 text_size average text_color col1 xalign 0.5 action NullAction() hovered tt.Action(ttip)
 
 
-                        text "{b}Whore{/b}" color c_firered size small xalign 0.5
+                        text "{b}妓   女{/b}" color c_firered size small xalign 0.5
 
                         text str(round_int(log_dict["whore_cust"][days])) size average color c_brown xalign 0.5
 
@@ -3666,7 +3666,7 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
                     text "" size average
 
-                    text "Sex Acts" size average color c_prune
+                    text "{b}卖  春{/b}" size average color c_prune
 
 #                    text "" size average
 
@@ -3676,21 +3676,21 @@ screen girl_log(): # Reminder: selected_girl is a Global variable that holds the
 
                         text "" size small
 
-                        text "{b}Customers{/b}" color c_darkgrey size small xalign 0.5
+                        text "{b}接客人数{/b}" color c_darkgrey size small xalign 0.5
 
-                        text "{b}Gold{/b}" color c_darkgold size small xalign 0.5
+                        text "{b}盈利{/b}" color c_darkgold size small xalign 0.5
 
-                        text "{b}Xp{/b}" color c_emerald size small xalign 0.5
+                        text "{b}经验增长{/b}" color c_emerald size small xalign 0.5
 
-                        text "{b}JP{/b}" color c_orange size small xalign 0.5
+                        text "{b}职业经验增长{/b}" color c_orange size small xalign 0.5
 
-                        text "{b}Reputation{/b}" color c_purple size small xalign 0.5
+                        text "{b}人气增长{/b}" color c_purple size small xalign 0.5
 
-                        text "{b}Av. score{/b}" color c_crimson size small xalign 0.5
+                        text "{b}平均得分{/b}" color c_crimson size small xalign 0.5
 
                         for act in all_sex_acts:
 
-                            text "{b}" + __(act.capitalize()) + "{/b}" color c_firered size small xalign 0.5
+                            text "{b}" + girl_related_dict[act.capitalize()] + "{/b}" color c_firered size small xalign 0.5
 
                             text str_int(log_dict[act + "_cust"][days]) size average color c_brown xalign 0.5
 
@@ -5039,7 +5039,7 @@ screen customer_satisfaction(customers, old_rep, rep_chg):
 
         has vbox spacing 10
 
-        $ text1 = "青楼的名声: %s" % displayed_rep
+        $ text1 = "青楼的知名度: %s" % displayed_rep
 
         if len(displayed_customers) == len(customers):
             $ text1 += " (%s)" % plus_text(total_change)
@@ -6366,7 +6366,7 @@ screen postings(qlist):
 
                                 text __("Enrolled") size res_font(18) color c_prune
 
-                                text str(len(selected_quest.enrolled)) + "/" + str(selected_quest.capacity) + __(" girls") size res_font(14) color c_brown
+                                text str(len(selected_quest.enrolled)) + "/" + str(selected_quest.capacity) + "个女孩" size res_font(14) color c_brown
 
                                 text "" size res_font(18)
 
@@ -6383,7 +6383,7 @@ screen postings(qlist):
                                     else:
                                         $ t = "+"
 
-                                    text tl_cn("[stat!t]", girl_related_dict) + " " + t size res_font(14) color c_brown
+                                    text tl_cn(stat, girl_related_dict) + " " + t size res_font(14) color c_brown
 
                                 textbutton "\n最大属性: " + str(selected_quest.stat_cap) text_size res_font(14) text_color c_brown xalign 0.0 yalign 0.5 xpadding 0 ypadding 0 background None:
                                     tooltip __("Classes may cause a girl's skills to exceed their level cap.")
@@ -6401,7 +6401,7 @@ screen postings(qlist):
 
                                 for stat, val in selected_quest.requirements:
 
-                                    text tl_cn("[stat!t]", stat_name_dict) + " " + str(val) size res_font(14) color c_brown
+                                    text tl_cn(stat, stat_name_dict) + " " + str(val) size res_font(14) color c_brown
 
                                 text "" size res_font(18)
 
@@ -6485,8 +6485,8 @@ screen postings(qlist):
 
                                 elif quest.type == "class":
 
-                                    $ ttip = __("This class may improve {b}") + __(and_text([stat for stat, _min, _max in quest.bonuses])) + "{/b}.\n"
-                                    $ ttip += str(len(quest.enrolled)) + "/" + str(quest.capacity) + " are enrolled in this class."
+                                    $ ttip = __("This class may improve {b}") + __(and_text([stat for stat, _min, _max in quest.bonuses])) + "{/b}属性。\n"
+                                    $ ttip += str(len(quest.enrolled)) + "/" + str(quest.capacity) + "个女孩报名了这个培训课程。"
 
                                 button:
                                     xsize xres(160)
@@ -7144,7 +7144,7 @@ screen sex_details(girl):
             text __("Will work") size res_font(14) bold True xalign 0.5
 
             for act in extended_sex_acts:
-                text act.capitalize() size res_font(14) bold True
+                text girl_related_dict[act.capitalize()] size res_font(14) bold True
 
                 if debug_mode:
                     $ text1 = " (" + str(round_int(girl.preferences[act])) + ")"
@@ -7152,7 +7152,7 @@ screen sex_details(girl):
                     $ text1 = ""
 
                 if girl.personality_unlock[act]:
-                    text preference_color[girl.get_preference(act)] % __(girl.get_preference(act).capitalize()) + text1 size res_font(14)
+                    text preference_color[girl.get_preference(act)] % __(girl_related_dict[girl.get_preference(act).capitalize()]) + text1 size res_font(14)
                 else:
                     text __("Unknown") + text1 size res_font(14) italic True
 

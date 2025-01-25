@@ -1610,10 +1610,10 @@ label girls_loop():
         elif result[0] == "debug change stat":
             $ stat = result[1]
 
-            $ stat.value = int(renpy.input("Enter new value (%s)" % stat.name, default = stat.value))
+            $ stat.value = int(renpy.input("将属性修改为 (%s)" % stat_name_dict[stat.name], default = stat.value))
 
         elif result[0] == "debug change all stats":
-            $ v = int(renpy.input("Enter new value (all skills)", default = stat.value))
+            $ v = int(renpy.input("将所有属性都修改为", default = stat.value))
 
             python:
                 for stat in selected_girl.stats:

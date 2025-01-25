@@ -866,11 +866,11 @@ label c2_princess_letter:
     with dissolve
 
     if MC.playerclass == "战士":
-        $ activity = "your early weapon training"
+        $ activity = "早上的锻炼"
     elif MC.playerclass == "法师":
-        $ activity = "your usual meditation session"
+        $ activity = "日常的冥想"
     elif MC.playerclass == "商人":
-        $ activity = "the daily farmer's market"
+        $ activity = "定期的采购"
 
     "Late in the morning, you come back to [brothel.name] from [activity] when you hear a sudden scream."
 

@@ -548,11 +548,11 @@ label end_day:
             chg = round_int(brothel.change_rep_nightly(rep_change))
 
             if round_int(brothel.rep) != old_rep:
-                rep_text = __("青楼的名声从 %s 变为 %s。" % ('{:,}'.format(round_int(old_rep)), '{:,}'.format(round_int(brothel.rep))))
+                rep_text = __("青楼的知名度从 %s 变为 %s。" % ('{:,}'.format(round_int(old_rep)), '{:,}'.format(round_int(brothel.rep))))
             else:
-                rep_text = __("青楼的名声保持不变 (") + '{:,}'.format(round_int(brothel.rep)) + ")。"
+                rep_text = __("青楼的知名度保持不变 (") + '{:,}'.format(round_int(brothel.rep)) + ")。"
 
-            night_early.add("青楼声望:\n%s (%s)" % (str_int(brothel.rep) + "/" + str_int(brothel.max_rep), plus_text(chg, color_scheme="rep")), "header", ttip_title = "青楼声望变化", ttip = rep_text)
+            night_early.add("青楼的知名度:\n%s (%s)" % (str_int(brothel.rep) + "/" + str_int(brothel.max_rep), plus_text(chg, color_scheme="rep")), "header", ttip_title = "青楼的知名度变化", ttip = rep_text)
 
             night_early.add("广告引流: +%s" % str_dec(raw_rep))
             if bonus_rep >= 1:
@@ -1094,7 +1094,7 @@ label end_day:
 
         night_late.add("青楼名声: %s (%s)" % (str_int(brothel.rep) + "/" + str_int(brothel.max_rep), event_color["rep"] % (plus_text(rep_chg))), "header", ttip=plus_text(rep_chg) + "声望，满意的顾客越多增长得就越快。")
 
-        log.add_report(event_color["rep"] % ("青楼的名声由%i变为%i (%s)" % (old_rep, brothel.rep, plus_text(round_int(rep_chg)))))
+        log.add_report(event_color["rep"] % ("青楼的知名度由%i变为%i (%s)" % (old_rep, brothel.rep, plus_text(round_int(rep_chg)))))
 
         log.track("served", served)
         log.track("entertained", entertained)

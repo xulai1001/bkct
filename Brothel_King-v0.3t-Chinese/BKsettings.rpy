@@ -81,8 +81,8 @@ init -10 python:
                         "Libido+" : "性欲+",
                         "libido+" : "性欲+",
 
-                        "Brothel reputation" : "青楼声望",
-                        "brothel reputation" : "青楼声望",
+                        "Brothel reputation" : "青楼的知名度",
+                        "brothel reputation" : "青楼的知名度",
                     }
 
     ## 女孩相关翻译 ##
@@ -645,8 +645,8 @@ init -10 python:
                         "commoners" : "平民",
                         "Craftsmen": "工匠",
                         "craftsmen": "工匠",
-                        "Bourgeois" : "中产阶级",
-                        "bourgeois" : "中产阶级",
+                        "Bourgeois" : "富豪",
+                        "bourgeois" : "富豪",
                         "Guild members" : "公会职员",
                         "guild members" : "公会职员",
                         "Patricians" : "骑士",

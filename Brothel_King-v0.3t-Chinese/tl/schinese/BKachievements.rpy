@@ -1220,15 +1220,15 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Broke: Bourgeois"
-    new "一掷千金：中产阶级"
+    new "一掷千金：富豪"
 
     # game/BKachievements.rpy:21
     old "Have a Bourgeois spend all his money in the brothel."
-    new "让一名中产阶级顾客在青楼里花光所有的钱。"
+    new "让一名富豪顾客在青楼里花光所有的钱。"
 
     # game/BKachievements.rpy:21
     old "Broke: Guild Member"
-    new "一掷千金：公会阶级"
+    new "一掷千金：公会职员"
 
     # game/BKachievements.rpy:21
     old "Have a Guild Member spend all his money in the brothel."
@@ -1244,19 +1244,19 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Broke: Aristocrat"
-    new "一掷千金：男爵阶级"
+    new "一掷千金：新晋贵族"
 
     # game/BKachievements.rpy:21
     old "Have an Aristocrat spend all his money in the brothel."
-    new "让一名男爵阶级顾客在青楼里花光所有的钱。"
+    new "让一名新晋贵族顾客在青楼里花光所有的钱。"
 
     # game/BKachievements.rpy:21
     old "Broke: Noble"
-    new "一掷千金：伯爵阶级"
+    new "一掷千金：贵族阶级"
 
     # game/BKachievements.rpy:21
     old "Have a Noble spend all his money in the brothel."
-    new "让一名伯爵阶级顾客在青楼里花光所有的钱。"
+    new "让一名贵族阶级顾客在青楼里花光所有的钱。"
 
     # game/BKachievements.rpy:21
     old "Broke: Royal"
@@ -1316,15 +1316,15 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Perfect: Bourgeois"
-    new "五星好评：中产阶级"
+    new "五星好评：富豪"
 
     # game/BKachievements.rpy:21
     old "Have a Bourgeois reach maximum satisfaction in the brothel."
-    new "让一名中产阶级顾客在青楼里完全满足。"
+    new "让一名富豪顾客在青楼里完全满足。"
 
     # game/BKachievements.rpy:21
     old "Perfect: Guild Member"
-    new "五星好评：公会阶级"
+    new "五星好评：公会职员"
 
     # game/BKachievements.rpy:21
     old "Have a Guild Member reach maximum satisfaction in the brothel."
@@ -1340,19 +1340,19 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Perfect: Aristocrat"
-    new "五星好评：男爵阶级"
+    new "五星好评：新晋贵族"
 
     # game/BKachievements.rpy:21
     old "Have an Aristocrat reach maximum satisfaction in the brothel."
-    new "让一名男爵阶级顾客在青楼里完全满足。"
+    new "让一名新晋贵族顾客在青楼里完全满足。"
 
     # game/BKachievements.rpy:21
     old "Perfect: Noble"
-    new "五星好评：伯爵阶级"
+    new "五星好评：贵族阶级"
 
     # game/BKachievements.rpy:21
     old "Have a Noble reach maximum satisfaction in the brothel."
-    new "让一名伯爵阶级顾客在青楼里完全满足。"
+    new "让一名贵族阶级顾客在青楼里完全满足。"
 
     # game/BKachievements.rpy:21
     old "Perfect: Royal"

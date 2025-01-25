@@ -1042,7 +1042,7 @@ translate schinese help_brothel_a54ec990:
 translate schinese help_brothel_83b488c6:
 
     # sill "{b}Advertising girls{/b} increase your brothel reputation, which in turn will bring in more customers every night."
-    sill "{b}广告宣传{/b}可以提升你的青楼声望,从而每晚吸引更多顾客。"
+    sill "{b}广告宣传{/b}可以提升你的青楼的知名度,从而每晚吸引更多顾客。"
 
 # game/BKhelp.rpy:1326
 translate schinese help_brothel_d834ccda:
@@ -1108,7 +1108,7 @@ translate schinese help_advertising_53898c4f:
 translate schinese help_advertising_714a1312:
 
     # sill "Advertising has three different effects: it boosts {b}brothel reputation{/b}, {b}customer attraction{/b} and {b}customer budgets{/b}."
-    sill "广告有三种不同的效果:它能提升{b}青楼声望{/b}、{b}客户吸引力{/b}和{b}客户预算{/b}。"
+    sill "广告有三种不同的效果:它能提升{b}青楼的知名度{/b}、{b}客户吸引力{/b}和{b}客户预算{/b}。"
 
 # game/BKhelp.rpy:1374
 translate schinese help_advertising_133d9e77:
@@ -1120,7 +1120,7 @@ translate schinese help_advertising_133d9e77:
 translate schinese help_advertising_menu_b463b8ec:
 
     # sill "Some {b}customers{/b} will come to your brothel every night. At least one will show up no matter what, but your {b}brothel reputation{/b} and {b}customer attraction{/b} can increase that manyfold."
-    sill "有些{b}客人{/b}每晚都会来你的青楼。至少也会有一个,但你的{b}青楼声望{/b}和{b}客户吸引力{/b}可以大大增加客人的数量。"
+    sill "有些{b}客人{/b}每晚都会来你的青楼。至少也会有一个,但你的{b}青楼的知名度{/b}和{b}客户吸引力{/b}可以大大增加客人的数量。"
 
 # game/BKhelp.rpy:1384
 translate schinese help_advertising_menu_c046054f:
@@ -1150,13 +1150,13 @@ translate schinese help_advertising_menu_e9a0c292:
 translate schinese help_advertising_menu_463efcf4:
 
     # sill "{b}Brothel reputation{/b} receives a boost from advertising every night. It is also affected negatively or positively by your {b}customers' satisfaction{/b}."
-    sill "{b}青楼声望{/b}每晚都会从广告中获得提升。它也会受到你{b}客人满意度{/b}的正负面影响。"
+    sill "{b}青楼的知名度{/b}每晚都会从广告中获得提升。它也会受到你{b}客人满意度{/b}的正负面影响。"
 
 # game/BKhelp.rpy:1396
 translate schinese help_advertising_menu_39ad60d5:
 
     # sill "{b}Brothel reputation{/b} is nice because it draws customers to your brothel for free, unlike advertising. It does {b}decay{/b} over time, though, especially in higher districts."
-    sill "{b}青楼声望{/b}很重要,因为声望越高来青楼消费的客人越多,不像广告是临时的效果。不过它会随时间而{b}衰减{/b},尤其是在更高等级的区域。"
+    sill "{b}青楼的知名度{/b}很重要,因为声望越高来青楼消费的客人越多,不像广告是临时的效果。不过它会随时间而{b}衰减{/b},尤其是在更高等级的区域。"
 
 # game/BKhelp.rpy:1398
 translate schinese help_advertising_menu_c166846a:
@@ -1180,7 +1180,7 @@ translate schinese help_advertising_menu_60dc3fd0:
 translate schinese help_advertising_menu_39508306:
 
     # sill "If you lower advertising, though, you will lose those extra customers. This is the main difference between {b}brothel reputation{/b} and {b}customer attraction{/b}."
-    sill "不过,如果你减少广告投放,你就会失去这些额外的客人。这就是{b}青楼声望{/b}和{b}客户吸引力{/b}的主要区别。"
+    sill "不过,如果你减少广告投放,你就会失去这些额外的客人。这就是{b}青楼的知名度{/b}和{b}客户吸引力{/b}的主要区别。"
 
 # game/BKhelp.rpy:1408
 translate schinese help_advertising_menu_15a8ef4b:
@@ -1642,7 +1642,7 @@ translate schinese help_night_events_3d6e67e7:
 translate schinese help_night_events_c5b22008:
 
     # sill "Every night, customers will flock to your brothel in the hope of getting some action, both in the form of entertainment and sex. How many customers actually show up depends on your {b}brothel reputation{/b}."
-    sill "每晚,顾客都会涌向你的青楼,希望获得娱乐和性方面的满足。实际的顾客数量取决于你的{b}青楼声望{/b}。"
+    sill "每晚,顾客都会涌向你的青楼,希望获得娱乐和性方面的满足。实际的顾客数量取决于你的{b}青楼的知名度{/b}。"
 
 # game/BKhelp.rpy:1727
 translate schinese help_night_events_afc703b9:
@@ -1666,7 +1666,7 @@ translate schinese help_night_events_a112b296:
 translate schinese help_night_events_ce34d1be:
 
     # sill "{b}Advertising{/b} is pretty straightforward. Get a bunch of young, hot girls out there with signs, flyers or bodily tattoos with the brothel's name on it, and its reputation will increase. Reputation begets more customers."
-    sill "{b}广告{/b}的效果非常直接。让一群年轻火辣的女孩在外面挥舞标语、发传单或纹身宣传青楼的名字,这将提升青楼声望。高声望会带来更多的顾客。"
+    sill "{b}广告{/b}的效果非常直接。让一群年轻火辣的女孩在外面挥舞标语、发传单或纹身宣传青楼的名字,这将提升青楼的知名度。高声望会带来更多的顾客。"
 
 # game/BKhelp.rpy:1740
 translate schinese help_night_events_bb01cc54:
@@ -2988,7 +2988,7 @@ translate schinese strings:
 
     # game/BKhelp.rpy:2542
     old "Change brothel reputation"
-    new "改变青楼声望"
+    new "改变青楼的知名度"
 
     # game/BKhelp.rpy:2542
     old "Refresh slave market"

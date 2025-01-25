@@ -2460,7 +2460,7 @@ label cheat_menu():
 
                         "Raise brothel reputation":
                             $ _type = "reputation"
-                            $ val = int(renpy.input("你需要增加多少青楼的名声？", default = 250))
+                            $ val = int(renpy.input("你需要增加多少青楼的知名度？", default = 250))
                             $ target = 0
 
                         "Raise player prestige":

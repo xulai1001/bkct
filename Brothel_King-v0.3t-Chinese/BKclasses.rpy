@@ -2460,7 +2460,7 @@ init -2 python:
                     des += event_color["bad"] % ("%s from job bonuses" % int(self.customer_budget_dict["ent acts"]))
                 des += ")"
 
-            des += ".\n"
+            des += "。\n"
 
             # Whoring budget description
 
@@ -4326,25 +4326,25 @@ init -2 python:
                     # text1 += __("对于每点的") + __(self.scales_with)
 
                     if self.scales_with == "strength":
-                        scalesxxx="（随主角力量递增）"
+                        scalesxxx="（效果随主角力量递增）"
                     elif self.scales_with == "spirit":
-                        scalesxxx="（随主角精神递增）"
+                        scalesxxx="（效果随主角精神递增）"
                     elif self.scales_with == "charisma":
-                        scalesxxx="（随主角魅力递增）"
+                        scalesxxx="（效果随主角魅力递增）"
                     elif self.scales_with == "speed":
-                        scalesxxx="（随主角速度递增）"
+                        scalesxxx="（效果随主角速度递增）"
                     elif self.scales_with == "charisma":
-                        scalesxxx="（随主角魅力递增）"
+                        scalesxxx="（效果随主角魅力递增）"
                     elif self.scales_with == "defense":
-                        scalesxxx="（随个人防御递增）"
+                        scalesxxx="（效果随个人防御递增）"
                     elif self.scales_with in ("rep", "reputation"):
-                        scalesxxx="（随个人名声递增）"
+                        scalesxxx="（效果随个人名气递增）"
                     elif self.scales_with == "rank":
-                        scalesxxx="（随阶级递增）"
+                        scalesxxx="（效果随阶级提升递增）"
                     elif self.scales_with == "equipped": # Counts every piece of equipment
-                        scalesxxx="（随装备数递增）"
+                        scalesxxx="（效果随装备数量提升）"
                     elif self.scales_with == "district":
-                        scalesxxx="（随地区递增）"
+                        scalesxxx="（效果随地区等级递增）"
                     else:
                         scalesxxx=self.scales_with
                     text1 += scalesxxx

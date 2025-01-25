@@ -88,145 +88,145 @@ translate schinese power_use_cc52c818:
 translate schinese power_use_edabd997:
 
     # "The demonette and her sisters will raise your brothel advertising by [impact] for [_pow.duration] days."
-    "The demonette and her sisters will raise your brothel advertising by [impact] for [_pow.duration] days."
+    "魅魔和她的姐妹们将提升青楼的广告效果[impact]点，持续[_pow.duration]天。"
 
 # game/BKpowers.rpy:609
 translate schinese power_use_7cf6e2c8:
 
     # "A towering figure rises from the portal in a puff of dark smoke."
-    "A towering figure rises from the portal in a puff of dark smoke."
+    "一个高大的身影在一股黑烟中逐渐浮现。"
 
 # game/BKpowers.rpy:611
 translate schinese power_use_4376ca8a:
 
     # demon "Reporting for duty, Summoner."
-    demon "Reporting for duty, Summoner."
+    demon "唤我何事，召唤者。"
 
 # game/BKpowers.rpy:615
 translate schinese power_use_57e12adf:
 
     # "The Demon will raise your brothel security by [impact] for [_pow.duration] days."
-    "The Demon will raise your brothel security by [impact] for [_pow.duration] days."
+    "大恶魔将提升青楼的安保效果[impact]点，持续[_pow.duration]天。"
 
 # game/BKpowers.rpy:621
 translate schinese power_use_d751bd74:
 
     # "A bunch of small figures leap out of the portal, stumbling over themselves."
-    "A bunch of small figures leap out of the portal, stumbling over themselves."
+    "一群小人从传送门跳出来，踉踉跄跄。"
 
 # game/BKpowers.rpy:623
 translate schinese power_use_9eccdcba:
 
     # hanny "HANNYYYYY!!!"
-    hanny "HANNYYYYY!!!"
+    hanny "哈尼~~~!!!"
 
 # game/BKpowers.rpy:627
 translate schinese power_use_bb87a45d:
 
     # "The hannies will raise your brothel maintenance by [impact] for [_pow.duration] days."
-    "The hannies will raise your brothel maintenance by [impact] for [_pow.duration] days."
+    "小哈尼们将提升青楼的清洁效果[impact]点，持续[_pow.duration]天。"
 
 # game/BKpowers.rpy:693
 translate schinese power_use_e2d696b4:
 
     # "Following your command, she absent-mindedly sheds all of her clothing until she stands naked before you. She doesn't seem to fully register the change."
-    "Following your command, she absent-mindedly sheds all of her clothing until she stands naked before you. She doesn't seem to fully register the change."
+    "在你的命令下，她心不在焉地脱掉了所有的衣服，直到她赤身裸体地站在你面前。她似乎没有完全意识到这种变化。"
 
 # game/BKpowers.rpy:717
 translate schinese power_use_e097b33f:
 
     # "[girl.fullname] is no longer uncomfortable with [fix.name].[text1]"
-    "[girl.fullname] is no longer uncomfortable with [fix.name].[text1]"
+    "[girl.fullname]不再对[fix.name]感到不适。[text1]"
 
 # game/BKpowers.rpy:723
 translate schinese power_use_6fe4f691:
 
     # "You must have discovered at least one of [girl.fullname]'s negative fixations before you can use this power."
-    "You must have discovered at least one of [girl.fullname]'s negative fixations before you can use this power."
+    "你必须发现至少一种[girl.fullname]的负面性癖，然后才能使用这个力量。"
 
 # game/BKpowers.rpy:768
 translate schinese power_use_f5fdfc91:
 
     # "An evil aura forms around you, putting fear in your girls' hearts."
-    "An evil aura forms around you, putting fear in your girls' hearts."
+    "一种邪恶的光环在你周围形成，让你的女孩心中充满恐惧。"
 
 # game/BKpowers.rpy:774
 translate schinese power_use_bae6b61a:
 
     # "You sap her will, strengthening your hypnotic powers for the next few days."
-    "You sap her will, strengthening your hypnotic powers for the next few days."
+    "你削弱了她的意志，在接下来的几天里加强你的催眠效果。"
 
 # game/BKpowers.rpy:777
 translate schinese power_use_29df705a:
 
     # "You weaken her mind for the next few days, making her more receptive to suggestion."
-    "You weaken her mind for the next few days, making her more receptive to suggestion."
+    "你在接下来的几天里削弱了她的思考能力，让她更容易接受建议。"
 
 # game/BKpowers.rpy:781
 translate schinese power_use_d44ebebf:
 
     # "You absorb some of her life energy, temporarily boosting your [_pow.power]."
-    "You absorb some of her life energy, temporarily boosting your [_pow.power]."
+    "你吸收了一些她的生命力, 暂时地提升了你的[_pow.power]。"
 
 # game/BKpowers.rpy:816
 translate schinese power_use_f806f15e:
 
     # "[girl.fullname] has forgotten all the feelings she had about you, positive or negative."
-    "[girl.fullname] has forgotten all the feelings she had about you, positive or negative."
+    "[girl.fullname]已经忘记了她对你的所有感觉，不管是积极的还是消极的。"
 
 # game/BKpowers.rpy:820
 translate schinese power_use_d1bd7fad:
 
     # "[girl.fullname] now feels a lot less strongly about you."
-    "[girl.fullname] now feels a lot less strongly about you."
+    "[girl.fullname]现在对你的感觉没那么强烈了。"
 
 # game/BKpowers.rpy:827
 translate schinese power_use_3951c8ed:
 
     # "Drawing power from [girl.fullname]'s past traumas, you inprint a healthy fear of punishment in all of your girls' mind."
-    "Drawing power from [girl.fullname]'s past traumas, you inprint a healthy fear of punishment in all of your girls' mind."
+    "你从[girl.fullname]过去的创伤中汲取力量，在你所有的女孩心中印上了对惩罚的恐惧。"
 
 # game/BKpowers.rpy:834
 translate schinese power_use_5f7f4877:
 
     # "[girl.fullname] suddenly rises up, bursting with dark energy. Without a word, she heads back to the farm and starts working on her chores."
-    "[girl.fullname] suddenly rises up, bursting with dark energy. Without a word, she heads back to the farm and starts working on her chores."
+    "[girl.fullname]突然站了起来，充满了负能量。她一言不发地回到农场，开始做家务。"
 
 # game/BKpowers.rpy:849
 translate schinese power_use_454c5d95:
 
     # "Drawing on your dark powers, you siphon as much energy out of [girl.fullname] as you dare."
-    "Drawing on your dark powers, you siphon as much energy out of [girl.fullname] as you dare."
+    "利用你的黑暗力量，尽你所能从[girl.fullname]身上吸走能量。"
 
 # game/BKpowers.rpy:873
 translate schinese power_use_cc4c8fdb:
 
     # "This girl has no reputation to transfer."
-    "This girl has no reputation to transfer."
+    "这个女孩没有可以转移的名气。"
 
 # game/BKpowers.rpy:878
 translate schinese power_use_40ad0146:
 
     # "Focusing your mind on [girl2.fullname], you begin the incantations to channel some of [girl.name]'s fame towards her."
-    "Focusing your mind on [girl2.fullname], you begin the incantations to channel some of [girl.name]'s fame towards her."
+    "把你的注意力集中在[girl.name]身上，你开始念咒语，把她的名气引向[girl2.fullname]。"
 
 # game/BKpowers.rpy:891
 translate schinese power_use_711ce4a9:
 
     # "{b}[chg] reputation{/b} has been transferred from [girl.fullname] to [girl2.fullname]."
-    "{b}[chg] reputation{/b} has been transferred from [girl.fullname] to [girl2.fullname]."
+    "{b}[chg]名气{/b}已从[girl.fullname]转移到[girl2.fullname]的身上。"
 
 # game/BKpowers.rpy:896
 translate schinese power_use_7060f059:
 
     # "This girl's XP is too low to use that power."
-    "This girl's XP is too low to use that power."
+    "她的经验值过低，无法使用这个力量。"
 
 # game/BKpowers.rpy:904
 translate schinese power_use_5a239df6:
 
     # "No girls of lesser level could be found in the brothel or farm, so you decide not to cast the power."
-    "No girls of lesser level could be found in the brothel or farm, so you decide not to cast the power."
+    "在妓院或农场里找不到比她等级更低的女孩，所以你决定终止施法。"
 
 # game/BKpowers.rpy:909
 translate schinese power_use_d286a9be:
@@ -238,7 +238,7 @@ translate schinese power_use_d286a9be:
 translate schinese power_use_89684bdf:
 
     # "No girls of a lesser job level could be found in the brothel or farm, so you decide not to cast the power."
-    "No girls of a lesser job level could be found in the brothel or farm, so you decide not to cast the power."
+    "在妓院或农场里找不到比她职业等级更低的女孩，所以你决定终止施法。"
 
 # game/BKpowers.rpy:951
 translate schinese power_use_6d581ed6:

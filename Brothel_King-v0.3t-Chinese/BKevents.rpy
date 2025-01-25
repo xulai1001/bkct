@@ -696,8 +696,9 @@ label advance_to_chapter(chapter, silent=False, free=False, start=False): # All 
                     else:
                         $ free_room_text = ""
 
-                    $ textcn = location_name_dict[chosen_district.name]
-                    if renpy.call_screen("yes_no", __("{i}[chosen_district.description]{/i}\n\nDo you really want to move your brothel to {b}[chosen_district.name]{/b}?\n\n{size=-2}This will reset all your room improvements, but you will keep your furniture and decorations.") + __(free_room_text)):
+                    #$ textcn = location_name_dict[chosen_district.name]
+                    $ chosen_district.name_cn = tl_cn(chosen_district.name, location_name_dict)
+                    if renpy.call_screen("yes_no", __("{i}[chosen_district.description]{/i}\n\nDo you really want to move your brothel to {b}[chosen_district.name_cn]{/b}?\n\n{size=-2}This will reset all your room improvements, but you will keep your furniture and decorations.") + __(free_room_text)):
                         $ change_district(chosen_district, free, start)
                         $ norollback()
 

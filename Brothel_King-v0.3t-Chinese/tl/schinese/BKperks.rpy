@@ -4,35 +4,35 @@ translate schinese strings:
 
     # game/BKperks.rpy:6
     old "The Maid"
-    new "The Maid"
+    new "王牌女仆"
 
     # game/BKperks.rpy:6
     old "The Player"
-    new "The Player"
+    new "风月清倌"
 
     # game/BKperks.rpy:6
     old "The Model"
-    new "The Model"
+    new "性感模特"
 
     # game/BKperks.rpy:6
     old "The Courtesan"
-    new "The Courtesan"
+    new "红颜知己"
 
     # game/BKperks.rpy:6
     old "The Escort"
-    new "The Escort"
+    new "风尘女子"
 
     # game/BKperks.rpy:6
     old "The Fox"
-    new "The Fox"
+    new "幸运猫娘"
 
     # game/BKperks.rpy:6
     old "The Slut"
-    new "The Slut"
+    new "淫娃荡妇"
 
     # game/BKperks.rpy:6
     old "The Bride"
-    new "The Bride"
+    new "纯洁新娘"
 
 # TODO: Translation updated at 2024-12-15 23:09
 

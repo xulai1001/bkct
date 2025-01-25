@@ -296,11 +296,11 @@ translate schinese strings:
 
     # game/BKscreens.rpy:2959
     old "%s's perks"
-    new "%s的天赋"
+    new "%s的天赋树"
 
     # game/BKscreens.rpy:3051
     old "Perk points: "
-    new "天赋点: "
+    new "未分配的天赋点: "
 
     # game/BKscreens.rpy:3086
     old "%s's traits"
@@ -420,7 +420,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:4110
     old "{/color} from girls/effects)"
-    new "{/color}来自女孩/效果)"
+    new "{/color}来自女孩天赋/其他效果)"
 
     # game/BKscreens.rpy:4159
     old "[brothel.maintenance]  cleaners"
@@ -1120,7 +1120,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:2815
     old " {size=12} (max){/size}"
-    new " {size=12} (max){/size}"
+    new " {size=12} (已达上限){/size}"
 
     # game/BKscreens.rpy:2839
     old "JP"
@@ -1640,7 +1640,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:6363
     old "Enrolled"
-    new "空缺席位"
+    new "剩余名额"
 
     # game/BKscreens.rpy:6369
     old "Gains"
