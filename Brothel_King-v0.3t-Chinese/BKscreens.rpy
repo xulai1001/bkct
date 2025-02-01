@@ -6409,9 +6409,9 @@ screen postings(qlist):
 
                                     text "有利特质" size res_font(18) color c_prune
 
-                                    text trait_name_dict[selected_quest.pos_traits[0].name] size res_font(14) color c_emerald
+                                    text selected_quest.pos_traits[0].name size res_font(14) color c_emerald
 
-                                    text trait_name_dict[selected_quest.pos_traits[1].name] size res_font(14) color c_emerald
+                                    text selected_quest.pos_traits[1].name size res_font(14) color c_emerald
 
                                     text "" size res_font(18)
 

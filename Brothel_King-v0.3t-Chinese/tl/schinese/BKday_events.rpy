@@ -12352,5 +12352,5 @@ translate schinese strings:
 
     # game/BKday_events.rpy:7538
     old "Nope"
-    new "这可不行"
+    new "不必了"
 
