@@ -2782,6 +2782,7 @@ translate schinese city_wrestle_fb565e36:
 translate schinese city_wrestle_a6a9279d:
 
     # "The mercenaries scoff and jeer, calling you a coward and all sorts of unpleasant names as you pitifully make your way back to [dis]."
+    $ dis_cn = tl_cn(dis, location_name_dict)
     "冒险者们嘲笑你，嘲笑你是个懦夫，在你回[dis_cn]的路上，他们用各种令人不快的名字辱骂你。"
 
 # game/BKcity_events.rpy:2230
@@ -5236,7 +5237,8 @@ translate schinese city_mob_b510dc91:
 translate schinese city_mob_6c748b57:
 
     # man "He's one of the brothel owners! The scum of [place]!!!"
-    man "他也是青楼老板！[place]的渣滓！！"
+    $ place_cn = tl_cn(place, location_name_dict)
+    man "他是开青楼的！[place_cn]的渣滓！！"
 
 # game/BKcity_events.rpy:4296
 translate schinese city_mob_b7447831:
@@ -5656,7 +5658,9 @@ translate schinese city_luck_d5448762:
 translate schinese slave_beach_event_f54a88e7:
 
     # "By the [loc] is a long stretch of white sand where the people of [dis] come to relax. As you pass by, you spot a familiar sight."
-    "[loc]旁有一片长长的白沙滩，[dis_cn]的人们在这里放松。当你漫步在沙滩上时，你看到了一个熟悉的背影。"
+    $ loc_cn = tl_cn(loc, location_name_dict)
+    $ dis_cn = tl_cn(dis, location_name_dict)
+    "[loc_cn]旁有一片长长的白沙滩，[dis_cn]的人们在这里放松。当你漫步在沙滩上时，你看到了一个熟悉的背影。"
 
 # game/BKcity_events.rpy:4708
 translate schinese slave_beach_event_d8076f8d:

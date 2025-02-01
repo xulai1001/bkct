@@ -8283,9 +8283,9 @@ label c2_palace_visit1(): # Happens after all Kunoichi have been met once
 
     "As you finish breakfast, Sill brings you a letter bearing the royal seal."
 
-    call screen letter(header = "Meeting request",
-                    message = "Dear " + MC.name + ",\n\nI hope this letter finds you well, and that you have made some progress on our mutual subject of interest. Please meet me at the Palace for debriefing at your earliest convenience.",
-                    signature = "Princess Kurohime")
+    call screen letter(header = "邀请函",
+                    message = "亲爱的 " + MC.name + ",\n\n我希望当你看到这封信时，一切顺利，目前的调查取得了一些进展。请在您方便的时候尽早到宫里来见我。",
+                    signature = "黑雪姬公主")
 
     you "Another invitation from the Princess... She must be wondering how my investigation is going."
 

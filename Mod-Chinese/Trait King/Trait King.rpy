@@ -1165,8 +1165,8 @@ label traitking_early_init:
                    "Unlucky and_tag" : "sub",
                    
                    "Slave brand description" : "破坏科斯莫的妓院",
-                   "Slave brand training" : "潜入'HʘʘKERS'",
-                   "Slave brand intro" : "您鼓励她潜入并破坏科斯莫的妓院'HʘʘKERS'，起初她有些犹豫，但经过说服，她接受了你的挑战。",
+                   "Slave brand training" : "潜入'妓你太美'",
+                   "Slave brand intro" : "您鼓励她潜入并破坏科斯莫的妓院'妓你太美'，起初她有些犹豫，但经过说服，她接受了你的挑战。",
                    "Slave brand pos_reaction" : "当她神不知鬼不觉地从窗户爬进去时，你分散了守卫的注意力。过了一会儿，她又回来了，还得意洋洋地炫耀主卧室的枕头上装饰着她的排泄物。",
                    "Slave brand neg_reaction" : "你们引开了守卫，但她鼓不起勇气潜入店内。你们俩决定改天再试一次。", 
                    "Slave brand pic" : "town",
@@ -1188,10 +1188,10 @@ label traitking_early_init:
                    "City girl pic" : "town",
                    "City girl and_tag" : "date",
                    
-                   "Circumcised description" : "在Cathredra教堂祈祷",
-                   "Circumcised training" : "去Cathedra教堂",
+                   "Circumcised description" : "在大教堂祈祷",
+                   "Circumcised training" : "去大教堂",
                    "Circumcised intro" : "您为她点燃蜡烛，命令她把蜡烛带到主教座堂，祈求太阳神的祝福。",
-                   "Circumcised pos_reaction" : "她把蜡烛带到了Cathredra。当她回到妓院时，她激情澎湃地宣布太阳神在她心中点燃了火焰。",
+                   "Circumcised pos_reaction" : "她把蜡烛带到了大教堂。当她回到妓院时，她激情澎湃地宣布太阳神在她心中点燃了火焰。",
                    "Circumcised neg_reaction" : "在她前往主教座堂的途中，一阵强风吹灭了蜡烛的火焰。她悲痛欲绝。", 
                    "Circumcised pic" : "ceremony",
                    "Circumcised and_tag" : "sub",
@@ -1236,7 +1236,7 @@ label traitking_early_init:
                    "Disfigured pic" : "hurt",
                    "Disfigured and_tag" : "rest",
                    
-                   "Drunkard description" : "喝得昏迷不醒",
+                   "Drunkard description" : "大醉一场",
                    "Drunkard training" : "进行干预",
                    "Drunkard intro" : "你要她直面因酗酒给大家带来的痛苦和挫折。",
                    "Drunkard pos_reaction" : "她真的被你的话感动了，并承诺要改善自己的生活。",

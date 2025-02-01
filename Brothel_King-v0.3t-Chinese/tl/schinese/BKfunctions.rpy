@@ -4,7 +4,7 @@ translate schinese strings:
 
     # game/BKfunctions.rpy:953
     old "Girl reputation: "
-    new "声望: "
+    new "人气: "
 
     # game/BKfunctions.rpy:956
     old "Gold: {image=img_gold} "

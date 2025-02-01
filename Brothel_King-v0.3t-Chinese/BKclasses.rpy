@@ -3931,7 +3931,7 @@ init -2 python:
                     text1 = "+1等级 (最高等级: " + str(val) + ")"
 
                 elif target == "advertising power":
-                    text1 = "提高广告的效果 (提高青楼的声望增速,客流量和顾客的预算)。"
+                    text1 = "提高广告的效果 (提高青楼的知名度增速,客流量和顾客的预算)。"
 
                 elif target == "heal minion":
                     text1 = "治疗一个受伤的单位。"
@@ -3949,7 +3949,7 @@ init -2 python:
                     text1 = "能说服不情愿的顾客接受另一种性行为"
 
                 elif target == "pickpocket":
-                    text1 = "有25%机会从顾客那里偷取额外10%的小费，但有15%的概率降低自身和青楼的声望"
+                    text1 = "有25%机会从顾客那里偷取额外10%的小费，但有15%的概率降低自身和青楼的知名度"
 
                 elif target == "random item":
                     text1 = "顾客有2.5%的概率“遗漏”随机物品"
@@ -3982,7 +3982,7 @@ init -2 python:
                     text1 += "使 " + str(val) + " 金币不被计入青楼的威胁值。"
 
                 elif target == "focus":
-                    text1 += "如果女孩在营业时专精于一种性行为，+25%小费和声望收益 (不包括双飞和群交行为)"
+                    text1 += "如果女孩在营业时专精于一种性行为，+25%小费和人气收益 (不包括双飞和群交行为)"
 
                 elif target == "rest shield":
                     text1 += "她在休息时，可以对自己或她的朋友施放一层魔法护盾，保护其免受攻击"
@@ -4871,9 +4871,9 @@ init -2 python:
 
             if dice(6) == 6:
                 if self.type == "class":
-                    self.special = rand_choice(("Cheap", "Masterclass"))
+                    self.special = rand_choice((_("Cheap"), _("Masterclass")))
                 elif self.type == "quest":
-                    self.special = rand_choice(("High reward", "Notorious"))
+                    self.special = rand_choice((_("High reward"), _("Notorious")))
             else:
                 self.special = None
 
@@ -5025,7 +5025,7 @@ init -2 python:
         def get_results(self, girl):
 
             title = __(self.type.capitalize()) + __(" completed")
-            description = girl.fullname + __(" has returned from her ") + __(self.type) + ". "
+            description = girl.fullname + __(" has returned from her ") + __(self.type) + "。"
 
             if self.type == "class":
 
@@ -5213,7 +5213,7 @@ init -10 python:
                     self.description = "你需要拥有至少" + str(self.target) + "个" + rank_name[self.value] + "阶的奴隶" #修改了源代码使翻译通畅
 
                 elif self.type == "reputation":
-                    self.description = "你的青楼需要拥有" + str(int(self.value)) + "点声望"
+                    self.description = "你的青楼需要拥有" + str(int(self.value)) + "点知名度"
 
                 elif self.type == "prestige":
                     self.description = "你的角色需要拥有" + str(int(self.value)) + "点声望"
@@ -7554,13 +7554,13 @@ init -2 python:
             spe, target = self.special
 
             if spe == "trait":
-                return "{b}特质{/b}: " + and_text([t.name for t in target], " 或 ")
+                return "{b}特质{/b}: " + and_text([tl_cn(t.name, trait_name_dict) for t in target], " 或 ")
 
             elif spe == "perk":
                 return "{b}天赋{/b}: " + target.name
 
             elif spe == "fix":
-                return "{b}正面癖好{/b}: " + and_text([tl_cn(f.name.capitalize(), girl_related_dict) for f in target], " 或 ")
+                return "{b}正面性癖{/b}: " + and_text([tl_cn(f.name.capitalize(), girl_related_dict) for f in target], " 或 ")
 
             elif spe == "farm":
                 return "{b}弱点{/b}: " + tl_cn(target.capitalize(), farm_related_dict)

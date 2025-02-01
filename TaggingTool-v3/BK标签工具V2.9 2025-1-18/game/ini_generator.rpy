@@ -901,19 +901,19 @@ screen ini_positive_traits_list():
         
         has vbox spacing 20 xmaximum 0.9
         
-        $ text_positive = "{b}金色特质{/b}\n"
+        $ text_positive = "{b}金色特质{/b}\n" 
         $ gold_traits_list = ["Naughty", "Fascinating", "Lust", "Warrior", "Skilled tongue", "Always wet", "Tight ass", "Playful", "Wild", "Dirty mind", "Magnetic", "Loose", "Dedicated", "Provocative", "Fashionista", "Perfectionist", "Elite", "Gifted", "Fast learner", "Caster", "Driven", "Country girl", "Noble", "Naturist", "Vicious"]
         
         $ positive_traits_list = ["Cute", "Long legs", "Nice boobs", "Juicy ass", "Sweet", "Exotic", "Polite", "Feminine", "Horny", "Resilient",  "Delicate", "Meek", "Pretty eyes", "Firm tits", "Seductive", "Graceful", "Beautiful", "Fit", "Charming", "Elegant", "Slutty", "Athletic", "Sensitive", "Obedient", "Energetic", "Tough", "Sexy", "Humble", "Virgin", "Sharp", "Loyal", "Brave", "Strong", "Lucky", "Deft", "Nimble", "Soft skin", "Bright", "Agile", "Brisk", "Rowdy", "Powerful", "Unhurried", "Modest", "Sensual", "Kinky", "Pervert", "Thief"]
         
         python:
             for trait in gold_traits_list:
-                text_positive += "\"" + trait + "\", " 
+                text_positive += "\"" + tl_cn(trait, trait_name_dict) + "\", " 
                 
             text_positive += "\n\n{b}正面特质{/b}\n"
                 
             for trait in positive_traits_list:
-                text_positive += "\"" + trait + "\", " 
+                text_positive += "\"" + tl_cn(trait, trait_name_dict) + "\", " 
         
         text text_positive size 18 color "#ffffff"
         
@@ -928,7 +928,7 @@ screen ini_negative_traits_list():
         
         python:
             for trait in negative_traits_list:
-                text_negative += "\"" + trait + "\", " 
+                text_negative += "\"" + tl_cn(trait, trait_name_dict) + "\", " 
        
         text text_negative size 18 color "#ffffff" 
         
@@ -965,7 +965,7 @@ screen ini_personality_list():
         
         python:
             for personality in personalities_list:
-                text_personality += personality + "\n" 
+                text_personality += tl_cn(personality, personalities_related_dict) + "\n" 
        
         text text_personality size 16 color "#ffffff" 
         
@@ -980,7 +980,7 @@ screen ini_fixations_list():
         
         python:
             for fixation in fixations_list:
-                text_fixations += "\"" + fixation + "\", " 
+                text_fixations += "\"" + tl_cn(fixation, girl_related_dict) + "\", " 
        
         text text_fixations size 18 color "#ffffff" 
 
@@ -1014,17 +1014,14 @@ screen positive_choice():
     $ gold_traits_list = ["Naughty", "Fascinating", "Lust", "Warrior", "Skilled tongue", "Always wet", "Tight ass", "Playful", "Wild", "Dirty mind", "Magnetic", "Loose", "Dedicated", "Provocative", "Fashionista", "Perfectionist", "Elite", "Gifted", "Fast learner", "Caster", "Driven", "Country girl", "Noble", "Naturist", "Vicious", "Conduct"]
     $ positive_traits_list = ["Cute", "Long legs", "Nice boobs", "Juicy ass", "Sweet", "Exotic", "Polite", "Feminine", "Horny", "Resilient",  "Delicate", "Meek", "Pretty eyes", "Firm tits", "Seductive", "Graceful", "Beautiful", "Fit", "Charming", "Elegant", "Slutty", "Athletic", "Sensitive", "Obedient", "Energetic", "Tough", "Sexy", "Humble", "Virgin", "Sharp", "Loyal", "Brave", "Strong", "Lucky", "Deft", "Nimble", "Soft skin", "Bright", "Agile", "Brisk", "Rowdy", "Powerful", "Unhurried", "Modest", "Sensual", "Kinky", "Pervert", "Thief", "Sane", "Trusting", "Loving"]
         
-    text "{color=#FFD700}{b}Gold Traits{/b}{/color}" size 18
+    text "{color=#FFD700}{b} 金色特质：{/b}{/color}" size 22 xpos 20 ypos 60
     for index, name in enumerate(gold_traits_list):
         hbox xpos (index%6)*0.18 ypos 140+index//6*40:
-            if name in trait_name_dict :
-                textbutton trait_name_dict[name] action ToggleSetMembership(values, name)
-            else:
-                textbutton name action ToggleSetMembership(values, name)
-    text "{color=#009874}{b}Positive Traits{/b}{/color}" size 18 ypos 300
+            textbutton tl_cn(name, trait_name_dict) action ToggleSetMembership(values, name)
+    text "{color=#009874}{b} 正面特质：{/b}{/color}" size 22 xpos 20 ypos 60
     for index, name in enumerate(positive_traits_list):
         hbox xpos (index%6)*0.18 ypos 440+index//6*40:
-            textbutton trait_name_dict[name] action ToggleSetMembership(values, name)
+            textbutton tl_cn(name, trait_name_dict) action ToggleSetMembership(values, name)
     vbox xpos 0 yalign 0.9:
         textbutton "完成" action Return(values)
 
@@ -1033,10 +1030,10 @@ screen negative_choice():
     style_prefix "choice"
     $ negative_traits_list = ["Plain", "Scars", "Mean", "Rude", "Cold", "Weak", "Rough", "Defiant", "Scruffy", "Plump", "Timid", "Vulgar", "Tame", "Frail", "Jaded", "Rebellious", "Lazy", "Sickly", "Homely", "Expensive", "Slow", "Distrustful", "Fearful", "Vulnerable", "Unlucky", "All thumbs", "Awkward", "Brutal", "Dumb", "Oafish", "Clumsy", "Prude", "Naive", "Square", "Insane", "Distrustful", "Spiteful"]
      
-    text "{color=#F78181}{b}Negative Traits{/b}{/color}" size 18
+    text "{color=#F78181}{b} 负面特质：{/b}{/color}" size 22 xpos 20 ypos 60
     for index, name in enumerate(negative_traits_list):
         hbox xpos (index%6)*0.18 ypos 140+index//6*40:
-            textbutton trait_name_dict[name] action ToggleSetMembership(values, name)
+            textbutton tl_cn(name, trait_name_dict) action ToggleSetMembership(values, name)
     vbox xpos 0 yalign 0.9:
         textbutton "完成" action Return(values)
       
@@ -1047,7 +1044,7 @@ screen personality_choice():
     
     for index, name in enumerate(personalities_list):
         hbox xpos (index%2)*0.95 ypos 200+index//2*40:
-            textbutton personalities_related_dict[name] action ToggleSetMembership(values, name)
+            textbutton tl_cn(name, personalities_related_dict) action ToggleSetMembership(values, name)
     vbox xpos 0 yalign 0.9:
         textbutton "完成" action Return(values)
         
@@ -1058,7 +1055,7 @@ screen act_choice():
     
     for index, name in enumerate(acts_list):
         hbox xpos (index%7)*0.15 ypos 100+index//7*40:
-            textbutton girl_related_dict[name] action ToggleSetMembership(values, name)
+            textbutton tl_cn(name, girl_related_dict) action ToggleSetMembership(values, name)
     vbox xpos 0 yalign 0.9:
         textbutton "完成" action Return(values)
         
@@ -1069,7 +1066,7 @@ screen fixation_choice():
        
     for index, name in enumerate(fixations_list):
         hbox xpos (index%6)*0.18 ypos 100+index//6*40:
-            textbutton girl_related_dict[name] action ToggleSetMembership(values, name)
+            textbutton tl_cn(name, girl_related_dict) action ToggleSetMembership(values, name)
     vbox xpos 0 yalign 0.9:
         textbutton "完成" action Return(values)
 

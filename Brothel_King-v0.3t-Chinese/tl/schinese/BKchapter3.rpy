@@ -2212,7 +2212,7 @@ translate schinese c3_hint_f513613d:
 translate schinese c3_hint_4a80133e:
 
     # kenshin "A security breach. No need to say more."
-    kenshin "安全漏洞。言尽。"
+    kenshin "一个安全漏洞。我只能说这么多。"
 
 # game/BKchapter3.rpy:1061
 translate schinese c3_hint_6b4c2bab:
@@ -2536,7 +2536,7 @@ translate schinese c3_hint_108aacb1:
 translate schinese c3_hint_dfa6e573:
 
     # ramias "Well, there are several areas in the Prison. The largest is on the ground floor, easily the size of a village. It holds the common criminals, where they live in incredible squalor."
-    ramias "监狱里有几个不同的区域。最大的是地下室，那里大概有一个村子那么大。普通囚犯，他们生活在极大的星系的环境中。"
+    ramias "监狱里有几个不同的区域。最大的是地下禁地，那里大概有一个村子那么大。普通囚犯则生活在地表肮脏的牢房里。"
 
 # game/BKchapter3.rpy:1184
 translate schinese c3_hint_35362adc:
@@ -2590,25 +2590,25 @@ translate schinese c3_hint_528a732f:
 translate schinese c3_hint_95135301:
 
     # ramias "That leaves the maximum security prison... I thought about it at first, because there was an air of danger about it that appealed to me."
-    ramias "所以就极限监狱了...我开始考虑，因为有一种让我往前的危险感。"
+    ramias "所以我就不打算在监狱干了...我感觉到，有一种危机感。"
 
 # game/BKchapter3.rpy:1202
 translate schinese c3_hint_bf419561:
 
     # ramias "Told me they lost a couple of guards just a week before, sounded more exciting than the rest."
-    ramias "他们说就在一周前，有几个监狱失踪了，听起来比其他地方要刺激恐慌。"
+    ramias "他们说就在一周前，有几个守卫失踪了，听上去比以前有趣多了。"
 
 # game/BKchapter3.rpy:1204
 translate schinese c3_hint_154ff330:
 
     # you "That's, uh... One way to see it."
-    you "呃，这确实是一个看问题的角度。"
+    you "呃，你看待问题的角度确实清奇。"
 
 # game/BKchapter3.rpy:1206
 translate schinese c3_hint_514d8b48:
 
     # you "Still, you turned them down?"
-    you "你还是拒绝了？"
+    you "不过，你还是拒绝了？"
 
 # game/BKchapter3.rpy:1208
 translate schinese c3_hint_7cd62fc2:

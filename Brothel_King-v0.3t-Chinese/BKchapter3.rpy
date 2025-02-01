@@ -134,44 +134,44 @@ label c3_interrogate_contacts():
 
     call c3_update_hint_goals() from _call_c3_update_hint_goals
 
-    $ suzume("那么，在你在城里的熟人中，你想先找谁？", interact=False)
+    $ suzume("那么，在你在城里的熟人中，你想先找谁打听情报？", interact=False)
 
-    $ contact_list =  [("side suzume", "云雀, 傻傻的风之忍者", NPC_suzume),
+    $ contact_list =  [("side suzume", "云雀, 傻乎乎的风之忍者", NPC_suzume),
                         ("side sill", "希露，你最信任的奴隶", NPC_sill),
-                        ("side papa", "弗里克老爹，那个怪老头", NPC_freak),
-                        ("side jobgirl", "[jobgirl_name]，那个任务达人", NPC_jobgirl),
-                        ("side kenshin", "剑心，那个女骑士团长", NPC_kenshin),
+                        ("side papa", "弗里克老爹，怪老头", NPC_freak),
+                        ("side jobgirl", "[jobgirl_name]，忙碌的任务达人", NPC_jobgirl),
+                        ("side kenshin", "剑心，女骑士团长", NPC_kenshin),
                         ("side satella", "萨特拉，黑暗女神的使徒", NPC_satella),
                         ]
 
     if NPC_bast.met:
-        $ contact_list.append(("side bast", "Bast, the Quartermaster", NPC_bast))
+        $ contact_list.append(("side bast", "巴斯特, 忙碌的任务达人", NPC_bast))
     if farm.active:
-        $ contact_list.append(("side gizel", "Gizel, the White Witch", NPC_gizel))
+        $ contact_list.append(("side gizel", "吉泽尔, 强大的白女巫", NPC_gizel))
     if story_flags["met carpenter"]:
-        $ contact_list.append(("side carpenter", "Iulia, the Carpenter", NPC_carpenter))
+        $ contact_list.append(("side carpenter", "露莉亚, 能干的工匠", NPC_carpenter))
     if thieves_guild.action:
-        $ contact_list.append(("side renza", "Renza, the Thief", NPC_renza))
+        $ contact_list.append(("side renza", "伦萨, 盗贼首领", NPC_renza))
     if watchtower.action:
-        $ contact_list.append(("side sergeant", "Kashiv, the grim Guard Sergeant", NPC_sergeant))
-        $ contact_list.append(("side captain", "Farah, the naughty Guard Captain", NPC_captain))
+        $ contact_list.append(("side sergeant", "卡希夫, 冷酷的中士", NPC_sergeant))
+        $ contact_list.append(("side captain", "法拉, 俏皮的上尉", NPC_captain))
     if story_flags["c1_path"] == "neutral":
-        $ contact_list.append(("side lieutenant", "Lydie, the cunning Guard Captain", NPC_lieutenant))
+        $ contact_list.append(("side lieutenant", "莉迪, 狡猾的上尉", NPC_lieutenant))
     if story_flags["c1_path"] == "good":
-        $ contact_list.append(("side maya", "Maya, the righteous Guard Captain", NPC_maya))
-        $ contact_list.append(("side roz", "Roz, the zealous Guard Lieutenant", NPC_roz))
+        $ contact_list.append(("side maya", "玛雅, 正义的上尉", NPC_maya))
+        $ contact_list.append(("side roz", "罗兹, 热情的中尉", NPC_roz))
     if harbor.action:
-        $ contact_list.append(("side stella", "Stella, the Blood Isles's Slaver", NPC_stella))
+        $ contact_list.append(("side stella", "史黛拉, 鲜血群岛的奴隶商人", NPC_stella))
     if farmland.action:
-        $ contact_list.append(("side goldie", "Goldie, the Farmhand", NPC_goldie))
+        $ contact_list.append(("side goldie", "戈尔迪, 乡下的村姑", NPC_goldie))
     if sewers.action:
-        $ contact_list.append(("side willow", "Willow, the Monster Catcher", NPC_willow))
+        $ contact_list.append(("side willow", "薇儿, 怪物猎手", NPC_willow))
     if junkyard.action:
-        $ contact_list.append(("side gina", "Gina, the Mad Scientist", NPC_gina))
+        $ contact_list.append(("side gina", "吉娜, 脾气古怪的科学家", NPC_gina))
     if prison.action:
-        $ contact_list.append(("side gurigura", "Gurigura, the Toy Merchant", NPC_gurigura))
+        $ contact_list.append(("side gurigura", "古莉古拉, 玩具商人", NPC_gurigura))
     if arena.action:
-        $ contact_list.append(("side ramias", "Ramias, the Weapon Merchant", NPC_ramias))
+        $ contact_list.append(("side ramias", "拉米娅, 武器商人", NPC_ramias))
 
     call screen suzume_hints(contact_list)
     $ npc = _return
@@ -258,26 +258,26 @@ label c3_interrogate_contacts():
     else:
         python:
             no_hint = {
-                    NPC_jobgirl : "Err, sorry, I don't know anything about such a person.",
-                    NPC_bast : "Look, I'm busy, and this doesn't ring a bell, sorry.",
-                    NPC_gurigura : "Teeheehee! I didn't understand a single thing you said, but you're funny, Mister.",
-                    NPC_gina : "Sorry, but I don't know anything about such a person. Now, I have an important paper to write, so...",
-                    NPC_roz : "Err, never heard about that chick, sorry.",
-                    NPC_renza : "Hmm... I don't know this person. She probably operates outside of my turf.",
-                    NPC_captain : "Never heard of her. Now, if you'll excuse me, I have a legal {i}and{/i} a criminal empire to run, so kindly fuck off.",
-                    NPC_sill : "Oh, I'm sorry, Master... I really don't know anything about such a person.",
-                    NPC_satella : "Why, it's funny you should mention it, I had a pet raccoon called just like that... But I just realized I forgot to feed it. Poor thing, it's been six months! It must be hungry.",
-                    NPC_freak : "Thank you for visiting me, my boy.... But I have no idea who you're babbling on about.",
-                    NPC_gizel : "Don't know, don't care. Look, human females are fun to run experiments on, but I haven't got much interest in their indiviual characteristics otherwise.",
-                    NPC_stella : "Look, I don't give information for free. But I don't have any information about this person anyway.",
-                    NPC_kenshin : "Is this a person of interest in your investigation? I haven't heard anything worth mentioning about such a person.",
-                    NPC_carpenter : "Boss, I'm just a carpenter. I build things. This cloak and dagger stuff doesn't concern me.",
-                    NPC_ramias : "I'm sorry, I'm sure it was all terribly interesting, but ever since an orc banged his mace on my helmet, I blank out sometimes. I'm afraid I can't help you.",
-                    NPC_goldie : "Oh, " + MC.name + ", I would love nothing more than to help you... But I really don't know anything.",
-                    NPC_maya : "Sorry, I haven't heard of such a criminal. Maybe ask Roz, he's the one who still patrols the streets. I mostly handle paperwork now... *sigh*",
-                    NPC_lieutenant : "No, I must say I haven't heard of her. Maybe Renza knows, I handle the more 'official' business these days.",
-                    NPC_willow : "Is she a monster? Because that's what I deal with, monsters. I give most humans a wide berth.",
-                    NPC_sergeant : "I have nothing to say to you. Leave.",
+                    NPC_jobgirl : "呃，对不起，我对这种人一无所知。",
+                    NPC_bast : "听着，我很忙，而且我不记得了，抱歉。",
+                    NPC_gurigura : "唔呣! 你说的话我一个字都听不懂，但你很风趣，先生。",
+                    NPC_gina : "对不起，我对这种人一无所知。我还有一篇重要的论文要写，所以...",
+                    NPC_roz : "呃，没听说过有这样的小妞，抱歉。",
+                    NPC_renza : "Hmm... 我不认识这个人。她可能在我的地盘外活动。",
+                    NPC_captain : "从没听说过她。现在，如果你不介意的话，我要管理一个{i}合法的犯罪帝国{/i}，所以请你滚吧。",
+                    NPC_sill : "我很抱歉，主人... 我什么也不知道，帮不上您。",
+                    NPC_satella : "哦，真有趣，我有只宠物浣熊就叫这个名字... 但我刚意识到我忘了喂它吃饭。可怜的家伙，已经六个月了！它一定饿坏了。",
+                    NPC_freak : "谢谢你来看我，孩子.... 但我不知道你在说谁。",
+                    NPC_gizel : "我不知道，也不在乎。听着，虽然用人类女性做实验很有趣，但我对她们的个人特征不太感兴趣。",
+                    NPC_stella : "听着，我不会免费提供信息。虽然我确实没有关于这个人的任何信息。",
+                    NPC_kenshin : "这是你们调查的嫌疑人吗？关于这个人，我没听说过什么值得一提的事。",
+                    NPC_carpenter : "老板，我只是个工匠。我只会打造。这种秘密行动跟我没关系。",
+                    NPC_ramias : "抱歉，我相信这一切都非常有趣，但自从一个兽人用他的狼牙棒砸我的头盔后，我时不时就会失去意识。恐怕我帮不了你。",
+                    NPC_goldie : "哦, " + MC.name + ", 我非常乐意帮助你... 但是我真的什么也不知道。",
+                    NPC_maya : "对不起，我没听说过这样的罪犯。也许你可以问问罗兹，他现在还在街上巡逻。我现在主要处理文书工作... *叹气*",
+                    NPC_lieutenant : "不，我得说我没听说过她。也许伦萨知道，我现在处理的是更“正式”的事务。",
+                    NPC_willow : "她是怪物吗？因为那才是我擅长处理的。我对怪人可是敬而远之。",
+                    NPC_sergeant : "我对你无话可说。走吧。",
                     }
 
         $ renpy.say(npc.char, no_hint[npc])
@@ -3791,9 +3791,9 @@ label c3_narika_MU_visit():
 
                 you "Did the Dean mention us specifically? You could have mistaken us with someone else..."
 
-                $ desc = {"战士": "A big dullard with a large sword, battered armor and a vacant stare, displaying the grace and sense of a drunken troll.",
-                            "法师": "A snooty know-it-all in a tattered robe adorned with rough patches and stains of questionable origin. You will struggle and fail not to roll your eyes at him when he speaks.",
-                            "商人": "A shifty scoundrel with the subtlety of a horny alley cat, more likely to break into drunken slumber than into a vault full of gold."
+                $ desc = {"战士": "一个四肢发达头脑简单的家伙，拿着一把大剑，穿着破旧的盔甲，目光呆滞，就像醉醺醺的巨魔，缺少优雅和理智。",
+                            "法师": "一个傲慢的学者，穿着一件破旧的长袍，上面有粗糙的补丁和来源可疑的污渍。当他说话的时候，你会忍不住翻白眼。",
+                            "商人": "一个狡猾的无赖，狡猾得像巷子里发情的猫，大概率会喝醉了倒头就睡，而不是进入一个装满金条的金库。"
                             }[MC.playerclass]
 
                 receptionist "No, she mentioned you precisely. '[desc]' He is followed by a pink-haired slave girl who smells of cleaning products."

@@ -204,13 +204,13 @@ translate schinese strings:
 
     # game/BKpostings.rpy:27
     old "Waitress{#1}"
-    new "Waitress{#1}"
+    new "餐桌礼仪"
 
     # game/BKpostings.rpy:27
     old "Geisha{#1}"
-    new "Geisha{#1}"
+    new "茶艺讲座"
 
     # game/BKpostings.rpy:27
     old "Hardcore{#2}"
-    new "Hardcore{#2}"
+    new "人体改造"
 

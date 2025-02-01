@@ -10553,7 +10553,7 @@ label satella_letter(): # Occurs some time after Chapter 1 is complete. Then occ
 
         play sound s_dress
 
-        call screen letter(header = "Urgent invitation", message = "Dear " + MC.name + ",\n\nIt's been a while since you last visited me. I'm disappointed. After all, you and I are best friends, aren't we?\nDon't {b}disappoint{/b} me. That makes me angry.\nWhen I'm angry, I break things. And people.\nPlease visit me soon, I have, uh, something urgent to tell you.\n\nCome! It will be fun!", signature = "Night Mistress Satella {font=[style.default.font]}{size=-18}[emo_heart]")
+        call screen letter(header = "紧急邀请", message = "亲爱的" + MC.name + ",\n\n你已经有一段时间没来找我玩了。我很失望。毕竟，我们是最好的朋友，不是吗？\n别让我{b}失望{/b}，否则我会发火的。\n我一生气，就想摔东西，或者摔人。\n请尽快来找我，我有很，呃，很紧急的事要和你说。\n\n快点来！会很有趣的！", signature = "夜之使徒史黛拉 {font=[style.default.font]}{size=-18}[emo_heart]")
 
         you "Oh... Satella is summoning me to Shalia's temple... It must be important."
 
@@ -10582,7 +10582,7 @@ label satella_letter(): # Occurs some time after Chapter 1 is complete. Then occ
 
         play sound s_dress
 
-        call screen letter(header = "Urgent invitation", message = "Dear " + MC.name + ",\n\nI have to see you urgently. In fact, you should have been here yesterday.\nWhere WERE you yesterday???\nDon't be a bad friend. Bad friends die young.\nCome visit me.", signature = "Night Mistress Satella {font=[style.default.font]}{size=-18}[emo_heart]")
+        call screen letter(header = "紧急邀请", message = "亲爱的" + MC.name + ",\n\n我等不及要见到你了。事实上，你昨天就该来了。\n你昨天到底跑去哪了???\n别做失信的朋友。失信的人都活不久。\n赶快来找我。", signature = "夜之使徒史黛拉 {font=[style.default.font]}{size=-18}[emo_heart]")
 
         you "I've got a bad feeling about this."
 
@@ -14358,7 +14358,7 @@ label banker_repaid_first():
         play sound s_gold
         $ MC.gold -= NPC_banker.flags["first loan"]
 
-        $ narrator("You have repaid " + str(NPC_banker.flags["first loan"]) + " gold.")
+        $ narrator("You have repaid " + str(NPC_banker.flags["first loan"]) + "金币。")
 
         $ NPC_banker.flags["first loan"] = False
 

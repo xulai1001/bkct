@@ -36,6 +36,24 @@ init -3 python:
         tag_hotkeys[key] = tag
 # </Chris12 - Tagsets>
 
+    ## 中文翻译函数 ##
+
+    def tl_cn(text, translation_dicts, default_value=None):
+        if isinstance(translation_dicts, dict):
+            # 如果 translation_dicts 是单个字典
+            if text in translation_dicts:
+                return translation_dicts[text]
+        else:
+            # 如果 translation_dicts 是字典列表
+            for translation_dict in translation_dicts:
+                if text in translation_dict:
+                    return translation_dict[text]
+        
+        if default_value is not None:
+            return default_value
+        else:
+            return text
+
 init -2 python:
 
     # tag_dict now serves as a way to add additional 'tags light'. Basically, those tags get kept if they are already in the filename, but no buttons are available to actively influence them.
@@ -276,6 +294,7 @@ init -2 python:
                        "Noble" : "大家风范",
                        "Naturist" : "返璞归真",
                        "Vicious" : "任情恣性",
+                       "Conduct" : "咒力媒介",
 
                        ## 正面特质 ##
                        "Cute" : "率真可爱",
@@ -334,6 +353,8 @@ init -2 python:
                        "Pervert" : "自甘堕落",
                        "Thief" : "妙手空空",
                        "Sane" : "精神抖擞",
+                       "Trusting" : "积极向上",
+                       "Loving" : "死心塌地",
 
                        ## 负面特质 ##
                        "Plain" : "臼头深目",
@@ -376,6 +397,7 @@ init -2 python:
                        "Naive" : "未经人事",
                        "Square" : "道貌岸然",
                        "Insane" : "歇斯底里",
+                       "Spiteful" : "疑神疑鬼",
 
                        ## 特殊特质 ##
                        "Godless" : "敬而远之",

@@ -850,7 +850,7 @@ translate schinese random_morning_events_23c71739:
 translate schinese random_morning_events_26319a3b:
 
     # "You lose an action for today. You have earned prestige. [girl.name]'s [act] skill has improved."
-    "你今天失去了一个行动。你获得了一些声望。[girl.name]的[act]技巧提高了。"
+    "你失去了一点行动力。你获得了一些声望。[girl.name]的[act]技巧提高了。"
 
 # game/BKday_events.rpy:519
 translate schinese random_morning_events_76a0809e:

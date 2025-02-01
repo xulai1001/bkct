@@ -606,7 +606,7 @@ init -2:
         idle_color "#8888"
         hover_color "#ccc"
         selected_idle_color "#cc08"
-        selected_hover_color "#cc0"
+        selected_hover_color "#20894d"
         insensitive_color "#4448"
         
     style carousel_button:

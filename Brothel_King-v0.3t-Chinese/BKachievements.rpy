@@ -134,7 +134,7 @@ init python:
                         Achievement(_("富甲一方"), __("拥有%s金币的现金。"), pic="jewel bag.webp", pic_path="items/misc/", level_nb=5, target="gold", requirements={1 : 1000, 2 : 10000, 3 : 100000, 4 : 1000000, 5 : 10000000}, multi=10),
                         Achievement(_("和和睦睦"), __("你的女孩中有%s个有好朋友。"), pic="heart.webp", pic_path="UI/", level_nb=5, target="friends", requirements={1 : 2, 2 : 4, 3 : 8, 4 : 16, 5 : 32}, multi=5),
                         Achievement(_("勾心斗角"), __("你的女孩中有%s个和别人结仇。"), pic="broken heart.webp", pic_path="UI/", level_nb=5, target="rivals", requirements={1 : 2, 2 : 4, 3 : 8, 4 : 16, 5 : 32}, multi=5),
-                        Achievement(_("久经沙场"), __("安全度过%s个安全事件。"), pic="shield.webp", pic_path="UI/", level_nb=5, target="security events", requirements={1 : 10, 2 : 25, 3 : 50, 4 : 125, 5 : 250}, multi=5),
+                        Achievement(_("久经沙场"), __("安全度过%s个突发事件。"), pic="shield.webp", pic_path="UI/", level_nb=5, target="security events", requirements={1 : 10, 2 : 25, 3 : 50, 4 : 125, 5 : 250}, multi=5),
                         Achievement(_("擒贼先擒王"), __("捕获一名敌方首领。"), pic="portrait.webp", pic_path="NPC/Kenshin", target="general captured", multi=25),
                         Achievement(_("解救人质"), __("拯救一个被绑架的女孩。"), pic="knight portrait.webp", pic_path="NPC/Misc/", target="rescued from kidnapping", multi=25),
                         Achievement(_("蠢蠢欲动"), __("在你的女孩身上发现 %s 个正面性癖。"), pic="droplet.webp", pic_path="UI/", target="pos fixations", level_nb=5, requirements={1 : 10, 2 : 25, 3 : 50, 4 : 125, 5 : 250}, multi=5),

@@ -1724,7 +1724,7 @@ translate schinese strings:
 
     # game/BKsecurity.rpy:1449
     old " after "
-    new "原来是因为"
+    new "，原来是因为"
 
     # game/BKsecurity.rpy:1472
     old "\nFortunately, your guards were ready, and they threw the troublemakers out before they had a chance to do any serious damage."
