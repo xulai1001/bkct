@@ -296,11 +296,11 @@ translate schinese strings:
 
     # game/BKscreens.rpy:2959
     old "%s's perks"
-    new "%s的天赋"
+    new "%s的天赋树"
 
     # game/BKscreens.rpy:3051
     old "Perk points: "
-    new "天赋点: "
+    new "未分配的天赋点: "
 
     # game/BKscreens.rpy:3086
     old "%s's traits"
@@ -420,15 +420,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:4110
     old "{/color} from girls/effects)"
-    new "{/color}来自女孩/效果)"
-
-    # game/BKscreens.rpy:4115
-    old "[brothel.advertising]  babes"
-    new "[brothel.advertising]  宣发人员"
-
-    # game/BKscreens.rpy:4136
-    old "[brothel.security]  goons"
-    new "[brothel.security]  打手保镖"
+    new "{/color}来自女孩天赋/其他效果)"
 
     # game/BKscreens.rpy:4159
     old "[brothel.maintenance]  cleaners"
@@ -612,7 +604,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:6900
     old " challenge{/b}: This challenges your {b}"
-    new " 挑战{/b}: 这挑战了你的 {b}"
+    new "挑战{/b}:这考验你的{b}"
 
     # game/BKscreens.rpy:6900
     old ". Estimated difficulty: {b}"
@@ -768,7 +760,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:787
     old "Use mousewheel to cycle girls' pages."
-    new "使用鼠标滚轮来循环女孩界面。"
+    new "滑动鼠标滚轮来翻动页面。"
 
     # game/BKscreens.rpy:799
     old "{i}  No girl available  {/i}"
@@ -1128,7 +1120,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:2815
     old " {size=12} (max){/size}"
-    new " {size=12} (max){/size}"
+    new " {size=12} (已达上限){/size}"
 
     # game/BKscreens.rpy:2839
     old "JP"
@@ -1157,22 +1149,6 @@ translate schinese strings:
     # game/BKscreens.rpy:2958
     old " days)"
     new "天)"
-
-    # game/BKscreens.rpy:2986
-    old "She will work to the maximum of her abilities."
-    new "她将尽力接客."
-
-    # game/BKscreens.rpy:2989
-    old "She will receive half the usual number of clients, saving some energy."
-    new "她将只接待一半客人，节省体力消耗."
-
-    # game/BKscreens.rpy:2992
-    old "She will rest and recover some energy."
-    new "她将休息，恢复一些体力."
-
-    # game/BKscreens.rpy:2994
-    old "\n{i}Right-click to reverse cycle order.{/i}"
-    new "\n{i}右键：逆序轮转{/i}"
 
     # game/BKscreens.rpy:3001
     old "You cannot change her schedule as you gave her a day off."
@@ -1296,7 +1272,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:4362
     old "Your brothel's current threat level is "
-    new "你的青楼现在的威胁等级为"
+    new "你的青楼现在的威胁等级"
 
     # game/BKscreens.rpy:4375
     old "Pay some sellswords to keep unruly patrons and competitors at bay."
@@ -1416,7 +1392,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:4862
     old " (matching...)"
-    new " (matching...)"
+    new " (匹配中...)"
 
     # game/BKscreens.rpy:4880
     old "Entertainment Phase"
@@ -1428,7 +1404,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:4901
     old "All customers have been assigned."
-    new "所有顾客都已被指派."
+    new "所有顾客都得到了服务。"
 
     # game/BKscreens.rpy:4912
     old "No customers."
@@ -1620,7 +1596,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:6101
     old "You get 1 skill point for every new level."
-    new "你每升一级都会获得1点技能点。"
+    new "你每升一级都会获得1点属性点。"
 
     # game/BKscreens.rpy:6135
     old "Change your character's picture."
@@ -1664,7 +1640,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:6363
     old "Enrolled"
-    new "空缺席位"
+    new "剩余名额"
 
     # game/BKscreens.rpy:6369
     old "Gains"
@@ -1686,97 +1662,21 @@ translate schinese strings:
     old "Requirements"
     new "任务要求"
 
-    # game/BKscreens.rpy:6406
-    old "Desirable"
-    new "有利特质"
-
-    # game/BKscreens.rpy:6414
-    old "Undesirable"
-    new "不利特质"
-
     # game/BKscreens.rpy:6419
     old "No task is currently available."
     new "现在没有可以接取的委托。"
 
-    # game/BKscreens.rpy:6457
-    old "Quests"
-    new "Quests"
-
-    # game/BKscreens.rpy:6458
-    old "Classes"
-    new "Classes"
-
     # game/BKscreens.rpy:6518
     old "Active contract"
-    new "Active contract"
-
-    # game/BKscreens.rpy:6554
-    old "Pers. "
-    new "Pers. "
-
-    # game/BKscreens.rpy:6555
-    old "Tastes"
-    new "Tastes"
-
-    # game/BKscreens.rpy:6556
-    old "Sex. "
-    new "Sex. "
-
-    # game/BKscreens.rpy:6557
-    old "Events"
-    new "Events"
+    new "签订的合约"
 
     # game/BKscreens.rpy:6618
     old "Farm Training Menu"
-    new "Farm Training Menu"
-
-    # game/BKscreens.rpy:6628
-    old " will {b}Rest{/b} in her cell."
-    new " will {b}Rest{/b} in her cell."
-
-    # game/BKscreens.rpy:6632
-    old " will improve her {b}"
-    new " will improve her {b}"
-
-    # game/BKscreens.rpy:6632
-    old "{/b} from doing chores."
-    new "{/b} from doing chores."
-
-    # game/BKscreens.rpy:6635
-    old " will receive {b}automatic training{/b}"
-    new " will receive {b}automatic training{/b}"
-
-    # game/BKscreens.rpy:6637
-    old " will receive {b}"
-    new " will receive {b}"
-
-    # game/BKscreens.rpy:6637
-    old " training{/b}"
-    new " training{/b}"
-
-    # game/BKscreens.rpy:6640
-    old ".\nI will assign her an {b}automatic facility{/b}, if there is room."
-    new ".\nI will assign her an {b}automatic facility{/b}, if there is room."
-
-    # game/BKscreens.rpy:6642
-    old "There might not be enough free minions to take care of her in all your facilities."
-    new "There might not be enough free minions to take care of her in all your facilities."
+    new "农场训练菜单"
 
     # game/BKscreens.rpy:6651
     old " at the {b}"
     new " at the {b}"
-
-    # game/BKscreens.rpy:6651
-    old "{/b}."
-    new "{/b}."
-
-    # game/BKscreens.rpy:6658
-    old "There may not be enough valid minions for group training. I may assign her to a different facility if other minions are available."
-    new "There may not be enough valid minions for group training. I may assign her to a different facility if other minions are available."
-
-    # game/BKscreens.rpy:6660
-    old "There are not enough valid minions in the %s, I may have to rotate this girl in and out of the facility."
-    new "There are not enough valid minions in the %s, I may have to rotate this girl in and out of the facility."
 
     # game/BKscreens.rpy:6664
     old "\n{b}Warning{/b}: "
@@ -2038,10 +1938,6 @@ translate schinese strings:
     old "Your precious keyboard can't save you now!"
     new "Your precious keyboard can't save you now!"
 
-    # game/BKscreens.rpy:7692
-    old "Mod List"
-    new "Mod List"
-
     # game/BKscreens.rpy:7717
     old "(Inactive)"
     new "(Inactive)"
@@ -2056,11 +1952,11 @@ translate schinese strings:
 
     # game/BKscreens.rpy:7776
     old "City girl interactions"
-    new "City girl interactions"
+    new "自由女孩互动"
 
     # game/BKscreens.rpy:7867
     old "Girl interactions"
-    new "Girl interactions"
+    new "女孩互动"
 
     # game/BKscreens.rpy:7905
     old "Talk"
@@ -2340,7 +2236,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:8296
     old "Next unlock:"
-    new "Next unlock:"
+    new "解锁下阶段需要:"
 
     # game/BKscreens.rpy:8305
     old "Reset achievements"

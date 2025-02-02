@@ -76,7 +76,7 @@ label start_no_intro:
     call advance_to_chapter(starting_chapter, start=True) from _call_advance_to_chapter_3
 
     if debug_mode == "quick": # Base values for debugging
-        $ MC.set_playerclass("Wizard")
+        $ MC.set_playerclass("法师")
         $ MC.girls = get_girls(24)
         $ MC.gold = 100000
         $ MC.speed = 30
@@ -629,56 +629,56 @@ label init_game(quick=False):
         contract_templates = [
                     Contract(type="cruise", district="The Docks", archetypes = ["The Player", "The Fox"],
                             names=["海天盛筵", "近海航行", "水手退休仪式", "豪华邮轮游"],
-                            organizers=["水手联谊会", "泽恩海军", "游艇俱乐部", "北境商船"],
+                            organizers=["  水手联谊会", "  泽恩海军", "  游艇俱乐部", "  北境商船"],
                             venues=["改装的帆船", "私人快艇", "豪华游艇", "小型船队", "巨型邮轮"],
                             character=young_sailor,
                             MC_event_pic="events/brawl3.webp",
                             ),
                     Contract(type="party", district="The Cathedra", archetypes = ["The Maid", "The Slut"],
                             names=["刺激派对", "教堂之夜", "无遮大会", "彻夜不眠", "21点和21个妓女", "赌神大赛"],
-                            organizers=["外国政要", "富有的贵族", "行业公会", "来访的卡尔基大法师", "国王的私人顾问", "富有的青楼老板", "兰尼斯特家族"],
+                            organizers=["  外国政要", "  富有的贵族", "  行业公会", "  卡尔基大法师", "  国王的私人顾问", "  富有的青楼老板", "  兰尼斯特家族"],
                             venues=["废弃的教堂", "知名的歌舞伎町", "奢华的宫殿", "年久失修的酒馆", "地下赌场"],
                             character=party_girl,
                             MC_event_pic="events/violent2.webp",
                             ),
                     Contract(type="ceremony", district="The Cathedra", archetypes = ["The Model", "The Bride"],
                             names=["神圣事业", "圣教纪念日", "圣人生辰", "神圣聚会", "祈祷活动"],
-                            organizers=["太阳神大教堂", "圣狄欧修女会", "启迪兄弟会", "虔诚的信徒", "黑暗女神之友", "上古之神联盟", "不可言喻的约格鲁的崇拜者", "太阳神教女祭司"],
+                            organizers=["  太阳神教会", "  圣狄欧修女会", "  启迪兄弟会", "  虔诚的信徒", "  黑暗女神之友", "  上古之神联盟", "  约格鲁的崇拜者", "  太阳神教女祭司"],
                             venues=["大型修道院", "古老的教堂", "隐世的修道院", "隐居点", "无人问津的庙宇", "辉煌的教堂", "贫穷的孤儿院"],
                             character=nun,
                             MC_event_pic="events/monster assault.webp",
                             ),
                     Contract(type="festival", district="The Slums", archetypes = ["The Player", "The Fox"],
                             names=["圆月之夜", "乡村庆典", "季节庆典", "乡村大集", "农贸展览", "传统习俗"],
-                            organizers=["南瓜协会", "农业协会", "泽恩乡村俱乐部", "园艺兄弟会", "农业合作社", "乡村嬉皮士", "牧羊人联盟"],
+                            organizers=["  南瓜协会", "  农业协会", "  泽恩乡村俱乐部", "  园艺兄弟会", "  农业合作社", "  乡村嬉皮士", "  牧羊人联盟"],
                             venues=["旧废品回收站", "村镇广场", "农贸市场", "城镇大门", "主干道"],
                             character=kimono_lady,
                             MC_event_pic="default/farm/sex beast (7).webp",
                             ),
                     Contract(type="date", district="The Magic Gardens", archetypes = ["The Bride", "The Model"],
                             names=["浪漫之约", "孤独的绅士", "领主的宅邸", "佳人有约"],
-                            organizers=["哈里发亲王", "大祭司罗南", "纳博克领主", "瑞森大师", "迪库议员", "粉红男爵", "努科姆公爵", "公会会长菲利克斯"],
+                            organizers=["  哈里发亲王", "  大祭司罗南", "  纳博克领主", "  瑞森大师", "  迪库议员", "  粉红男爵", "  努科姆公爵", "  公会会长菲利克斯"],
                             character=young_maid,
                             venues=["豪华公寓", "乡间别墅", "古宅", "家族行宫", "私营寺庙", "知名的度假村"],
                             MC_event_pic="NPC/encounters/thief4.webp",
                             ),
                     Contract(type="meeting", district="The Warehouse", archetypes = ["The Courtesan", "The Maid"],
                             names=["战略会议", "军事演习", "政治协商", "尖峰时刻", "议员会议"],
-                            organizers=["泽恩城邦议会", "反抗军联盟", "泽恩政府", "方桌骑士", "鲜血群岛联盟"],
+                            organizers=["  泽恩城邦议会", "  反抗军联盟", "  泽恩政府", "  方桌骑士", "  鲜血群岛联盟"],
                             venues=["圣战战报", "军事合作", "放开性奴隶交易", "新渔业条例", "限制魔法武器的储备", "降低富人税收", "增加平民税收"], # Different use for venue for this particular contract
                             character=diplomat,
                             MC_event_pic="NPC/encounters/thief2.webp", #impress1_5.webp / quests/sex9.webp
                             ),
                     Contract(type="magic", district="The Magic Gardens", archetypes = ["The Escort", "The Courtesan"],
                             names=["万智牌大赛", "法师年度聚会", "魔工学博览会", "法师公会团建", "魔法学院会议", "女巫限定"],
-                            organizers=["传奇法师温蒂索斯", "女巫姐妹互助会", "死灵法师社团", "卡尔基长老会", "友好的邻居黑魔法师"],
+                            organizers=["  传奇法师温蒂索斯", "  女巫姐妹互助会", "  死灵法师社团", "  卡尔基长老会", "  友好的邻居黑魔法师"],
                             venues=["闹鬼的庄园", "令人毛骨悚然的古宅", "法师尖塔", "地下巢穴", "近期显现的魔界传送门", "古老的图书馆"],
                             character=sorceress,
                             MC_event_pic="NPC/encounters/witches (1).webp",
                             ),
                     Contract(type="orgy", district="The King's Hold", archetypes = ["The Slut", "The Escort"],
                             names=["狂欢之夜", "荒淫无度", "联谊会", "光棍节", "“高级”趣味"],
-                            organizers=["猫咪小姐", "妓院老板奎恩", "大祭司罗南", "太阳神教修女合唱团", "残障权益组织", "红灯区工会", "不愿透露身份的皇室成员", "一个暴发户", "一位贵族千金"],
+                            organizers=["  猫咪小姐", "  妓院老板奎恩", "  大祭司罗南", "  太阳神教修女合唱团", "  残障权益组织", "  红灯区工会", "  不愿透露身份的皇室成员", "  一个暴发户", "  一位贵族千金"],
                             venues=["神秘的林中空地", "吉普赛人营地", "昏暗的地牢", "荒废的宫殿", "不正经的酒馆", "秘密基地", "无人问津的庙宇"],
                             character=naked_lady,
                             MC_event_pic="NPC/encounters/ev_onsens2.webp",
@@ -794,7 +794,7 @@ label init_game(quick=False):
         NGPSetting("starting chapter", "int", label="旅途起点", values = range(1, 8), cost=[10*i for i in range(2, 8)], ttip=__("The chapter you will start the game at. Not compatible with challenges such as the free girl challenge.")),
 
         NGPSetting("starting gold", "gold", label="私人金库", values = [5, 15, 100, 999], cost = [2, 3, 4, 5], ttip=__("The amount of money you will start the game with (default: {image=img_gold} [starting_gold]).")),
-        NGPSetting("starting resources", "resources", label="Resourceful", values= [20, 10, 5], cost = [15, 20, 25], ttip=__("Start the game with extra resources.")),
+        NGPSetting("starting resources", "resources", label="琳琅满目", values= [20, 10, 5], cost = [15, 20, 25], ttip=__("Start the game with extra resources.")),
         NGPSetting("extractors Mk I", "int", label="甩手掌柜", values= range(1, 4), cost = [25, 50, 75], ttip=__("Start the game with resource extractors Mk I.")),
         NGPSetting("extractors Mk II", "int", label="不劳而获", values= range(1, 4), cost = [35, 70, 105], ttip=__("Start the game with resource extractors Mk II.")),
 

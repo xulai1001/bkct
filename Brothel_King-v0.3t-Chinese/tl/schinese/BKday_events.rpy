@@ -850,7 +850,7 @@ translate schinese random_morning_events_23c71739:
 translate schinese random_morning_events_26319a3b:
 
     # "You lose an action for today. You have earned prestige. [girl.name]'s [act] skill has improved."
-    "你今天失去了一个行动。你获得了一些声望。[girl.name]的[act]技巧提高了。"
+    "你失去了一点行动力。你获得了一些声望。[girl.name]的[act]技巧提高了。"
 
 # game/BKday_events.rpy:519
 translate schinese random_morning_events_76a0809e:
@@ -2392,7 +2392,7 @@ translate schinese random_night_girl_event_dca38637:
 translate schinese random_night_girl_event_6c153b62:
 
     # "Your brothel reputation has decreased."
-    "你在青楼的名声下降了。"
+    "你在青楼的知名度下降了。"
 
 # game/BKday_events.rpy:1684
 translate schinese random_night_girl_event_d04eb7f0:
@@ -2518,7 +2518,7 @@ translate schinese random_night_girl_event_897b2d83:
 translate schinese random_night_girl_event_8df5b147:
 
     # "Your brothel's reputation has increased slightly."
-    "你的青楼的名声略有提高。"
+    "你的青楼的知名度略有提高。"
 
 # game/BKday_events.rpy:1743
 translate schinese random_night_girl_event_b7bdc823:
@@ -2542,7 +2542,7 @@ translate schinese random_night_girl_event_77d7cfd5:
 translate schinese random_night_girl_event_8df5b147_1:
 
     # "Your brothel's reputation has increased slightly."
-    "你的青楼的名声略有提高。"
+    "你的青楼的知名度略有提高。"
 
 # game/BKday_events.rpy:1755
 translate schinese random_night_girl_event_9db3f376:
@@ -2620,7 +2620,7 @@ translate schinese random_night_girl_event_36b82f68:
 translate schinese random_night_girl_event_41e09b46:
 
     # "Your brothel's reputation has decreased slightly."
-    "你那青楼的名声有点下降了。"
+    "你那青楼的知名度有点下降了。"
 
 # game/BKday_events.rpy:1831
 translate schinese random_night_girl_event_5b87999a:
@@ -3874,7 +3874,7 @@ translate schinese onsen_night_event_wake_up_68dc50ec:
 translate schinese onsen_night_event_wake_up_ae78f0f2:
 
     # "Your brothel reputation has increased."
-    "你在青楼的名声越来越好。"
+    "你在青楼的知名度越来越好。"
 
 # game/BKday_events.rpy:2635
 translate schinese onsen_night_event_wake_up_2de54ef0:
@@ -3892,7 +3892,7 @@ translate schinese onsen_night_event_wake_up_7057fa75:
 translate schinese onsen_night_event_wake_up_16a92876:
 
     # "Your brothel reputation has increased slightly."
-    "你在青楼的名声稍有提高。"
+    "你在青楼的知名度稍有提高。"
 
 # game/BKday_events.rpy:2645
 translate schinese onsen_night_event_wake_up_dcadd447:
@@ -4234,7 +4234,7 @@ translate schinese onsen_night_event_wake_up_72ddc142:
 translate schinese onsen_night_event_wake_up_a4ce4481:
 
     # "Your brothel reputation has increased a lot."
-    "你在青楼的名声提高了很多。"
+    "你在青楼的知名度提高了很多。"
 
 # game/BKday_events.rpy:2898
 translate schinese onsen_night_event_wake_up_ae78f0f2_2:
@@ -4252,7 +4252,7 @@ translate schinese onsen_night_event_wake_up_16a92876_2:
 translate schinese onsen_night_event_wake_up_2b44fb48:
 
     # "Your brothel reputation has decreased slightly."
-    "你在青楼的名声有点下降。"
+    "你在青楼的知名度有点下降。"
 
 # game/BKday_events.rpy:2955
 translate schinese night_girl_perform_33a310e0:
@@ -12340,7 +12340,7 @@ translate schinese strings:
 
     # game/BKday_events.rpy:2935
     old "[girl.name]'s [stat] skill has decreased a little."
-    new "[girl.name]的[stat]属性减少了一点点。"
+    new "[girl.name]的 stat_name_dict[[stat]] 属性下降了一些。"
 
     # game/BKday_events.rpy:7285
     old "Tell the customer to fuck [girl.name]'s ass"
@@ -12352,5 +12352,5 @@ translate schinese strings:
 
     # game/BKday_events.rpy:7538
     old "Nope"
-    new "这可不行"
+    new "不必了"
 

@@ -51,7 +51,7 @@ init -3 python:
     version_number = 0.2
 
     VIDEOFORMATS = (".webm", ".mkv", ".avi", ".mpg", ".mpeg") # Took out ".mp4" because of missing codecs
-    IMGFORMATS = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp") # animated gifs and .webp do not work in Ren'py for now
+    IMGFORMATS = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp",".avif") # animated gifs and .webp do not work in Ren'py for now
 
     config.layers.append("myoverlay")
 
@@ -174,7 +174,7 @@ init -3 python:
                         "pref" : "性技培训速度",
                         "xp" : "等级经验倍率",
                         "jp" : "职业经验倍率",
-                        "rep" : "女孩声望倍率",
+                        "rep" : "女孩人气倍率",
                         "prestige" : "主角声望倍率",
                         "tax rate" : "公会税款倍率",
                         "satisfaction" : "顾客的满意度",
@@ -190,11 +190,11 @@ init -3 python:
                         "pref" : "调整女孩{b}性倾向{/b}的增长速度。",
                         "xp" : "调整女孩{b}等级经验{/b}的增长速度。",
                         "jp" : "调整女孩{b}职业经验{/b}的增长速度。",
-                        "rep" : "调整女孩{b}声望{/b}的增长速度。",
+                        "rep" : "调整女孩{b}人气{/b}的增长速度。",
                         "prestige" : "影响主角 {b}声望{/b}的增长。",
                         "tax rate" : "增加或减少交给公会的 {b}税款{/b}。",
                         "satisfaction" : "改变客户{b}满意度{/b}的增长速度。",
-                        "security" : "调整每次安全事件之间的间隔时间。",
+                        "security" : "调整每次突发事件之间的间隔时间。",
                         }
 
     diff_settings_range = {
@@ -350,7 +350,7 @@ init -3 python:
                     "青楼报告中有很多关于青楼的数据统计。如果你想了解某个女孩的信息，可以在女孩个人面板中查看她的统计数据.",
                     "工作时，女孩可以获得等级经验和职业经验。升级会让女孩提高属性和获得额外奖励，职业等级提高会让女孩在特定的工作或性行为中表现更好.",
                     "每个顾客都有自己的审美和性癖。保持青楼服务的多样化是让所有顾客满意的关键.",
-                    "满意的客人都会增加青楼的名声。但不满意的客人也会诋毁你的青楼和你的女孩.",
+                    "满意的客人都会增加青楼的知名度。但不满意的客人也会诋毁你的青楼和你的女孩.",
                     "总的来说，顾客的满意度受两个因素影响:服务质量和女孩的属性.",
                     "女孩可以训练接受双飞，这样她就可以和另一个女孩为顾客提供双飞服务.",
                     "女孩可以训练接受群交，这样她就可以一次性同时服务两个或三个顾客了.",
@@ -378,8 +378,8 @@ init -3 python:
                     "有些人在城里卖稀奇古怪的东西，甚至连野兽和怪物。它们有什么用？。",
                     "性技能无法通过升级点数来提高。只有在实战中才能提升属性。",
                     "让女孩参加培训课程有助于更快地提高女孩较低的属性。",
-                    "每个女孩都有自己的声望，与青楼声望不同。女孩的声望达到一定水平才能提升阶级。",
-                    "提高女孩声望的最好方法就是让她完成公告大厅里发布的悬赏任务。",
+                    "每个女孩都有自己的人气，与青楼的知名度不同。女孩的人气达到一定水平才能提升阶级。",
+                    "提高女孩人气的最好方法就是让她完成公告大厅里发布的悬赏任务。",
                     "女孩会获得来自青楼协会的评级。阶级影响很多东西，包括女孩的最高等级和属性上限。",
                     "在最开始，女孩的属性上限只有50点。每次阶级提升，属性上限都会提高50点。",
                     "女孩升级时，她会根据当前等级获得属性点。每升两级还会获得额外奖励。",
@@ -428,9 +428,9 @@ init -3 python:
     all_MC_stats = ["strength", "spirit", "charisma", "speed"]
 
     MC_playerclass_description = {
-                                "Warrior" : "你是一个战士。虽然你看起来很年轻，但你已历经沙场磨难。你善于战斗，可以轻松保护他人。",
-                                "Wizard" : "你是一个法师。凡人臣服于你的魔法。你可以使用各种各样强大的咒语，催眠别人也不错。",
-                                "Trader" : "你是一个商人。你从小就接触经商。你可以和有钱人做大买卖，在购买东西时讨价还价。"
+                                "战士" : "你是一个战士。虽然你看起来很年轻，但你已历经沙场磨难。你善于战斗，可以轻松保护他人。",
+                                "法师" : "你是一个法师。凡人臣服于你的魔法。你可以使用各种各样强大的咒语，催眠别人也不错。",
+                                "商人" : "你是一个商人。你从小就接触经商。你可以和有钱人做大买卖，在购买东西时讨价还价。"
                                 }
     MC_stat_description = {
                             "strength" : "这是你的力量值。力量越高，你的战斗能力和防御能力就越强。",
@@ -527,10 +527,10 @@ init -3 python:
     ## LICENCES ##
 
     license_dict = {
-                    0 : ("No license", "missing license.webp"),
-                    1 : ("Pimp license", "license1.webp"),
-                    2 : ("Whoremonger license", "license2.webp"),
-                    3 : ("Brothelmaster license", "license3.webp")
+                    0 : ("无证经营", "missing license.webp"),
+                    1 : ("青楼执照", "license1.webp"),
+                    2 : ("红灯区执照", "license2.webp"),
+                    3 : ("王室许可证", "license3.webp")
                 }
 
 
@@ -552,18 +552,18 @@ init python:
     # ROOMS #
 
     room_dict = {
-                1 : Room("Basic room", 1),
-                2 : Room("+Basic room+", 2),
-                3 : Room("*Basic room*", 3),
-                4 : Room("Standard room", 4),
-                5 : Room("+Standard room+", 5),
-                6 : Room("*Standard room*", 6),
-                7 : Room("Elegant room", 7),
-                8 : Room("+Elegant room+", 8),
-                9 : Room("*Elegant room*", 9),
-                10 : Room("Noble suite", 10),
-                11 : Room("+Royal suite+", 11),
-                12 : Room("*Imperial suite*", 12)
+                1 : Room("杂乱的卧室", 1),
+                2 : Room("狭窄的卧室", 2),
+                3 : Room("宽敞的卧室", 3),
+                4 : Room("标准卧室", 4),
+                5 : Room("简装卧室", 5),
+                6 : Room("精装卧室", 6),
+                7 : Room("豪华套房", 7),
+                8 : Room("复式套间", 8),
+                9 : Room("温暖阳光房", 9),
+                10 : Room("花园洋房", 10),
+                11 : Room("海景房", 11),
+                12 : Room("公主寝宫", 12)
                 }
 
     common_room_dict = {
@@ -998,7 +998,7 @@ init -4 python:
 
     ## MC picture index
 
-    MC_class_index = {"Warrior" : 0, "Wizard" : 3, "Trader" : 6}
+    MC_class_index = {"战士" : 0, "法师" : 3, "商人" : 6}
 
     ## Roman numbers
 
@@ -1137,13 +1137,13 @@ init -4 python:
                         "-----" : "她现在{b}糟糕透顶{/b}。",
                         "------" : "她的生活简直是地狱。她现在{b}生不如死{/b}。",
 
-                        "change +++" : "她现在{b}迅速好转{/b}",
-                        "change ++" : "她现在{b}有所改善{/b}",
-                        "change +" : "她现在{b}开始好转{/b}",
-                        "no change" : "她现在{b}十分稳定{/b}",
-                        "change -" : "她现在{b}开始恶化{/b}",
-                        "change --" : "她现在{b}正在恶化{/b}",
-                        "change ---" : "她现在{b}迅速恶化{/b}",
+                        "change +++" : "她的情绪{b}迅速好转{/b}",
+                        "change ++" : "她的情绪{b}有所改善{/b}",
+                        "change +" : "她的情绪{b}开始好转{/b}",
+                        "no change" : "她的情绪{b}十分稳定{/b}",
+                        "change -" : "她的情绪{b}开始恶化{/b}",
+                        "change --" : "她的情绪{b}正在恶化{/b}",
+                        "change ---" : "她的情绪{b}迅速恶化{/b}",
                         }
 
     love_description = {
@@ -1301,14 +1301,14 @@ init python:
     recent_event_templates = {  # Girl events given to the player for rewarding/punishing
 
                                 # Rewardable events
-                                "level up" : GirlRecentEvent(type="level up", action="获得一些经验", base_description="她变得更有经验了({color=[c_emerald]}等级%s{/color})。", discipline=False),
-                                "rank up" : GirlRecentEvent(type="rank up", action="获得新的阶级", base_description="她已经到了{color=[c_emerald]}阶级%s{/color}。", discipline=False),
-                                "job up" : GirlRecentEvent(type="job up", action="提升了工作技能", base_description="她增加了她的{color=[c_emerald]}%s{/color}技能。", discipline=False),
+                                "level up" : GirlRecentEvent(type="level up", action="她的等级提升了", base_description="她升到了({color=[c_emerald]}%s级{/color})。", discipline=False),
+                                "rank up" : GirlRecentEvent(type="rank up", action="她的阶级又上一层楼了", base_description="她升到了{color=[c_emerald]}%s阶{/color}。", discipline=False),
+                                "job up" : GirlRecentEvent(type="job up", action="工作能力越来越强", base_description="她的{color=[c_emerald]}%s{/color}等级提升了。", discipline=False),
                                 "good result" : GirlRecentEvent(type="good result", action="工作中表现良好", base_description="她在工作时的表现{color=[c_emerald]}%s{/color}(%s)。", discipline=False),
-                                "quest good result" : GirlRecentEvent(type="quest good result", action="任务中表现良好", base_description="%s", discipline=False),
-                                "class good result" : GirlRecentEvent(type="class good result", action="培训中学习努力", base_description="%s", discipline=False),
-                                "new act" : GirlRecentEvent(type="new act", action="尝试新事物", base_description="她第一次{color=[c_emerald]}接受了%s训练{/color}。", discipline=False),
-                                "helped" : GirlRecentEvent(type="helped", action="帮助朋友", base_description="", discipline=False), # Not implemented
+                                "quest good result" : GirlRecentEvent(type="quest good result", action="委托完成得很好", base_description="%s", discipline=False),
+                                "class good result" : GirlRecentEvent(type="class good result", action="在培训中很用功", base_description="%s", discipline=False),
+                                "new act" : GirlRecentEvent(type="new act", action="尝试新事物", base_description="她第一次{color=[c_emerald]}接受了%s的训练{/color}。", discipline=False),
+                                "helped" : GirlRecentEvent(type="helped", action="帮助朋友解决了难题", base_description="", discipline=False), # Not implemented
 
 
                                 # Neutral events
@@ -1490,7 +1490,7 @@ init python:
                                         GirlInteractionTopic("train", "train", "消除负面癖好", "slave_remove_fixation", condition="neg_fix")],
 
                     "magic" : ["{size=+8}催眠暗示{/size}", "{size=+8}性爱催眠{/size}", "{size=+8}催眠模式{/size}"],
-                    "{size=+8}催眠模式{/size}" : [GirlInteractionTopic("magic", None, "目前的模式", "slave_hypnotize_method", AP_cost=0)], # None type excludes it from girl interaction count
+                    "{size=+8}催眠模式{/size}" : [GirlInteractionTopic("magic", None, "催眠方法：", "slave_hypnotize_method", AP_cost=0)], # None type excludes it from girl interaction count
                     "{size=+8}催眠暗示{/size}" : [
                                                 GirlInteractionTopic("magic", "train", "提高服从　", "slave_magic", act="obedience", gold_cost=20),
                                                 GirlInteractionTopic("magic", "train", "提高敏感　", "slave_magic", act="sensitivity", gold_cost=20),
@@ -1506,19 +1506,19 @@ init python:
                                                 GirlInteractionTopic("magic", "train", "群交　　", "slave_magic", act="group", advanced=True, gold_cost=100),
                                                 ],
 
-                    "react" : ["{size=+8}鼓励{/size}", "{size=+8}惩罚{/size}"],
-                    "{size=+8}鼓励{/size}" : [
-                                    GirlInteractionTopic("react", "reward", "称赞她　　　　", "slave_reward_praise"),
-                                    GirlInteractionTopic("react", "reward", "发奖金　　　　", "slave_reward_gold"),
+                    "react" : ["{size=+8}奖赏{/size}", "{size=+8}惩罚{/size}"],
+                    "{size=+8}奖赏{/size}" : [
+                                    GirlInteractionTopic("react", "reward", "进行赞美　　　", "slave_reward_praise"),
+                                    GirlInteractionTopic("react", "reward", "发放奖金　　　", "slave_reward_gold"),
                                     GirlInteractionTopic("react", "reward", "送她礼物　　　", "slave_reward_gift"),
                                     GirlInteractionTopic("react", "reward", "温柔爱抚　　　", "slave_reward_pet"),
                                     GirlInteractionTopic("react", "reward", "放一天假　　　", "slave_reward_day"),
                                     GirlInteractionTopic("react", "reward", "和她做爱　　　", "slave_reward_sex"),
                                     ],
                     "{size=+8}惩罚{/size}" : [
-                                    GirlInteractionTopic("react", "discipline", "批评辱骂她　　　", "slave_punish_scold"),
+                                    GirlInteractionTopic("react", "discipline", "严厉地批评她　　", "slave_punish_scold"),
                                     GirlInteractionTopic("react", "discipline", "停发她的薪水　　", "slave_punish_upkeep"),
-                                    GirlInteractionTopic("react", "discipline", "让她一丝不挂　　", "slave_punish_naked"),
+                                    GirlInteractionTopic("react", "discipline", "扒光她的衣服　　", "slave_punish_naked"),
                                     GirlInteractionTopic("react", "discipline", "对她拳打脚踢　　", "slave_punish_beat"),
                                     GirlInteractionTopic("react", "discipline", "粗暴地强奸她　　", "slave_punish_rape"),
                                     GirlInteractionTopic("react", "discipline", "送去奴隶农场　　", "slave_punish_farm", condition="farm"),
@@ -1529,8 +1529,8 @@ init python:
                                     GirlInteractionTopic("misc", None, "让她穿好衣服　　　　　　　　　", "slave_clothing_dressed", AP_cost=0, condition = "naked"),
                                     ],
                     "{size=+8}工作{/size}" : [
-                                    GirlInteractionTopic("misc", None, "禁止工作期间与客人发生性行为　", "slave_forbid_cust_events", AP_cost=0, condition = "!forbid customer sex"),
-                                    GirlInteractionTopic("misc", None, "允许工作期间与客人发生性行为　", "slave_allow_cust_events", AP_cost=0, condition = "forbid customer sex"),
+                                    GirlInteractionTopic("misc", None, "禁止她工作期间与客人有肉体接触", "slave_forbid_cust_events", AP_cost=0, condition = "!forbid customer sex"),
+                                    GirlInteractionTopic("misc", None, "允许她工作期间与客人有肉体接触", "slave_allow_cust_events", AP_cost=0, condition = "forbid customer sex"),
                                     ],
                     "{size=+8}私人指导{/size}" : [
                                         GirlInteractionTopic("misc", None, "让她晚上去你的卧室接受调教", "slave_master_bedroom_add", AP_cost=0, condition = "master_bedroom_add"),
@@ -1539,7 +1539,7 @@ init python:
                     "{size=+8}DEBUG{/size}" : [GirlInteractionTopic("misc", None, "作弊　　　　　", "interaction_cheat_menu", AP_cost=0, condition="debug_mode"),
                         GirlInteractionTopic("misc", None, "重置女孩的互动", "interaction_cheat_girl", AP_cost=0, condition="debug_mode"),
                         GirlInteractionTopic("misc", None, "重置玩家的互动", "interaction_cheat_MC", AP_cost=0, condition="debug_mode"),
-                        GirlInteractionTopic("misc", None, "展现个性　　　", "interaction_cheat_personality", AP_cost=0, condition="debug_mode"),
+                        GirlInteractionTopic("misc", None, "揭示她的性格　", "interaction_cheat_personality", AP_cost=0, condition="debug_mode"),
                         ],
                     }
 
@@ -2009,15 +2009,15 @@ init -4 python:
     archetype_list = ["The Maid", "The Player", "The Model", "The Courtesan", "The Escort", "The Fox", "The Slut", "The Bride"]
 
     archetype_description = {
-                            "The Maid" : "即使身处逆境，{b}王牌女仆{/b}也能昂首挺胸，通过努力工作和承诺获得成功。她是仆人和卑微工人的守护神。",
-                            "The Player" : "{b}头牌花魁{/b}总是准备好讲一个引人入胜的故事或即兴表演一个奢华的舞蹈，因她的派对技巧和魅力而受到赞赏。她是歌手、演员和其他有成就或有抱负的艺术家的守护神。",
-                            "The Model" : "拥有完美的自然美和优雅，如果有点虚荣的话，{b}性感模特{/b}会让男人和女人都着迷。她是年轻人的守护神，美丽的人和富有的人。",
-                            "The Courtesan" : "{b}诱人情妇{/b}是礼仪、诱惑和政治方面的大师，她能让任何人对她的每一个念头都屈服。她是高尚的妇女、政治家和其他阴谋家的守护神。",
+                            "The Maid" : "即使身处逆境，{b}王牌女仆{/b}总能昂首挺胸，努力克服困难获得成功。她会是最优秀的仆人。",
+                            "The Player" : "{b}风月清倌{/b}能够表演优美的舞蹈或是演奏悠扬的乐曲，因她的技艺和魅力受人追捧。她或许能够成为一个出色的歌手、演员乃至艺术家。",
+                            "The Model" : "{b}性感模特{/b}让男人和女人都为她着迷。毫不夸张地说，她们拥有完美的身材和面容，充满了青春活力。",
+                            "The Courtesan" : "{b}红颜知己{/b}是男人的最佳伴侣，她们能让每个男人都唯命是从付出一切。她们善于心计，将可怜的男人玩弄于股掌之间。",
 
-                            "The Escort" : "利用她的身体和技能来获得巨大的优势，{b}最佳伴侣{/b}是一个善于利用自己的才能获取利润的专家。她是花哨的妓女、商人和雇佣兵的守护神。",
-                            "The Fox" : "{b}幸运猫娘{/b}是一群神秘的种族，似乎总是在幸运的场合出现，据说她给和它同床的每个人带来好运。她是旅行者和隐士的守护神。",
-                            "The Slut" : "一个非常受人尊敬的人物，{b}淫娃荡妇{/b}以体验各种形式的性和快乐为乐，拒绝不适合她的法律和道德。她是街头女孩、小偷、浪荡子的守护神，偶尔也是太阳神的牧师。",
-                            "The Bride" : "作为和平与繁荣的预兆，{b}纯洁新娘{/b}温柔而忠诚。她是成年处女、孕妇、已婚妇女和寡妇的守护神。"
+                            "The Escort" : "{b}风尘女子{/b}是善于利用自己身体牟取利益的大师，利用她的身体和技能来获得男人的垂青。没有人比她更适合做妓女了。",
+                            "The Fox" : "{b}幸运猫娘{/b}是一群神秘的种族，她们的出现总是伴随着幸运事件，据说和她们同床共枕会得到好运。她们喜欢四处旅行。",
+                            "The Slut" : "{b}淫娃荡妇{/b}喜欢体验各式各样的玩法，她们毫无法律和道德观念。太阳神教里也有些人偷偷喜欢她们。",
+                            "The Bride" : "{b}纯洁新娘{/b}温柔而忠诚，能够带来和平与繁荣。她们是女孩的守护神。"
                             }
 
     ## GOSSIP ##
@@ -2426,7 +2426,7 @@ init -4 python:
                         "constitution bonus" : "客人%s认为她的身体很健美。",
                         "sensitivity bonus" : "客人%s喜欢她敏感的身体。",
 
-                        "DT_group" : "顾客们轮流把他们的肉棒塞到她的喉咙里，c插的越深越爽。",
+                        "DT_group" : "顾客们轮流把他们的肉棒塞到她的喉咙里，插的越深越爽。",
                         "DT" : "顾客惊讶地发现她可以把他的肉棒整根吞下。",
                         "bukkake" : "她全身上下的每一个洞都塞满了肉棒，每个人都用她的脸颊擦拭肉棒，给她做了个面膜。",
                         "creampie" : "客人把精液射满了她的小穴和小腹，她被快感刺激得呻吟声不止。",

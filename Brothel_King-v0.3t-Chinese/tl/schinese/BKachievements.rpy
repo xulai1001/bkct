@@ -784,7 +784,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Make %s denars in a single night."
-    new "一夜之间赚取了 %s 金币。"
+    new "一夜之间赚取%s金币。"
 
     # game/BKachievements.rpy:21
     old "WeWork"
@@ -824,7 +824,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Survive %s security events."
-    new "安全度过 %s 个安全事件。"
+    new "安全度过 %s 个突发事件。"
 
     # game/BKachievements.rpy:21
     old "War Master"
@@ -1220,15 +1220,15 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Broke: Bourgeois"
-    new "一掷千金：中产阶级"
+    new "一掷千金：富豪"
 
     # game/BKachievements.rpy:21
     old "Have a Bourgeois spend all his money in the brothel."
-    new "让一名中产阶级顾客在青楼里花光所有的钱。"
+    new "让一名富豪顾客在青楼里花光所有的钱。"
 
     # game/BKachievements.rpy:21
     old "Broke: Guild Member"
-    new "一掷千金：公会阶级"
+    new "一掷千金：公会职员"
 
     # game/BKachievements.rpy:21
     old "Have a Guild Member spend all his money in the brothel."
@@ -1244,19 +1244,19 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Broke: Aristocrat"
-    new "一掷千金：男爵阶级"
+    new "一掷千金：新晋贵族"
 
     # game/BKachievements.rpy:21
     old "Have an Aristocrat spend all his money in the brothel."
-    new "让一名男爵阶级顾客在青楼里花光所有的钱。"
+    new "让一名新晋贵族顾客在青楼里花光所有的钱。"
 
     # game/BKachievements.rpy:21
     old "Broke: Noble"
-    new "一掷千金：伯爵阶级"
+    new "一掷千金：贵族阶级"
 
     # game/BKachievements.rpy:21
     old "Have a Noble spend all his money in the brothel."
-    new "让一名伯爵阶级顾客在青楼里花光所有的钱。"
+    new "让一名贵族阶级顾客在青楼里花光所有的钱。"
 
     # game/BKachievements.rpy:21
     old "Broke: Royal"
@@ -1316,15 +1316,15 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Perfect: Bourgeois"
-    new "五星好评：中产阶级"
+    new "五星好评：富豪"
 
     # game/BKachievements.rpy:21
     old "Have a Bourgeois reach maximum satisfaction in the brothel."
-    new "让一名中产阶级顾客在青楼里完全满足。"
+    new "让一名富豪顾客在青楼里完全满足。"
 
     # game/BKachievements.rpy:21
     old "Perfect: Guild Member"
-    new "五星好评：公会阶级"
+    new "五星好评：公会职员"
 
     # game/BKachievements.rpy:21
     old "Have a Guild Member reach maximum satisfaction in the brothel."
@@ -1340,19 +1340,19 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Perfect: Aristocrat"
-    new "五星好评：男爵阶级"
+    new "五星好评：新晋贵族"
 
     # game/BKachievements.rpy:21
     old "Have an Aristocrat reach maximum satisfaction in the brothel."
-    new "让一名男爵阶级顾客在青楼里完全满足。"
+    new "让一名新晋贵族顾客在青楼里完全满足。"
 
     # game/BKachievements.rpy:21
     old "Perfect: Noble"
-    new "五星好评：伯爵阶级"
+    new "五星好评：贵族阶级"
 
     # game/BKachievements.rpy:21
     old "Have a Noble reach maximum satisfaction in the brothel."
-    new "让一名伯爵阶级顾客在青楼里完全满足。"
+    new "让一名贵族阶级顾客在青楼里完全满足。"
 
     # game/BKachievements.rpy:21
     old "Perfect: Royal"
@@ -1584,7 +1584,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Accumulate %s purple mojo."
-    new "积累 %s 紫色魔力"
+    new "积累 %s 紫色咒力"
 
     # game/BKachievements.rpy:21
     old "Dr. Greenthumb"
@@ -1592,7 +1592,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Accumulate %s green mojo."
-    new "积累 %s 绿色魔力。"
+    new "积累 %s 绿色咒力。"
 
     # game/BKachievements.rpy:21
     old "Blue Monday"
@@ -1600,7 +1600,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Accumulate %s blue mojo."
-    new "积累 %s 蓝色魔力。"
+    new "积累 %s 蓝色咒力。"
 
     # game/BKachievements.rpy:21
     old "Red Alert"
@@ -1608,7 +1608,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Accumulate %s red mojo."
-    new "积累 %s 红色魔力。"
+    new "积累 %s 红色咒力。"
 
     # game/BKachievements.rpy:21
     old "Yellow Fever"
@@ -1616,7 +1616,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Accumulate %s yellow mojo."
-    new "积累 %s 黄色魔力。"
+    new "积累 %s 黄色咒力。"
 
     # game/BKachievements.rpy:21
     old "Can't make an omelet..."

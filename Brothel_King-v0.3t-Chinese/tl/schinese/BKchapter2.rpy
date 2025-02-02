@@ -7936,13 +7936,13 @@ translate schinese c2_homura_city_meet_6afa030a:
 translate schinese c2_homura_city_meet_bb62fd8b:
 
     # you "It's not that bad... You'd be surprised! You should see the Okiya, where the geishas work. They dress and talk like high-born ladies, the customers love it..."
-    you "也没那么糟糕...你会改观的!你应该看看艺伎们表演的舞台。她们的穿着打扮和言行举止与贵族小姐并无不同,客人们都很喜欢。"
+    you "也没那么糟糕...你会改观的!你应该看看艺伎们表演的舞台。她们的穿着打扮和言行举止与贵族千金并无不同,客人们都很喜欢。"
 
 # game/BKchapter2.rpy:4155
 translate schinese c2_homura_city_meet_f4ff4140:
 
     # homura "Like... high-born ladies?"
-    homura "和...贵族小姐一样?"
+    homura "和...贵族千金一样?"
 
 # game/BKchapter2.rpy:4157
 translate schinese c2_homura_city_meet_a546598b:
@@ -8488,7 +8488,7 @@ translate schinese c2_homura_okiya1_a845b1d2:
 translate schinese c2_homura_okiya1_f068d749:
 
     # sill "Anyway, she's just a noble brat! She doesn't belong in our place!"
-    sill "总之,她只是个小小的贵族小姐!她不应该来我们家!"
+    sill "总之,她只是个小小的大小姐!她不应该来我们家!"
 
 # game/BKchapter2.rpy:4406
 translate schinese c2_homura_okiya1_43c73b84:
@@ -8506,7 +8506,7 @@ translate schinese c2_homura_okiya1_6d137fcc:
 translate schinese c2_homura_okiya1_20846929:
 
     # you "Always worried about something, aren't you? Come on, I'm not going to let a little doe-eyed aristocrat turn my head so easily, right?"
-    you "你总是为我担心。放松,我不会那么容易被一个单纯的贵族小姐迷惑的,放心吧。"
+    you "你总是为我担心。放松,我不会那么容易被一个单纯的贵族小妞迷惑的,放心吧。"
 
 # game/BKchapter2.rpy:4418
 translate schinese c2_homura_okiya1_f3183629:
@@ -20740,13 +20740,13 @@ translate schinese c2_meet_papa_freak_3f036dab:
 translate schinese c2_meet_papa_freak_3a022827:
 
     # "When you are ready, visit the {b}[NPC_freak.location.name]{/b} to bring Papa Freak the girl of his dreams."
-    "当你准备好了,就去{b}[_loc.name]{/b}拜访弗里克老爹,给他找一个梦中情人吧。"
+    "当你准备好了,就去{b}[NPC_freak.location.name]{/b}拜访弗里克老爹,给他找一个梦中情人吧。"
 
 # game/BKchapter2.rpy:9919
 translate schinese visit_papa_07c43704:
 
     # "Choose a girl from your brothel to bring with you (reminder: she must have at least 50 in Beauty, Body, Refinement and Charm, and be open to whoring)"
-    "从你的青楼里选一个女孩带去(注意:她必须在美貌、身材、修养和魅力上都达到50或更高,并且愿意做妓女)"
+    "从你的青楼里选一个女孩带去(注意:她必须在美貌、身材、修养和魅力上都达到50或更高,并且愿意卖淫)"
 
 # game/BKchapter2.rpy:9922
 translate schinese visit_papa_58d0222f:

@@ -1559,11 +1559,11 @@ label farm_meet_gizel(): # Location: spice market
 
     with fade
 
-    if MC.playerclass == "Warrior":
+    if MC.playerclass == "战士":
         $ text1 = "防锈保养油"
-    elif MC.playerclass == "Wizard":
-        $ text1 = "神奇的草药"
-    elif MC.playerclass == "Trader":
+    elif MC.playerclass == "法师":
+        $ text1 = "神秘的魔药"
+    elif MC.playerclass == "商人":
         $ text1 = "龙族的饲料"
 
     "Walking around the market, looking for [text1], you notice an exotic figure looking at the wares of a nearby spice merchant."
@@ -4611,7 +4611,7 @@ label gina_research():
 
     you "Uh..."
 
-    if MC.playerclass == "Wizard":
+    if MC.playerclass == "法师":
         you "(Didn't they teach us to stay clear of this in Conjuring 101? Damn, I don't know, I was too busy checking out the teacher's cleavage...)"
 
     gina "Go to page 666 and find my notes. You must read me the exact words as I handle Test Subject #1 with care."
@@ -9511,7 +9511,7 @@ label farm_first_monster():
 
             "Blind with fury, Gizel rushes to strangle you."
 
-            if MC.playerclass == "Warrior":
+            if MC.playerclass == "战士":
                 "You take a step aside, easily dodging her attack."
                 gizel "Hey!"
                 "Flipping around, Gizel gets ready to leap at your throat."
@@ -9526,7 +9526,7 @@ label farm_first_monster():
 
                 gizel upset "OUCH!" with vpunch
 
-            elif MC.playerclass == "Wizard":
+            elif MC.playerclass == "法师":
                 "Reaching two fingers to her forehead, you cast a calming spell before she can reach you."
 
                 "She seems to lose all aggressivity and stumbles on her knees."
@@ -9551,7 +9551,7 @@ label farm_first_monster():
 
                 gizel upset "OUCH!" with vpunch
 
-            elif MC.playerclass == "Trader":
+            elif MC.playerclass == "商人":
 
                 "You yell, pointing at something behind her."
 
@@ -10553,7 +10553,7 @@ label satella_letter(): # Occurs some time after Chapter 1 is complete. Then occ
 
         play sound s_dress
 
-        call screen letter(header = "Urgent invitation", message = "Dear " + MC.name + ",\n\nIt's been a while since you last visited me. I'm disappointed. After all, you and I are best friends, aren't we?\nDon't {b}disappoint{/b} me. That makes me angry.\nWhen I'm angry, I break things. And people.\nPlease visit me soon, I have, uh, something urgent to tell you.\n\nCome! It will be fun!", signature = "Night Mistress Satella {font=[style.default.font]}{size=-18}[emo_heart]")
+        call screen letter(header = "紧急邀请", message = "亲爱的" + MC.name + ",\n\n你已经有一段时间没来找我玩了。我很失望。毕竟，我们是最好的朋友，不是吗？\n别让我{b}失望{/b}，否则我会发火的。\n我一生气，就想摔东西，或者摔人。\n请尽快来找我，我有很，呃，很紧急的事要和你说。\n\n快点来！会很有趣的！", signature = "夜之使徒史黛拉 {font=[style.default.font]}{size=-18}[emo_heart]")
 
         you "Oh... Satella is summoning me to Shalia's temple... It must be important."
 
@@ -10582,7 +10582,7 @@ label satella_letter(): # Occurs some time after Chapter 1 is complete. Then occ
 
         play sound s_dress
 
-        call screen letter(header = "Urgent invitation", message = "Dear " + MC.name + ",\n\nI have to see you urgently. In fact, you should have been here yesterday.\nWhere WERE you yesterday???\nDon't be a bad friend. Bad friends die young.\nCome visit me.", signature = "Night Mistress Satella {font=[style.default.font]}{size=-18}[emo_heart]")
+        call screen letter(header = "紧急邀请", message = "亲爱的" + MC.name + ",\n\n我等不及要见到你了。事实上，你昨天就该来了。\n你昨天到底跑去哪了???\n别做失信的朋友。失信的人都活不久。\n赶快来找我。", signature = "夜之使徒史黛拉 {font=[style.default.font]}{size=-18}[emo_heart]")
 
         you "I've got a bad feeling about this."
 
@@ -12539,7 +12539,7 @@ label shalia3(): # Happens in the morning the day after Satella's love reaches 2
 
     you "*gasp* A dragon?"
 
-    if MC.playerclass == "Trader":
+    if MC.playerclass == "商人":
         shalia "Yes, a dragon. Not a common worm like your pet Drogon, no offense, but one of the old ones. One of the oldest. Axiom was his name."
     else:
         shalia "Yes, one of the oldest, born before the continents spread apart. Axiom was his name."
@@ -12983,11 +12983,11 @@ label shalia_visit(): # Happens in the morning a week after Satella's love reach
 
     "You look around you in complete amazement. You are standing there with your own mortal body, breathing the air and stomping the grass of another dimension."
 
-    if MC.playerclass == "Warrior":
+    if MC.playerclass == "战士":
         you "This is unnatural... I must be dreaming..."
-    elif MC.playerclass == "Wizard":
+    elif MC.playerclass == "法师":
         you "Fascinating... I only read about that place in books..."
-    elif MC.playerclass == "Trader":
+    elif MC.playerclass == "商人":
         you "Wow... No one is going to believe {i}that{/i} tale."
 
     play sound s_spell
@@ -14358,7 +14358,7 @@ label banker_repaid_first():
         play sound s_gold
         $ MC.gold -= NPC_banker.flags["first loan"]
 
-        $ narrator("You have repaid " + str(NPC_banker.flags["first loan"]) + " gold.")
+        $ narrator("You have repaid " + str(NPC_banker.flags["first loan"]) + "金币。")
 
         $ NPC_banker.flags["first loan"] = False
 
@@ -14774,10 +14774,24 @@ label loan_repaid():
 
     $ NPC_banker.love += 5
 
-    if NPC_banker.love // 5 == 5:
+    if NPC_banker.love == 25:
         banker "Wow! 5 points! You have completed your loyalty card!"
 
         call banker_special1 from _call_banker_special1
+
+    elif NPC_banker.love > 25:
+        banker "Your loyalty card is overfloing with stamps, hehe... Do you want a special customer reward again?"
+
+        menu:
+            extend ""
+
+            "当然":
+                you "我现在就想要特殊服务!"
+
+                call banker_special1
+
+            "不是现在":
+                banker "好吧，你知道在哪里能找到我... *purr*"
 
     else:
         $ renpy.say(banker, "That makes it " + str_int(NPC_banker.love // 5) + " points. Only " + str_int(5 - NPC_banker.love // 5) + " more to go!")
@@ -15870,7 +15884,7 @@ label resource_exchange_intro():
 
     bast "Yes? Are you a trader? This is break time, come back in one hour..."
 
-    if MC.playerclass == "Trader":
+    if MC.playerclass == "商人":
         "She goes back to her paperwork, thinking you are one more merchant to be dealt with later."
 
         you "Sorry to interrupt, really. I had a few questions."
@@ -17761,7 +17775,7 @@ label meet_ramias():
 
         you " Your wares, of course, haha..."
 
-    if MC.playerclass == "Warrior":
+    if MC.playerclass == "战士":
 
         ramias "You look familiar... And you have the build of a soldier. Have I met you somewhere in battle?"
 
@@ -17883,7 +17897,7 @@ label meet_riche():
 
     riche "But I was tired of being sheltered, so after I graduated, I decided to join the war effort."
 
-    if MC.playerclass == "Wizard":
+    if MC.playerclass == "法师":
         you "Karkyr? What a coincidence! I was studying there too. I must have been a few years your senior..."
 
         you "I was also top of my class, what a coincidence... I mean, definitely in the top 50, at least..."
@@ -18363,7 +18377,7 @@ label ninja_guest1: # Warrior event
 
     hokoma_warrior "I see you're wielding a hammer. You came here to challenge me? To cross sword with the elite captain of the Gwanaian tribe?"
 
-    if MC.playerclass == "Warrior":
+    if MC.playerclass == "战士":
         "You know that Hokoma's tribes have fierce female warriors, all following a myriad local traditions and superstitions that allow them to recognize each other, while being impenetrable to outsiders."
 
     you "N-No, that's a mistake, my Lady, I didn't mean to hit you..."
@@ -18548,7 +18562,7 @@ label ninja_guest2: # Magician event
 
     you "A Faustian..."
 
-    if MC.playerclass == "Wizard":
+    if MC.playerclass == "法师":
         you "So you were trying to summon something from another plane, but now you are the one who will be sent away to some other dimension?"
     else:
         you "I don't know... It means you screwed up bad?"
@@ -18577,7 +18591,7 @@ label ninja_guest2: # Magician event
 
     magical_girl "A-All right... I was trying to summon an incubus..."
 
-    if MC.playerclass == "Wizard":
+    if MC.playerclass == "法师":
         you "An incubus? Wait a second... That is a sexual demon! What did you want to do with that?"
 
         magical_girl "This is, err, ehm... Private business..."
@@ -19433,7 +19447,7 @@ label MU_jobgirl():
     menu:
         extend ""
 
-        "Dispell the spell" if MC.playerclass == "Wizard":
+        "Dispell the spell" if MC.playerclass == "法师":
 
             you "*sigh* Hand over that staff."
 
@@ -19487,7 +19501,7 @@ label MU_jobgirl():
 
             $ r = "you"
 
-        "Ask Sill for help" if MC.playerclass != "Wizard":
+        "Ask Sill for help" if MC.playerclass != "法师":
 
             you "Look, I'm no magician..."
 
@@ -20091,7 +20105,7 @@ label NGPintro():
 
     you "........."
 
-    if MC.playerclass == "Warrior":
+    if MC.playerclass == "战士":
 
         play sound3 s_sheath
 
@@ -20109,13 +20123,13 @@ label NGPintro():
 
         "*SLASH*" with flash
 
-    elif MC.playerclass == "Wizard":
+    elif MC.playerclass == "法师":
 
         play sound s_fire
 
         "*BLAST*" with flash
 
-    elif MC.playerclass == "Trader":
+    elif MC.playerclass == "商人":
 
         play sound s_roar
 
@@ -20131,7 +20145,7 @@ label NGPintro():
 
     "*SPLAT*" with vpunch
 
-    if MC.playerclass == "Trader":
+    if MC.playerclass == "商人":
         you "Thank you, Drogo."
 
     play sound s_fanfare
