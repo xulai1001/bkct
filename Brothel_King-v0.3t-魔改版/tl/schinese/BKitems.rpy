@@ -467,7 +467,7 @@ translate schinese strings:
 
     # game/BKitems.rpy:312
     old "Cimerian scrap"
-    new "席米亚科技废料"
+    new "席米亚科技残骸"
 
     # game/BKitems.rpy:312
     old "A mysterious piece of ancient technological junk."
@@ -479,7 +479,7 @@ translate schinese strings:
 
     # game/BKitems.rpy:312
     old "A mysterious piece of ancient machinery. Also, junk."
-    new "一个神秘的古代科技器械，但还是坨废铁。"
+    new "一个神秘的古代科技器械，但启动不了也只是一坨废铁。"
 
     # game/BKitems.rpy:312
     old "Lightning Rod"
@@ -487,47 +487,43 @@ translate schinese strings:
 
     # game/BKitems.rpy:312
     old "Prevents lightning bolts from hurting you. It could save your ass in the right situation, although the chance to be hit by lightning while working in a brothel is very low. A syphilis rod might be more useful."
-    new "防止被雷劈。在某些场合，它可以救你一命，尽管在青楼工作时被闪电击中的几率非常低。有这钱买点安全套和避孕药可能更有用。"
+    new "避雷针其实是引雷针，可别把它带在身上。尽管被雷劈的概率几乎为零，但也许什么时候就能用得上了。虽然有这钱买点安全套和避孕药可能更有用。"
 
     # game/BKitems.rpy:312
     old "White flower"
-    new "白色鲜花"
-
-    # game/BKitems.rpy:312
-    old "Flowers are often used as gifts for one's love interest."
-    new "鲜花经常被用作表达爱意的礼物。"
+    new "白百合花"
 
     # game/BKitems.rpy:312
     old "Yellow flower"
-    new "黄色鲜花"
+    new "黄康乃馨"
 
     # game/BKitems.rpy:312
     old "Red flower"
-    new "红色鲜花"
+    new "红玫瑰花"
 
     # game/BKitems.rpy:312
     old "Green flower"
-    new "绿色鲜花"
+    new "绿色绣球"
 
     # game/BKitems.rpy:312
     old "Blue flower"
-    new "蓝色鲜花"
+    new "蓝矢车菊"
 
     # game/BKitems.rpy:312
     old "Orange flower"
-    new "橙色鲜花"
+    new "橙郁金香"
 
     # game/BKitems.rpy:312
     old "Purple flower"
-    new "紫色鲜花"
+    new "紫罗兰花"
 
     # game/BKitems.rpy:312
     old "Pink flower"
-    new "粉色鲜花"
+    new "粉色芙蓉"
 
     # game/BKitems.rpy:312
     old "Black flower"
-    new "黑色鲜花"
+    new "黑曼陀罗"
 
     # game/BKitems.rpy:422
     old "Strange machine"
@@ -535,7 +531,7 @@ translate schinese strings:
 
     # game/BKitems.rpy:424
     old "Clockwork billboard"
-    new "钟表广告牌"
+    new "轮播广告牌"
 
     # game/BKitems.rpy:426
     old "This strange steam machine lets you harvest wood, dye or leather automatically. Deploy on site."
@@ -1873,7 +1869,7 @@ translate schinese strings:
 
     # game/BKitems.rpy:773
     old "Search"
-    new "Search"
+    new "搜索"
 
     # game/BKitems.rpy:805
     old "Use shift + left/right arrow keys to change the focused character."
@@ -1885,11 +1881,11 @@ translate schinese strings:
 
     # game/BKitems.rpy:836
     old " level "
-    new " level "
+    new " 等级 "
 
     # game/BKitems.rpy:944
     old "Search: "
-    new "Search: "
+    new "搜索: "
 
     # game/BKitems.rpy:981
     old " gold"
@@ -1909,5 +1905,5 @@ translate schinese strings:
 
     # game/BKitems.rpy:1252
     old "Show all items."
-    new "Show all items."
+    new "显示所有物品。"
 
