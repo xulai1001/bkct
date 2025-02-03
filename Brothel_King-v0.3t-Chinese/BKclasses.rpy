@@ -4238,7 +4238,7 @@ init -2 python:
             target = "属性点" if target == "skill points" else target
             target = "玩家声望" if target == "prestige" else target
             target = "天赋点" if target == "perk" else target
-            target = "结交新朋友修正" if target == "making friends" else target
+            target = "结交新朋友额外" if target == "making friends" else target
             target = "来自友谊而获得的心情收益" if target == "mood gains from friendship" else target
             target = "所有性行为偏好" if target == "all sexual preferences" else target
             target = "所有性行为技能" if target == "all sex skills" else target
@@ -4248,7 +4248,7 @@ init -2 python:
             target = "少给保养费的情绪减益影响" if target == "negative upkeep mood modifier" else target
             target = "只工作半天时精力回复量" if target == "half-shift resting bonus" else target
             target = "接客时客人因难以满足的扣分" if target == "customer penalties" else target
-            target = "裸体进行常规工作时获得的小费" if target == "naked bonus" else target
+            target = "全裸进行常规工作时获得的小费" if target == "naked bonus" else target
             target = "接受工作或训练的可能性" if target == "obedience tests" else target
             target = "所有常规技能收益" if target == "all regular skills gains" else target
             target = "所有性行为技能收益" if target == "all sex skills gains" else target
@@ -4264,9 +4264,9 @@ init -2 python:
             target = "恐惧收益" if target == "fear gains" else target
 
             target = "总保养费用" if target == "total upkeep" else target
-            target = "配饰加成" if target == "accessory" else target
-            target = "项链加成" if target == "necklace" else target
-            target = "戒指加成  " if target == "ring" else target
+            target = "配饰属性加成" if target == "accessory" else target
+            target = "项链属性加成" if target == "necklace" else target
+            target = "戒指属性加成  " if target == "ring" else target
 
             target = "保养费" if target == "upkeep" else target
             target = "受伤天数" if target == "hurt" else target
@@ -4275,7 +4275,7 @@ init -2 python:
             target = "舞娘职业经验收益" if target == "dancer jp gains" else target
             target = "舞娘职业经验收益" if target == "dancer jp gains" else target
 
-            target = "名声" if target == "brothel reputation" else target
+            target = "青楼知名度" if target == "brothel reputation" else target
             target = "小费总额" if target == "total tip" else target
             target = "双飞概率" if target == "bisexual chance" else target
             target = "群交概率" if target == "group chance" else target
@@ -4283,9 +4283,9 @@ init -2 python:
             target = "作为妓女时客户的预算" if target == "whore customer budget" else target
             target = "客户活动 " if target == "customer events" else target
             target = "疯狂" if target == "crazy" else target
-            target = "服务员倾向" if target == "waitress preference" else target
+            target = "服务倾向" if target == "waitress preference" else target
             target = "舞娘倾向" if target == "dancer preference" else target
-            target = "按摩师倾向" if target == "masseuse preference" else target
+            target = "按摩倾向" if target == "masseuse preference" else target
             target = "艺妓倾向" if target == "geisha preference" else target
             target = "侍奉倾向" if target == "service preference" else target
             target = "性交倾向" if target == "sex preference" else target

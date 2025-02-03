@@ -498,25 +498,25 @@ label chapter(chapter = None, silent=False): ## Shows the chapter intro with tex
 
             text1 = "第四章"
 
-            text2 = "正在制作中"
+            text2 = "剧情正在制作中"
 
         elif game.chapter == 5:
 
-            text1 = "Chapter Five"
+            text1 = "第五章"
 
-            text2 = "Work in progress"
+            text2 = "剧情正在制作中"
 
         elif game.chapter == 6:
 
-            text1 = "Chapter Six"
+            text1 = "第六章"
 
-            text2 = "Work in progress"
+            text2 = "剧情正在制作中"
 
         else:
 
-            text1 = "Epilogue"
+            text1 = "尾声"
 
-            text2 = "Work in progress"
+            text2 = "剧情正在制作中"
 
     call hide_everything() from _call_hide_everything_38
     scene black with fade
@@ -4425,7 +4425,7 @@ label first_contract():
 
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？"):
             call contract_chosen(first=True) from _call_contract_chosen
             return
 
@@ -4487,7 +4487,7 @@ label first_contract_return():
             with dissolve
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？"):
             call contract_chosen(first=True) from _call_contract_chosen_1
             return
 
@@ -4532,7 +4532,7 @@ label new_contract():
 
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract (fee: [result.base_value] gold)?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？(报酬: [result.base_value]金币)"):
             call contract_chosen() from _call_contract_chosen_2
 
             hide jobgirl
@@ -4563,7 +4563,7 @@ label new_contract_return():
             with dissolve
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract (fee: [result.base_value] gold)?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？(报酬: [result.base_value] 金币)"):
             call contract_chosen() from _call_contract_chosen_3
             return
 

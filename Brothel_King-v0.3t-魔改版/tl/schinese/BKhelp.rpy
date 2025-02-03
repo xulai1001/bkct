@@ -106,7 +106,7 @@ translate schinese help_main_f1d1ac57:
 translate schinese help_main_478cb481:
 
     # sill "The {b}Postings{/b} tab allows you to look for ads about quests and classes for your girl. It is useful to build up their skills and reputation."
-    sill "{b}公告大厅{/b}可以查找任务和培训课程,对于提升女孩的技能和声望很有用。"
+    sill "{b}公告大厅{/b}可以查找任务和培训课程,对于提升女孩的技能和人气很有用。"
 
 # game/BKhelp.rpy:767
 translate schinese help_main_e66bb697:
@@ -1102,7 +1102,7 @@ translate schinese help_brothel_74043be9:
 translate schinese help_advertising_53898c4f:
 
     # sill "{b}Advertising{/b} helps grow the renown of your brothel and draws more and wealthier {b}customers{/b} to your brothel."
-    sill "{b}广告{/b}有助于提升青楼的声望,吸引更多更富裕的{b}客人{/b}到你的青楼消费。"
+    sill "{b}广告{/b}有助于提升青楼的知名度,吸引更多更富裕的{b}客人{/b}到你的青楼消费。"
 
 # game/BKhelp.rpy:1372
 translate schinese help_advertising_714a1312:
@@ -1156,13 +1156,13 @@ translate schinese help_advertising_menu_463efcf4:
 translate schinese help_advertising_menu_39ad60d5:
 
     # sill "{b}Brothel reputation{/b} is nice because it draws customers to your brothel for free, unlike advertising. It does {b}decay{/b} over time, though, especially in higher districts."
-    sill "{b}青楼的知名度{/b}很重要,因为声望越高来青楼消费的客人越多,不像广告是临时的效果。不过它会随时间而{b}衰减{/b},尤其是在更高等级的区域。"
+    sill "{b}青楼的知名度{/b}很重要,因为知名度越高来青楼消费的客人越多,不像广告是临时的效果。不过它会随时间而{b}衰减{/b},尤其是在更高等级的区域。"
 
 # game/BKhelp.rpy:1398
 translate schinese help_advertising_menu_c166846a:
 
     # sill "Of course, it will cost more brothel reputation to attract higher rank customers than the usual riff-raff. If you need more customers than your current reputation allows, blocking some higher rank populations from coming in {b}customer options{/b} could be a way to do it."
-    sill "当然,吸引更高级的客人所需要的声望要比流氓乞丐更多。如果你想要客人的数量尽可能多一些,在{b}经营策略{/b}中屏蔽一些较高等级的客户群体可能会有用。"
+    sill "当然,吸引更高级的客人所需要的知名度要比流氓乞丐更多。如果你想要客人的数量尽可能多一些,在{b}经营策略{/b}中屏蔽一些较高等级的客户群体可能会有用。"
 
 # game/BKhelp.rpy:1400
 translate schinese help_advertising_menu_fe19d71f:
@@ -1546,7 +1546,7 @@ translate schinese help_postings_9be38b31:
 translate schinese help_postings_6e866826:
 
     # sill "{b}Classes{/b} can improve your girls' {b}skills{/b} as well as slightly raise their {b}reputation{/b} and {b}experience{/b}."
-    sill "{b}培训课程{/b}可以提升你的女孩的{b}属性{/b},同时稍微提升她们的{b}声望{/b}和{b}经验{/b}。"
+    sill "{b}培训课程{/b}可以提升你的女孩的{b}属性{/b},同时稍微提升她们的{b}人气{/b}和{b}经验{/b}。"
 
 # game/BKhelp.rpy:1619
 translate schinese help_postings_a640924b:
@@ -1564,7 +1564,7 @@ translate schinese help_postings_a6c2425f:
 translate schinese help_postings_db095dea:
 
     # sill "{b}Quests{/b} are special requests posted by locals that your girl can fulfill. Questing rewards include {b}gold{/b}, {b}skills{/b}, {b}experience{/b} and {b}reputation{/b}."
-    sill "{b}委托任务{/b}是当地人发布的特殊请求,你的女孩可以去完成委托。完成后可以获得{b}金币{/b}、{b}属性提升{/b}、{b}经验增长{/b}和{b}声望{/b}。"
+    sill "{b}委托任务{/b}是当地人发布的特殊请求,你的女孩可以去完成委托。完成后可以获得{b}金币{/b}、{b}属性提升{/b}、{b}经验增长{/b}和{b}人气{/b}。"
 
 # game/BKhelp.rpy:1627
 translate schinese help_postings_633d6d8c:
@@ -1576,7 +1576,7 @@ translate schinese help_postings_633d6d8c:
 translate schinese help_postings_f234ad6c:
 
     # sill happy "Quests are a good way to increase a girl's reputation so you can rank her up."
-    sill happy "任务是提升女孩声望,让她们升级的好方法。"
+    sill happy "任务是提升女孩人气,让她们升级的好方法。"
 
 # game/BKhelp.rpy:1631
 translate schinese help_postings_e90378a9:
@@ -1654,7 +1654,7 @@ translate schinese help_night_events_afc703b9:
 translate schinese help_night_events_4914165e:
 
     # sill "Eventually, your brothel's reputation will rise or fall depending on how many customers have been entertained and sexually gratified."
-    sill "最终,你青楼的声望将根据已接待的和对性爱满足的顾客数量而变动。"
+    sill "最终,你青楼的知名度将根据已接待的和对性爱满足的顾客数量而变动。"
 
 # game/BKhelp.rpy:1732
 translate schinese help_night_events_a112b296:
@@ -1666,7 +1666,7 @@ translate schinese help_night_events_a112b296:
 translate schinese help_night_events_ce34d1be:
 
     # sill "{b}Advertising{/b} is pretty straightforward. Get a bunch of young, hot girls out there with signs, flyers or bodily tattoos with the brothel's name on it, and its reputation will increase. Reputation begets more customers."
-    sill "{b}广告{/b}的效果非常直接。让一群年轻火辣的女孩在外面挥舞标语、发传单或纹身宣传青楼的名字,这将提升青楼的知名度。高声望会带来更多的顾客。"
+    sill "{b}广告{/b}的效果非常直接。让一群年轻火辣的女孩在外面挥舞标语、发传单或纹身宣传青楼的名字,这将提升青楼的知名度。高知名度会带来更多的顾客。"
 
 # game/BKhelp.rpy:1740
 translate schinese help_night_events_bb01cc54:
@@ -1798,13 +1798,13 @@ translate schinese help_rank_introduction_6896bafd:
 translate schinese help_rank_introduction_30a168db:
 
     # sill "Reaching a new rank is difficult. First, a girl must have reached the {b}maximum level{/b} for her rank (for rank 'C', she must be level 5). She must also have a high enough {b}reputation{/b} with her customers."
-    sill "晋升阶级十分困难。首先,女孩必须达到自身的{b}等级上限{/b}(例如'C'阶,必须达到5级)。她还需要在顾客中拥有足够高的{b}声望{/b}。"
+    sill "晋升阶级十分困难。首先,女孩必须达到自身的{b}等级上限{/b}(例如'C'阶,必须达到5级)。她还需要在顾客中拥有足够高的{b}人气{/b}。"
 
 # game/BKhelp.rpy:1825
 translate schinese help_rank_introduction_8f8ee891:
 
     # sill "Girls can earn reputation when performing well with customers, and when accomplishing special quests."
-    sill "女孩可以通过服务中出色的表现以及完成特殊任务来获得声望。"
+    sill "女孩可以通过服务中出色的表现以及完成特殊任务来获得人气。"
 
 # game/BKhelp.rpy:1827
 translate schinese help_rank_introduction_48fe6358:
@@ -2420,11 +2420,11 @@ translate schinese strings:
 
     # game/BKhelp.rpy:459
     old "Activate picture count in gallery (girl packs)"
-    new "Activate picture count in gallery (girl packs)"
+    new "显示角色图片数量 (角色包)"
 
     # game/BKhelp.rpy:459
     old "Deactivate picture count in gallery"
-    new "Deactivate picture count in gallery"
+    new "隐藏角色图片数量"
 
     # game/BKhelp.rpy:472
     old "Would you like to reset all existing counters to zero?"
@@ -2432,19 +2432,19 @@ translate schinese strings:
 
     # game/BKhelp.rpy:524
     old "Choose an option"
-    new "Choose an option"
+    new "选择设置"
 
     # game/BKhelp.rpy:524
     old "Manage ignored pictures"
-    new "Manage ignored pictures"
+    new "管理忽略的图片"
 
     # game/BKhelp.rpy:524
     old "Repair girl/MC pictures"
-    new "Repair girl/MC pictures"
+    new "修复女孩/主角图片"
 
     # game/BKhelp.rpy:531
     old "Pictures will be removed from the picture set on your next restart or by using the refresh option below."
-    new "Pictures will be removed from the picture set on your next restart or by using the refresh option below."
+    new "下次重新启动或使用下面的刷新选项时，图片将从图片集中删除。"
 
     # game/BKhelp.rpy:531
     old "Refresh pictures"
@@ -2732,7 +2732,7 @@ translate schinese strings:
 
     # game/BKhelp.rpy:1803
     old "You've just had your first security event. Would you like to learn more about security events?"
-    new "你刚刚经历了第一次安全事件。您想了解更多有关安全事件的信息吗？"
+    new "你刚刚经历了第一次突发事件。您想了解更多有关突发事件的信息吗？"
 
     # game/BKhelp.rpy:1862
     old "Recover a girl from Gizel"
@@ -2800,7 +2800,7 @@ translate schinese strings:
 
     # game/BKhelp.rpy:2227
     old "The cheat modifier is a float number affecting stat gains, xp, jp, reputation and gold earned by your girls. Use it to adjust the difficulty level (e.g.: a modifier of 1.5 gives your girl a 50% increase); a modifier of 0.75 decreases gains by 25%)"
-    new "难度倍率是一个可变的数字，它影响了女孩的属性增长, 经验和等级,声望和利润。 利用它来调整游戏难度 (e.g.: 1.5倍会让女孩们增加50% 的获取量); 0.75倍则会减少25%的获取量)"
+    new "难度倍率是一个可变的数字，它影响了女孩的属性增长, 经验和等级,人气和利润。 利用它来调整游戏难度 (e.g.: 1.5倍会让女孩们增加50% 的获取量); 0.75倍则会减少25%的获取量)"
 
     # game/BKhelp.rpy:2227
     old "Set global cheat modifier"
@@ -3048,7 +3048,7 @@ translate schinese strings:
 
     # game/BKhelp.rpy:2587
     old "Raise brothel reputation"
-    new "提高青楼的声望"
+    new "提高青楼的知名度"
 
     # game/BKhelp.rpy:2587
     old "Raise player prestige"

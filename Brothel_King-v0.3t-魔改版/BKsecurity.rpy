@@ -1393,7 +1393,7 @@ init -3 python:
 
                     sec_pic = girl.get_pic("rest", and_tags=["hurt"], naked_filter=True, soft=True)
                     if not sec_pic:
-                        sec.pic = girl.profile
+                        sec_pic = girl.profile #sec.pic修改为sec_pic 尝试修复错误
                     sec_text = ""
                     sec_sound = None
                     sec_with = fade
@@ -1458,26 +1458,26 @@ init -3 python:
             sec_sound = s_crowd_riot
             sec_with = vpunch
 
-            sec_text = (__("A brawl erupted in the ") + __(rand_choice(brothel.get_common_rooms()).name) + __(" after ")
-                        + __(rand_choice(["a customer spilled his boiling-hot grog on another man's crotch.",
-                                       "two customers starting fighting over the same girl.",
-                                       "a famous girls band from Borgo came to do a concert.",
-                                       "a hated politician came in with his cronies.",
-                                       "someone yelled 'free beer'.",
-                                       "spiced-up junkies started thrashing the place.",
-                                       "someone made one 'yo mamma' joke too-many.",
-                                       "a female customer flashed her boobs.",
-                                       "two rivals recognized each other.",
-                                       "rival gangs met each other inside.",
-                                       "someone attempted to sing a love song.",
-                                       "a chick with a yellow jumper and a katana challenged the crowd to a fight.",
-                                       "an old man came in with no pants and an attitude.",
-                                       "Arios-worshippers were served salt against their religion.",
-                                       "someone's beard caught fire.",
-                                       "a drunk nobleman started throwing gold coins into the air.",
-                                       "a rogue ship captain shot first.",
-                                       "someone brought a herd of goats in and they started rampaging through the brothel.",
-                                       "interdimensional aliens from another galaxy ripped the fabric of spacetime, as well as a girl's panties.",
+            sec_text = (__("A brawl erupted in the ") + __(location_name_dict[rand_choice(brothel.get_common_rooms()).name]) + __(" after ")
+                        + __(rand_choice(["一位顾客把滚烫的酒洒在了另一个人的裤裆上。",
+                                       "两个顾客开始争夺同一个女孩。",
+                                       "一个来自博格的著名女子乐队来开演唱会。",
+                                       "一个受人憎恨的政客带着他的亲信进来了。",
+                                       "有人大喊“免费啤酒”。",
+                                       "嗑药的瘾君子开始在这个地方乱逛。",
+                                       "有人开“你妈妈”的玩笑太多了。",
+                                       "一位女顾客露出了她的胸部。",
+                                       "两个对手互相认出了对方。",
+                                       "敌对帮派在里面相遇。",
+                                       "有人想唱一首情歌。",
+                                       "一位身穿黄色套衫、手持武士刀的小姑娘向人群发起挑战。",
+                                       "一个没穿裤子的老头走了进来。",
+                                       "阿里奥斯崇拜者吃到了反对他们教义的调味品。",
+                                       "有人的胡子着火了。",
+                                       "一个喝醉酒的贵族开始向空中扔金币。",
+                                       "一个流氓船长朝天开枪。",
+                                       "有人带了一群山羊进来，它们在青楼里横冲直撞。",
+                                       "来自另一个星系的次元外星人撕裂了时空，也撕裂了一个女孩的内裤。",
                                       ])))
 
             if guard_defense >= _max:

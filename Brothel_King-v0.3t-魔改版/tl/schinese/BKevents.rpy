@@ -70,13 +70,13 @@ translate schinese advance_to_chapter_1ef7a1d7:
 translate schinese advance_to_chapter_c0db008a:
 
     # sill "You now hold a proper pimp license! It is time I told you about your girls' ranks and reputation."
-    sill "你现在持有正式的皮条客执照!是时候告诉你关于女孩的等级和声望的事了。"
+    sill "你现在持有正式的皮条客执照!是时候告诉你关于女孩的等级和人气的事了。"
 
 # game/BKevents.rpy:931
 translate schinese advance_to_chapter_dc9d8fdb:
 
     # sill "Would you like to learn about girl ranks and reputation?" nointeract
-    sill "你想学习关于女孩的等级和声望的知识吗?" nointeract
+    sill "你想学习关于女孩的等级和人气的知识吗?" nointeract
 
 # game/BKevents.rpy:947
 translate schinese advance_to_chapter_baed337f:
@@ -682,7 +682,8 @@ translate schinese test_resources_4d846f38:
 translate schinese furniture_built_1cf70525:
 
     # carpenter "Hey, boss! I've just finished work on the [furn.name]. I hope you like it."
-    carpenter "嘿,老板!我刚刚弄好了[furn.name]。希望你喜欢。"
+    $ furn.name_cn = tl_cn(furn.name, furniture_name_dict)
+    carpenter "嘿,老板!我刚刚弄好了[furn.name_cn]。希望你喜欢。"
 
 # game/BKevents.rpy:1684
 translate schinese collect_wood_c314ab88:
@@ -3826,13 +3827,13 @@ translate schinese first_contract_4df33074:
 translate schinese first_contract_88b1279e:
 
     # jobgirl "It's simple. As your agent, I am always looking for new business opportunities..."
-    jobgirl "很简单。作为你的代理,我一直在寻找新的商机..."
+    jobgirl "很简单。作为你的经纪人,我一直在寻找新的商机..."
 
 # game/BKevents.rpy:4247
 translate schinese first_contract_a7ed71b4:
 
     # you "My agent? Since wh..."
-    you "我的代理?什么时候..."
+    you "我的经纪人?什么时候..."
 
 # game/BKevents.rpy:4249
 translate schinese first_contract_7c476756:
@@ -3850,13 +3851,13 @@ translate schinese first_contract_dae0ec55_1:
 translate schinese first_contract_0e006e76:
 
     # you "Awesome! I knew I was right to pick you as my agent."
-    you "太棒了!我就知道选你做我的代理是对的。"
+    you "太棒了!我就知道选你做我的经纪人是对的。"
 
 # game/BKevents.rpy:4255
 translate schinese first_contract_e2d7cf91:
 
     # jobgirl "But you know, contracts are serious commitments. The slavers' guild is not an organization that tolerates failure."
-    jobgirl "不过你要知道,合约是一种有法律效益的关系。奴隶工会可不会容忍失败。"
+    jobgirl "不过你要知道,合约是一种有法律效益的关系。奴隶公会可不会容忍失败。"
 
 # game/BKevents.rpy:4257
 translate schinese first_contract_2c6d7445:
@@ -3898,7 +3899,7 @@ translate schinese first_contract_0f4a619f:
 translate schinese first_contract_1c0eaf04:
 
     # jobgirl "The contracts offer big payouts... As well as reputation for you and your girl. The customers may also pay extra, if they're happy."
-    jobgirl "这些合约会提供丰厚的回报...以及提高你和女孩的声望。如果客户满意,他们也可能会额外支付一些酬劳。"
+    jobgirl "这些合约会提供丰厚的回报...以及提高你的声望和女孩的名气。如果客户满意,他们也可能会额外支付一些酬劳。"
 
 # game/BKevents.rpy:4271
 translate schinese first_contract_3dd84e45:
@@ -3994,7 +3995,7 @@ translate schinese contract_chosen_10008941:
 translate schinese contract_chosen_eba0ee0b:
 
     # jobgirl "Come on! As your agent, I expect to get paid... *grumble*"
-    jobgirl "拜托!作为你的代理人,我当然要收点佣金...*咕哝*"
+    jobgirl "拜托!作为你的经纪人,我当然要收点佣金...*咕哝*"
 
 # game/BKevents.rpy:4332
 translate schinese contract_chosen_980b02b2:
@@ -8882,19 +8883,19 @@ translate schinese strings:
 
     # game/BKevents.rpy:4284
     old "I need to check some things first"
-    new "我需要先检查一些东西"
+    new "我需要先做一些准备"
 
     # game/BKevents.rpy:4284
     old "None of my girls has the skills for this."
-    new "我的女孩都没有这方面的技能。"
+    new "我的女孩似乎不符合条件"
 
     # game/BKevents.rpy:4297
     old "Let me think about it."
-    new "让我考虑一下。"
+    new "让我考虑一下"
 
     # game/BKevents.rpy:4297
     old "No, just come back next month."
-    new "不,下个月再来吧。"
+    new "不,下个月再来吧"
 
     # game/BKevents.rpy:4406
     old "Yeah, please come back later"
@@ -8902,7 +8903,7 @@ translate schinese strings:
 
     # game/BKevents.rpy:4406
     old "No, I'll skip on contracts this month"
-    new "不,这个月我不接合约"
+    new "不了,这个月我不打算签合约"
 
     # game/BKevents.rpy:5665
     old "Choose what you want [girl.fullname] to do:"

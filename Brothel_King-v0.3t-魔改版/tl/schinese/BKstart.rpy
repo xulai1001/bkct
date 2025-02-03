@@ -354,7 +354,7 @@ translate schinese strings:
 
     # game/BKstart.rpy:313
     old "'{i}Found another spy yesterday... He tried to stab me, it was hilarious! Kukukuku...{/i}'\n\n{b}Night Patrol{/b}\n33%% chance of twarting security events (does not reset threat level)."
-    new "'{i}昨天晚上又抓住一个蟊贼，他还想冲过来挟持我！可惜...{/i}'\n\n{b}夜间巡逻{/b}\n有33%% 的几率警告你即将发生的安全事件 (不重置威胁等级)。"
+    new "'{i}昨天晚上又抓住一个蟊贼，他还想冲过来挟持我！可惜...{/i}'\n\n{b}夜间巡逻{/b}\n有33%% 的几率警告你即将发生的突发事件 (不重置威胁等级)。"
 
     # game/BKstart.rpy:314
     old "Narika"

@@ -824,7 +824,7 @@ translate schinese strings:
 
     # game/BKachievements.rpy:21
     old "Survive %s security events."
-    new "安全度过 %s 个安全事件。"
+    new "安全度过 %s 个突发事件。"
 
     # game/BKachievements.rpy:21
     old "War Master"

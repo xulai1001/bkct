@@ -3931,7 +3931,7 @@ init -2 python:
                     text1 = "+1等级 (最高等级: " + str(val) + ")"
 
                 elif target == "advertising power":
-                    text1 = "提高广告的效果 (提高青楼的声望增速,客流量和顾客的预算)。"
+                    text1 = "提高广告的效果 (提高青楼的知名度增速,客流量和顾客的预算)。"
 
                 elif target == "heal minion":
                     text1 = "治疗一个受伤的单位。"
@@ -3949,7 +3949,7 @@ init -2 python:
                     text1 = "能说服不情愿的顾客接受另一种性行为"
 
                 elif target == "pickpocket":
-                    text1 = "有25%机会从顾客那里偷取额外10%的小费，但有15%的概率降低自身和青楼的声望"
+                    text1 = "有25%机会从顾客那里偷取额外10%的小费，但有15%的概率降低自身和青楼的知名度"
 
                 elif target == "random item":
                     text1 = "顾客有2.5%的概率“遗漏”随机物品"
@@ -3982,7 +3982,7 @@ init -2 python:
                     text1 += "使 " + str(val) + " 金币不被计入青楼的威胁值。"
 
                 elif target == "focus":
-                    text1 += "如果女孩在营业时专精于一种性行为，+25%小费和声望收益 (不包括双飞和群交行为)"
+                    text1 += "如果女孩在营业时专精于一种性行为，+25%小费和人气收益 (不包括双飞和群交行为)"
 
                 elif target == "rest shield":
                     text1 += "她在休息时，可以对自己或她的朋友施放一层魔法护盾，保护其免受攻击"
@@ -4238,7 +4238,7 @@ init -2 python:
             target = "属性点" if target == "skill points" else target
             target = "玩家声望" if target == "prestige" else target
             target = "天赋点" if target == "perk" else target
-            target = "结交新朋友修正" if target == "making friends" else target
+            target = "结交新朋友额外" if target == "making friends" else target
             target = "来自友谊而获得的心情收益" if target == "mood gains from friendship" else target
             target = "所有性行为偏好" if target == "all sexual preferences" else target
             target = "所有性行为技能" if target == "all sex skills" else target
@@ -4248,7 +4248,7 @@ init -2 python:
             target = "少给保养费的情绪减益影响" if target == "negative upkeep mood modifier" else target
             target = "只工作半天时精力回复量" if target == "half-shift resting bonus" else target
             target = "接客时客人因难以满足的扣分" if target == "customer penalties" else target
-            target = "裸体进行常规工作时获得的小费" if target == "naked bonus" else target
+            target = "全裸进行常规工作时获得的小费" if target == "naked bonus" else target
             target = "接受工作或训练的可能性" if target == "obedience tests" else target
             target = "所有常规技能收益" if target == "all regular skills gains" else target
             target = "所有性行为技能收益" if target == "all sex skills gains" else target
@@ -4264,9 +4264,9 @@ init -2 python:
             target = "恐惧收益" if target == "fear gains" else target
 
             target = "总保养费用" if target == "total upkeep" else target
-            target = "配饰加成" if target == "accessory" else target
-            target = "项链加成" if target == "necklace" else target
-            target = "戒指加成  " if target == "ring" else target
+            target = "配饰属性加成" if target == "accessory" else target
+            target = "项链属性加成" if target == "necklace" else target
+            target = "戒指属性加成  " if target == "ring" else target
 
             target = "保养费" if target == "upkeep" else target
             target = "受伤天数" if target == "hurt" else target
@@ -4275,7 +4275,7 @@ init -2 python:
             target = "舞娘职业经验收益" if target == "dancer jp gains" else target
             target = "舞娘职业经验收益" if target == "dancer jp gains" else target
 
-            target = "名声" if target == "brothel reputation" else target
+            target = "青楼知名度" if target == "brothel reputation" else target
             target = "小费总额" if target == "total tip" else target
             target = "双飞概率" if target == "bisexual chance" else target
             target = "群交概率" if target == "group chance" else target
@@ -4283,9 +4283,9 @@ init -2 python:
             target = "作为妓女时客户的预算" if target == "whore customer budget" else target
             target = "客户活动 " if target == "customer events" else target
             target = "疯狂" if target == "crazy" else target
-            target = "服务员倾向" if target == "waitress preference" else target
+            target = "服务倾向" if target == "waitress preference" else target
             target = "舞娘倾向" if target == "dancer preference" else target
-            target = "按摩师倾向" if target == "masseuse preference" else target
+            target = "按摩倾向" if target == "masseuse preference" else target
             target = "艺妓倾向" if target == "geisha preference" else target
             target = "侍奉倾向" if target == "service preference" else target
             target = "性交倾向" if target == "sex preference" else target
@@ -4871,9 +4871,9 @@ init -2 python:
 
             if dice(6) == 6:
                 if self.type == "class":
-                    self.special = rand_choice(("Cheap", "Masterclass"))
+                    self.special = rand_choice((_("Cheap"), _("Masterclass")))
                 elif self.type == "quest":
-                    self.special = rand_choice(("High reward", "Notorious"))
+                    self.special = rand_choice((_("High reward"), _("Notorious")))
             else:
                 self.special = None
 
@@ -5025,7 +5025,7 @@ init -2 python:
         def get_results(self, girl):
 
             title = __(self.type.capitalize()) + __(" completed")
-            description = girl.fullname + __(" has returned from her ") + __(self.type) + ". "
+            description = girl.fullname + __(" has returned from her ") + __(self.type) + "。"
 
             if self.type == "class":
 
@@ -5213,7 +5213,7 @@ init -10 python:
                     self.description = "你需要拥有至少" + str(self.target) + "个" + rank_name[self.value] + "阶的奴隶" #修改了源代码使翻译通畅
 
                 elif self.type == "reputation":
-                    self.description = "你的青楼需要拥有" + str(int(self.value)) + "点声望"
+                    self.description = "你的青楼需要拥有" + str(int(self.value)) + "点知名度"
 
                 elif self.type == "prestige":
                     self.description = "你的角色需要拥有" + str(int(self.value)) + "点声望"
@@ -7554,13 +7554,13 @@ init -2 python:
             spe, target = self.special
 
             if spe == "trait":
-                return "{b}特质{/b}: " + and_text([t.name for t in target], " 或 ")
+                return "{b}特质{/b}: " + and_text([tl_cn(t.name, trait_name_dict) for t in target], " 或 ")
 
             elif spe == "perk":
                 return "{b}天赋{/b}: " + target.name
 
             elif spe == "fix":
-                return "{b}正面癖好{/b}: " + and_text([tl_cn(f.name.capitalize(), girl_related_dict) for f in target], " 或 ")
+                return "{b}正面性癖{/b}: " + and_text([tl_cn(f.name.capitalize(), girl_related_dict) for f in target], " 或 ")
 
             elif spe == "farm":
                 return "{b}弱点{/b}: " + tl_cn(target.capitalize(), farm_related_dict)

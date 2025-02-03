@@ -527,10 +527,10 @@ init -2 python:
                     if reaction == "accepted":
                         descript += girl.name + "毫不在意，径直走向" + self.installation.name + "开始了训练。"
                     elif reaction == "resisted":
-                        descript += girl.name + "拒绝训练，抱怨个不停，但吉泽尔却一边笑着一边用力把她推进" + self.installation.name + "里去。"
+                        descript += girl.name + "拒绝训练，抱怨个不停，但吉泽尔却一边笑着一边用力把她推进" + farm_related_dict[self.installation.name] + "里去。"
                         calendar.set_alarm(calendar.time+1, StoryEvent(label="farm_resisted", type="morning", call_args=[girl, "resisted"]))
                     elif reaction == "refused":
-                        descript += girl.name + "喊着，哭着，恳求着，但是吉泽尔边踢边骂地把她拖进了" + self.installation.name + "。"
+                        descript += girl.name + "喊着，哭着，恳求着，但是吉泽尔边踢边骂地把她拖进了" + farm_related_dict[self.installation.name] + "。"
                         calendar.set_alarm(calendar.time+1, StoryEvent(label="farm_resisted", type="morning", call_args=[girl, "refused"]))
 
                 # Learn from interaction
@@ -601,11 +601,11 @@ init -2 python:
 
                     if not self.act in farm.knows["amb_acts"][girl]:
                         ev_sound = s_spell
-                        descript += " " + girl.name + " was especially tense and confused. " + event_color["average"] % ("Gizel has discovered she is ambivalent about " + long_act_description[self.act] + ".")
+                        descript += " " + girl.name + "特别紧张和困惑。" + event_color["average"] % ("吉泽尔发现她对" + long_act_description[self.act] + "感到矛盾。")
                         girl.personality_unlock[self.act] = True
                         farm.knows["amb_acts"][girl].append(self.act)
                     else:
-                        descript += " " + girl.name + " struggled, because she has ambivalent feelings about " + long_act_description[self.act] + "."
+                        descript += " " + girl.name + "拼命挣扎，因为她对" + long_act_description[self.act] + "感到矛盾。"
 
                 elif self.act in girl.pos_acts: # Positive act
                     changes["libido"] += 1
@@ -614,11 +614,11 @@ init -2 python:
 
                     if not self.act in farm.knows["pos_acts"][girl]:
                         ev_sound = s_spell
-                        descript += " " + girl.name + " was blushing and breathing heavily, her nipples visibly erect. " + event_color["good"] % ("Gizel has discovered she likes " + long_act_description[self.act] + ".")
+                        descript += " " + girl.name + "她满脸通红，呼吸急促，乳头涨大。" + event_color["good"] % ("吉泽尔发现她喜欢" + long_act_description[self.act] + "。")
                         girl.personality_unlock[self.act] = True
                         farm.knows["pos_acts"][girl].append(self.act)
                     else:
-                        descript += " " + girl.name + " is turned on by " + girl_related_dict[self.act] + " acts, so she enjoyed it despite herself."
+                        descript += " " + girl.name + "被" + girl_related_dict[self.act] + "弄得十分舒服，所以她不由自主地享受着。"
                     training_modifier += 1
 
                 elif self.act in girl.neg_acts: # Negative act
@@ -628,11 +628,11 @@ init -2 python:
                         changes["mood"] -= 1
                     if not self.act in farm.knows["neg_acts"][girl]:
                         ev_sound = s_spell
-                        descript += " " + girl.name + " was tense and uncooperative, and remained fearful for the whole encounter. " + event_color["a little bad"] % ("Gizel has discovered she dislikes " + long_act_description[self.act] + ".")
+                        descript += " " + girl.name + "十分紧张，在整个过程中一直很害怕。" + event_color["a little bad"] % ("吉泽尔发现她讨厌" + long_act_description[self.act] + "。")
                         girl.personality_unlock[self.act] = True
                         farm.knows["neg_acts"][girl].append(self.act)
                     else:
-                        descript += " " + girl.name + " doesn't enjoy " + girl_related_dict[self.act] + " acts, so she remained tense and unwilling."
+                        descript += " " + girl.name + "并不喜欢" + girl_related_dict[self.act] + "，所以她还是很紧张和抗拒。"
 
                     training_modifier -= 1
 
@@ -645,12 +645,12 @@ init -2 python:
                         changes["mood"] += 1
                     changes["libido"] += 1
                     if not fix in farm.knows["pos_fix"][girl]:
-                        descript += " During training, Gizel discovered one of " + girl.name + "'s fixations (" + event_color["good"] % fix.name + ")!"
+                        descript += "在训练时，吉泽尔发现了" + girl.name + "的一个性癖(" + event_color["good"] % fix.name + ")!"
                         girl.personality_unlock[fix.name] = True
                         farm.knows["pos_fix"][girl].append(fix)
                         test_achievement("pos fixations")
                     else:
-                        descript += " Training was more effective, because Gizel used " + girl.name + "'s obsession with " + event_color["good"] % fix.name + " against her."
+                        descript += "训练变得更加有效率了，因为吉泽尔利用了" + girl.name + "对" + event_color["good"] % fix.name + "的感觉来针对性训练她。"
 
                 elif fix.name in [f.name for f in girl.neg_fixations]:
                     training_modifier += 1
@@ -659,12 +659,12 @@ init -2 python:
                         changes["mood"] -= 1
                         changes["fear"] += 1
                     if not fix in farm.knows["neg_fix"][girl]:
-                        descript += " During training, Gizel discovered something " + girl.name + " really hates (" + event_color["fear"] % fix.name + ")."
+                        descript += "在训练时，吉泽尔发现" + girl.name + "十分抵触某些行为 (" + event_color["fear"] % fix.name + ")。"
                         girl.personality_unlock[fix.name] = True
                         farm.knows["neg_fix"][girl].append(fix)
                         test_achievement("neg fixations")
                     else:
-                        descript += " Training was more effective, because Gizel used " + girl.name + "'s disgust for " + event_color["fear"] % fix.name + " against her."
+                        descript += "训练变得更加有效率了，因为吉泽尔利用了" + girl.name + "对" + event_color["fear"] % fix.name + "的厌恶来针对性训练她。"
 
                 # Determines result (= boost to preference unlocking)
 
@@ -700,8 +700,8 @@ init -2 python:
                 if self.act in ("sex", "group"):
                     if girl.pop_virginity(origin="farm"):
                         changes["obedience"] += 2 + dice(6)
-                        descript += "\n{color=[c_lightred]}" + girl.name + " has lost her virginity to " + article(rand_choice(minion_adjectives[self.minions[0].type])) + " " + self.minions[0].type + "!{/color}"
-                        log.add_report("{color=[c_lightred]}" + girl.fullname + " has lost her virginity to " + article(rand_choice(minion_adjectives[self.minions[0].type])) + " " + self.minions[0].type + "!{/color}")
+                        descript += "\n{color=[c_lightred]}" + girl.name + "的第一次交给了" + article(rand_choice(minion_adjectives[self.minions[0].type])) + " " + self.minions[0].type + "!{/color}"
+                        log.add_report("{color=[c_lightred]}" + girl.fullname + "的第一次交给了" + article(rand_choice(minion_adjectives[self.minions[0].type])) + " " + self.minions[0].type + "!{/color}")
 
 
                 ## Stat changes
