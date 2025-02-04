@@ -1393,7 +1393,7 @@ init -3 python:
 
                     sec_pic = girl.get_pic("rest", and_tags=["hurt"], naked_filter=True, soft=True)
                     if not sec_pic:
-                        sec.pic = girl.profile
+                        sec_pic = girl.profile
                     sec_text = ""
                     sec_sound = None
                     sec_with = fade

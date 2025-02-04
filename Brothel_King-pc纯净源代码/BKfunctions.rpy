@@ -2806,6 +2806,7 @@ init -3 python:
 
     def add_event(lbl, chapter=0, date=0, year=0, month=0, day=0, chance = 1.0, type="day", location = None, locations = None, min_gold = -99999, condition = None, not_condition = None, condition_func = None, call_args=None, once = True, AP_cost = 1, order = 0, weight = 1, room = None):
 
+        # Lower order = procs first
         # Type can be: "city", "day" (plays on main screen), "night" (plays upon ending day), "morning" (plays after night events)
 
         new_event = StoryEvent(label=lbl, chapter=chapter, date=date, year=year, month=month, day=day, chance=chance, type=type, location=location, locations = locations, min_gold=min_gold, condition=condition, not_condition=not_condition, condition_func=condition_func, call_args=call_args, once=once, AP_cost=AP_cost, order=order, weight=weight, room=room)
@@ -5036,7 +5037,7 @@ init -3 python:
             # Customers get their picks in descending order of rank
             for cust in _customers:
                 game.mm_log += "\n%s came " % cust.name
-                # Aborpts if no girls are left
+                # Aborts if no girls are left
                 if not _whores:
                     game.mm_log += "but found no whore left."
                     break # Stops matchmaking

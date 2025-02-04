@@ -957,8 +957,18 @@ label advance_to_chapter(chapter, silent=False, free=False, start=False): # All 
 ## 7. End game
 
     if game.chapter == 7:
-        if game.diff in ("normal", "hard", "insane"):
-            $ unlock_achievement("win " + game.diff)
+
+        if game.diff == "insane":
+            $ unlock_achievement("win insane")
+            $ unlock_achievement("win hard")
+            $ unlock_achievement("win normal")
+
+        if game.diff == "hard":
+            $ unlock_achievement("win hard")
+            $ unlock_achievement("win normal")
+
+        elif game.diff == "normal":
+            $ unlock_achievement("win normal")
 
         if NGP_settings_dict["free girl challenge"].get():
             $ unlock_achievement("free girl challenge")
@@ -2682,10 +2692,10 @@ label visit_thieves_guild:
         with fade
     elif NPC_renza.love >= 20 and not NPC_renza.flags["story3"]:
         $ NPC_renza.flags["story3"] = True
-        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen1", order=-1))
+        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen1", order=1))
     elif NPC_renza.love >= 30 and not NPC_renza.flags["story4"]:
         $ NPC_renza.flags["story4"] = True
-        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen3", order=-1))
+        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen3", order=1))
 
     renza "Oh, hi, [MC.name]. Come to check on my merchandise?"
 

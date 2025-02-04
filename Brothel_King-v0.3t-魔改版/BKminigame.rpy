@@ -230,7 +230,12 @@ label ninja_game(ninja): # Where ninja is an NPC object
     hide speed_effect with dissolve
 
     if game.chapter >= 3 and ninja != NPC_mizuki: #! Add mizuki later
-        call expression "c3_" + ninja.name.lower() + "_final_intercept" from _call_expression_9
+        if ninja == NPC_mizuki: #!!!
+            "<PLACEHOLDER> Story to be continued."
+            hide screen score
+            return
+        else:
+            call expression "c3_" + ninja.name.lower() + "_final_intercept"
     else:
         call run_ninja_game(njgame) from _call_run_ninja_game
 

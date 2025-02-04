@@ -3230,7 +3230,7 @@ init -2 python:
             self.changes = changes
             self.label = label
             self.object = object
-            self.order = order
+            self.order = order # Lower order = go first
             self.debug_id = debug_id
 
         def show_night(self):
@@ -3859,8 +3859,9 @@ init -2 python:
                     for i in range(self.value):
                         c = thing.add_random_fixation(type=self.target[:3])[0] # because add_random_fixation returns a list
 
-                for fix in c:
-                    thing.personality_unlock[c] = False
+                if c:
+                    for fix in c:
+                        thing.personality_unlock[c] = False
 
             # Instant sex preference gain
             elif self.target == "all sexual preferences":
@@ -7324,11 +7325,11 @@ init -2 python:
 
             elif self.target == "pos fixations":
                 for girl in MC.girls + farm.girls:
-                    r = sum(1 for fix in girl.pos_fixations if (girl.personality_unlock[fix.name]))
+                    r += sum(1 for fix in girl.pos_fixations if (girl.personality_unlock[fix.name]))
 
             elif self.target == "neg fixations":
                 for girl in MC.girls + farm.girls:
-                    r = sum(1 for fix in girl.neg_fixations if (girl.personality_unlock[fix.name]))
+                    r += sum(1 for fix in girl.neg_fixations if (girl.personality_unlock[fix.name]))
 
             elif self.target == "minions":
                 r = farm.count_minions()

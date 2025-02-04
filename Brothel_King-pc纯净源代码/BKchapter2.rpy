@@ -7151,10 +7151,101 @@ label intercept_mizuki():
 
         $ game.set_task("Meet the Water Kunoichi, yet again.", "story2", 3)
 
-    elif ninja.flags["hunt stage"] == 4: # Stage 3 is unlocked through the story
+    elif ninja.flags["hunt stage"] == 4: # Stage 3 is unlocked through the story #!
         scene black with fade
-        show mizuki
-        "Stage 4 - Defeat"
+        show bg mizuki_intro at top with dissolve
+
+        play sound s_crash
+        with vpunch
+
+        #!
+
+        hide mizuki_intro with pixellate
+
+        #!
+
+        label mizuki_defeat_menu():
+
+            menu:
+                suzume "What do we do with her now?"
+
+                "Give her to the Princess":
+
+                    
+
+                    menu:
+                        extend ""
+
+                        "Perfect":
+                            $ MC.neutral += 1
+                            $ renpy.block_rollback()
+                            $ NPC_mizuki.flags["c3 path"] = "arrested"
+                            $ story_flags["ninja hunt locked %s" % get_ninja_district(NPC_mizuki)] = True
+                            
+                            #!
+                            call remove_item(water_rune, definite_article=True) from _call_remove_item_1
+
+                            #!
+
+                            scene black with fade
+
+                            "Wait for Suzume to report on how it went."
+
+                            $ game.set_task("Wait for Suzume to report on Mizuki's arrest.", "story", 3)
+                            $ NPC_mizuki.location = None
+                            $ calendar.set_alarm(calendar.time+1, StoryEvent(label = "c3_mizuki_arrested", type="morning"))
+
+                        "Wait, let me reconsider":
+                            you "Wait, perhaps there's another course of action we can take."
+
+                            jump mizuki_defeat_menu
+
+                "Take her to your brothel":
+
+                    #!
+
+                    if not story_flags["water ward"]:
+
+                        #!
+
+                        jump mizuki_defeat_menu
+
+                    #!
+
+                    menu:
+                        extend ""
+
+                        "Perfect":
+                            $ MC.evil += 2
+                            $ renpy.block_rollback()
+                            $ NPC_mizuki.flags["c3 path"] = "captured"
+                            $ story_flags["ninja hunt locked %s" % get_ninja_district(NPC_mizuki)] = True
+
+                            #!
+
+                            scene black with fade
+
+                            "Wait until tonight to deal with Mizuki at your brothel."
+
+                            $ game.set_task("Break Mizuki's will at the brothel.", "story", blocking=False)
+                            $ NPC_mizuki.location = None
+
+                            $ calendar.set_alarm(calendar.time, StoryEvent(label = "c3_mizuki_captured", type="night"))
+
+                        "Wait, let me reconsider":
+                            you "Wait, perhaps there's another course of action we can take."
+
+                            jump mizuki_defeat_menu
+
+                "Let her go for now":
+                    you "I'm not sure. I think I need more time before I decide. Let her go."
+
+                    suzume doubt "But boss! After all we went through to capture her?"
+
+                    you "Yes. We've beaten her before, we can do it again if need be."
+
+                    suzume "Hmmm... Okay."
+
 
     hide mizuki
     hide bg
@@ -8157,7 +8248,7 @@ label intercept_haruka():
 
         play sound s_sheath
 
-        "In a last desperate dash, Haruka charges at you, but her move is slow and clumsy."
+        "In a last desperate dash, Haruka charges at you, but her movement is slow and clumsy."
 
         play sound s_punch
 
@@ -8180,7 +8271,7 @@ label intercept_haruka():
 
                     you "Best turn her in to the Princess before she causes any more trouble. We can't have a loose canon like her running around the city."
 
-                    suzume doubt "I guess the Princess can have experienced mages and knights lock her away, or expell her from the city."
+                    suzume doubt "I guess the Princess can have experienced mages and knights lock her away, or expel her from the city."
 
                     suzume "Either way, we won't hear any more from her."
 
@@ -8194,7 +8285,7 @@ label intercept_haruka():
                             $ story_flags["ninja hunt locked %s" % get_ninja_district(NPC_haruka)] = True
                             you "And that's just how I want it. I've had enough of this cat and mouse game. Take that rune, and bring her in."
 
-                            call remove_item(earth_rune, definite_article=True) from _call_remove_item_1
+                            call remove_item(earth_rune, definite_article=True)
 
                             suzume normal "Sure thing, boss."
 
@@ -10359,7 +10450,7 @@ label visit_papa():
 
                 "[girl.fullname] needs to accept {b}whoring{/b} to do this task."
 
-    elif game.chapter == 3:
+    else:
         call c3_papa_cells() from _call_c3_papa_cells_2
 
     return

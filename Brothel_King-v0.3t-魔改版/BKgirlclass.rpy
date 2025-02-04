@@ -1483,7 +1483,7 @@ init -2 python:
             self.upkeep_ratio = (self.upkeep - self.get_med_upkeep())/float(self.rank)
 
         def get_upkeep_threshold(self, step): # Only use integers from +5 to -5 as step values, or "min".
-            if step == "min":
+            if step == "min" or step == -6:
                 return self.get_med_upkeep() // 4
 
             base_value = {5 : 10, 4 : 8, 3 : 6, 2 : 4, 1 : 2, 0 : -2, -1 : -4, -2 : -6, -3 : -8, -4 : -10, -5 : -15}[step]
@@ -3521,7 +3521,7 @@ init -2 python:
         def refund_perks(self, min_level=0): # all perks above or equal to min_level will be refunded. Use min_level=0 to refund archetypes
             perk_points = 0
 
-            for perk in self.perks:
+            for perk in list(self.perks):
                 if perk.level >= min_level:
                     self.perks.remove(perk)
                     self.remove_effects(perk.effects)
@@ -4367,7 +4367,7 @@ init -2 python:
                 coeff = 70
                 if self.has_activated_sex_acts():
                     # Only the average modifier is kept
-                    coeff += sum(preference_modifier[self.get_preference(act)] for act in self.does if self.does[act]) / sum(1 for act in self.does if self.does[act])
+                    coeff += sum(preference_modifier[self.get_preference(act)] for act in (self.does[act] and act in all_sex_acts)) / sum(1 for act in self.does if (self.does[act] and act in all_sex_acts))
 
                     # Cannot completely offset mod (mood, obedience...)
                     if coeff < 30:

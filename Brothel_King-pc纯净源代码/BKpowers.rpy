@@ -729,8 +729,9 @@ label power_use(_pow, girl, girl2):
                 $ text1 = ""
                 if not _pow.super:
                     $ new_fix = girl.add_random_fixation(type="neg")[0] # Adding the new fixation first ensures the old one will not be randomly chosen
-                    $ girl.personality_unlock[new_fix] = False
-                    $ text1 = " She has received a new negative fixation."
+                    if new_fix:
+                        $ girl.personality_unlock[new_fix] = False
+                        $ text1 = " She has received a new negative fixation."
 
                 $ girl.remove_fixation(fix.name)
 

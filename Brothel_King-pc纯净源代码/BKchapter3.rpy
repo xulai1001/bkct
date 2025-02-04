@@ -107,7 +107,7 @@ label c3_suzume_hint(): # Happens after all three kunoichi hunts have been locke
 
 label c3_update_hint_goals():
     python:
-        for nin, channel in [(NPC_narika, "story"), (NPC_mizuki, "story2"), (NPC_haruka, "story3")]:
+        for nin, channel in [(NPC_haruka, "story"), (NPC_mizuki, "story2"), (NPC_narika, "story3")]:
             # Unlocks hint recap with Suzume
             if nin.flags["hints"] >= 3:
                 if nin.flags["locked"]: # First call
@@ -195,6 +195,8 @@ label c3_interrogate_contacts():
                 "I found hints about Mizuki" if not (NPC_mizuki.flags["locked"] or NPC_mizuki.flags["c3 path"]):
                     hide overlay
                     scene black with fade
+                    "<PLACEHOLDER> Story to be continued." #!!!
+                    jump districts
                     call c3_unlock_mizuki
                 "I found hints about Haruka" if not (NPC_haruka.flags["locked"] or NPC_haruka.flags["c3 path"]):
                     hide overlay
@@ -1847,7 +1849,10 @@ label c3_papa_cells():
     show bg papa_freak at top
     with dissolve
 
-    if not NPC_freak.flags["requirements"]:
+    if NPC_freak.flags["cells built"] >= 4:
+        papa "I have built everything I could for you, young lad. It's nice of you to visit, though."
+
+    elif not NPC_freak.flags["requirements"]:
         if not NPC_freak.flags["cells built"]:
             papa "So, for starters... I'm looking for a great cocksucker."
 
@@ -9458,6 +9463,8 @@ label narika_broken:
 
     $ girl = create_girl("Narika Shihoudou", force_original=True, level=10)
 
+    $ game.set_task(None, "story3")
+
     call acquire_ninja(girl) from _call_acquire_ninja
 
     return
@@ -9512,7 +9519,7 @@ label c3_haruka_guards():
 
     suzume "We could ask Kenshin to introduce us to prison's brass..."
 
-    you "But what if she's in league with the abducters?"
+    you "But what if she's in league with the abductors?"
 
     suzume "Then we don't tell her everything."
 
@@ -13969,6 +13976,8 @@ label haruka_broken:
     haruka blush "S-Sure. Thank you for having me."
 
     haruka sad "(So this is my life, now... I wonder if I can get used to it.)"
+
+    $ game.set_task(None, "story")
 
     $ girl = create_girl("Haruka Takamori", force_original=True, level=10)
 

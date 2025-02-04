@@ -7151,10 +7151,102 @@ label intercept_mizuki():
 
         $ game.set_task("再去见一次水之忍者，又一次。", "story2", 3)
 
-    elif ninja.flags["hunt stage"] == 4: # Stage 3 is unlocked through the story
+    elif ninja.flags["hunt stage"] == 4: # Stage 3 is unlocked through the story #!
         scene black with fade
-        show mizuki
-        "Stage 4 - Defeat"
+        show bg mizuki_intro at top with dissolve
+
+        play sound s_crash
+        with vpunch
+
+        #!
+
+        hide mizuki_intro with pixellate
+
+        #!
+
+        label mizuki_defeat_menu():
+
+            menu:
+                suzume "现在怎么处理她?"
+
+                "把她交给公主":
+
+                    
+
+                    menu:
+                        extend ""
+
+                        "好极了！":
+                            $ MC.neutral += 1
+                            $ renpy.block_rollback()
+                            $ NPC_mizuki.flags["c3 path"] = "arrested"
+                            $ story_flags["ninja hunt locked %s" % get_ninja_district(NPC_mizuki)] = True
+                            
+                            #!
+                            call remove_item(water_rune, definite_article=True) from _call_remove_item_1
+
+                            #!
+
+                            scene black with fade
+
+                            "等云雀回来再说吧。"
+
+                            $ game.set_task("Wait for Suzume to report on Mizuki's arrest.", "story", 3)
+                            $ NPC_mizuki.location = None
+                            $ calendar.set_alarm(calendar.time+1, StoryEvent(label = "c3_mizuki_arrested", type="morning"))
+
+                        "让我想想":
+                            you "也许，我们可以换个思路。"
+
+                            jump mizuki_defeat_menu
+
+                "把她带回青楼":
+
+                    #!
+
+                    if not story_flags["water ward"]:
+
+                        #!
+
+                        jump mizuki_defeat_menu
+
+                    #!
+
+                    menu:
+                        extend ""
+
+                        "好极了":
+                            $ MC.evil += 2
+                            $ renpy.block_rollback()
+                            $ NPC_mizuki.flags["c3 path"] = "captured"
+                            $ story_flags["ninja hunt locked %s" % get_ninja_district(NPC_mizuki)] = True
+
+                            #!
+
+                            scene black with fade
+
+                            "等到天黑之后在青楼处理她吧。"
+
+                            $ game.set_task("Break Mizuki's will at the brothel.", "story", blocking=False)
+                            $ NPC_mizuki.location = None
+
+                            $ calendar.set_alarm(calendar.time, StoryEvent(label = "c3_mizuki_captured", type="night"))
+
+                        "让我想想":
+                            you "也许，我们可以换个思路。"
+
+                            jump mizuki_defeat_menu
+
+                "放过她吧":
+                    you "我不确定，我也不知道该拿她怎么办，要不还是放了她吧。"
+
+                    suzume doubt "可是! 我们费了这么大功夫才抓到她?"
+
+                    you "你说得对，不过我们已经成功了一次，下一次也一定能抓到她。"
+
+                    suzume "呃... 好吧。"
+
+
 
     hide mizuki
     hide bg
@@ -8194,7 +8286,7 @@ label intercept_haruka():
                             $ story_flags["ninja hunt locked %s" % get_ninja_district(NPC_haruka)] = True
                             you "And that's just how I want it. I've had enough of this cat and mouse game. Take that rune, and bring her in."
 
-                            call remove_item(earth_rune, definite_article=True) from _call_remove_item_1
+                            call remove_item(earth_rune, definite_article=True)
 
                             suzume normal "Sure thing, boss."
 
@@ -10359,7 +10451,7 @@ label visit_papa():
 
                 "[girl.fullname] needs to accept {b}whoring{/b} to do this task."
 
-    elif game.chapter == 3:
+    else
         call c3_papa_cells() from _call_c3_papa_cells_2
 
     return
