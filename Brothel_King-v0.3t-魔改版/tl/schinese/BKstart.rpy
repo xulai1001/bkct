@@ -398,19 +398,19 @@ translate schinese strings:
 
     # game/BKstart.rpy:353
     old "beggars"
-    new "乞丐"
+    new "混混"
 
     # game/BKstart.rpy:353
     old "An extremely unrefined and undemanding class of customers. After all, beggars can't be choosers."
-    new "一群极其粗陋、要求不高的顾客。毕竟，乞丐没资格挑肥拣瘦。"
+    new "整日游手好闲，靠坑蒙拐骗营生的人群。他们可没资格挑肥拣瘦，有的玩就不错了。"
 
     # game/BKstart.rpy:354
     old "thugs"
-    new "小混混"
+    new "冒险者"
 
     # game/BKstart.rpy:354
     old "Thug life comes with its share of bros and hoes. You're the bro that gets the hoes."
-    new "混混的生活总是伴随着兄弟情和女人。兄弟如手足女人如衣服。"
+    new "冒险者通过完成公会发布的委托赚钱，他们很乐意把钱花在肉体的享受上，谁知道今天是不是最后一天呢？"
 
     # game/BKstart.rpy:355
     old "laborers"
@@ -418,7 +418,7 @@ translate schinese strings:
 
     # game/BKstart.rpy:355
     old "Workers of the world, unite! Or, you know, get a girl for the night."
-    new "工人们，团结起来!或者，你知道的，先找个女孩爽一晚上。"
+    new "工人的双手布满了老茧，粗糙的手掌摸在女孩光滑而又敏感的皮肤上，能给女孩不一样的刺激。"
 
     # game/BKstart.rpy:357
     old "sailors"
@@ -426,15 +426,15 @@ translate schinese strings:
 
     # game/BKstart.rpy:357
     old "Sailors are famously randy when they come ashore. After a long voyage, seamen need some release."
-    new "水手上岸后都是出了名的好色。经过长途航行后，海员们需要发泄积累的性欲。"
+    new "水手上岸需要发泄在海上积累的性欲，不要嫌弃他身上的鱼腥味，至少能盖住精液的气味。"
 
     # game/BKstart.rpy:358
     old "commoners"
-    new "普通市民"
+    new "社畜"
 
     # game/BKstart.rpy:358
     old "Common lives, common jobs, common wives... Seeing a commoner trying to escape all of this in a brothel is... common."
-    new "枯燥的生活，乏味的工作，将就的配偶....看到一个普通人试图在青楼里逃避这一切....这很常见。"
+    new "枯燥的生活，乏味的工作，家里安排的对象....普通人试图在青楼里逃避这一切....这很常见。"
 
     # game/BKstart.rpy:360
     old "craftsmen"
@@ -442,55 +442,55 @@ translate schinese strings:
 
     # game/BKstart.rpy:360
     old "Craftsmen work with their hands, and when their hands get restless, they like to lay them on a pretty girl. Craftsmen are crafty."
-    new "工匠们都是手艺人，当他们的手里没工具的时候，他们喜欢把手放在女人的奶子和翘臀上，上下其手。"
+    new "工匠拥有一双巧手，不仅体现在工艺制作上，还体现在床上。光是动动手指就能让女孩高潮。"
 
     # game/BKstart.rpy:362
     old "bourgeois"
-    new "金融业者"
+    new "公务员"
 
     # game/BKstart.rpy:362
     old "When did 'down with the bourgeoisie' become 'get down with the bourgeoisie'? You sold out, man."
-    new "这是一群有些小钱的人，他们愿意付出更多只为博得美人一笑。钱场得意，情场会失意吗？"
+    new "权力滋生了腐败，还有什么比酒池肉林更腐败的呢？在青楼进行利益交换再正常不过了，可不是什么歪瓜裂枣都能入他们的眼。"
 
     # game/BKstart.rpy:363
     old "guild members"
-    new "公会职员"
+    new "生意人"
 
     # game/BKstart.rpy:363
     old "Guild members are like craftsmen, but craftier."
-    new "这些公会职员拥有大量的人脉关系，只要你服务到位，他们日后就会给你行个方便。"
+    new "靠着泽恩的港口优势和税收政策，这些生意人赚到了不少钱，他们很大方，但要求也不少。也许会上演一场赎身的戏码？"
 
     # game/BKstart.rpy:365
     old "patricians"
-    new "富豪"
+    new "骑士"
 
     # game/BKstart.rpy:365
     old "Father figures to the community, ready to meet young girls with daddy issues."
-    new "这些中年人喜欢在街上闲逛，看看有没有年轻貌美的姑娘寻找爸爸活。"
+    new "穷文富武，骑士们拥有强健的肉体和顽强的意志，他的长枪能够贯穿面前的每一个敌人和...少女。"
 
     # game/BKstart.rpy:367
     old "aristocrats"
-    new "贵族子弟"
+    new "法师"
 
     # game/BKstart.rpy:367
     old "Above the law. Entitled AF. Filthy rich. What's not to like?"
-    new "这些二世祖无视法律，他们任意妄为，花天酒地，谁不羡慕呢？"
+    new "法师在泽恩的地位很微妙，人们敬畏但又厌恶他们，记得提醒他们不要在青楼内施展法术。"
 
     # game/BKstart.rpy:368
     old "nobles"
-    new "贵族"
+    new "贵族子弟"
 
     # game/BKstart.rpy:368
     old "Nobles are easily bored. Living a life of privilege isn't all fun and games, it's also yawns."
-    new "他们都是见过世面的人，普通姿色无法引起他们的兴趣。特权也伴随着义务，需得苦心经营，可别让他们无聊到打哈欠。"
+    new "他们都是见过世面的人，普通姿色无法引起他们的兴趣，他们喜欢更加刺激变态的玩法。要是玩坏了，他们会赔偿的。"
 
     # game/BKstart.rpy:370
     old "royals"
-    new "王室成员"
+    new "皇室成员"
 
     # game/BKstart.rpy:370
     old "People say royals are jaded, undeserving narcissistic parasites. No one gives them credit for how generous they are with their subjects' money. Sad."
-    new "许多人说皇亲国戚都是搜刮民脂民膏的寄生虫。没有人会称赞他们对臣民的投入和施舍有多慷慨。无论他们做的有多好，真是可悲。"
+    new "许多人说皇室是搜刮民脂民膏的吸血鬼。不管政府投入多少到基层建设，总有人会不满意的。他们吸金，青楼吸精，也许我们也是吸血鬼？"
 
     # game/BKstart.rpy:376
     old "Spice market"

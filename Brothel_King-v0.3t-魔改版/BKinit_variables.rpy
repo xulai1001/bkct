@@ -135,9 +135,9 @@ init -3 python:
 
     goal_channels = ("story", "story2", "story3", "advance", "advance2", "papa", "contract", "other")
     goal_channels_no_story = ("advance", "advance2", "contract", "other")
-    goal_categories = {"story" : "STORY", "story2" : "STORY", "story3" : "STORY", "advance" : "ADVANCE", "advance2" : "ADVANCE", "contract" : "CONTRACT", "other" : "MISC", "papa" : "MISC"}
+    goal_categories = {"story" : "主线任务", "story2" : "主线任务", "story3" : "主线任务", "advance" : "章节目标", "advance2" : "章节目标", "contract" : "合 同", "other" : "支线任务", "papa" : "支线任务"}
     goal_tb = {"story" : "tb story", "story2" : "tb story", "story3" : "tb story", "advance" : "tb advance", "advance2" : "tb advance", "contract" : "tb contract", "other" : "tb other", "papa" : "tb papa"}
-    goal_colors = {"STORY" : c_softpurple, "ADVANCE" : c_magenta, "CONTRACT" : c_firered, "MISC" : c_yellow}
+    goal_colors = {"主线任务" : c_softpurple, "章节目标" : c_magenta, "合 同" : c_firered, "支线任务" : c_yellow}
 
 #### TAG LIST ####
 

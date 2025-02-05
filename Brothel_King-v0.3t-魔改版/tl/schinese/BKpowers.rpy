@@ -304,7 +304,8 @@ translate schinese power_use_cd1fc471:
 translate schinese power_use_6dd11419:
 
     # "The [room.name] can now accomodate [_val] more customers."
-    "[room.name]现在可以额外容纳[_val]位顾客。"
+    $ room.name_cn = tl_cn(room.name, location_name_dict)
+    "[room.name_cn]现在可以额外容纳[_val]位顾客。"
 
 # game/BKpowers.rpy:1058
 translate schinese power_use_60db114e:

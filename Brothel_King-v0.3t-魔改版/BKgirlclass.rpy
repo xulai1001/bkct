@@ -2592,7 +2592,7 @@ init -2 python:
                 return chg, "sick"
             else:
                 update_effects()
-                notify(self.fullname + " is fully healed.", pic=self.portrait)
+                notify(self.fullname + "的身体已经恢复了。", pic=self.portrait)
                 return chg, "healthy"
 
         def full_rest(self):

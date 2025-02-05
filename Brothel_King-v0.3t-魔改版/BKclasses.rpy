@@ -708,7 +708,7 @@ init -2 python:
         def repay_in_full(self):
             if self.loan:
                 if self.gold >= self.loan.amount:
-                    if renpy.call_screen("yes_no", "Are you sure you want to repay your loan in full for " + str(self.loan.amount) + " gold?"):
+                    if renpy.call_screen("yes_no", "Are you sure you want to repay your loan in full for " + str(self.loan.amount) + " 金币。"):
                         self.gold -= self.loan.amount
                         self.loan = None
                         return True
@@ -923,7 +923,7 @@ init -2 python:
 
             else:
 
-                renpy.notify("%s: You do not have enough mana to cast this spell." % spl.name)
+                renpy.notify("%s: 你没有足够的魔力施展这个咒语。" % spl.name)
 
                 return False
 
@@ -2279,7 +2279,7 @@ init -2 python:
                 target_level = self.master_bedroom.level + 1
 
             if MC.has_gold(master_bedrooms[target_level].cost):
-                if renpy.call_screen("yes_no", "Are you sure you want to upgrade your room for " + str(master_bedrooms[target_level].cost) + " gold?"):
+                if renpy.call_screen("yes_no", "你确定要花" + str(master_bedrooms[target_level].cost) + " 金币升级你的私人卧室吗。"):
                     renpy.play(s_gold, "sound")
                     MC.gold -= master_bedrooms[target_level].cost
                     self.total_value += master_bedrooms[target_level].cost
@@ -2293,7 +2293,7 @@ init -2 python:
 #                     test_achievement("upgrades")
 
             else:
-                renpy.say(sill, "Sorry Master, you do not have enough money.")
+                renpy.say(sill, "对不起主人，你的钱好像不太够。")
 
 
         def can_have(self, job):
@@ -4261,6 +4261,7 @@ init -2 python:
             # target = "挑战中战斗加成" if target == "fight challenges" else target
             target = "购买价格" if target == "buy" else target
             target = "卖出价格" if target == "sell" else target
+            target = "售价" if target == "valuation" else target
 
             target = "恐惧收益" if target == "fear gains" else target
 
@@ -4725,17 +4726,17 @@ init -2 python:
                 self.update_cust_limit(True)
 
             elif brothel.free_room:
-                if renpy.call_screen("yes_no", __("Do you really want to choose the ") + __(self.name) + __(" as your free room?")):
+                if renpy.call_screen("yes_no", __("Do you really want to choose the ") + location_name_dict[self.name] + __(" as your free room?")):
                     renpy.play(s_spell, "sound")
                     self.level = 1
                     self.update_cust_limit()
                     brothel.free_room = False
 
             elif self.get_price() >= MC.gold:
-                renpy.say(sill, "Sorry Master, you do not have enough gold to build this room.")
+                renpy.say(sill, "对不起主人，你的钱好像不够用来升级这个房间。")
 
 
-            elif renpy.call_screen("yes_no", __("Are you sure you want to build the ") + __(self.name) + __(" for ") + str(self.get_price()) + " gold?"):
+            elif renpy.call_screen("yes_no", __("Are you sure you want to build the ") + location_name_dict[self.name] + __(" for ") + str(self.get_price()) + " 金币。"):
                 MC.gold -= self.get_price()
                 brothel.total_value += self.get_price()
                 renpy.play(s_gold, "sound")
@@ -4749,8 +4750,8 @@ init -2 python:
                 self.level += 1
                 self.update_cust_limit(True)
             elif self.get_price() >= MC.gold:
-                renpy.say(sill, "Sorry Master, you do not have enough gold to upgrade this room.")
-            elif renpy.call_screen("yes_no", __("Are you sure you want to upgrade the ") + __(self.name) + __(" for ") + str(self.get_price()) + " gold?"):
+                renpy.say(sill, "对不起主人，你的钱好像不够用来升级这个房间。")
+            elif renpy.call_screen("yes_no", __("Are you sure you want to upgrade the ") + location_name_dict[self.name] + __(" for ") + str(self.get_price()) + " 金币。"):
                 MC.gold -= self.get_price()
                 brothel.total_value += self.get_price()
                 renpy.play(s_gold, "sound")
@@ -4813,7 +4814,7 @@ init -2 python:
 
             if self.cust_limit != _old:
                 if not silent:
-                    renpy.say(sill, "You may now entertain " + str(self.cust_limit) + " customers in the " + self.name + ". {w=1.0}{nw}")
+                    renpy.say(sill,  location_name_dict[self.name] + "现在可以同时接待" + str(self.cust_limit) + "位顾客了。{w=1.0}{nw}")
 
             return self.cust_limit - _old
 
@@ -4992,7 +4993,7 @@ init -2 python:
 
             if not ignore_status:
                 if girl.hurt > 0 or girl.away or girl.exhausted:
-                    return (False, "Your girl is unable to work or study at the moment.")
+                    return (False, "你的女孩现在无法工作或接受培训。")
 
             if self.type == "class":
 
@@ -5002,17 +5003,17 @@ init -2 python:
                         if girl.get_stat(stat, raw=True) < self.stat_cap:
                             return (True, "为%s报名这个培训班。" % girl.fullname)
 
-                    return (False, "Your girl's skills are too high to learn anything from this class.")
+                    return (False, "你的女孩属性太高，无法从这个课程中获益了。")
 
                 else:
-                    return (False, "You do not have enough money to register a girl for this class.")
+                    return (False, "你付不起培训班的报名费。")
 
 
             elif self.type == "quest":
 
                 for stat, value in self.requirements:
                     if girl.get_stat(stat) < value:
-                        return (False, "Your girl doesn't meet the requirements for this assignment.")
+                        return (False, "你的女孩并不满足任务的需求。")
                 return (True, __("Send %s on this assignment.") % girl.fullname)
 
             raise AssertionError("Something is weird with " + self.type)
@@ -7153,9 +7154,9 @@ init -2 python:
                 brothel.furniture.append(furniture_dict[self.upgrade])
                 brothel.activate_furniture(furniture_dict[self.upgrade])
                 if message:
-                    renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + " has been destroyed and replaced with " + self.upgrade, pic = self.pic, pic_size = "large")
+                    renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + "已被" + self.upgrade + "取代。" , pic = self.pic, pic_size = "large")
             elif message:
-                renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + " has been destroyed.", pic = self.pic, pic_size = "large")
+                renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + "已被摧毁。", pic = self.pic, pic_size = "large")
             self.activate()
 
         def activate(self):

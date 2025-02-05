@@ -1639,7 +1639,7 @@ label perks(): # girl is passed by the previous label (girls)
         $ result, obj = ui.interact() # obj is an archetype or perk
 
         if result == "unlock":
-            if renpy.call_screen("yes_no", "Are you sure you want to unlock {b}" + obj + "{/b} zodiac for 2 perk points?"):
+            if renpy.call_screen("yes_no", "你确定要消耗2点天赋点解锁 {b}" + obj + "{/b}天赋分支吗?"):
 
                 play sound s_spell
                 $ perk_points -= 2
