@@ -7246,7 +7246,7 @@ translate schinese strings:
 
     # game/Mods/Vaan/Vaan_Guild.rpy:266
     old "Postpone"
-    new "Postpone"
+    new "下次再说"
 
     # game/Mods/Vaan/Vaan_Guild.rpy:1128
     old "Grab her and pull her close to you"
