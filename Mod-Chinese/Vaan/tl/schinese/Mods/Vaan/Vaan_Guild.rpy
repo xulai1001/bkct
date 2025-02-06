@@ -4,757 +4,757 @@
 translate schinese pool_party_71a23ebe:
 
     # "You think about what to do and decide to take a dip in the pool and relax. You see that some of the girls are already there and they look happy to see you."
-    "You think about what to do and decide to take a dip in the pool and relax. You see that some of the girls are already there and they look happy to see you."
+    "你想了想要做什么，最后决定去泳池里泡一泡，放松一下。你看到一些女孩已经在那里嬉戏了，她们看起来很高兴见到你。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4
 translate schinese pool_party_c0993b60:
 
     # "Just as you are about to sit down some of the girls come over to you with smiles on their faces."
-    "Just as you are about to sit down some of the girls come over to you with smiles on their faces."
+    "就在你要坐下的时候，一些女孩面带微笑地向你走来。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:67
 translate schinese pool_party_dd51e2b1:
 
     # "The girls look to be enjoying themselves in the sun, you all play around for an hour and after some time you find a chair to relax."
-    "The girls look to be enjoying themselves in the sun, you all play around for an hour and after some time you find a chair to relax."
+    "女孩们看起来在阳光下玩得很开心，你们一起玩了一个小时，过了一会儿，你找了一把椅子打算躺下。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:69
 translate schinese pool_party_dc6aa7fc:
 
     # "A few of them follow you back with a smirk on their faces, you think you know what they want. One of them move closer, while the others gigle behind her."
-    "A few of them follow you back with a smirk on their faces, you think you know what they want. One of them move closer, while the others gigle behind her."
+    "他们中的一些人跟着你回来，脸上带着笑容，你知道她们想干什么。其中一个走近你，其他人尾随在身后。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:82
 translate schinese pool_party_08a23faf:
 
     # girl.char "[MC.name], we were wondering would you like to have some fun. We mean the other kind of fun? Do you think you can handle all of us at once?"
-    girl.char "[MC.name], we were wondering would you like to have some fun. We mean the other kind of fun? Do you think you can handle all of us at once?"
+    girl.char "[MC.name], 你想不想玩游戏。我是说另一种游戏？你觉得你能同时满足我们所有人吗?"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:85
 translate schinese pool_party_e24899f4:
 
     # you "I've been watching you all in your sexy bikinis all day, i have been thinking about it since the moment i showed up! Come over here!"
-    you "I've been watching you all in your sexy bikinis all day, i have been thinking about it since the moment i showed up! Come over here!"
+    you "你们穿着比基尼在我面前晃悠了大半天，从我来的那一刻起我就一直在等着你们开口呢！过来！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:90
 translate schinese pool_party_2d5ddb00:
 
     # "The girls can't wait to try, there more of them around you than you can count! They take off your trunks and go down, while you wait for them to figure out who's going first!"
-    "The girls can't wait to try, there more of them around you than you can count! They take off your trunks and go down, while you wait for them to figure out who's going first!"
+    "女孩们迫不及待地走上前来，周围的女孩让你目不暇接！他们脱下你的泳裤，你很好奇谁会是第一个！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:123
 translate schinese pool_party_a6b0870e:
 
     # you "Girls, that feels amazing!"
-    you "Girls, that feels amazing!"
+    you "姑娘们，这感觉太棒了！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:125
 translate schinese pool_party_4ed849b2:
 
     # girl1.char "We're not done yet, i want to ride that cock!"
-    girl1.char "We're not done yet, i want to ride that cock!"
+    girl1.char "这才刚开始呢，我要骑在你身上！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:127
 translate schinese pool_party_24d4d47f:
 
     # girl2.char "I want it inside of me. I get to go next!"
-    girl2.char "I want it inside of me. I get to go next!"
+    girl2.char "把你的鸡巴放进来。下一个该轮到我了！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:129
 translate schinese pool_party_107acfac:
 
     # girl1.char "Wait for your turn!"
-    girl1.char "Wait for your turn!"
+    girl1.char "别插队啊！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:132
 translate schinese pool_party_13e93c67:
 
     # girl3.char "Get to it already! We're all waiting. [MC.name] will probably cum by the time you finish!"
-    girl3.char "Get to it already! We're all waiting. [MC.name] will probably cum by the time you finish!"
+    girl3.char "现在就开始吧！我等不及了。[MC.name]说不定在你完事的时候就射了！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:134
 translate schinese pool_party_cf6042fb:
 
     # you "I'll start with your pussies, get ready"
-    you "I'll start with your pussies, get ready"
+    you "我要好好疼爱你们的小穴，把它掰开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:163
 translate schinese pool_party_0a8fa21b:
 
     # you "Time to switch, bring your asses to me!"
-    you "Time to switch, bring your asses to me!"
+    you "该换个口味了，撅起你们的屁股!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:165
 translate schinese pool_party_9f527357:
 
     # "The girls take their turns again, this time you switch to fucking their assholes!"
-    "The girls take their turns again, this time you switch to fucking their assholes!"
+    "姑娘们休息好了准备开始第二轮大战，这次你决定和她们肛交!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:190
 translate schinese pool_party_890536db:
 
     # you "I'm going to cum, don't worry, there's enough for everyone!"
-    you "I'm going to cum, don't worry, there's enough for everyone!"
+    you "我要射了，不过别担心，每个人都有份!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:213
 translate schinese pool_party_b8eb363a:
 
     # "After you and the girls are done, it's time to head back inside. One by one they go back, half naked, ready for work!"
-    "After you and the girls are done, it's time to head back inside. One by one they go back, half naked, ready for work!"
+    "你和姑娘们狂欢之后，她们也该回去了。他们一个接一个地离开，半裸着，准备晚上的工作！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:259
 translate schinese buy_house_d9fc3873:
 
     # "You walk around through the city and see that there's a guild house for sale. The guild who used to work here went bankrupt."
-    "You walk around through the city and see that there's a guild house for sale. The guild who used to work here went bankrupt."
+    "你在城里散步的时候，看到有一处私人庄园正在抛售。庄园的主人破产了，只好抵押庄园。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:261
 translate schinese buy_house_0202c573:
 
     # "Would you like to buy the guild house? It will cost 100000 gold."
-    "Would you like to buy the guild house? It will cost 100000 gold."
+    "你想买下这座庄园吗? 只需要10万金币。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:270
 translate schinese buy_house_2fa735d5:
 
     # "You don't have enough gold. Hopefully you'll have the money by next month, you'll try again then."
-    "You don't have enough gold. Hopefully you'll have the money by next month, you'll try again then."
+    "你没有足够的金币，希望你能尽快攒够钱，谁知道会不会有其他人来把庄园买下来呢？"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:281
 translate schinese buy_house_7888f2e4:
 
     # "Congratulations! This brand new guild house is all yours. You can buy upgrades for it and expand it even more."
-    "Congratulations! This brand new guild house is all yours. You can buy upgrades for it and expand it even more."
+    "恭喜你! 现在这座庄园是你的了！你可以进一步装修或是扩建这座庄园。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:295
 translate schinese buy_house_b4a82ad1:
 
     # "You have no plans of buying a house, so you just pass it by."
-    "You have no plans of buying a house, so you just pass it by."
+    "你暂时没有购买地产的想法，所以你无视了它。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:297
 translate schinese buy_house_6bb92870:
 
     # "Once you've chosen this, you won't be able to go back, by the time you do, someone will have probably bought it."
-    "Once you've chosen this, you won't be able to go back, by the time you do, someone will have probably bought it."
+    "一旦你选择了这个选项，你就不能再反悔了，当你放弃之后，别人可能已经买下了它。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:305
 translate schinese buy_house_29f1c39f:
 
     # "You want to try and come back in a week, hopefully you'll have the money by then. Maybe you can get a loan from the bank."
-    "You want to try and come back in a week, hopefully you'll have the money by then. Maybe you can get a loan from the bank."
+    "你想花一周的时间准备，希望到时你能凑够钱。也许你可以向银行贷款。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:320
 translate schinese buy_tavern_1834c8df:
 
     # "You find yourself in huge room full of tables a bar and a few other smaller rooms within it. This used to be a tavern for the guild before you, here heroes would drink and relax after a mission."
-    "You find yourself in huge room full of tables a bar and a few other smaller rooms within it. This used to be a tavern for the guild before you, here heroes would drink and relax after a mission."
+    "地下有一间巨大的酒窖，这里设置了一块品酒的区域，里面有一个小型酒吧和几个小房间。原主人处理完工作后会来这里喝酒放松。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:323
 translate schinese buy_tavern_75b04ecf:
 
     # "Do you want to restore it to it's former glory? Perhaps even add a few rooms to it?"
-    "Do you want to restore it to it's former glory? Perhaps even add a few rooms to it?"
+    "你想让它恢复昔日的辉煌吗？甚至可以再增加几个房间？"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:331
 translate schinese buy_tavern_fea9644b:
 
     # "You don't have enough gold."
-    "You don't have enough gold."
+    "你没有足够的金币。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:342
 translate schinese buy_tavern_fa8209e4:
 
     # "Congratulations! The Tavern has been restored."
-    "Congratulations! The Tavern has been restored."
+    "恭喜你! 酒窖已经翻新完成。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:355
 translate schinese buy_tavern_46d734cd:
 
     # "You don't have the money or simply don't want to do it right now, so you just go back."
-    "You don't have the money or simply don't want to do it right now, so you just go back."
+    "你没有足够的金币，也可能你现在没兴趣，所以你离开了这里。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:371
 translate schinese buy_office_b5b4b8c2:
 
     # "You find yourself in huge room with an old desk in the middle. This used to be the leader's office for the guild before you, here heroes would get recruited and sent out to missions."
-    "You find yourself in huge room with an old desk in the middle. This used to be the leader's office for the guild before you, here heroes would get recruited and sent out to missions."
+    "你发现这里是一间巨大的会议室，中间摆了一张长条桌。这里曾经是原主人的办公场所，他在这里和其他人商谈事宜。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:374
 translate schinese buy_office_0f64a98f:
 
     # "Do you want to restore it to it's former glory? Perhaps even make it better?"
-    "Do you want to restore it to it's former glory? Perhaps even make it better?"
+    "你想让它恢复昔日的辉煌吗？甚至让它变得更加华丽？"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:382
 translate schinese buy_office_fea9644b:
 
     # "You don't have enough gold."
-    "You don't have enough gold."
+    "你没有足够的金币。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:393
 translate schinese buy_office_018c21b0:
 
     # "Congratulations! The Office has been restored."
-    "Congratulations! The Office has been restored."
+    "恭喜你! 会议室已经翻新完成。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:406
 translate schinese buy_office_46d734cd:
 
     # "You don't have the money or simply don't want to do it right now, so you just go back."
-    "You don't have the money or simply don't want to do it right now, so you just go back."
+    "你没有足够的金币，也可能你现在没兴趣，所以你离开了这里。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:442
 translate schinese guild_vip_room_89a75d44:
 
     # "You find yourself in a room with a dance pole. You call one of the girls to come join you."
-    "You find yourself in a room with a dance pole. You call one of the girls to come join you."
+    "这里是一间隐蔽的舞厅。你喊了一个姑娘和你一起进去。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:448
 translate schinese guild_vip_room_db133fc6:
 
     # girl.char "This room is nice and private where no one can see, would you like me to give you a nice private dance?"
-    girl.char "This room is nice and private where no one can see, would you like me to give you a nice private dance?"
+    girl.char "这地方很不错，而且相当隐蔽，您想让我单独为您跳支舞吗?"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:451
 translate schinese guild_vip_room_ee65c644:
 
     # you "Of course! I want to see you on that pole, girl!"
-    you "Of course! I want to see you on that pole, girl!"
+    you "当然! 请开始你的表演吧!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:453
 translate schinese guild_vip_room_b1c7d6ee:
 
     # girl.char "Hahaha, very well."
-    girl.char "Hahaha, very well."
+    girl.char "咯咯咯, 当然可以。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:459
 translate schinese guild_vip_room_01406946:
 
     # you "Oh wow, keep it up!"
-    you "Oh wow, keep it up!"
+    you "哇哦, 接着跳!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:461
 translate schinese guild_vip_room_57248382:
 
     # "The girl, is happy you're enjoying her dance, she starts dancing provocative, she is enjoying herself a lot."
-    "The girl, is happy you're enjoying her dance, she starts dancing provocative, she is enjoying herself a lot."
+    "她很高兴你喜欢她的舞蹈，她摆出各种性感的姿势，她很享受你的目光。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:468
 translate schinese guild_vip_room_abd1870c:
 
     # you "How about you take your clothes off?"
-    you "How about you take your clothes off?"
+    you "现在跳一支脱衣舞如何?"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:471
 translate schinese guild_vip_room_878b829b:
 
     # girl.char "Of course."
-    girl.char "Of course."
+    girl.char "当然可以。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:480
 translate schinese guild_vip_room_9234d176:
 
     # girl.char "Do you like what you see?"
-    girl.char "Do you like what you see?"
+    girl.char "您还满意吗？"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:490
 translate schinese guild_vip_room_b1725306:
 
     # "The girl is dancing naked in front of you, you wonder if you can take it further and try to grab her."
-    "The girl is dancing naked in front of you, you wonder if you can take it further and try to grab her."
+    "随着舞蹈的进行，她身上的衣服逐渐滑落，你看得口干舌燥，走进舞池一把抱住她。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:495
 translate schinese guild_vip_room_cc127dc8:
 
     # "She seems to be enjoying it."
-    "She seems to be enjoying it."
+    "她看起来很享受。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:501
 translate schinese guild_vip_room_614d2bf3:
 
     # "You grab and kiss her all over, while she still tries to move around and dance for you."
-    "You grab and kiss her all over, while she still tries to move around and dance for you."
+    "你抱住她，亲吻她身体的每一处肌肤。她一边温柔地挣脱你一边继续跳舞。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:504
 translate schinese guild_vip_room_154c5357:
 
     # girl.char "I'm feeling so horny, how about a blowjob?"
-    girl.char "I'm feeling so horny, how about a blowjob?"
+    girl.char "我想要了, 把你的肉棒塞进我的嘴巴里吧！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:507
 translate schinese guild_vip_room_e8633d3c:
 
     # "She doesn't wait for you to answer and goes down on your dick."
-    "She doesn't wait for you to answer and goes down on your dick."
+    "还没等你反应过来，她就蹲下用嘴拉开了裤链，将你的老二叼了出来。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:514
 translate schinese guild_vip_room_6614ead7:
 
     # girl.char "Oh wow, it's such a big cock, i love it."
-    girl.char "Oh wow, it's such a big cock, i love it."
+    girl.char "哦，它已经变得这么大了，我喜欢它。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:518
 translate schinese guild_vip_room_45d4eade:
 
     # you "I'm not done yet girl, i want to fuck you."
-    you "I'm not done yet girl, i want to fuck you."
+    you "还没完呢宝贝，现在该品尝正餐了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:528
 translate schinese guild_vip_room_258a4a79:
 
     # "She is happy to please and you push your cock inside her, you start fucking her where she is."
-    "She is happy to please and you push your cock inside her, you start fucking her where she is."
+    "她努力地让你满意，调整姿势让小穴对准龟头，你用力一挺，肉棒直捣黄龙。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:531
 translate schinese guild_vip_room_f58491bd:
 
     # girl.char "That feels amazing, keep going."
-    girl.char "That feels amazing, keep going."
+    girl.char "好爽啊，不要停！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:538
 translate schinese guild_vip_room_4d73c7bb:
 
     # "You keep fucking her and soon you decide to change things."
-    "You keep fucking her and soon you decide to change things."
+    "你操了她几分钟后，想换个玩法。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:540
 translate schinese guild_vip_room_96de3db0:
 
     # you "How about putting it in your ass."
-    you "How about putting it in your ass."
+    you "来试试走后门如何？"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:542
 translate schinese guild_vip_room_99e15b06:
 
     # girl.char "Well, what the hell, put it in!"
-    girl.char "Well, what the hell, put it in!"
+    girl.char "行, 哪里都行,把你的肉棒塞进来!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:550
 translate schinese guild_vip_room_d761face:
 
     # "You put your cock deep inside her as she keeps moaning, if it wasn't so loud outide someone would have probably heard you."
-    "You put your cock deep inside her as she keeps moaning, if it wasn't so loud outide someone would have probably heard you."
+    "当她不停地呻吟时，你把你的鸡巴狠狠地插进她的身体里，如果有人经过，可能会听到你的声音。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:553
 translate schinese guild_vip_room_436910c7:
 
     # you "I'm coming! Take it."
-    you "I'm coming! Take it."
+    you "我要射了! 全都射给你！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:560
 translate schinese guild_vip_room_fd1b1f16:
 
     # girl.char "That felt amazing, i'll going out, need to get a drink."
-    girl.char "That felt amazing, i'll going out, need to get a drink."
+    girl.char "无套内射的感觉真美妙，我也要去了,泄了这么多，我得补充水分。等会喝一杯吧。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:562
 translate schinese guild_vip_room_07ad7ef2:
 
     # you "Me too, i'll go and check on the others."
-    you "Me too, i'll go and check on the others."
+    you "那就来喝个交杯酒吧, 等会我还得去看看其他人怎么样了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1094
 translate schinese living_room_girl_83eda39a:
 
     # "You stick around in the living room for a big and go back out."
-    "You stick around in the living room for a big and go back out."
+    "你在大厅里呆了许久，然后离开了这里。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1106
 translate schinese living_room_girl_9ee1e337:
 
     # "You go to the living room to sit on the couch and have a warm drink. You see that [girl.name] is already there."
-    "You go to the living room to sit on the couch and have a warm drink. You see that [girl.name] is already there."
+    "你来到大厅坐在沙发上品尝红酒。你看到[girl.name]也在这里。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1111
 translate schinese living_room_girl_c3f638f8:
 
     # "She hasn't noticed you yet."
-    "She hasn't noticed you yet."
+    "她完全没注意到你。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1114
 translate schinese living_room_girl_9e434c90:
 
     # girl.char "Oh hey, [MC.name]. How are you doing? Any missions for me?"
-    girl.char "Oh hey, [MC.name]. How are you doing? Any missions for me?"
+    girl.char "嘿, [MC.name]。感觉怎么样? 有什么吩咐吗?"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1117
 translate schinese living_room_girl_94916467:
 
     # you "Not for now, everything seems quiet, i'll have to check later."
-    you "Not for now, everything seems quiet, i'll have to check later."
+    you "暂时还没有，这里太安静了，我等会还得再检查检查。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1123
 translate schinese living_room_girl_672e3242:
 
     # girl.char "Well, let me know if you have something for me."
-    girl.char "Well, let me know if you have something for me."
+    girl.char "好的，如果有需要第一时间喊我。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1126
 translate schinese living_room_girl_77c922d2:
 
     # "She walks away."
-    "She walks away."
+    "她走开了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1136
 translate schinese living_room_girl_2523abd7:
 
     # "She walks away, teasing you with her tight ass."
-    "She walks away, teasing you with her tight ass."
+    "她走开了，翘臀一扭一扭地吸引着你的目光。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1138
 translate schinese living_room_girl_7c880d3c:
 
     # you "I'm too hungry to do anything about you, ughh."
-    you "I'm too hungry to do anything about you, ughh."
+    you "可惜我饿得没力气了，不然非得把你办了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1149
 translate schinese living_room_girl_6eff8113:
 
     # you "Actually, i do have something for you."
-    you "Actually, i do have something for you."
+    you "实际上，我确实有活让你干。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1158
 translate schinese living_room_girl_80961442:
 
     # girl.char "What do you think you're doing?"
-    girl.char "What do you think you're doing?"
+    girl.char "你想干什么?"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1160
 translate schinese living_room_girl_c348d5c6:
 
     # you "I thought we could have some fun?"
-    you "I thought we could have some fun?"
+    you "我想我们可以找点乐子?"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1176
 translate schinese living_room_girl_21067ad9:
 
     # girl.char "Oh, i see. I'm a bit bored too, let's have some fun."
-    girl.char "Oh, i see. I'm a bit bored too, let's have some fun."
+    girl.char "好吧，我明白了。我也有点无聊，一起来找点乐子吧。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1191
 translate schinese living_room_girl2_650999e6:
 
     # you "Come over here, [girl.name]!"
-    you "Come over here, [girl.name]!"
+    you "到我这儿来，[girl.name]!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1211
 translate schinese living_room_girl2_650999e6_1:
 
     # you "Come over here, [girl.name]!"
-    you "Come over here, [girl.name]!"
+    you "到我这儿来，[girl.name]!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1231
 translate schinese living_room_girl2_650999e6_2:
 
     # you "Come over here, [girl.name]!"
-    you "Come over here, [girl.name]!"
+    you "到我这儿来，[girl.name]!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1255
 translate schinese living_room_girl3_be0125bb:
 
     # you "Let's take this off."
-    you "Let's take this off."
+    you "把这些碍事的东西都脱掉。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1269
 translate schinese living_room_girl3_a5b41e46:
 
     # you "Sorry, thought you wanted to do something else."
-    you "Sorry, thought you wanted to do something else."
+    you "抱歉，我以为你想玩点别的。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1272
 translate schinese living_room_girl3_11a67b4a:
 
     # girl.char "You thought wrong."
-    girl.char "You thought wrong."
+    girl.char "那你可真是大错特错。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1295
 translate schinese living_room_girl3_a8578d2c:
 
     # you "How about we take this further? Get down and give me a blowjob."
-    you "How about we take this further? Get down and give me a blowjob."
+    you "我们再深入一点怎么样？下来给我口交。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1322
 translate schinese living_room_call_girl_chair_abeb9b30:
 
     # "You sit on your chair while she services you."
-    "You sit on your chair while she services you."
+    "你坐在椅子上让她服侍你。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1369
 translate schinese living_room_call_girl_chair_abeb9b30_1:
 
     # "You sit on your chair while she services you."
-    "You sit on your chair while she services you."
+    "你坐在椅子上让她服侍你。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1399
 translate schinese living_room_call_girl_chair_7335a04a:
 
     # you "That's it, take it deep."
-    you "That's it, take it deep."
+    you "就是这样，含深一点。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1408
 translate schinese living_room_call_girl_chair_abeb9b30_2:
 
     # "You sit on your chair while she services you."
-    "You sit on your chair while she services you."
+    "你坐在椅子上让她服侍你。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1438
 translate schinese living_room_call_girl_chair_f6bff644:
 
     # you "Good little slut."
-    you "Good little slut."
+    you "真是个小妖精。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1449
 translate schinese living_room_call_girl_chair_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1458
 translate schinese living_room_call_girl_chair_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1460
 translate schinese living_room_call_girl_chair_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1462
 translate schinese living_room_call_girl_chair_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1467
 translate schinese living_room_call_girl_chair_4322373b:
 
     # "She fixes her clothes and goes somewhere else."
-    "She fixes her clothes and goes somewhere else."
+    "她穿好了衣服，离开了这里。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1486
 translate schinese living_room_call_girl_chair_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1488
 translate schinese living_room_call_girl_chair_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1490
 translate schinese living_room_call_girl_chair_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1494
 translate schinese living_room_call_girl_chair_ce2bacb3:
 
     # "She moves fast and walks outside."
-    "She moves fast and walks outside."
+    "她气冲冲地离开了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1510
 translate schinese living_room_call_girl_chair_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1512
 translate schinese living_room_call_girl_chair_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1514
 translate schinese living_room_call_girl_chair_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到衣服上的精液之前，脱下来洗干净!这肯定会在衣服上留下痕迹的!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1519
 translate schinese living_room_call_girl_chair_c1c600ef:
 
     # girl.char "I'll go freshen up now, that was great!"
-    girl.char "I'll go freshen up now, that was great!"
+    girl.char "我去清理一下，真是令人愉悦！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1530
 translate schinese living_room_call_girl_chair_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1538
 translate schinese living_room_call_girl_chair_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1540
 translate schinese living_room_call_girl_chair_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1542
 translate schinese living_room_call_girl_chair_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到衣服上的精液之前，脱下来洗干净!这肯定会在衣服上留下痕迹的!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1546
 translate schinese living_room_call_girl_chair_c1c600ef_1:
 
     # girl.char "I'll go freshen up now, that was great!"
-    girl.char "I'll go freshen up now, that was great!"
+    girl.char "我去清理一下，真是令人愉悦！"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1560
 translate schinese living_room_call_girl_chair_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1568
 translate schinese living_room_call_girl_chair_c6acc4a0:
 
     # girl.char "Oh how, there's so much of it."
-    girl.char "Oh how, there's so much of it."
+    girl.char "啊，感觉肚子都要被撑大了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1570
 translate schinese living_room_call_girl_chair_51da5dc0:
 
     # you "This was amazing."
-    you "This was amazing."
+    you "真是太爽了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1575
 translate schinese living_room_call_girl_chair_aedc05be:
 
     # girl.char "See you around!"
-    girl.char "See you around!"
+    girl.char "有缘再见!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1618
 translate schinese living_room_call_girl_desk_8bd5ced2:
 
     # "You sit on your desk while she services you."
-    "You sit on your desk while she services you."
+    "你坐在桌子上让她服侍你。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1667
 translate schinese living_room_call_girl_desk_e6325f34:
 
     # "You put her on the living room plot and start fucking her."
-    "You put her on the living room plot and start fucking her."
+    "你把她抱起来，放在会议室的桌子上，掰开她的双腿用力抽插她的小穴。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1697
 translate schinese living_room_call_girl_desk_71322d11:
 
     # you "You're such a good girl."
-    you "You're such a good girl."
+    you "真是个乖姑娘。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1707
 translate schinese living_room_call_girl_desk_e85527ba:
 
     # "You put her on the living room plot and start fucking her ass."
-    "You put her on the living room plot and start fucking her ass."
+    "你把她抱起来，放在会议室的桌子上，掰开她的双腿用力抽插她的菊花。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1737
 translate schinese living_room_call_girl_desk_99b87408:
 
     # you "I've been needing some relief all day."
-    you "I've been needing some relief all day."
+    you "我需要好好放松一下。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1749
 translate schinese living_room_call_girl_desk_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1758
 translate schinese living_room_call_girl_desk_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1760
 translate schinese living_room_call_girl_desk_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1762
 translate schinese living_room_call_girl_desk_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1767
 translate schinese living_room_call_girl_desk_bb4e6f10:
 
     # "She fixes her clothes and goes back outside."
-    "She fixes her clothes and goes back outside."
+    "她穿好了衣服，整理了一下，然后离开了这里。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1786
 translate schinese living_room_call_girl_desk_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1788
 translate schinese living_room_call_girl_desk_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1790
 translate schinese living_room_call_girl_desk_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1794
 translate schinese living_room_call_girl_desk_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1810
 translate schinese living_room_call_girl_desk_c6acc4a0:
 
     # girl.char "Oh how, there's so much of it."
-    girl.char "Oh how, there's so much of it."
+    girl.char "啊，感觉肚子都要被撑大了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1812
 translate schinese living_room_call_girl_desk_51da5dc0:
 
     # you "This was amazing."
-    you "This was amazing."
+    you "真是太爽了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1818
 translate schinese living_room_call_girl_desk_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1829
 translate schinese living_room_call_girl_desk_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1837
 translate schinese living_room_call_girl_desk_c6acc4a0_1:
 
     # girl.char "Oh how, there's so much of it."
-    girl.char "Oh how, there's so much of it."
+    girl.char "啊，感觉肚子都要被撑大了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1839
 translate schinese living_room_call_girl_desk_51da5dc0_1:
 
     # you "This was amazing."
-    you "This was amazing."
+    you "真是太爽了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1842
 translate schinese living_room_call_girl_desk_69862016:
@@ -766,37 +766,37 @@ translate schinese living_room_call_girl_desk_69862016:
 translate schinese living_room_call_girl_desk_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1861
 translate schinese living_room_call_girl_desk_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1869
 translate schinese living_room_call_girl_desk_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1871
 translate schinese living_room_call_girl_desk_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1873
 translate schinese living_room_call_girl_desk_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1877
 translate schinese living_room_call_girl_desk_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:1923
 translate schinese living_room_call_girl_table_e90aa492:
@@ -844,25 +844,25 @@ translate schinese living_room_call_girl_table_a07f98ac:
 translate schinese living_room_call_girl_table_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2065
 translate schinese living_room_call_girl_table_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2067
 translate schinese living_room_call_girl_table_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2069
 translate schinese living_room_call_girl_table_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2074
 translate schinese living_room_call_girl_table_8322770f:
@@ -874,19 +874,19 @@ translate schinese living_room_call_girl_table_8322770f:
 translate schinese living_room_call_girl_table_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2095
 translate schinese living_room_call_girl_table_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2097
 translate schinese living_room_call_girl_table_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2101
 translate schinese living_room_call_girl_table_0c40e759:
@@ -916,31 +916,31 @@ translate schinese living_room_call_girl_table_85441bce:
 translate schinese living_room_call_girl_table_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2137
 translate schinese living_room_call_girl_table_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2145
 translate schinese living_room_call_girl_table_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2147
 translate schinese living_room_call_girl_table_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2149
 translate schinese living_room_call_girl_table_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2153
 translate schinese living_room_call_girl_table_0c40e759_1:
@@ -964,25 +964,25 @@ translate schinese living_room_call_girl_table_2a198580_1:
 translate schinese living_room_call_girl_table_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2179
 translate schinese living_room_call_girl_table_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2181
 translate schinese living_room_call_girl_table_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2183
 translate schinese living_room_call_girl_table_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:2187
 translate schinese living_room_call_girl_table_0c40e759_2:
@@ -1726,25 +1726,25 @@ translate schinese kitchen_call_girl_chair_f6bff644:
 translate schinese kitchen_call_girl_chair_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3460
 translate schinese kitchen_call_girl_chair_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3462
 translate schinese kitchen_call_girl_chair_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3464
 translate schinese kitchen_call_girl_chair_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3469
 translate schinese kitchen_call_girl_chair_8322770f:
@@ -1756,109 +1756,109 @@ translate schinese kitchen_call_girl_chair_8322770f:
 translate schinese kitchen_call_girl_chair_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3490
 translate schinese kitchen_call_girl_chair_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3492
 translate schinese kitchen_call_girl_chair_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3496
 translate schinese kitchen_call_girl_chair_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3512
 translate schinese kitchen_call_girl_chair_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3514
 translate schinese kitchen_call_girl_chair_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3516
 translate schinese kitchen_call_girl_chair_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3521
 translate schinese kitchen_call_girl_chair_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3532
 translate schinese kitchen_call_girl_chair_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3540
 translate schinese kitchen_call_girl_chair_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3542
 translate schinese kitchen_call_girl_chair_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3544
 translate schinese kitchen_call_girl_chair_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3548
 translate schinese kitchen_call_girl_chair_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3562
 translate schinese kitchen_call_girl_chair_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3570
 translate schinese kitchen_call_girl_chair_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3572
 translate schinese kitchen_call_girl_chair_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3574
 translate schinese kitchen_call_girl_chair_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3578
 translate schinese kitchen_call_girl_chair_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3621
 translate schinese kitchen_call_girl_desk_8bd5ced2:
@@ -1894,25 +1894,25 @@ translate schinese kitchen_call_girl_desk_99b87408:
 translate schinese kitchen_call_girl_desk_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3761
 translate schinese kitchen_call_girl_desk_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3763
 translate schinese kitchen_call_girl_desk_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3765
 translate schinese kitchen_call_girl_desk_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3770
 translate schinese kitchen_call_girl_desk_8322770f:
@@ -1924,109 +1924,109 @@ translate schinese kitchen_call_girl_desk_8322770f:
 translate schinese kitchen_call_girl_desk_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3791
 translate schinese kitchen_call_girl_desk_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3793
 translate schinese kitchen_call_girl_desk_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3797
 translate schinese kitchen_call_girl_desk_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3813
 translate schinese kitchen_call_girl_desk_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3815
 translate schinese kitchen_call_girl_desk_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3817
 translate schinese kitchen_call_girl_desk_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3822
 translate schinese kitchen_call_girl_desk_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3833
 translate schinese kitchen_call_girl_desk_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3841
 translate schinese kitchen_call_girl_desk_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3843
 translate schinese kitchen_call_girl_desk_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3845
 translate schinese kitchen_call_girl_desk_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3849
 translate schinese kitchen_call_girl_desk_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3863
 translate schinese kitchen_call_girl_desk_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3871
 translate schinese kitchen_call_girl_desk_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3873
 translate schinese kitchen_call_girl_desk_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3875
 translate schinese kitchen_call_girl_desk_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3879
 translate schinese kitchen_call_girl_desk_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:3925
 translate schinese kitchen_call_girl_table_c45d22a9:
@@ -2074,25 +2074,25 @@ translate schinese kitchen_call_girl_table_a07f98ac:
 translate schinese kitchen_call_girl_table_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4067
 translate schinese kitchen_call_girl_table_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4069
 translate schinese kitchen_call_girl_table_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4071
 translate schinese kitchen_call_girl_table_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4076
 translate schinese kitchen_call_girl_table_8322770f:
@@ -2104,109 +2104,109 @@ translate schinese kitchen_call_girl_table_8322770f:
 translate schinese kitchen_call_girl_table_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4097
 translate schinese kitchen_call_girl_table_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4099
 translate schinese kitchen_call_girl_table_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4103
 translate schinese kitchen_call_girl_table_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4119
 translate schinese kitchen_call_girl_table_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4121
 translate schinese kitchen_call_girl_table_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4123
 translate schinese kitchen_call_girl_table_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4128
 translate schinese kitchen_call_girl_table_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4139
 translate schinese kitchen_call_girl_table_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4147
 translate schinese kitchen_call_girl_table_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4149
 translate schinese kitchen_call_girl_table_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4151
 translate schinese kitchen_call_girl_table_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4155
 translate schinese kitchen_call_girl_table_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4169
 translate schinese kitchen_call_girl_table_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4177
 translate schinese kitchen_call_girl_table_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4179
 translate schinese kitchen_call_girl_table_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4181
 translate schinese kitchen_call_girl_table_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4185
 translate schinese kitchen_call_girl_table_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4255
 translate schinese office_call_girl_d212a2d4:
@@ -2344,25 +2344,25 @@ translate schinese office_call_girl_chair_71322d11_2:
 translate schinese office_call_girl_chair_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4535
 translate schinese office_call_girl_chair_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4537
 translate schinese office_call_girl_chair_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4539
 translate schinese office_call_girl_chair_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4544
 translate schinese office_call_girl_chair_8322770f:
@@ -2374,109 +2374,109 @@ translate schinese office_call_girl_chair_8322770f:
 translate schinese office_call_girl_chair_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4565
 translate schinese office_call_girl_chair_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4567
 translate schinese office_call_girl_chair_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4571
 translate schinese office_call_girl_chair_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4587
 translate schinese office_call_girl_chair_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4589
 translate schinese office_call_girl_chair_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4591
 translate schinese office_call_girl_chair_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4596
 translate schinese office_call_girl_chair_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4607
 translate schinese office_call_girl_chair_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4615
 translate schinese office_call_girl_chair_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4617
 translate schinese office_call_girl_chair_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4619
 translate schinese office_call_girl_chair_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4623
 translate schinese office_call_girl_chair_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4637
 translate schinese office_call_girl_chair_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4645
 translate schinese office_call_girl_chair_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4647
 translate schinese office_call_girl_chair_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4649
 translate schinese office_call_girl_chair_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4653
 translate schinese office_call_girl_chair_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4695
 translate schinese office_call_girl_couch_daa3559d:
@@ -2518,25 +2518,25 @@ translate schinese office_call_girl_couch_71322d11_2:
 translate schinese office_call_girl_couch_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4835
 translate schinese office_call_girl_couch_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4837
 translate schinese office_call_girl_couch_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4839
 translate schinese office_call_girl_couch_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4844
 translate schinese office_call_girl_couch_8322770f:
@@ -2548,109 +2548,109 @@ translate schinese office_call_girl_couch_8322770f:
 translate schinese office_call_girl_couch_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4865
 translate schinese office_call_girl_couch_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4867
 translate schinese office_call_girl_couch_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4871
 translate schinese office_call_girl_couch_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4887
 translate schinese office_call_girl_couch_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4889
 translate schinese office_call_girl_couch_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4891
 translate schinese office_call_girl_couch_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4896
 translate schinese office_call_girl_couch_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4907
 translate schinese office_call_girl_couch_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4915
 translate schinese office_call_girl_couch_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4917
 translate schinese office_call_girl_couch_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4919
 translate schinese office_call_girl_couch_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4923
 translate schinese office_call_girl_couch_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4937
 translate schinese office_call_girl_couch_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4945
 translate schinese office_call_girl_couch_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4947
 translate schinese office_call_girl_couch_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4949
 translate schinese office_call_girl_couch_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4953
 translate schinese office_call_girl_couch_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:4997
 translate schinese office_call_girl_desk_8bd5ced2:
@@ -2692,25 +2692,25 @@ translate schinese office_call_girl_desk_71322d11_2:
 translate schinese office_call_girl_desk_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5137
 translate schinese office_call_girl_desk_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5139
 translate schinese office_call_girl_desk_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5141
 translate schinese office_call_girl_desk_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5146
 translate schinese office_call_girl_desk_8322770f:
@@ -2722,109 +2722,109 @@ translate schinese office_call_girl_desk_8322770f:
 translate schinese office_call_girl_desk_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5167
 translate schinese office_call_girl_desk_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5169
 translate schinese office_call_girl_desk_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5173
 translate schinese office_call_girl_desk_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5189
 translate schinese office_call_girl_desk_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5191
 translate schinese office_call_girl_desk_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5193
 translate schinese office_call_girl_desk_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5198
 translate schinese office_call_girl_desk_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5209
 translate schinese office_call_girl_desk_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5217
 translate schinese office_call_girl_desk_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5219
 translate schinese office_call_girl_desk_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5221
 translate schinese office_call_girl_desk_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5225
 translate schinese office_call_girl_desk_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5239
 translate schinese office_call_girl_desk_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5247
 translate schinese office_call_girl_desk_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5249
 translate schinese office_call_girl_desk_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5251
 translate schinese office_call_girl_desk_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5255
 translate schinese office_call_girl_desk_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5301
 translate schinese office_call_girl_table_64ae94c0:
@@ -2872,25 +2872,25 @@ translate schinese office_call_girl_table_71322d11_2:
 translate schinese office_call_girl_table_4c8b5249:
 
     # "You have reached your limit and are ready to cum."
-    "You have reached your limit and are ready to cum."
+    "你再也忍不住了，精关全开。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5443
 translate schinese office_call_girl_table_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5445
 translate schinese office_call_girl_table_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5447
 translate schinese office_call_girl_table_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5452
 translate schinese office_call_girl_table_8322770f:
@@ -2902,109 +2902,109 @@ translate schinese office_call_girl_table_8322770f:
 translate schinese office_call_girl_table_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5473
 translate schinese office_call_girl_table_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5475
 translate schinese office_call_girl_table_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5479
 translate schinese office_call_girl_table_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5495
 translate schinese office_call_girl_table_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5497
 translate schinese office_call_girl_table_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5499
 translate schinese office_call_girl_table_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5504
 translate schinese office_call_girl_table_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5515
 translate schinese office_call_girl_table_0f8d7b7c:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5523
 translate schinese office_call_girl_table_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5525
 translate schinese office_call_girl_table_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5527
 translate schinese office_call_girl_table_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5531
 translate schinese office_call_girl_table_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5545
 translate schinese office_call_girl_table_0f8d7b7c_1:
 
     # "You put your dick inside her pussy and cum deep inside."
-    "You put your dick inside her pussy and cum deep inside."
+    "你用力抵住她的花心，不停地朝里灌注浓厚的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5553
 translate schinese office_call_girl_table_a35e0fcb_2:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5555
 translate schinese office_call_girl_table_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5557
 translate schinese office_call_girl_table_86953ae1_2:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5561
 translate schinese office_call_girl_table_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5624
 translate schinese drink_d212a2d4:
@@ -3214,19 +3214,19 @@ translate schinese drink_93659df2:
 translate schinese drink_3d95b6ee:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5775
 translate schinese drink_024f1c35:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5777
 translate schinese drink_4b5432c0:
 
     # girl2.char "Thank you! Need to go back now!"
-    girl2.char "Thank you! Need to go back now!"
+    girl2.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5782
 translate schinese drink_f67dbace:
@@ -3238,49 +3238,49 @@ translate schinese drink_f67dbace:
 translate schinese drink_ab07e0da:
 
     # girl2.char "Not on my face!"
-    girl2.char "Not on my face!"
+    girl2.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5798
 translate schinese drink_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5800
 translate schinese drink_4453d18e:
 
     # girl2.char "I'll have to go wash up, before any of the other girls notice!"
-    girl2.char "I'll have to go wash up, before any of the other girls notice!"
+    girl2.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5804
 translate schinese drink_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5816
 translate schinese drink_aa51dfaf:
 
     # girl2.char "Not on my clothes!"
-    girl2.char "Not on my clothes!"
+    girl2.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5818
 translate schinese drink_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5820
 translate schinese drink_e0ce9dcc:
 
     # girl2.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl2.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl2.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5824
 translate schinese drink_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5840
 translate schinese drink_5db6d72b:
@@ -3334,19 +3334,19 @@ translate schinese drink_0961905c:
 translate schinese drink_3d95b6ee_1:
 
     # "She drinks it all with a happy look on her face."
-    "She drinks it all with a happy look on her face."
+    "她努力地全部吞咽下去，然后用舌头舔了舔嘴唇，张开嘴向你展示。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5879
 translate schinese drink_024f1c35_1:
 
     # you "Now that's what i call service."
-    you "Now that's what i call service."
+    you "这简直就是五星级服务。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5881
 translate schinese drink_4b5432c0_1:
 
     # girl2.char "Thank you! Need to go back now!"
-    girl2.char "Thank you! Need to go back now!"
+    girl2.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5887
 translate schinese drink_f67dbace_1:
@@ -3358,49 +3358,49 @@ translate schinese drink_f67dbace_1:
 translate schinese drink_ab07e0da_1:
 
     # girl2.char "Not on my face!"
-    girl2.char "Not on my face!"
+    girl2.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5901
 translate schinese drink_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5903
 translate schinese drink_4453d18e_1:
 
     # girl2.char "I'll have to go wash up, before any of the other girls notice!"
-    girl2.char "I'll have to go wash up, before any of the other girls notice!"
+    girl2.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5908
 translate schinese drink_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5920
 translate schinese drink_aa51dfaf_1:
 
     # girl2.char "Not on my clothes!"
-    girl2.char "Not on my clothes!"
+    girl2.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5922
 translate schinese drink_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5924
 translate schinese drink_e0ce9dcc_1:
 
     # girl2.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl2.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl2.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5926
 translate schinese drink_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Guild.rpy:5936
 translate schinese drink_b1716d72:
@@ -7269,7 +7269,7 @@ translate schinese strings:
     new "Move on"
 
     # game/Mods/Vaan/Vaan_Guild.rpy:1317
-    old "返回"
+    old "Go back"
     new "返回"
 
     # game/Mods/Vaan/Vaan_Guild.rpy:1451

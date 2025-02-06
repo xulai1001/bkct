@@ -10451,7 +10451,7 @@ label visit_papa():
 
                 "[girl.fullname] needs to accept {b}whoring{/b} to do this task."
 
-    else
+    else:
         call c3_papa_cells() from _call_c3_papa_cells_2
 
     return

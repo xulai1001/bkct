@@ -256,7 +256,7 @@ init python:
                 creator = "_neronero",
                 version = 0.25, # Build 2024-09-13, for BK 0.3t
                 pic = "title.webm",
-                description = "本模组添加了更多特质，以及围绕特质的玩法和更多的事件。",
+                description = "本模组添加了更多特质，以及围绕特质的玩法和更多的事件。由xk协力，熊猫汉化。",
                 
                 ## Mod option menu (access through the Help (click on '?') menu)
                 #help_prompts = [("Activate","traitking_activate"),("Deactivate (experimental)","traitking_revert")],

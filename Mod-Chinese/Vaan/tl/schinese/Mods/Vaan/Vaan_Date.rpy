@@ -4264,7 +4264,7 @@ translate schinese drink_date_024f1c35:
 translate schinese drink_date_e553fb15:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4149
 translate schinese drink_date_f67dbace:
@@ -4276,49 +4276,49 @@ translate schinese drink_date_f67dbace:
 translate schinese drink_date_ef774af7:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4165
 translate schinese drink_date_f773600a:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4167
 translate schinese drink_date_17ff80b5:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4171
 translate schinese drink_date_6d708fc5:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4183
 translate schinese drink_date_a35e0fcb:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4185
 translate schinese drink_date_f773600a_1:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4187
 translate schinese drink_date_86953ae1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4191
 translate schinese drink_date_6d708fc5_1:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4207
 translate schinese drink_date_5db6d72b:
@@ -4384,7 +4384,7 @@ translate schinese drink_date_024f1c35_1:
 translate schinese drink_date_e553fb15_1:
 
     # girl.char "Thank you! Need to go back now!"
-    girl.char "Thank you! Need to go back now!"
+    girl.char "感谢夸奖，不过我还有事，得先走一步了。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4254
 translate schinese drink_date_f67dbace_1:
@@ -4396,49 +4396,49 @@ translate schinese drink_date_f67dbace_1:
 translate schinese drink_date_ef774af7_1:
 
     # girl.char "Not on my face!"
-    girl.char "Not on my face!"
+    girl.char "我才化好的妆，别射在我脸上!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4268
 translate schinese drink_date_f773600a_2:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4270
 translate schinese drink_date_17ff80b5_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice!"
-    girl.char "I'll have to go wash up, before any of the other girls notice!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4275
 translate schinese drink_date_6d708fc5_2:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4287
 translate schinese drink_date_a35e0fcb_1:
 
     # girl.char "Not on my clothes!"
-    girl.char "Not on my clothes!"
+    girl.char "别射在衣服上，我刚买的新衣服!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4289
 translate schinese drink_date_f773600a_3:
 
     # you "Sorry, i couldn't hold it."
-    you "Sorry, i couldn't hold it."
+    you "对不起，我控制不住自己。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4291
 translate schinese drink_date_86953ae1_1:
 
     # girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
-    girl.char "I'll have to go wash up, before any of the other girls notice! This will probably leave a stain!"
+    girl.char "我得在其他人注意到我脸上的精液之前，赶紧洗干净! This will probably leave a stain!"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4293
 translate schinese drink_date_6d708fc5_3:
 
     # "She moves fast and walks to the restrooms to clean up."
-    "She moves fast and walks to the restrooms to clean up."
+    "她快步走向洗手间，打开水龙头清洗头发和脸上的精液。"
 
 # game/Mods/Vaan/Vaan_Date.rpy:4304
 translate schinese drink_date_b1716d72:

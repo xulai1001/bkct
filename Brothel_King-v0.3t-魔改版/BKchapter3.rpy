@@ -193,12 +193,14 @@ label c3_interrogate_contacts():
                     scene black with fade
                     call c3_unlock_narika from _call_c3_unlock_narika
                 "I found hints about Mizuki" if not (NPC_mizuki.flags["locked"] or NPC_mizuki.flags["c3 path"]):
-                    "<PLACEHOLDER> Sorry, this part of the story is not ready yet. Wait for a future update..."
-                "I found hints about Haruka" if not (NPC_haruka.flags["locked"] or NPC_haruka.flags["c3 path"]):
                     hide overlay
                     scene black with fade
                     "<PLACEHOLDER> Story to be continued." #!!!
                     jump districts
+                    call c3_unlock_mizuki
+                "I found hints about Haruka" if not (NPC_haruka.flags["locked"] or NPC_haruka.flags["c3 path"]):
+                    hide overlay
+                    scene black with fade
                     call c3_unlock_haruka from _call_c3_unlock_haruka
                     
             jump districts
@@ -1849,9 +1851,9 @@ label c3_papa_cells():
 
     if not NPC_freak.flags["requirements"]:
         if NPC_freak.flags["cells built"] >= 4:
-        papa "I have built everything I could for you, young lad. It's nice of you to visit, though."
+            papa "I have built everything I could for you, young lad. It's nice of you to visit, though."
 
-    elif not NPC_freak.flags["requirements"]:
+        elif not NPC_freak.flags["requirements"]:
             papa "So, for starters... I'm looking for a great cocksucker."
 
             papa_apprentice "Papa likes it wet and nice, uh..."
