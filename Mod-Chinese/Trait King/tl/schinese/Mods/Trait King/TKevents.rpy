@@ -112,7 +112,7 @@ translate schinese performance_reward_f12f2a35:
 translate schinese performance_reward_f4eb8235:
 
     # girl.char "Very well... I'll do what I can."
-    girl.char "好吧……我会尽力而为的。"
+    girl.char "好吧....我会尽力而为的。"
 
 # game/Mods/Trait King/TKevents.rpy:516
 translate schinese performance_reward_76252e27:
@@ -226,19 +226,19 @@ translate schinese performance_reward_d95234fb:
 translate schinese performance_reward_97a16566:
 
     # girl.char "Ugh... Do I really have to?"
-    girl.char "唉……我真的必须这么做吗？"
+    girl.char "唉....我真的必须这么做吗？"
 
 # game/Mods/Trait King/TKevents.rpy:585
 translate schinese performance_reward_5dd94f85:
 
     # girl.char "Y-yes [MC.name], I understand I have to improve."
-    girl.char "是的……[MC.name]，我明白我需要提高。"
+    girl.char "是的....[MC.name]，我明白我需要提高。"
 
 # game/Mods/Trait King/TKevents.rpy:592
 translate schinese performance_reward_3ca610bb:
 
     # you "Remember that this is a brothel, not some kind of wellness retreat for you to lounge around in. There's no sense in struggling. The customer is king and if he's asking for something then you should provide whatever he needs."
-    you "记住这里是妓院，不是让你来休闲放松的地方。挣扎是没有意义的。顾客就是上帝，如果他们有什么要求，你就应该尽力满足。"
+    you "记住这里是青楼，不是让你来休闲放松的地方。挣扎是没有意义的。顾客就是上帝，如果他们有什么要求，你就应该尽力满足。"
 
 # game/Mods/Trait King/TKevents.rpy:595
 translate schinese performance_reward_9241b2ac:
@@ -250,7 +250,7 @@ translate schinese performance_reward_9241b2ac:
 translate schinese performance_reward_c8fd5ab6:
 
     # girl.char "I understand what you're asking, but... It just feels so wrong!"
-    girl.char "我明白你在说什么，但是……这感觉太不对了！"
+    girl.char "我明白你在说什么，但是....这感觉太不对了！"
 
 # game/Mods/Trait King/TKevents.rpy:601
 translate schinese performance_reward_34470908:
@@ -286,13 +286,13 @@ translate schinese performance_reward_f25bc0ad:
 translate schinese performance_reward_62bdd066:
 
     # girl.char "I feel terrible... I'll do whatever it takes to bring in more money."
-    girl.char "我觉得好糟……我愿意做任何事来赚更多钱。"
+    girl.char "我觉得好糟....我愿意做任何事来赚更多钱。"
 
 # game/Mods/Trait King/TKevents.rpy:623
 translate schinese performance_reward_a0226168:
 
     # girl.char "I'm sorry... I don't think I'm cut out for this..."
-    girl.char "抱歉……我觉得自己可能不适合做这些事……”"
+    girl.char "抱歉....我觉得自己可能不适合做这些事....”"
 
 # game/Mods/Trait King/TKevents.rpy:630
 translate schinese performance_reward_f1685da6:
@@ -304,13 +304,13 @@ translate schinese performance_reward_f1685da6:
 translate schinese performance_reward_1b30cbc2:
 
     # girl.char "I guess so... Why are you asking?"
-    girl.char "我觉得还行……你问这个做什么？"
+    girl.char "我觉得还行....你问这个做什么？"
 
 # game/Mods/Trait King/TKevents.rpy:632
 translate schinese performance_reward_ce5b3499:
 
     # you "I'm just picturing you rolling around in the mud... I've been thinking about sending some extra help Gizel's way."
-    you "我只是在想象你在泥地里打滚……我一直在想，要不要给吉泽尔那边多派点人手。"
+    you "我只是在想象你在泥地里打滚....我一直在想，要不要给吉泽尔那边多派点人手。"
 
 # game/Mods/Trait King/TKevents.rpy:636
 translate schinese performance_reward_0a053658:
@@ -340,7 +340,7 @@ translate schinese performance_reward_cf80ba02:
 translate schinese performance_reward_6181c24d:
 
     # girl.char "That's awful! ...D-do you really think it'll help?"
-    girl.char "太糟糕了！……D- 你真的觉得这会有帮助吗？"
+    girl.char "太糟糕了！....D- 你真的觉得这会有帮助吗？"
 
 # game/Mods/Trait King/TKevents.rpy:653
 translate schinese performance_reward_f387cb70:
@@ -382,7 +382,7 @@ translate schinese performance_reward_1f605c78:
 translate schinese performance_reward_29ff2397:
 
     # girl.char "What if... What if I crawled on all fours instead of running?"
-    girl.char "如果…… 如果我爬行而不是跑步会怎么样？"
+    girl.char "如果.... 如果我爬行而不是跑步会怎么样？"
 
 # game/Mods/Trait King/TKevents.rpy:673
 translate schinese performance_reward_82229882:
@@ -394,7 +394,7 @@ translate schinese performance_reward_82229882:
 translate schinese performance_reward_0fb8b083:
 
     # girl.char "Ugh... Fine, if you think it will help [brothel.name]..."
-    girl.char "嗯……好吧，如果你觉得这能帮到[brothel.name]的话……"
+    girl.char "嗯....好吧，如果你觉得这能帮到[brothel.name]的话...."
 
 # game/Mods/Trait King/TKevents.rpy:683
 translate schinese performance_reward_5c792c85:
@@ -406,7 +406,7 @@ translate schinese performance_reward_5c792c85:
 translate schinese performance_reward_31e0e299:
 
     # girl.char "Gladly! I can already think of some ways to improve our performance..."
-    girl.char "当然可以！我已经想到一些能提高我们表现的方法了……"
+    girl.char "当然可以！我已经想到一些能提高我们表现的方法了...."
 
 # game/Mods/Trait King/TKevents.rpy:689
 translate schinese performance_reward_0d2a7c71:
@@ -424,13 +424,13 @@ translate schinese performance_reward_65b4d91e:
 translate schinese performance_reward_6f025e90:
 
     # girl.char "Okay..."
-    girl.char "好吧……"
+    girl.char "好吧...."
 
 # game/Mods/Trait King/TKevents.rpy:702
 translate schinese performance_reward_a6d22339:
 
     # you "The other girls respect and look up to you. You should use this opportunity to take the lead and make sure everything in the brothel runs smoothly."
-    you "其他女孩都很尊重你，并把你当作榜样。你应该抓住这个机会，带领大家，确保妓院一切运作顺利。"
+    you "其他女孩都很尊重你，并把你当作榜样。你应该抓住这个机会，带领大家，确保青楼一切运作顺利。"
 
 # game/Mods/Trait King/TKevents.rpy:705
 translate schinese performance_reward_93146935:
@@ -448,7 +448,7 @@ translate schinese performance_reward_3695662b:
 translate schinese performance_reward_f040a836:
 
     # girl.char "I-I'm not so sure about this... Will the girls really listen to me?"
-    girl.char "我……我不太确定这样做是否合适……其他女孩真的会听我的吗？"
+    girl.char "我....我不太确定这样做是否合适....其他女孩真的会听我的吗？"
 
 # game/Mods/Trait King/TKevents.rpy:714
 translate schinese performance_reward_1963b93b:
@@ -460,7 +460,7 @@ translate schinese performance_reward_1963b93b:
 translate schinese performance_reward_63883c10:
 
     # you "I want you to accompany me whenever I go to the city. You can help me gather resources for the brothel."
-    you "我希望你每次我去城市时都陪在我身边，你可以帮我收集妓院所需的资源。"
+    you "我希望你每次我去城市时都陪在我身边，你可以帮我收集青楼所需的资源。"
 
 # game/Mods/Trait King/TKevents.rpy:724
 translate schinese performance_reward_df0f2d91:
@@ -478,7 +478,7 @@ translate schinese performance_reward_e4d563e0:
 translate schinese performance_reward_648fd8cd:
 
     # girl.char "That sounds awfully boring..."
-    girl.char "这听起来好无聊啊……"
+    girl.char "这听起来好无聊啊...."
 
 # game/Mods/Trait King/TKevents.rpy:733
 translate schinese performance_reward_9c147b02:
@@ -514,7 +514,7 @@ translate schinese performance_reward_04bbe308:
 translate schinese performance_reward_1fcc8bf9:
 
     # girl.char "O-okay, if you think it will help..."
-    girl.char "哦，好吧，如果你觉得有帮助的话……"
+    girl.char "哦，好吧，如果你觉得有帮助的话...."
 
 # game/Mods/Trait King/TKevents.rpy:760
 translate schinese performance_reward_0585ad4a:
@@ -538,7 +538,7 @@ translate schinese performance_reward_c922cbf9:
 translate schinese performance_reward_a65f710f:
 
     # girl.char "Do I really have to? I don't want to mess up my hair or get blood on my clothes..."
-    girl.char "我真的必须这样做吗？我不想弄乱我的头发或让衣服沾上血迹……"
+    girl.char "我真的必须这样做吗？我不想弄乱我的头发或让衣服沾上血迹...."
 
 # game/Mods/Trait King/TKevents.rpy:772
 translate schinese performance_reward_4aba64d3:
@@ -592,19 +592,19 @@ translate schinese performance_reward_fbb98a29:
 translate schinese performance_reward_d36638e3:
 
     # girl.char "I can do that! Let's make [brothel.name] an inviting place where everyone will feel at home."
-    girl.char "我可以做到！让我们把[ brothel.name ]变成一个温馨舒适的家，让每个人都能感到宾至如归。"
+    girl.char "我可以做到！让我们把[ brothel.name]变成一个温馨舒适的家，让每个人都能感到宾至如归。"
 
 # game/Mods/Trait King/TKevents.rpy:807
 translate schinese performance_reward_44c3f928:
 
     # girl.char "You want me to decorate? I'm here to sell my body, not my skills as an interior designer..."
-    girl.char "你要我来装饰？我来这里是为了卖弄身子，不是展示我的室内设计技能……”"
+    girl.char "你要我来装饰？我来这里是为了卖弄身子，不是展示我的室内设计技能....”"
 
 # game/Mods/Trait King/TKevents.rpy:810
 translate schinese performance_reward_fd31c183:
 
     # girl.char "Well, [brothel.name] is our home after all. I'll try to make it look presentable."
-    girl.char "好吧，毕竟[brothel.name ]是我们共同的家。我会尽力让它看起来整洁一些。"
+    girl.char "好吧，毕竟[brothel.name]是我们共同的家。我会尽力让它看起来整洁一些。"
 
 # game/Mods/Trait King/TKevents.rpy:817
 translate schinese performance_reward_2507fc1e:
@@ -622,7 +622,7 @@ translate schinese performance_reward_e2f307db:
 translate schinese performance_reward_6e9f2043:
 
     # girl.char "Fine, I'll pull them along... As long as they don't slow me down."
-    girl.char "好吧，我会带着她们一起进步……只要她们不要拖慢我的速度。"
+    girl.char "好吧，我会带着她们一起进步....只要她们不要拖慢我的速度。"
 
 # game/Mods/Trait King/TKevents.rpy:827
 translate schinese performance_reward_00bef3d8:
@@ -646,13 +646,13 @@ translate schinese performance_reward_05824cec:
 translate schinese performance_reward_3bcc468c:
 
     # girl.char "Such a dirty and thankless job... I LOVE IT!"
-    girl.char "这么肮脏又不讨好的工作……我居然爱死了！"
+    girl.char "这么肮脏又不讨好的工作....我居然爱死了！"
 
 # game/Mods/Trait King/TKevents.rpy:843
 translate schinese performance_reward_ba319aa5:
 
     # girl.char "I- I suppose all they need might be a loving girl to care for them..."
-    girl.char "嗯……也许他们只需要一个充满爱心的女孩来照顾他们……"
+    girl.char "嗯....也许他们只需要一个充满爱心的女孩来照顾他们...."
 
 # game/Mods/Trait King/TKevents.rpy:846
 translate schinese performance_reward_182b6c7e:
@@ -676,7 +676,7 @@ translate schinese performance_reward_e43e154e:
 translate schinese performance_reward_fc8b2cab:
 
     # girl.char "Oh, okay... I guess you're right, I need to accept my place at the bottom of the pecking order."
-    girl.char "哦，好吧……我想你说得对，我需要接受自己在底层的事实。"
+    girl.char "哦，好吧....我想你说得对，我需要接受自己在底层的事实。"
 
 # game/Mods/Trait King/TKevents.rpy:862
 translate schinese performance_reward_3087d375:
@@ -688,7 +688,7 @@ translate schinese performance_reward_3087d375:
 translate schinese performance_reward_37697e74:
 
     # girl.char "I'll try my best... But even so, I want to be the best I can be!"
-    girl.char "我会尽力的……但即便如此，我也想成为最好的那个！"
+    girl.char "我会尽力的....但即便如此，我也想成为最好的那个！"
 
 # game/Mods/Trait King/TKevents.rpy:872
 translate schinese performance_reward_8325f3b7:
@@ -712,7 +712,7 @@ translate schinese undervalued_interact_097af491:
 translate schinese undervalued_interact_175bf151:
 
     # "You have discovered that [girl.name] is disliked by the slavers guild, and that some people refer to her as {i}[girl.fullnickname]{/i}."
-    "你发现[girl.ame]不受欢迎的原因——奴隶商人不喜欢她，有些人还称她为{i>[girl.fullnickname]{/i}。"
+    "你发现[girl.ame]不受欢迎的原因——奴隶商人不喜欢她，有些人还称她为{i}[girl.fullnickname]{/i}。"
 
 # game/Mods/Trait King/TKevents.rpy:1183
 translate schinese undervalued_interact_6a19e567:
@@ -724,7 +724,7 @@ translate schinese undervalued_interact_6a19e567:
 translate schinese undervalued_interact_29be6423:
 
     # "You've found out why [girl.name] is disliked by slavers guild. She has had a troubled past and is now known by some as {i}'The [girl.fullnickname]'{/i}."
-    "你查明了[girl.ame]不受欢迎的原因——她过去经历了很多磨难，现在被人称为{i>'The [girl.fullnickname]'{/i}。"
+    "你查明了[girl.ame]不受欢迎的原因——她过去经历了很多磨难，现在被人称为{i}'The [girl.fullnickname]'{/i}。"
 
 # game/Mods/Trait King/TKevents.rpy:1186
 translate schinese undervalued_interact_5b7ef92b:
@@ -742,13 +742,13 @@ translate schinese undervalued_interact_undervalued_explanation_af1231e9:
 translate schinese undervalued_interact_undervalued_explanation_ee58e68a:
 
     # you "I've heard some of the slavers refer to you as [girl.fullnickname]. Care to explain?"
-    you "我听说一些奴隶贩子把你称为[girl.fullnickname]。可以解释一下吗？"
+    you "我听说一些奴隶商人把你称为[girl.fullnickname]。可以解释一下吗？"
 
 # game/Mods/Trait King/TKevents.rpy:1226
 translate schinese undervalued_interact_undervalued_explanation_e8c520bd:
 
     # girl.char "Ugh... They still call me that? I wish they would just forget about it."
-    girl.char "唉……他们还这么叫我？真希望他们能忘记这件事。"
+    girl.char "唉....他们还这么叫我？真希望他们能忘记这件事。"
 
 # game/Mods/Trait King/TKevents.rpy:1228
 translate schinese undervalued_interact_undervalued_explanation_980f0f2c:
@@ -778,7 +778,7 @@ translate schinese undervalued_interact_undervalued_explanation_2223e140:
 translate schinese undervalued_interact_undervalued_explanation_ebbf2c2e:
 
     # you "That explains things. Resume your duties, I'll have to think of a way for you to clear your name with the slavers guild."
-    you "这样就明白了。继续你的职责吧，我会想办法让你在奴隶贩子中洗刷名声的。"
+    you "这样就明白了。继续你的职责吧，我会想办法让你在奴隶商人中洗刷名声的。"
 
 # game/Mods/Trait King/TKevents.rpy:1238
 translate schinese undervalued_interact_undervalued_explanation_5a280644:
@@ -796,7 +796,7 @@ translate schinese undervalued_interact_undervalued_explanation_4b9e945f:
 translate schinese undervalued_interact_undervalued_explanation_92fa7ade:
 
     # girl.char "Ehm... Yes sir. It's just a typical day I suppose."
-    girl.char "嗯……是的，先生。我想今天和往常一样。"
+    girl.char "嗯....是的，先生。我想今天和往常一样。"
 
 # game/Mods/Trait King/TKevents.rpy:1253
 translate schinese undervalued_interact_undervalued_explanation_98f68135:
@@ -808,19 +808,19 @@ translate schinese undervalued_interact_undervalued_explanation_98f68135:
 translate schinese undervalued_interact_undervalued_explanation_572e8db9:
 
     # girl.char "Sure... Is there anything I can do for you sir?"
-    girl.char "当然……先生，您有什么吩咐吗？"
+    girl.char "当然....先生，您有什么吩咐吗？"
 
 # game/Mods/Trait King/TKevents.rpy:1257
 translate schinese undervalued_interact_undervalued_explanation_37c1461a:
 
     # you "Well yes there is actually, you could start being honest with me. Tell me why the slavers guild seems to despise you."
-    you "哦，其实有件事，你首先要对我诚实。告诉我为什么奴隶贩子们似乎很讨厌你。"
+    you "哦，其实有件事，你首先要对我诚实。告诉我为什么奴隶商人们似乎很讨厌你。"
 
 # game/Mods/Trait King/TKevents.rpy:1261
 translate schinese undervalued_interact_undervalued_explanation_ad329d09:
 
     # girl.char "Are those pigs still dragging my name through the mud? Just because of one little mishap with my previous owner..."
-    girl.char "那些猪猡还在到处说我坏话吗？就因为和前主人的一次小小的意外……"
+    girl.char "那些猪猡还在到处说我坏话吗？就因为和前主人的一次小小的意外...."
 
 # game/Mods/Trait King/TKevents.rpy:1263
 translate schinese undervalued_interact_undervalued_explanation_229e8c23:
@@ -832,19 +832,19 @@ translate schinese undervalued_interact_undervalued_explanation_229e8c23:
 translate schinese undervalued_interact_undervalued_explanation_fa376dd0:
 
     # girl.char "Well, you see... [reason1]"
-    girl.char "是这样的……[reason1]"
+    girl.char "是这样的....[reason1]"
 
 # game/Mods/Trait King/TKevents.rpy:1267
 translate schinese undervalued_interact_undervalued_explanation_026f7315:
 
     # you "Is that why the slavers dislike you?"
-    you "这就是奴隶贩子们讨厌你的原因吗？"
+    you "这就是奴隶商人们讨厌你的原因吗？"
 
 # game/Mods/Trait King/TKevents.rpy:1269
 translate schinese undervalued_interact_undervalued_explanation_069205b2:
 
     # girl.char "It must be! [reason2]"
-    girl.char "这一定是真的！[reason2]"
+    girl.char "肯定是这样！[reason2]"
 
 # game/Mods/Trait King/TKevents.rpy:1271
 translate schinese undervalued_interact_undervalued_explanation_e86f6708:
@@ -856,13 +856,13 @@ translate schinese undervalued_interact_undervalued_explanation_e86f6708:
 translate schinese undervalued_interact_undervalued_explanation_9a8b7a01:
 
     # you "You should be ashamed of yourself. You have put my reputation as a slave trader on the line by not telling me about this as soon as possible."
-    you "你应该感到羞耻。你没有第一时间告诉我这件事，已经让我作为奴隶贩子的声誉岌岌可危了。"
+    you "你应该感到羞耻。你没有第一时间告诉我这件事，已经让我作为奴隶商人的声誉岌岌可危了。"
 
 # game/Mods/Trait King/TKevents.rpy:1284
 translate schinese undervalued_interact_undervalued_explanation_8038781c:
 
     # girl.char "The slavers guild, really? I-I don't understand!"
-    girl.char "奴隶商人公会？我真的不明白！"
+    girl.char "奴隶公会？我-我真的不明白！"
 
 # game/Mods/Trait King/TKevents.rpy:1286
 translate schinese undervalued_interact_undervalued_explanation_bc611ee1:
@@ -880,7 +880,7 @@ translate schinese undervalued_interact_undervalued_explanation_97ce5af3:
 translate schinese undervalued_interact_undervalued_explanation_3d6de62a:
 
     # you "As long as the slavers guild doesn't like you, you are a liability to me. You are worthless!"
-    you "只要奴隶商人公会不喜欢你，你对我就是个累赘。你一无是处！"
+    you "只要奴隶公会不喜欢你，你对我就是个累赘。你一无是处！"
 
 # game/Mods/Trait King/TKevents.rpy:1292
 translate schinese undervalued_interact_undervalued_explanation_eacb998e:
@@ -910,31 +910,31 @@ translate schinese undervalued_interact_undervalued_explanation_115fef48:
 translate schinese undervalued_interact_undervalued_explanation_6d6f71cc:
 
     # girl.char "That's cruel! Stop joking around like that... I know you don't really think that"
-    girl.char "那是残酷的！别这么开玩笑……我知道你不是真的这么想的"
+    girl.char "那是残酷的！别这么开玩笑....我知道你不是真的这么想的"
 
 # game/Mods/Trait King/TKevents.rpy:1308
 translate schinese undervalued_interact_undervalued_explanation_9f4d3cab:
 
     # you "It's not a joke. Far from it. If the slavers guild says you're worthless, it doesn't matter what I think. Worthless is what you are."
-    you "这不是玩笑。绝对不是。如果奴隶商行说你一文不值，我怎么想都没关系。你就是一文不值。"
+    you "这不是玩笑。绝对不是。如果奴隶公会说你一文不值，我怎么想都没关系。你就是一文不值。"
 
 # game/Mods/Trait King/TKevents.rpy:1310
 translate schinese undervalued_interact_undervalued_explanation_b672f992:
 
     # girl.char "The slavers guild?"
-    girl.char "奴隶商行？"
+    girl.char "奴隶公会？"
 
 # game/Mods/Trait King/TKevents.rpy:1312
 translate schinese undervalued_interact_undervalued_explanation_1833782a:
 
     # you "Yes, the slavers guild. And a simple slave trader like me can't afford to have a disagreement with the slavers guild. So I'm afraid you will have to waste away at the farm for the rest of your life."
-    you "是的，奴隶商行。作为一个普通的奴隶商人，我不能与奴隶商会发生分歧。所以恐怕你只能在农场里虚度余生了。"
+    you "是的，奴隶公会。作为一个普通的奴隶商人，我不能与奴隶商会发生分歧。所以恐怕你只能在农场里虚度余生了。"
 
 # game/Mods/Trait King/TKevents.rpy:1314
 translate schinese undervalued_interact_undervalued_explanation_37bca3b4:
 
     # girl.char "Please no! I-I can explain!"
-    girl.char "求求你别这样！我……我可以解释！"
+    girl.char "求求你别这样！我....我可以解释！"
 
 # game/Mods/Trait King/TKevents.rpy:1316
 translate schinese undervalued_interact_undervalued_explanation_8f9c4b29:
@@ -976,7 +976,7 @@ translate schinese undervalued_interact_undervalued_explanation_d4077165:
 translate schinese undervalued_interact_undervalued_explanation_f21c21c1:
 
     # girl.char "But to keep calling me worthless and threatening to send me to the farm... That's just being mean!"
-    girl.char "但是你一直叫我无用，并威胁要送我去做农活……这实在太刻薄了！"
+    girl.char "但是你一直叫我无用，并威胁要送我去做农活....这实在太刻薄了！"
 
 # game/Mods/Trait King/TKevents.rpy:1341
 translate schinese undervalued_interact_undervalued_explanation_b64b158e:
@@ -994,7 +994,7 @@ translate schinese undervalued_interact_undervalued_explanation_87730211:
 translate schinese undervalued_interact_undervalued_explanation_b318f41f:
 
     # girl.char "Oh... Okay?"
-    girl.char "哦……好吧？"
+    girl.char "哦....好吧？"
 
 # game/Mods/Trait King/TKevents.rpy:1372
 translate schinese undervalued_interact_undervalued_explanation_5636a46f:
@@ -1036,13 +1036,13 @@ translate schinese undervalued_interact_undervalued_explanation_bd5f6f41:
 translate schinese undervalued_interact_undervalued_explanation_03cdac1d:
 
     # "The slaver grins from ear to ear after you hand him a bribe of [bribecost] gold."
-    "当你递给奴隶贩子[bribecost]金币的贿赂时，他笑得合不拢嘴。"
+    "当你递给奴隶商人[bribecost]金币的贿赂时，他笑得合不拢嘴。"
 
 # game/Mods/Trait King/TKevents.rpy:1396
 translate schinese undervalued_interact_undervalued_explanation_e795c027:
 
     # "Slave Trader" "Ah, I love the sound of gold entering my pockets. Doubly so if it comes at the expense of a fellow slaver such as yourself."
-    "奴隶贩子" "啊，我喜欢听到金币落入我口袋的声音。如果这钱还是来自像你这样的同胞奴隶贩子就更是美妙了。"
+    "奴隶商人" "啊，我喜欢听到金币落入我口袋的声音。如果这钱还是来自像你这样的同胞奴隶商人就更是美妙了。"
 
 # game/Mods/Trait King/TKevents.rpy:1398
 translate schinese undervalued_interact_undervalued_explanation_de911a1a:
@@ -1054,7 +1054,7 @@ translate schinese undervalued_interact_undervalued_explanation_de911a1a:
 translate schinese undervalued_interact_undervalued_explanation_05d5a886:
 
     # "Slave Trader" "You've bought a real gutter rat this time. I don't think you'll see a big return on her."
-    "奴隶贩子" "这次你买到的真是个烂货。我觉得她不会给你带来多大回报。"
+    "奴隶商人" "这次你买到的真是个烂货。我觉得她不会给你带来多大回报。"
 
 # game/Mods/Trait King/TKevents.rpy:1402
 translate schinese undervalued_interact_undervalued_explanation_ee230cca:
@@ -1066,25 +1066,25 @@ translate schinese undervalued_interact_undervalued_explanation_ee230cca:
 translate schinese undervalued_interact_undervalued_explanation_7cae3a65:
 
     # "Slave Trader" "Slavers guild? The guild has nothing to do with it. She's just a stinker, that's all. You should really be exercising due diligence."
-    "奴隶贩子" "奴隶公会？公会与此事毫无关系。她就是个垃圾，就这样。你应该多做点功课。"
+    "奴隶商人" "奴隶公会？公会与此事毫无关系。她就是个垃圾，就这样。你应该多做点功课。"
 
 # game/Mods/Trait King/TKevents.rpy:1406
 translate schinese undervalued_interact_undervalued_explanation_e34d16bc:
 
     # you "Yeah yeah, spare me the lecture. My day is bad enough as it is. Just fill me in on the details..."
-    you "得了得了，别教训我了。我的日子已经够糟糕的了。快告诉我详情吧……"
+    you "得了得了，别教训我了。我的日子已经够糟糕的了。快告诉我详情吧...."
 
 # game/Mods/Trait King/TKevents.rpy:1412
 translate schinese undervalued_interact_undervalued_explanation_1fcd477f:
 
     # "You hand over [bribecost] gold to the slaver, who seems in good spirits."
-    "你递给奴隶贩子[bribecost]金币，他看起来心情不错。"
+    "你递给奴隶商人[bribecost]金币，他看起来心情不错。"
 
 # game/Mods/Trait King/TKevents.rpy:1414
 translate schinese undervalued_interact_undervalued_explanation_407e5664:
 
     # "Slave Trader" "That's the easiest money I've ever made. I'm sorry to say you have been misinformed, [MC.name]."
-    "奴隶贩子" "这是我赚过最容易的一笔钱。很遗憾地告诉你，你被误导了，[MC.name]。"
+    "奴隶商人" "这是我赚过最容易的一笔钱。很遗憾地告诉你，你被误导了，[MC.name]。"
 
 # game/Mods/Trait King/TKevents.rpy:1416
 translate schinese undervalued_interact_undervalued_explanation_8b90d45f:
@@ -1096,7 +1096,7 @@ translate schinese undervalued_interact_undervalued_explanation_8b90d45f:
 translate schinese undervalued_interact_undervalued_explanation_3f1c56e4:
 
     # "Slave Trader" "I have never heard of this [girl.lastname] girl. Heaven knows why you'd think that the slavers guild would hold some sort of grudge against her."
-    "奴隶贩子" "我从未听说过这个姓氏为[girl.lastname]的女孩。天知道你为什么认为奴隶公会会对她有什么怨恨。"
+    "奴隶商人" "我从未听说过什么姓[girl.lastname]的女孩。天知道你为什么认为奴隶公会会对她有什么怨恨。"
 
 # game/Mods/Trait King/TKevents.rpy:1420
 translate schinese undervalued_interact_undervalued_explanation_722bb3b7:
@@ -1108,31 +1108,31 @@ translate schinese undervalued_interact_undervalued_explanation_722bb3b7:
 translate schinese undervalued_interact_undervalued_explanation_6140ba56:
 
     # "Slave Trader" "I'm glad I could ease your mind then, there's nothing fishy about this girl and I'm sure you could make a sizeable profit whenever you decide to sell her on."
-    "奴隶贩子" "很高兴能让你安心，这个女孩没什么问题，我相信无论你什么时候决定卖掉她，都能赚上一大笔。"
+    "奴隶商人" "很高兴能让你安心，这个女孩没什么问题，我相信无论你什么时候决定卖掉她，都能赚上一大笔。"
 
 # game/Mods/Trait King/TKevents.rpy:1424
 translate schinese undervalued_interact_undervalued_explanation_4224ab96:
 
     # "Slave Trader" "Today is a good day, [MC.name]! Let's have a drink to celebrate our good fortune."
-    "奴隶贩子" "今天真是个好日子，[玩家名字]！来，喝一杯庆祝我们的好运吧。"
+    "奴隶商人" "今天真是个好日子，[MC.name]！来，喝一杯庆祝我们的好运吧。"
 
 # game/Mods/Trait King/TKevents.rpy:1426
 translate schinese undervalued_interact_undervalued_explanation_abf73ea3:
 
     # you "Cheers! About that [bribecost] gold though..."
-    you "干杯！不过……关于那[bribecost]金币的事……"
+    you "干杯！不过....关于那[bribecost]金币的事...."
 
 # game/Mods/Trait King/TKevents.rpy:1428
 translate schinese undervalued_interact_undervalued_explanation_bcb4c0a7:
 
     # "Slave Trader" "Yes [MC.name], many thanks for filling my purse. Glad I could be of help!"
-    "奴隶贩子" "是的，[MC.name]，非常感谢你让我腰包鼓起来。很高兴能帮到你！"
+    "奴隶商人" "是的，[MC.name]，非常感谢你让我腰包鼓起来。很高兴能帮到你！"
 
 # game/Mods/Trait King/TKevents.rpy:1440
 translate schinese undervalued_interact_undervalued_explanation_6762794d:
 
     # "There must be something about [girl.name] that is making the slavers disinterested."
-    "关于[girl.name]，一定有什么东西让奴隶贩子们感到不感兴趣。"
+    "关于[girl.name]，一定有什么东西让奴隶商人们感到不感兴趣。"
 
 # game/Mods/Trait King/TKevents.rpy:1442
 translate schinese undervalued_interact_undervalued_explanation_a87f192d:
@@ -1156,7 +1156,7 @@ translate schinese undervalued_interact_undervalued_explanation_47af2609:
 translate schinese undervalued_interact_undervalued_explanation_acaac101:
 
     # "Customer #1" "Wait a minute... That gal over there, isn't that [girl.fullnickname]?"
-    "顾客1" "等一下……那边的那位，不就是[girl.fullickname]吗？"
+    "顾客1" "等一下....那边的那位，不就是[girl.fullickname]吗？"
 
 # game/Mods/Trait King/TKevents.rpy:1465
 translate schinese undervalued_interact_undervalued_explanation_22ae45c5:
@@ -1174,13 +1174,13 @@ translate schinese undervalued_interact_undervalued_explanation_8d051ae6:
 translate schinese undervalued_interact_undervalued_explanation_6525662e:
 
     # "The story will surely become clear once you get the opportunity to confront [girl.name] about that strange nickname of hers."
-    "一旦有机会和[girl.name] confronted关于那个奇怪的绰号.整个故事就会水落石出。"
+    "一旦有机会和[girl.name]询问关于那个奇怪的绰号，整个故事就会水落石出。"
 
 # game/Mods/Trait King/TKevents.rpy:1479
 translate schinese undervalued_interact_undervalued_explanation_f958e32b:
 
     # "Now that you're paying closer attention to her, you suddenly understand much more about her shortcomings."
-    "现在你对她更加关注，突然间你明白了她许多不足之处。"
+    "现在你对她更加关注，突然间你明白了她有许多不足之处。"
 
 # game/Mods/Trait King/TKevents.rpy:1487
 translate schinese undervalued_interact_undervalued_explanation_9692c248:
@@ -1210,7 +1210,7 @@ translate schinese undervalued_interact_undervalued_solution_516f083c:
 translate schinese undervalued_interact_undervalued_solution_c815f1da:
 
     # "You gesture towards [girl.name] to join you on stage."
-    "您对[girl.name]做了个手势，邀请她上台。。"
+    "您对[girl.name]做了个手势，邀请她上台。"
 
 # game/Mods/Trait King/TKevents.rpy:1523
 translate schinese undervalued_interact_undervalued_solution_d8526d4a:
@@ -1222,7 +1222,7 @@ translate schinese undervalued_interact_undervalued_solution_d8526d4a:
 translate schinese undervalued_interact_undervalued_solution_6eaf4201:
 
     # girl.char "H-hello everyone. I hope you're enjoying tonight's service."
-    girl.char "H-Hello大家.希望你们喜欢今晚的表演。"
+    girl.char "大-大家好.希望你们喜欢今晚的表演。"
 
 # game/Mods/Trait King/TKevents.rpy:1529
 translate schinese undervalued_interact_undervalued_solution_b952f098:
@@ -1270,7 +1270,7 @@ translate schinese undervalued_interact_undervalued_solution_75ffd9bc:
 translate schinese undervalued_interact_undervalued_solution_aa272d48:
 
     # you "Now, how could you dismiss such a girl as a [trait] [noun]?"
-    you "现在，您如何将这样一个女孩视为[特质] [名词]?"
+    you "现在，您如何将这样一个女孩视为[trait] [noun]?"
 
 # game/Mods/Trait King/TKevents.rpy:1556
 translate schinese undervalued_interact_undervalued_solution_f967a6eb:
@@ -1306,7 +1306,7 @@ translate schinese undervalued_interact_undervalued_solution_08c0d9fd:
 translate schinese undervalued_interact_undervalued_solution_78b68601:
 
     # "You notice that even the slavers that frequent your brothel are infected by the crowd's enthusiasm. This will surely clear [girl.name]'s name!"
-    "您会注意到，连那些常来您妓院的奴隶贩子都被人群的热情感染了。这肯定会清楚[girl.name]的名字！"
+    "您会注意到，连那些常来您青楼的奴隶商人都被人群的热情感染了。这肯定会清楚[girl.name]的名字！"
 
 # game/Mods/Trait King/TKevents.rpy:1576
 translate schinese undervalued_interact_undervalued_solution_96465e95:
@@ -1342,7 +1342,7 @@ translate schinese undervalued_interact_undervalued_solution_cb534378:
 translate schinese undervalued_interact_undervalued_solution_9b8b1584:
 
     # girl.char "Yikes... Let's just get this over with."
-    girl.char "天哪……赶紧喝了吧。"
+    girl.char "天哪....赶紧喝了吧。"
 
 # game/Mods/Trait King/TKevents.rpy:1596
 translate schinese undervalued_interact_undervalued_solution_b2b8c2df:
@@ -1360,7 +1360,7 @@ translate schinese undervalued_interact_undervalued_solution_730bf39c:
 translate schinese undervalued_interact_undervalued_solution_c6623ad3:
 
     # "On top of that, the slavers have taken notice and reevaluated [girl.name]'s base value!"
-    "更重要的是，奴隶贩子的头目们已经开始重新评估[girl.name]的价值！"
+    "更重要的是，奴隶商人们已经开始重新评估[girl.name]的价值！"
 
 # game/Mods/Trait King/TKevents.rpy:1614
 translate schinese undervalued_interact_undervalued_solution_98bb23ea:
@@ -1378,7 +1378,7 @@ translate schinese undervalued_interact_undervalued_solution_4f5505c4:
 translate schinese undervalued_interact_undervalued_solution_ab447331:
 
     # "I'm sure the slavers will have a good laugh as well if I officially change [girl.name]'s name."
-    "我敢肯定，如果我正式为[girl.name]改名，那些奴隶贩子也会觉得好笑。"
+    "我敢肯定，如果我正式为[girl.name]改名，那些奴隶商人也会觉得好笑。"
 
 # game/Mods/Trait King/TKevents.rpy:1625
 translate schinese undervalued_interact_undervalued_solution_d4de1526:
@@ -1474,7 +1474,7 @@ translate schinese undervalued_interact_undervalued_solution_2e004199_6:
 translate schinese undervalued_interact_undervalued_solution_10c3b397:
 
     # "A brothel owner like myself can't afford to get on the slavers guild's bad side."
-    "作为妓院老板，我可承受不起与奴隶行会作对。"
+    "作为青楼老板，我可承受不起与奴隶行会作对。"
 
 # game/Mods/Trait King/TKevents.rpy:1762
 translate schinese undervalued_interact_undervalued_solution_0f71c6db:
@@ -1492,7 +1492,7 @@ translate schinese undervalued_interact_undervalued_solution_faf21765:
 translate schinese undervalued_interact_undervalued_solution_b9748e1b:
 
     # "Slave Trader" "Greetings, [noun] peddling [MC.name]. State your business."
-    "奴隶贩子" "你好，[noun]，小贩[MC.name]。说吧，有什么事？"
+    "奴隶商人" "你好，[noun]的[MC.name]。说吧，有什么事？"
 
 # game/Mods/Trait King/TKevents.rpy:1772
 translate schinese undervalued_interact_undervalued_solution_d1db36a4:
@@ -1504,13 +1504,13 @@ translate schinese undervalued_interact_undervalued_solution_d1db36a4:
 translate schinese undervalued_interact_undervalued_solution_58857e97:
 
     # "Slave Trader" "Why would we be interested in such [adjective] goods."
-    "奴隶贩子" "我们为什么会看上[adjective]这种货色？"
+    "奴隶商人" "我们为什么会看上这种[adjective]的货色？"
 
 # game/Mods/Trait King/TKevents.rpy:1776
 translate schinese undervalued_interact_undervalued_solution_c15fbdea:
 
     # "Slave Trader" "That [trait] girl has nothing to offer us besides disappointment. There's no profit in disappointment."
-    "奴隶贩子" "这个 [trait] 女孩除了带来失望，什么都不能提供。而失望是无利可图的。"
+    "奴隶商人" "这个[trait]的女孩除了带来失望，什么都不能提供。而失望是无利可图的。"
 
 # game/Mods/Trait King/TKevents.rpy:1778
 translate schinese undervalued_interact_undervalued_solution_b7543918:
@@ -1522,7 +1522,7 @@ translate schinese undervalued_interact_undervalued_solution_b7543918:
 translate schinese undervalued_interact_undervalued_solution_2558cf42:
 
     # "Slave Trader" "Keep talking..."
-    "奴隶贩子" "继续说吧……”"
+    "奴隶商人" "继续说吧....”"
 
 # game/Mods/Trait King/TKevents.rpy:1782
 translate schinese undervalued_interact_undervalued_solution_650e6c5e:
@@ -1540,25 +1540,25 @@ translate schinese undervalued_interact_undervalued_solution_0766bbb6:
 translate schinese undervalued_interact_undervalued_solution_31210ad5:
 
     # "Slave Trader" "Hmm..."
-    "奴隶贩子" "唔..."
+    "奴隶商人" "唔..."
 
 # game/Mods/Trait King/TKevents.rpy:1788
 translate schinese undervalued_interact_undervalued_solution_af85e03d:
 
     # "Slave Trader" "You know the way to a slaver's heart is through enlarging his coinpurse. We have a deal."
-    "奴隶贩子" "您知道通往奴隶心脏的方式是通过填满钱袋子。我们有一笔交易。"
+    "奴隶商人" "您知道通往奴隶心脏的方式是通过填满钱袋子。我们有一笔交易。"
 
 # game/Mods/Trait King/TKevents.rpy:1790
 translate schinese undervalued_interact_undervalued_solution_433d6596:
 
     # "Slave Trader" "In exchange, we'll reconsider our reservations towards [girl.name] the [trait]."
-    "奴隶贩子" "作为交换，我们将重新考虑[girl.name] [trait]的保留。"
+    "奴隶商人" "作为交换，我们将重新考虑[trait]的[girl.name]的价值。"
 
 # game/Mods/Trait King/TKevents.rpy:1792
 translate schinese undervalued_interact_undervalued_solution_b2792e51:
 
     # "Slave Trader" "I'll take her with me right away."
-    "奴隶贩子" "我会立即带她走。"
+    "奴隶商人" "我现在就带她出发。"
 
 # game/Mods/Trait King/TKevents.rpy:1800
 translate schinese undervalued_interact_undervalued_solution_735e969f:
@@ -1576,13 +1576,13 @@ translate schinese undervalued_interact_undervalued_solution_9ec9ef71:
 translate schinese undervalued_interact_undervalued_solution_e275217e:
 
     # "Slave Trader" "Well, if it isn't [MC.name]! Your dubious investments have been a topic of conversation at the slavers guild lately."
-    "奴隶贩子" "哦，这不是[MC.name]吗！你那些可疑的投资最近在奴隶公会可是个热门话题呢。"
+    "奴隶商人" "哦，这不是[MC.name]吗！你那些可疑的投资最近在奴隶公会可是个热门话题呢。"
 
 # game/Mods/Trait King/TKevents.rpy:1810
 translate schinese undervalued_interact_undervalued_solution_f75013d5:
 
     # "Slave Trader" "Are you here to get rid of your [trait] [noun] by chance? If so, we are not interested in those damaged goods."
-    "奴隶贩子" "你是来摆脱你的[trait][noun]的吗？如果是的话，我们对那些残次品可没兴趣。"
+    "奴隶商人" "你是来摆脱你的[trait][noun]的吗？如果是的话，我们对那些残次品可没兴趣。"
 
 # game/Mods/Trait King/TKevents.rpy:1812
 translate schinese undervalued_interact_undervalued_solution_45846015:
@@ -1594,7 +1594,7 @@ translate schinese undervalued_interact_undervalued_solution_45846015:
 translate schinese undervalued_interact_undervalued_solution_2fc7cbdb:
 
     # "Slave Trader" "Oh?"
-    "奴隶贩子" "哦？"
+    "奴隶商人" "哦？"
 
 # game/Mods/Trait King/TKevents.rpy:1816
 translate schinese undervalued_interact_undervalued_solution_e6a54bb2:
@@ -1606,31 +1606,31 @@ translate schinese undervalued_interact_undervalued_solution_e6a54bb2:
 translate schinese undervalued_interact_undervalued_solution_927bf65e:
 
     # "Slave Trader" "That's a certainty."
-    "奴隶贩子" "那是一定的。"
+    "奴隶商人" "那是一定的。"
 
 # game/Mods/Trait King/TKevents.rpy:1820
 translate schinese undervalued_interact_undervalued_solution_4707e1f6:
 
     # "Slave Trader" "I can smooth things over for her, but it'll cost you..."
-    "奴隶贩子" "我可以为她抚平一切，但这需要付出代价..."
+    "奴隶商人" "我可以为她抚平一切，但这需要付出代价..."
 
 # game/Mods/Trait King/TKevents.rpy:1824
 translate schinese undervalued_interact_undervalued_solution_41ea56a3:
 
     # "Slave Trader" "I can do as you ask for [settlementcost] gold." nointeract
-    "奴隶贩子" "我可以用[settlementCost]黄金为您做到。" nointeract
+    "奴隶商人" "只需要支付[settlementCost]金币。" nointeract
 
 # game/Mods/Trait King/TKevents.rpy:1830
 translate schinese undervalued_interact_undervalued_solution_75f66a19:
 
     # "Slave Trader" "Pleasure doing business!"
-    "奴隶贩子" "交易愉快！"
+    "奴隶商人" "交易愉快！"
 
 # game/Mods/Trait King/TKevents.rpy:1836
 translate schinese undervalued_interact_undervalued_solution_49927004:
 
     # "Slave Trader" "Then stop wasting my time and get out."
-    "奴隶贩子" "那就别再浪费我的时间了，给我滚出去。"
+    "奴隶商人" "那就别再浪费我的时间了，给我滚出去。"
 
 # game/Mods/Trait King/TKevents.rpy:1842
 translate schinese undervalued_interact_undervalued_solution_7ef7a139:
@@ -1642,7 +1642,7 @@ translate schinese undervalued_interact_undervalued_solution_7ef7a139:
 translate schinese undervalued_interact_undervalued_end_1_5b9f4ac8:
 
     # "You have understood that [girl.name] was known as [girl.fullnickname] because she [pasttense]."
-    "您终于明白为什么[girl.name]被叫做[girl.fullnickname]，因为她[Persttense]。"
+    "你终于明白为什么[girl.name]被叫做[girl.fullnickname]，因为她[pasttense]。"
 
 # game/Mods/Trait King/TKevents.rpy:1858
 translate schinese undervalued_interact_undervalued_end_1_7bb1e03a:
@@ -1750,7 +1750,7 @@ translate schinese fix_neg_interact_5586cc03:
 translate schinese freedom_interact_26e69fd0:
 
     # "As you make your rounds through the brothel, you bump into [girl.name] clutching some paperwork."
-    "当您巡视妓院时，遇到[girl.name]正在处理文件。。"
+    "当您巡视青楼时，遇到[girl.name]正在处理文件。。"
 
 # game/Mods/Trait King/TKevents.rpy:2026
 translate schinese freedom_interact_42def82a:
@@ -1768,7 +1768,7 @@ translate schinese freedom_interact_719a5b7c:
 translate schinese freedom_interact_417fe878:
 
     # "But our current agreement is only valid for a limited time... I want to commit the rest of my life to you, so that our time together may never end."
-    "主人，我知道目前我是您的临时契约奴隶……如果能让这份关系成为永恒，我会感到无比安心。我渴望能与您共度余生，永远陪伴在您身边！"
+    "主人，我知道目前我是您的临时契约奴隶....如果能让这份关系成为永恒，我会感到无比安心。我渴望能与您共度余生，永远陪伴在您身边！"
 
 # game/Mods/Trait King/TKevents.rpy:2045
 translate schinese freedom_interact_9cb78b72:
@@ -1780,7 +1780,7 @@ translate schinese freedom_interact_9cb78b72:
 translate schinese freedom_interact_6d15d588:
 
     # girl.char "Look, I know I'm already your {i}temporary{/i} slave as it stands... It would just really ease my mind if we could make this permanent! I really want to spend the rest of my life at your side!"
-    girl.char "主人，我知道目前我只是您的一名临时契约奴隶……但如果能让这份缘分成为永恒，我会倍感安心。我希望能在您身边度过余生，永远不离不弃。"
+    girl.char "主人，我知道目前我只是您的一名临时契约奴隶....但如果能让这份缘分成为永恒，我会倍感安心。我希望能在您身边度过余生，永远不离不弃。"
 
 # game/Mods/Trait King/TKevents.rpy:2055
 translate schinese freedom_interact_9cb78b72_1:
@@ -1804,7 +1804,7 @@ translate schinese freedom_interact_2c20b4a9:
 translate schinese freedom_interact_fc2fc128:
 
     # "For a fee of [price_str] gold, she would be willing to sign away her freedoms indefinitely and become your property."
-    "用[Price_str]黄金，她愿意放弃自由并成为您的永久财产。"
+    "只要[price_str]金币，她愿意放弃自由并成为您的永久财产。"
 
 # game/Mods/Trait King/TKevents.rpy:2070
 translate schinese freedom_interact_9f02d3df:
@@ -1840,7 +1840,7 @@ translate schinese freedom_interact_a66bff02:
 translate schinese freedom_interact_e4879f2e:
 
     # girl.char "W-well, you see... I was talking to one of our customers..."
-    girl.char "嗯……其实... 我跟我们的一位顾客..."
+    girl.char "嗯....其实... 我跟我们的一位顾客..."
 
 # game/Mods/Trait King/TKevents.rpy:2087
 translate schinese freedom_interact_6a34e5b8:
@@ -1852,7 +1852,7 @@ translate schinese freedom_interact_6a34e5b8:
 translate schinese freedom_interact_2a49161a:
 
     # girl.char "But according to him, they have a policy to only employ girls who have filled in this form... So that's what got me thinking... I probably need this to continue working after my spell at [brothel.name], don't I?"
-    girl.char "但是他说他们有个规定，只雇用填过这张表格的女孩……所以我就想……我可能需要这个才能在[brothel.name]之后继续工作，对吧？"
+    girl.char "但是他说他们有个规定，只雇用填过这张表格的女孩....所以我就想....我可能需要这个才能在[brothel.name]之后继续工作，对吧？"
 
 # game/Mods/Trait King/TKevents.rpy:2091
 translate schinese freedom_interact_6d477399:
@@ -1882,7 +1882,7 @@ translate schinese freedom_interact_6696098b:
 translate schinese freedom_interact_2ceed6ea:
 
     # girl.char "*pout* You're too good at this... [price_str] gold! That's my final offer!"
-    girl.char "*pout*你真会讨价还价... [Price_str]金币！这是我的最终出价！"
+    girl.char "*撅嘴* 你真会讨价还价... [price_str]金币！这是我的最终出价！"
 
 # game/Mods/Trait King/TKevents.rpy:2124
 translate schinese freedom_interact_a700de2d:
@@ -1894,7 +1894,7 @@ translate schinese freedom_interact_a700de2d:
 translate schinese freedom_interact_aed4756f:
 
     # girl.char "But my original offer is a bargain! *pout* Never mind, then! Perhaps I should sell myself to some other Master who {i}does{/i} appreciate what I bring to the table."
-    girl.char "但我原来的出价已经很优惠了！ * pout*那就算了吧！也许我应该去找那些真正看重我的价值的其他主人。"
+    girl.char "但我原来的出价已经很优惠了！ *撅嘴* 那就算了吧！也许我应该去找那些真正看重我的价值的其他主人。"
 
 # game/Mods/Trait King/TKevents.rpy:2141
 translate schinese freedom_interact_0726900c:
@@ -1912,7 +1912,7 @@ translate schinese freedom_interact_freedom_end_1_623ff886:
 translate schinese freedom_interact_freedom_end_1_b7ff3cc9:
 
     # "[girl.fullname] has become property of [MC.name]."
-    "[girl.fullname]已成为[mc.name]的财产。"
+    "[girl.fullname]已成为[MC.name]的财产。"
 
 # game/Mods/Trait King/TKevents.rpy:2252
 translate schinese ext_holiday_newyear_9aa5343d:
@@ -1936,7 +1936,7 @@ translate schinese ext_holiday_valentines_d1ce55f0:
 translate schinese ext_holiday_salvation_3706adde:
 
     # "Today marks the {b}{color=[c_orange]}Day of Salvation{/color}{/b}. The church of Arios celebrates the kindling of Arios, the god of Light."
-    "今天是{b}{color=[c_orange]}救恩日{/color}{/b}。阿里奥斯教堂庆祝光之神阿里奥斯的降临。"
+    "今天是{b}{color=[c_orange]}救赎日{/color}{/b}。阿里奥斯教堂庆祝光之神阿里奥斯的降临。"
 
 # game/Mods/Trait King/TKevents.rpy:2303
 translate schinese ext_holiday_salvation_a7dfdaa6:
@@ -1954,7 +1954,7 @@ translate schinese ext_holiday_salvation_3816d2f9:
 translate schinese ext_holiday_salvation_23fc867b:
 
     # "As a follower of Shalia, you despise today's celebrations. You order your girls snuff out any candle they come across. {i}This slightly increase your brothel's threat build up.{/i}"
-    "作为莎莉娅的信徒，您鄙视今天的庆祝活动。您命令女孩们扑灭她们遇到的任何蜡烛。{i}这会稍微增加您的妓院的威胁程度{/i}。"
+    "作为莎莉娅的信徒，您鄙视今天的庆祝活动。您命令女孩们扑灭她们遇到的任何蜡烛。{i}这会稍微增加您的青楼的威胁程度{/i}。"
 
 # game/Mods/Trait King/TKevents.rpy:2315
 translate schinese ext_holiday_salvation_25a1d2d8:
@@ -1996,13 +1996,13 @@ translate schinese ext_holiday_night_bec567e3:
 translate schinese ext_holiday_night_6c2149a5:
 
     # "As you worship Arios, {i}threats to your brothel will build up much faster{/i} on this day."
-    "当您崇拜阿里奥斯时，{i}对您的妓院的威胁将在这天变得更加严重{/i}。"
+    "当您崇拜阿里奥斯时，{i}对您的青楼的威胁将在这天变得更加严重{/i}。"
 
 # game/Mods/Trait King/TKevents.rpy:2418
 translate schinese ext_holiday_night_277545d2:
 
     # "As you do not worship Shalia, {i}threats to your brothel will build up faster{/i} on this day."
-    "由于您不信仰莎莉娅，{i}对您的妓院的威胁将在这一天加剧{/i}。"
+    "由于您不信仰莎莉娅，{i}对您的青楼的威胁将在这一天加剧{/i}。"
 
 # game/Mods/Trait King/TKevents.rpy:2437
 translate schinese ext_holiday_hmas_80f42b5d:
@@ -2026,23 +2026,23 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:464
     old "Keep improving yourself"
-    new "不断提高自己"
+    new "不断地提高自己"
 
     # game/Mods/Trait King/TKevents.rpy:464
     old "Help the brothel"
-    new "帮助妓院"
+    new "促进青楼的发展"
 
     # game/Mods/Trait King/TKevents.rpy:471
     old "Work as hard as you can"
-    new "尽可能努力工作"
+    new "尽可能努力地工作"
 
     # game/Mods/Trait King/TKevents.rpy:471
     old "Hoard as much semen as you can"
-    new "尽可能多地储存精液"
+    new "尽可能多地摄入精液"
 
     # game/Mods/Trait King/TKevents.rpy:471
     old "Focus on the whales"
-    new "专注于鲸鱼客户"
+    new "专心服务富有的客户"
 
     # game/Mods/Trait King/TKevents.rpy:471
     old "Keep doing what you're doing"
@@ -2098,7 +2098,7 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:655
     old "Decorate the brothel"
-    new "装饰妓院"
+    new "装饰青楼"
 
     # game/Mods/Trait King/TKevents.rpy:655
     old "Make sure all the girls exercise regularly"
@@ -2118,7 +2118,7 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:1196
     old "Bribe a slaver for information"
-    new "贿赂奴隶贩子换取情报"
+    new "贿赂奴隶商人换取情报"
 
     # game/Mods/Trait King/TKevents.rpy:1196
     old "Analyze her behavior carefully"
@@ -2146,7 +2146,7 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:1363
     old "You estimate a slaver would ask for around [bribebase] gold in exchange for information. Proceed?"
-    new "你估计奴隶贩子会索要大约[bribebase]金币来换取情报。继续吗？"
+    new "你估计奴隶商人会索要大约[bribebase]金币来换取情报。接受吗？"
 
     # game/Mods/Trait King/TKevents.rpy:1508
     old "How can I resolve this situation?"
@@ -2162,7 +2162,7 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:1508
     old "Embrace her nickname"
-    new "接纳她的昵称"
+    new "接纳她的外号"
 
     # game/Mods/Trait King/TKevents.rpy:1508
     old "Send her off to serve the slavers guild for a week"
@@ -2182,11 +2182,11 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:1630
     old "[girl.name] the [noun]"
-    new "[girl.name] 这个 [noun]"
+    new "[girl.name] 这个[noun]"
 
     # game/Mods/Trait King/TKevents.rpy:1630
     old "[girl.name] the [trait]"
-    new "[girl.name] 这个 [trait]"
+    new "[girl.name] 这个[trait]"
 
     # game/Mods/Trait King/TKevents.rpy:1630
     old "[trait] [girl.lastname]"
@@ -2230,7 +2230,7 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:2097
     old "Agree to the terms ([price_str] gold)"
-    new "同意条件([price_str] 金币)"
+    new "同意条件([price_str]金币)"
 
     # game/Mods/Trait King/TKevents.rpy:2097
     old "Try to haggle her down"
@@ -2242,9 +2242,9 @@ translate schinese strings:
 
     # game/Mods/Trait King/TKevents.rpy:2116
     old "We have a deal ([price_str] gold)"
-    new "我们达成了协议([price_str] 金币）"
+    new "我们达成了协议([price_str]金币)"
 
     # game/Mods/Trait King/TKevents.rpy:2116
     old "Not good enough"
-    new "不够好"
+    new "还不够好"
 
