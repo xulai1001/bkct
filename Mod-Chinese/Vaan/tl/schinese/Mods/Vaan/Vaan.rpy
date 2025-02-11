@@ -142,7 +142,7 @@ translate schinese walk_around_4e010c9a:
 translate schinese walk_around_c1902c98:
 
     # girl.char "Just you and me huh? I am sorry [MC.name], but not today. Some other time okay?"
-    girl.char "只有你和我吧？对不起[mc.name]，但今天不是。还有其他时间好吗？"
+    girl.char "只有你和我吧？对不起[MC.name]，但今天不是。还有其他时间好吗？"
 
 # game/Mods/Vaan/Vaan.rpy:383
 translate schinese walk_around_22b6c23f:
@@ -334,7 +334,7 @@ translate schinese walk_around_b68e5d5c:
 translate schinese walk_around_c442bc7b:
 
     # girl.char "I love the taste of your cum, [MC.name]. There's so much of it!"
-    girl.char "我喜欢你的暨的味道，[mc.name]。有很多！"
+    girl.char "我喜欢你的暨的味道，[MC.name]。有很多！"
 
 # game/Mods/Vaan/Vaan.rpy:598
 translate schinese walk_around_8ecaaf86:
@@ -430,7 +430,7 @@ translate schinese walk_around_b68e5d5c_1:
 translate schinese walk_around_c442bc7b_1:
 
     # girl.char "I love the taste of your cum, [MC.name]. There's so much of it!"
-    girl.char "我喜欢你的暨的味道，[mc.name]。有很多！"
+    girl.char "我喜欢你的暨的味道，[MC.name]。有很多！"
 
 # game/Mods/Vaan/Vaan.rpy:713
 translate schinese walk_around_6233245c:
@@ -490,7 +490,7 @@ translate schinese walk_around_1da7c993:
 translate schinese walk_around_f25bb163:
 
     # girl.char "[MC.name], which outfit would you like to see?"
-    girl.char "[mc.name]，您想看哪个衣服？"
+    girl.char "[MC.name]，您想看哪个衣服？"
 
 # game/Mods/Vaan/Vaan.rpy:757
 translate schinese walk_around_d91994b8:
@@ -2068,7 +2068,7 @@ translate schinese study_89e92de6:
 translate schinese study_f7696690:
 
     # girl2.char "Keep fucking us, [MC.name]. I love it!"
-    girl2.char "继续他妈的我们，[mc.name]。我喜欢它！"
+    girl2.char "继续他妈的我们，[MC.name]。我喜欢它！"
 
 # game/Mods/Vaan/Vaan.rpy:2275
 translate schinese study_215a0ea4:
@@ -2182,13 +2182,13 @@ translate schinese study_e0062e46:
 translate schinese study_2d752684:
 
     # girl1.char "Yes, [MC.name], paint my face!"
-    girl1.char "是的，[mc.name]，画我的脸！"
+    girl1.char "是的，[MC.name]，画我的脸！"
 
 # game/Mods/Vaan/Vaan.rpy:2394
 translate schinese study_f27d1fcb:
 
     # girl2.char "Yes, [MC.name], give it to me too!"
-    girl2.char "是的，[mc.name]，也给我！"
+    girl2.char "是的，[MC.name]，也给我！"
 
 # game/Mods/Vaan/Vaan.rpy:2396
 translate schinese study_1c5c794f_2:
@@ -2224,7 +2224,7 @@ translate schinese two_girls_7d127ac8:
 translate schinese two_girls_8bcdc60f:
 
     # girl1.char "Hey [MC.name], [girl2.name] and I have recently become close friends and we were wondering if we could expand our friendship by getting someone to have sex with us. Would you like to join us?"
-    girl1.char "嘿[mc.name]，[girl2.name]我最近成为密友，我们想知道我们是否可以通过让某人与我们发生性关系来扩大我们的友谊。您想加入我们吗？"
+    girl1.char "嘿[MC.name]，[girl2.name]我最近成为密友，我们想知道我们是否可以通过让某人与我们发生性关系来扩大我们的友谊。您想加入我们吗？"
 
 # game/Mods/Vaan/Vaan.rpy:2531
 translate schinese two_girls_ce644b5e:
@@ -2278,7 +2278,7 @@ translate schinese two_girls_e6b75327:
 translate schinese two_girls_012ce307:
 
     # girl2.char "Put it in [MC.name], i can't wait anymore!"
-    girl2.char "把它放在[mc.name]中，我等不及了！"
+    girl2.char "把它放在[MC.name]中，我等不及了！"
 
 # game/Mods/Vaan/Vaan.rpy:2560
 translate schinese two_girls_1209f873:
@@ -2602,7 +2602,7 @@ translate schinese follow_83aa84ad:
 translate schinese follow_a17318f6:
 
     # girl.char "Thank you, [MC.name]."
-    girl.char "谢谢，[mc.name]。"
+    girl.char "谢谢，[MC.name]。"
 
 # game/Mods/Vaan/Vaan.rpy:2802
 translate schinese follow_a3376764:
@@ -2638,7 +2638,7 @@ translate schinese follow_ac8a4c71:
 translate schinese follow_8861361e:
 
     # girl.char "Yes [MC.name], please fuck me with that big cock of yours. I'll be a good girl from now on."
-    girl.char "是的[mc.name]，请用你那个大公鸡操我。从现在开始，我将成为一个好女孩。"
+    girl.char "是的[MC.name]，请用你那个大公鸡操我。从现在开始，我将成为一个好女孩。"
 
 # game/Mods/Vaan/Vaan.rpy:2837
 translate schinese follow_795394d0:
@@ -2770,7 +2770,7 @@ translate schinese model_1da7c993:
 translate schinese model_f25bb163:
 
     # girl.char "[MC.name], which outfit would you like to see?"
-    girl.char "[mc.name]，您想看哪个衣服？"
+    girl.char "[MC.name]，您想看哪个衣服？"
 
 # game/Mods/Vaan/Vaan.rpy:2959
 translate schinese choices_d91994b8:
@@ -4048,7 +4048,7 @@ translate schinese fgirl_4e010c9a:
 translate schinese fgirl_c1902c98:
 
     # girl.char "Just you and me huh? I am sorry [MC.name], but not today. Some other time okay?"
-    girl.char "只有你和我吧？对不起[mc.name]，但今天不是。还有其他时间好吗？"
+    girl.char "只有你和我吧？对不起[MC.name]，但今天不是。还有其他时间好吗？"
 
 # game/Mods/Vaan/Vaan.rpy:4153
 translate schinese fgirl_22b6c23f:
@@ -4246,7 +4246,7 @@ translate schinese fgirl_b68e5d5c:
 translate schinese fgirl_c442bc7b:
 
     # girl.char "I love the taste of your cum, [MC.name]. There's so much of it!"
-    girl.char "我喜欢你的暨的味道，[mc.name]。有很多！"
+    girl.char "我喜欢你的暨的味道，[MC.name]。有很多！"
 
 # game/Mods/Vaan/Vaan.rpy:4370
 translate schinese fgirl_8ecaaf86:
@@ -4342,7 +4342,7 @@ translate schinese fgirl_b68e5d5c_1:
 translate schinese fgirl_c442bc7b_1:
 
     # girl.char "I love the taste of your cum, [MC.name]. There's so much of it!"
-    girl.char "我喜欢你的暨的味道，[mc.name]。有很多！"
+    girl.char "我喜欢你的暨的味道，[MC.name]。有很多！"
 
 # game/Mods/Vaan/Vaan.rpy:4492
 translate schinese teach_42f4a644:
@@ -4522,7 +4522,7 @@ translate schinese teach_4ff9d7c0:
 translate schinese teach_e675ac92:
 
     # girl.char "Yes, [MC.name], give it to me! I've been wanting it since the moment i entered the classroom!"
-    girl.char "是的，[mc.name]，给我！从我进入教室的那一刻起，我就一直想要它！"
+    girl.char "是的，[MC.name]，给我！从我进入教室的那一刻起，我就一直想要它！"
 
 # game/Mods/Vaan/Vaan.rpy:4640
 translate schinese teach_f48ab733:
@@ -7384,7 +7384,7 @@ translate schinese kidnapped_monsters_19ddf561:
 translate schinese kidnapped_monsters_6d70cb51:
 
     # girl1.char "I guess i could use some rest, i need to find a way out of here as soon as i regain my strenght. I hope [MC.name] is looking for me."
-    girl1.char "我想我可以休息一下，一旦我恢复了strenght，我就需要找到一条出路。我希望[mc.name]正在寻找我。"
+    girl1.char "我想我可以休息一下，一旦我恢复了strenght，我就需要找到一条出路。我希望[MC.name]正在寻找我。"
 
 # game/Mods/Vaan/Vaan.rpy:7245
 translate schinese kidnapped_monsters_46aac6e5:

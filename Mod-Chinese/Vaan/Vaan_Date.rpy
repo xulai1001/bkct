@@ -133,39 +133,39 @@ label guild_vip_room_date:
 
 screen guild_bedroom_date:
 
- image "Mods/Vaan/bedroom.png" xalign 0.0 yalign 0.0
+ image "Mods/Vaan/bedroom.png" xpos 0 ypos 0 fit "cover" #尺寸修改为填充全屏
 
  grid 2 2:
      xalign 0.5
      yalign 0.5
-     spacing 20
+     spacing 200
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Have sex" action [Hide("guild_bedroom_date"), Jump("bedroom_sex_date")]
+         textbutton "Have sex" action [Hide("guild_bedroom_date"), Jump("bedroom_sex_date")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go to sleep" action [Hide("guild_bedroom_date"), Jump("end_day")]
+         textbutton "睡上一觉" action [Hide("guild_bedroom_date"), Jump("end_day")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go back" action [Hide("guild_bedroom_date"), Show("guild")]
+         textbutton "返  回" action [Hide("guild_bedroom_date"), Show("guild")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Shower" action [Hide("guild_bedroom_date"), Jump("spy_showers")]
+         textbutton "洗个澡" action [Hide("guild_bedroom_date"), Jump("spy_showers")] xsize 215 ysize 45
 
 
 
@@ -175,41 +175,41 @@ screen guild_bedroom_date:
 screen guild_tavern_date:
 
 
- image "Mods/Vaan/tavern.png" xalign 0.0 yalign 0.0
+ image "Mods/Vaan/tavern.png" xpos 0 ypos 0 fit "cover" #尺寸修改为填充全屏
 
 
 
  grid 2 2:
      xalign 0.5
      yalign 0.5
-     spacing 20
+     spacing 200
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Table" action Jump("drink_date")
+         textbutton "小型酒吧" action Jump("drink_date") xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "VIP Room" action Jump("entertainment_date")
+         textbutton "VIP房间" action Jump("entertainment_date") xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go back" action [Hide("guild_tavern_date"), Show("guild_date")]
+         textbutton "返  回" action [Hide("guild_tavern_date"), Show("guild_date")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         text "tavern" yalign 0.5 xalign 0.5
+         text "tavern" yalign 0.5 xalign 0.5 xsize 215 ysize 45
 
 
 
@@ -219,7 +219,7 @@ screen guild_tavern_date:
 
 screen guild_office_date:
 
- image "Mods/Vaan/office_night.png" xalign 0.0 yalign 0.0
+ image "Mods/Vaan/office_night.png" xpos 0 ypos 0 fit "cover" #尺寸修改为填充全屏
 
 
 
@@ -228,40 +228,40 @@ screen guild_office_date:
 
      xalign 0.5
      yalign 0.5
-     spacing 20
+     spacing 200
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.0
          yalign 0.5
-         textbutton "Nothing here for now" action Jump("spy_lockers_date")
+         textbutton "Nothing here for now" action Jump("spy_lockers_date") xsize 215 ysize 45
 
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.0
          yalign 0.3
-         textbutton "Go back" action [Hide("guild_office_date"), Show("guild_date")]
+         textbutton "返  回" action [Hide("guild_office_date"), Show("guild_date")] xsize 215 ysize 45
 
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.0
          yalign 0.5
-         textbutton "Show her your office" action Jump("office_girl_date")
+         textbutton "Show her your office" action Jump("office_girl_date") xsize 215 ysize 45
 
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.0
          yalign 0.3
-         textbutton "Go back" action [Hide("guild_office_date"), Show("guild_date")]
+         textbutton "返  回" action [Hide("guild_office_date"), Show("guild_date")] xsize 215 ysize 45
 
 
 
@@ -275,79 +275,79 @@ screen guild_office_date:
 
 
 screen guild_gym_date:
- image "Mods/Vaan/gym.png" xalign 0.0 yalign 0.0
+ image "Mods/Vaan/gym.png" xpos 0 ypos 0 fit "cover" #尺寸修改为填充全屏
 
 
 
  grid 2 2:
      xalign 0.5
      yalign 0.5
-     spacing 20
+     spacing 200
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go inside the lockers" action Jump("spy_lockers_date")
+         textbutton "进入更衣室" action Jump("spy_lockers_date") xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go inside the gym" action Jump("fight_date")
+         textbutton "进入健身房" action Jump("fight_date") xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go back" action [Hide("guild_gym_date"), Show("guild_date")]
+         textbutton "返  回" action [Hide("guild_gym_date"), Show("guild_date")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
          text "Showers" yalign 0.5 xalign 0.5
 
 screen guild_pool_date:
- image "Mods/Vaan/pool.png" xalign 0.0 yalign 0.0
+ image "Mods/Vaan/pool.png" xpos 0 ypos 0 fit "cover" #尺寸修改为填充全屏
 
 
 
  grid 2 2:
      xalign 0.5
      yalign 0.5
-     spacing 20
+     spacing 200
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go inside the pool" action Jump("pool_alone_date")
+         textbutton "进入泳池" action Jump("pool_alone_date") xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Sunbathe" action Jump("pool_alone_date")
+         textbutton "晒日光浴" action Jump("pool_alone_date") xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go back" action [Hide("guild_pool_date"), Show("guild_date")]
+         textbutton "返  回" action [Hide("guild_pool_date"), Show("guild_date")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Give her a massage" action Jump("mc_masseuse_date")
+         textbutton "Give her a massage" action Jump("mc_masseuse_date") xsize 215 ysize 45
 
 
 
@@ -355,89 +355,90 @@ screen guild_pool_date:
 
 
 screen guild_date:
- image "Mods/Vaan/guild.png" xalign 0.0 yalign 0.0
+ image "Mods/Vaan/guild.png" xpos 0 ypos 0 fit "cover" #尺寸修改为填充全屏
 
 
  grid 2 4:
      xalign 0.5
      yalign 0.5
-     spacing 20
+     spacing 200
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Check out the pool" action [Hide("guild_date"), Show("guild_pool_date")]
+         textbutton "户外泳池" action [Hide("guild_date"), Show("guild_pool_date")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go back" action [Hide("guild_date"), Jump("main")]
+         textbutton "返  回" action [Hide("guild_date"), Jump("main")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Go to the gym" action [Hide("guild_date"), Show("guild_gym_date")]
+         textbutton "健身房" action [Hide("guild_date"), Show("guild_gym_date")] xsize 215 ysize 45
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
 
          if not vaan_tavern_built:
 
-             textbutton "Tavern" action NullAction() # This is needed to make the button sensitive and use tooltips
+             textbutton "酒  窖" action NullAction()  xsize 215 ysize 45 # This is needed to make the button sensitive and use tooltips
              tooltip "You haven't built this yet."
 
 
          else:
-             textbutton "Tavern" action [Hide("guild_date"), Show("guild_tavern_date")]
+             textbutton "酒  窖" action [Hide("guild_date"), Show("guild_tavern_date")] xsize 215 ysize 45
 
 
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
          if not vaan_office_built:
              tooltip "You haven't built this yet."
-             textbutton "Office" action NullAction() # This is needed to make the button sensitive and use tooltips
+             textbutton "会议室" action NullAction()  xsize 215 ysize 45 # This is needed to make the button sensitive and use tooltips
+
 
 
          else:
-             textbutton "Office" action [Hide("guild_date"), Show("guild_office_date")]
+             textbutton "会议室" action [Hide("guild_date"), Show("guild_office_date")] xsize 215 ysize 45
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Female only side" action [Hide("guild_date"), Show("date_girls_only_side_date")]
+         textbutton "女更衣室" action [Hide("guild_date"), Show("date_girls_only_side_date")] xsize 215 ysize 45
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Female only side" action [Hide("guild_date"), Show("date_girls_only_side_date")]
+         textbutton "女更衣室" action [Hide("guild_date"), Show("date_girls_only_side_date")] xsize 215 ysize 45
 
 
 
      frame:
-         xpadding 40
-         ypadding 20
+         xpadding 5
+         ypadding 5
          xalign 0.5
          yalign 0.5
-         textbutton "Bedroom" action [Hide("guild_date"), Show("guild_bedroom_date")]
+         textbutton "卧  室" action [Hide("guild_date"), Show("guild_bedroom_date")] xsize 215 ysize 45
 
 
 

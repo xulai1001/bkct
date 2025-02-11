@@ -18,7 +18,7 @@ init -1 python:
                 description = """A world of sex and adventure awaits!""",
 
                 ## Mod option menu (access through the Help (click on '?') menu)
-                help_prompts = [("Walk Around", "walk_around")],
+                help_prompts = [("四处转转", "walk_around"), ("购买豪宅/进入豪宅", "buy_house")],
 
                 ## Init label: This will run when the mod is activated, allowing you to set some variables and events if necessary
              init_label = "vaan_init",
@@ -32,7 +32,7 @@ init -1 python:
                          "Attack2" : StoryEvent("brothel_attack", type="night", chance=0.2, once=False, date=3),
 
                           },
-                         home_rightmenu_add_buttons = ["guild_button"]
+                         #home_rightmenu_add_buttons = ["guild_button"]
 
 
 
@@ -87,13 +87,13 @@ return
 screen walk_button():
 
 
- textbutton "Walk Around" action [Hide('mod_menu_display'), Jump("walk_around")]
+ textbutton "四处转转" action [Hide('mod_menu_display'), Jump("walk_around")] xsize 215 ysize 45
 
 
 screen guild_button():
 
 
- textbutton "Guild"  action [Hide('mod_menu_display'), Jump("buy_house")]
+ textbutton "购买豪宅"  action [Hide('mod_menu_display'), Jump("buy_house")] xsize 215 ysize 45
 
 
 
