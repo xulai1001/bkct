@@ -708,7 +708,7 @@ init -2 python:
         def repay_in_full(self):
             if self.loan:
                 if self.gold >= self.loan.amount:
-                    if renpy.call_screen("yes_no", "Are you sure you want to repay your loan in full for " + str(self.loan.amount) + " gold?"):
+                    if renpy.call_screen("yes_no", "Are you sure you want to repay your loan in full for " + str(self.loan.amount) + " 金币。"):
                         self.gold -= self.loan.amount
                         self.loan = None
                         return True
@@ -923,7 +923,7 @@ init -2 python:
 
             else:
 
-                renpy.notify("%s: You do not have enough mana to cast this spell." % spl.name)
+                renpy.notify("%s: 你没有足够的魔力施展这个咒语。" % spl.name)
 
                 return False
 
@@ -2279,7 +2279,7 @@ init -2 python:
                 target_level = self.master_bedroom.level + 1
 
             if MC.has_gold(master_bedrooms[target_level].cost):
-                if renpy.call_screen("yes_no", "Are you sure you want to upgrade your room for " + str(master_bedrooms[target_level].cost) + " gold?"):
+                if renpy.call_screen("yes_no", "你确定要花" + str(master_bedrooms[target_level].cost) + " 金币升级你的私人卧室吗。"):
                     renpy.play(s_gold, "sound")
                     MC.gold -= master_bedrooms[target_level].cost
                     self.total_value += master_bedrooms[target_level].cost
@@ -2293,7 +2293,7 @@ init -2 python:
 #                     test_achievement("upgrades")
 
             else:
-                renpy.say(sill, "Sorry Master, you do not have enough money.")
+                renpy.say(sill, "对不起主人，你的钱好像不太够。")
 
 
         def can_have(self, job):
@@ -3230,7 +3230,7 @@ init -2 python:
             self.changes = changes
             self.label = label
             self.object = object
-            self.order = order
+            self.order = order # Lower order = go first
             self.debug_id = debug_id
 
         def show_night(self):
@@ -3859,8 +3859,9 @@ init -2 python:
                     for i in range(self.value):
                         c = thing.add_random_fixation(type=self.target[:3])[0] # because add_random_fixation returns a list
 
-                for fix in c:
-                    thing.personality_unlock[c] = False
+                if c:
+                    for fix in c:
+                        thing.personality_unlock[c] = False
 
             # Instant sex preference gain
             elif self.target == "all sexual preferences":
@@ -3931,7 +3932,7 @@ init -2 python:
                     text1 = "+1等级 (最高等级: " + str(val) + ")"
 
                 elif target == "advertising power":
-                    text1 = "提高广告的效果 (提高青楼的声望增速,客流量和顾客的预算)。"
+                    text1 = "提高广告的效果 (提高青楼的知名度增速,客流量和顾客的预算)。"
 
                 elif target == "heal minion":
                     text1 = "治疗一个受伤的单位。"
@@ -3949,7 +3950,7 @@ init -2 python:
                     text1 = "能说服不情愿的顾客接受另一种性行为"
 
                 elif target == "pickpocket":
-                    text1 = "有25%机会从顾客那里偷取额外10%的小费，但有15%的概率降低自身和青楼的声望"
+                    text1 = "有25%机会从顾客那里偷取额外10%的小费，但有15%的概率降低自身和青楼的知名度"
 
                 elif target == "random item":
                     text1 = "顾客有2.5%的概率“遗漏”随机物品"
@@ -3982,7 +3983,7 @@ init -2 python:
                     text1 += "使 " + str(val) + " 金币不被计入青楼的威胁值。"
 
                 elif target == "focus":
-                    text1 += "如果女孩在营业时专精于一种性行为，+25%小费和声望收益 (不包括双飞和群交行为)"
+                    text1 += "如果女孩在营业时专精于一种性行为，+25%小费和人气收益 (不包括双飞和群交行为)"
 
                 elif target == "rest shield":
                     text1 += "她在休息时，可以对自己或她的朋友施放一层魔法护盾，保护其免受攻击"
@@ -4238,7 +4239,7 @@ init -2 python:
             target = "属性点" if target == "skill points" else target
             target = "玩家声望" if target == "prestige" else target
             target = "天赋点" if target == "perk" else target
-            target = "结交新朋友修正" if target == "making friends" else target
+            target = "结交新朋友额外" if target == "making friends" else target
             target = "来自友谊而获得的心情收益" if target == "mood gains from friendship" else target
             target = "所有性行为偏好" if target == "all sexual preferences" else target
             target = "所有性行为技能" if target == "all sex skills" else target
@@ -4248,7 +4249,7 @@ init -2 python:
             target = "少给保养费的情绪减益影响" if target == "negative upkeep mood modifier" else target
             target = "只工作半天时精力回复量" if target == "half-shift resting bonus" else target
             target = "接客时客人因难以满足的扣分" if target == "customer penalties" else target
-            target = "裸体进行常规工作时获得的小费" if target == "naked bonus" else target
+            target = "全裸进行常规工作时获得的小费" if target == "naked bonus" else target
             target = "接受工作或训练的可能性" if target == "obedience tests" else target
             target = "所有常规技能收益" if target == "all regular skills gains" else target
             target = "所有性行为技能收益" if target == "all sex skills gains" else target
@@ -4260,13 +4261,14 @@ init -2 python:
             # target = "挑战中战斗加成" if target == "fight challenges" else target
             target = "购买价格" if target == "buy" else target
             target = "卖出价格" if target == "sell" else target
+            target = "售价" if target == "valuation" else target
 
             target = "恐惧收益" if target == "fear gains" else target
 
             target = "总保养费用" if target == "total upkeep" else target
-            target = "配饰加成" if target == "accessory" else target
-            target = "项链加成" if target == "necklace" else target
-            target = "戒指加成  " if target == "ring" else target
+            target = "配饰属性加成" if target == "accessory" else target
+            target = "项链属性加成" if target == "necklace" else target
+            target = "戒指属性加成  " if target == "ring" else target
 
             target = "保养费" if target == "upkeep" else target
             target = "受伤天数" if target == "hurt" else target
@@ -4275,7 +4277,7 @@ init -2 python:
             target = "舞娘职业经验收益" if target == "dancer jp gains" else target
             target = "舞娘职业经验收益" if target == "dancer jp gains" else target
 
-            target = "名声" if target == "brothel reputation" else target
+            target = "青楼知名度" if target == "brothel reputation" else target
             target = "小费总额" if target == "total tip" else target
             target = "双飞概率" if target == "bisexual chance" else target
             target = "群交概率" if target == "group chance" else target
@@ -4283,9 +4285,9 @@ init -2 python:
             target = "作为妓女时客户的预算" if target == "whore customer budget" else target
             target = "客户活动 " if target == "customer events" else target
             target = "疯狂" if target == "crazy" else target
-            target = "服务员倾向" if target == "waitress preference" else target
+            target = "服务倾向" if target == "waitress preference" else target
             target = "舞娘倾向" if target == "dancer preference" else target
-            target = "按摩师倾向" if target == "masseuse preference" else target
+            target = "按摩倾向" if target == "masseuse preference" else target
             target = "艺妓倾向" if target == "geisha preference" else target
             target = "侍奉倾向" if target == "service preference" else target
             target = "性交倾向" if target == "sex preference" else target
@@ -4724,17 +4726,17 @@ init -2 python:
                 self.update_cust_limit(True)
 
             elif brothel.free_room:
-                if renpy.call_screen("yes_no", __("Do you really want to choose the ") + __(self.name) + __(" as your free room?")):
+                if renpy.call_screen("yes_no", __("Do you really want to choose the ") + location_name_dict[self.name] + __(" as your free room?")):
                     renpy.play(s_spell, "sound")
                     self.level = 1
                     self.update_cust_limit()
                     brothel.free_room = False
 
             elif self.get_price() >= MC.gold:
-                renpy.say(sill, "Sorry Master, you do not have enough gold to build this room.")
+                renpy.say(sill, "对不起主人，你的钱好像不够用来升级这个房间。")
 
 
-            elif renpy.call_screen("yes_no", __("Are you sure you want to build the ") + __(self.name) + __(" for ") + str(self.get_price()) + " gold?"):
+            elif renpy.call_screen("yes_no", __("Are you sure you want to build the ") + location_name_dict[self.name] + __(" for ") + str(self.get_price()) + " 金币。"):
                 MC.gold -= self.get_price()
                 brothel.total_value += self.get_price()
                 renpy.play(s_gold, "sound")
@@ -4748,8 +4750,8 @@ init -2 python:
                 self.level += 1
                 self.update_cust_limit(True)
             elif self.get_price() >= MC.gold:
-                renpy.say(sill, "Sorry Master, you do not have enough gold to upgrade this room.")
-            elif renpy.call_screen("yes_no", __("Are you sure you want to upgrade the ") + __(self.name) + __(" for ") + str(self.get_price()) + " gold?"):
+                renpy.say(sill, "对不起主人，你的钱好像不够用来升级这个房间。")
+            elif renpy.call_screen("yes_no", __("Are you sure you want to upgrade the ") + location_name_dict[self.name] + __(" for ") + str(self.get_price()) + " 金币。"):
                 MC.gold -= self.get_price()
                 brothel.total_value += self.get_price()
                 renpy.play(s_gold, "sound")
@@ -4812,7 +4814,7 @@ init -2 python:
 
             if self.cust_limit != _old:
                 if not silent:
-                    renpy.say(sill, "You may now entertain " + str(self.cust_limit) + " customers in the " + self.name + ". {w=1.0}{nw}")
+                    renpy.say(sill,  location_name_dict[self.name] + "现在可以同时接待" + str(self.cust_limit) + "位顾客了。{w=1.0}{nw}")
 
             return self.cust_limit - _old
 
@@ -4871,9 +4873,9 @@ init -2 python:
 
             if dice(6) == 6:
                 if self.type == "class":
-                    self.special = rand_choice(("Cheap", "Masterclass"))
+                    self.special = rand_choice((_("Cheap"), _("Masterclass")))
                 elif self.type == "quest":
-                    self.special = rand_choice(("High reward", "Notorious"))
+                    self.special = rand_choice((_("High reward"), _("Notorious")))
             else:
                 self.special = None
 
@@ -4991,7 +4993,7 @@ init -2 python:
 
             if not ignore_status:
                 if girl.hurt > 0 or girl.away or girl.exhausted:
-                    return (False, "Your girl is unable to work or study at the moment.")
+                    return (False, "你的女孩现在无法工作或接受培训。")
 
             if self.type == "class":
 
@@ -5001,17 +5003,17 @@ init -2 python:
                         if girl.get_stat(stat, raw=True) < self.stat_cap:
                             return (True, "为%s报名这个培训班。" % girl.fullname)
 
-                    return (False, "Your girl's skills are too high to learn anything from this class.")
+                    return (False, "你的女孩属性太高，无法从这个课程中获益了。")
 
                 else:
-                    return (False, "You do not have enough money to register a girl for this class.")
+                    return (False, "你付不起培训班的报名费。")
 
 
             elif self.type == "quest":
 
                 for stat, value in self.requirements:
                     if girl.get_stat(stat) < value:
-                        return (False, "Your girl doesn't meet the requirements for this assignment.")
+                        return (False, "你的女孩并不满足任务的需求。")
                 return (True, __("Send %s on this assignment.") % girl.fullname)
 
             raise AssertionError("Something is weird with " + self.type)
@@ -5025,7 +5027,7 @@ init -2 python:
         def get_results(self, girl):
 
             title = __(self.type.capitalize()) + __(" completed")
-            description = girl.fullname + __(" has returned from her ") + __(self.type) + ". "
+            description = girl.fullname + __(" has returned from her ") + __(self.type) + "。"
 
             if self.type == "class":
 
@@ -5213,7 +5215,7 @@ init -10 python:
                     self.description = "你需要拥有至少" + str(self.target) + "个" + rank_name[self.value] + "阶的奴隶" #修改了源代码使翻译通畅
 
                 elif self.type == "reputation":
-                    self.description = "你的青楼需要拥有" + str(int(self.value)) + "点声望"
+                    self.description = "你的青楼需要拥有" + str(int(self.value)) + "点知名度"
 
                 elif self.type == "prestige":
                     self.description = "你的角色需要拥有" + str(int(self.value)) + "点声望"
@@ -7152,9 +7154,9 @@ init -2 python:
                 brothel.furniture.append(furniture_dict[self.upgrade])
                 brothel.activate_furniture(furniture_dict[self.upgrade])
                 if message:
-                    renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + " has been destroyed and replaced with " + self.upgrade, pic = self.pic, pic_size = "large")
+                    renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + "已被" + self.upgrade + "取代。" , pic = self.pic, pic_size = "large")
             elif message:
-                renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + " has been destroyed.", pic = self.pic, pic_size = "large")
+                renpy.call_screen("OK_screen", title = "Furniture destroyed", message = self.name + "已被摧毁。", pic = self.pic, pic_size = "large")
             self.activate()
 
         def activate(self):
@@ -7324,11 +7326,11 @@ init -2 python:
 
             elif self.target == "pos fixations":
                 for girl in MC.girls + farm.girls:
-                    r = sum(1 for fix in girl.pos_fixations if (girl.personality_unlock[fix.name]))
+                    r += sum(1 for fix in girl.pos_fixations if (girl.personality_unlock[fix.name]))
 
             elif self.target == "neg fixations":
                 for girl in MC.girls + farm.girls:
-                    r = sum(1 for fix in girl.neg_fixations if (girl.personality_unlock[fix.name]))
+                    r += sum(1 for fix in girl.neg_fixations if (girl.personality_unlock[fix.name]))
 
             elif self.target == "minions":
                 r = farm.count_minions()
@@ -7554,13 +7556,13 @@ init -2 python:
             spe, target = self.special
 
             if spe == "trait":
-                return "{b}特质{/b}: " + and_text([t.name for t in target], " 或 ")
+                return "{b}特质{/b}: " + and_text([tl_cn(t.name, trait_name_dict) for t in target], " 或 ")
 
             elif spe == "perk":
                 return "{b}天赋{/b}: " + target.name
 
             elif spe == "fix":
-                return "{b}正面癖好{/b}: " + and_text([tl_cn(f.name.capitalize(), girl_related_dict) for f in target], " 或 ")
+                return "{b}正面性癖{/b}: " + and_text([tl_cn(f.name.capitalize(), girl_related_dict) for f in target], " 或 ")
 
             elif spe == "farm":
                 return "{b}弱点{/b}: " + tl_cn(target.capitalize(), farm_related_dict)

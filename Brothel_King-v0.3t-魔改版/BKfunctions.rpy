@@ -917,7 +917,7 @@ init -3 python:
             stat, nb = c
 
             if stat in ("rep", "reputation"):
-                change_log.add("声望：%i/%i (%s)" % (girl.rep, girl.get_stat_max("rep"), plus_text(int(nb), "rep")))
+                change_log.add("人气：%i/%i (%s)" % (girl.rep, girl.get_stat_max("rep"), plus_text(int(nb), "rep")))
 
             elif stat == "gold":
                 change_log.add("金币：{image=img_gold} %s" % plus_text(int(nb), "gold"))
@@ -1026,13 +1026,13 @@ init -3 python:
 
         notify("%s: Rape attempt" % girl.fullname, pic=girl.portrait)
 
-        text_descript = " Even though she refused, the customer tried to force her to do it. "
+        text_descript = "虽然她明确表示拒绝,但他还是想强迫她配合自己。 "
         raped = False
 
         change_log.add("Rape attempt", "header")
 
         if brothel.get_security() >= threat: #You have enough guards to look after your girls
-            text_descript += girl.name + " {color=[c_green]}called security. He apologized and decided to play nice.{/color}"
+            text_descript += girl.name + " {color=[c_green]}叫来了保安，他的态度立刻大转弯，向她道歉。{/color}"
 
             girl.change_mood(1)
             girl.change_fear(-1)
@@ -1043,7 +1043,7 @@ init -3 python:
 
             if MC.get_defense() >= cust.get_defense():
 
-                text_descript += "{color=[c_green]}You heard %s crying for help and threatened to throw him out. He decided to play nice.{/color}" % girl.name
+                text_descript += "{color=[c_green]}你听到%s哭喊着叫救命，威胁要把他赶出去。他决定友好一点。{/color}" % girl.name
 
                 girl.change_mood(1)
                 girl.change_love(1)
@@ -1053,14 +1053,14 @@ init -3 python:
 
             elif girl.test_shield():
 
-                text_descript += "Fortunately, her magic shield protected her. The customer was awed and sheepishly agreed to back off."
+                text_descript += "幸好, 她身上的魔力护盾保护了她。顾客被吓到了，只好灰溜溜的走了。"
 
                 girl.change_mood(1)
 
                 change_log.add("被魔法护盾阻挡了", col="good", ttip = event_color["good"] % "Mood +")
 
             else:
-                text_descript += "{color=[c_red]}You tried to help, but the customer knocked you out and locked the door shut.{/color}"
+                text_descript += "{color=[c_red]}你想上去帮忙, 但是那个顾客把你打昏了，还把门锁上了。{/color}"
                 raped = True
 
                 girl.change_mood(-3)
@@ -1084,7 +1084,7 @@ init -3 python:
 
             if girl.get_defense() + mod >= cust.get_defense():
 
-                text_descript += "{color=[c_green]}%s told him he could play nice or lose an important body part. He changed his mind.{/color}" % girl.name
+                text_descript += "{color=[c_green]}%s告诉他要么乖乖听话，要么失去一个重要的身体部位。他改变了主意。{/color}" % girl.name
 
                 girl.track_event("defended")
                 girl.change_mood(1)
@@ -1093,14 +1093,14 @@ init -3 python:
 
             elif girl.test_shield():
 
-                text_descript += "Fortunately, her magic shield protected her. The customer was awed and sheepishly agreed to back off."
+                text_descript += "幸好, 她身上的魔力护盾保护了她。顾客被吓到了，只好灰溜溜的走了。"
                 girl.change_mood(1)
 
                 change_log.add("被魔法护盾阻挡了", col="good", ttip = event_color["good"] % "Mood +")
 
             else:
 
-                text_descript += "{color=[c_red]}%s tried to fight him to no avail, and he had his way with her.{/color}" % girl.name
+                text_descript += "{color=[c_red]}%s试着反抗他，但没有用，他对她为所欲为。{/color}" % girl.name
                 raped = True
 
                 girl.change_mood(-3)

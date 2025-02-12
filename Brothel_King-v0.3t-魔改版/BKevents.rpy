@@ -498,25 +498,25 @@ label chapter(chapter = None, silent=False): ## Shows the chapter intro with tex
 
             text1 = "第四章"
 
-            text2 = "正在制作中"
+            text2 = "剧情正在制作中"
 
         elif game.chapter == 5:
 
-            text1 = "Chapter Five"
+            text1 = "第五章"
 
-            text2 = "Work in progress"
+            text2 = "剧情正在制作中"
 
         elif game.chapter == 6:
 
-            text1 = "Chapter Six"
+            text1 = "第六章"
 
-            text2 = "Work in progress"
+            text2 = "剧情正在制作中"
 
         else:
 
-            text1 = "Epilogue"
+            text1 = "尾声"
 
-            text2 = "Work in progress"
+            text2 = "剧情正在制作中"
 
     call hide_everything() from _call_hide_everything_38
     scene black with fade
@@ -957,8 +957,18 @@ label advance_to_chapter(chapter, silent=False, free=False, start=False): # All 
 ## 7. End game
 
     if game.chapter == 7:
-        if game.diff in ("normal", "hard", "insane"):
-            $ unlock_achievement("win " + game.diff)
+
+        if game.diff == "insane":
+            $ unlock_achievement("win insane")
+            $ unlock_achievement("win hard")
+            $ unlock_achievement("win normal")
+
+        if game.diff == "hard":
+            $ unlock_achievement("win hard")
+            $ unlock_achievement("win normal")
+
+        elif game.diff == "normal":
+            $ unlock_achievement("win normal")
 
         if NGP_settings_dict["free girl challenge"].get():
             $ unlock_achievement("free girl challenge")
@@ -2682,10 +2692,10 @@ label visit_thieves_guild:
         with fade
     elif NPC_renza.love >= 20 and not NPC_renza.flags["story3"]:
         $ NPC_renza.flags["story3"] = True
-        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen1", order=-1))
+        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen1", order=1))
     elif NPC_renza.love >= 30 and not NPC_renza.flags["story4"]:
         $ NPC_renza.flags["story4"] = True
-        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen3", order=-1))
+        $ calendar.set_alarm(calendar.time+1, Event(label = "renza_onsen3", order=1))
 
     renza "Oh, hi, [MC.name]. Come to check on my merchandise?"
 
@@ -4425,7 +4435,7 @@ label first_contract():
 
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？"):
             call contract_chosen(first=True) from _call_contract_chosen
             return
 
@@ -4487,7 +4497,7 @@ label first_contract_return():
             with dissolve
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？"):
             call contract_chosen(first=True) from _call_contract_chosen_1
             return
 
@@ -4532,7 +4542,7 @@ label new_contract():
 
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract (fee: [result.base_value] gold)?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？(报酬: [result.base_value]金币)"):
             call contract_chosen() from _call_contract_chosen_2
 
             hide jobgirl
@@ -4563,7 +4573,7 @@ label new_contract_return():
             with dissolve
             return
 
-        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\nAre you sure you want to apply for this contract (fee: [result.base_value] gold)?"):
+        elif renpy.call_screen("yes_no", "{b}[result.title]{/b}\n你确定要签下这份合约吗？(报酬: [result.base_value] 金币)"):
             call contract_chosen() from _call_contract_chosen_3
             return
 

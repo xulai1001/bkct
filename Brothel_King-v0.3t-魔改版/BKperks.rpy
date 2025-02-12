@@ -125,7 +125,7 @@ label init_perks():
 
                         "Foxy Lady" : Perk(name=_("小狐狸精"), type="level", perk_level=0, archetype="The Fox", effects=[Effect("change", "charm", 10), Effect("boost", "class results", 0.2)], pic = "fox0.webp"),
                         "Something New" : Perk(name=_("触类旁通"), type="level", perk_level=1, archetype="The Fox", effects=[Effect("boost", "xp gains", 1.0, chance=0.1), Effect("boost", "all jp gains", 1.0, chance=0.1)], pic = "fox1_1.webp"),
-                        "Lost and Found" : Perk(name=_("拾金有昧"), type="level", perk_level=1, archetype="The Fox", effects=[Effect("special", "random item", 1, chance=0.025)], pic = "fox1_2.webp", base_description = "'I'm sure he won't miss it.'"),
+                        "Lost and Found" : Perk(name=_("拾金有昧"), type="level", perk_level=1, archetype="The Fox", effects=[Effect("special", "random item", 1, chance=0.025)], pic = "fox1_2.webp", base_description = "'我敢肯定他不会记得的。'"),
                         "Secret Admirers" : Perk(name=_("不传之秘"), type="level", perk_level=2, archetype="The Fox", effects=[Effect("boost", "tip", 1, chance=0.2)], pic = "fox2_1.webp"),
                         "Tempting Fate" : Perk(name=_("幸运女神"), type="level", perk_level=2, archetype="The Fox", effects=[Effect("special", "effect chance", 1)], pic = "fox2_2.webp"),
                         "Stars Are Aligned" : Perk(name=_("招财进宝"), type="level", perk_level=3, archetype="The Fox", effects=[Effect("boost", "income", 1, chance=0.02, scope="brothel")], pic = "fox3.webp"),

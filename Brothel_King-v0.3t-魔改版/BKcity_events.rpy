@@ -4557,26 +4557,26 @@ label city_none:
 
     $ loc = selected_location.name.lower()
 
-    $ choices = ["You take a stroll through the %s. Nothing meaningful happens.", "After a pleasant walk around the %s, you decide it's time to head home.",
-                 "The %s is peaceful today. You have a pleasant walk.", "You spend time browsing the wares of some passing merchants near the %s. In the end, you don't find anything you like.",
-                 "You have a nice time sitting on a bench near the %s, watching people come and go and whistling at pretty girls. None pay you any attention, however.",
-                 "Walking around the %s, you see nothing special. A waste of time."]
+    $ choices = ["你漫步穿过%s。没什么值得关注的事。", "在%s愉快的逛了一会, 你决定返回青楼。",
+                 "%s今天很安静。你散了会步。", "你花了些时间浏览%s附近摊位的商品。可惜，没有你喜欢的东西。",
+                 "你坐在%s的长椅上消磨时间, 看着人们来来往往，对漂亮女孩吹口哨。然而，没有人注意到你。",
+                 "漫步在%s, 什么有趣的事也没有，真是浪费时间。"]
 
     if MC.get_alignment() == "good":
 
-        $ choices.append("You walk among the good people of the %s. Everyone looks friendly on such a beautiful day.")
+        $ choices.append("你漫步穿过%s的人群， 每个人都对你微笑示意，真是不错的一天~")
 
     elif MC.get_alignment() == "neutral":
 
-        $ choices.append("Watching people come and go through the %s, you wonder how you could profit from their endeavors.")
+        $ choices.append("Watching people come and go through the %s, 你想知道如何从他们身上赚到金币。")
 
     elif MC.get_alignment() == "evil":
 
-        $ choices.append("The people of the %s are a wretched and vicious bunch, just like anywhere else. Elbowing your way through this crowd of losers, you despise them all.")
+        $ choices.append("The people of the %s are a wretched and vicious bunch, 就像其他地方一样。挤过这群失败者，你鄙视他们。")
 
     if MC.god == "Shalia":
 
-        $ choices.append("In the nooks and shadows of the %s, you see discreet but unmistakable signs of Shalia worship. You nod approvingly.")
+        $ choices.append("在%s的一处阴暗的角落, 你看到了有人在朝拜暗影女神莎莉娅。你赞许地点点头。")
 
     elif MC.god == "Arios":
 

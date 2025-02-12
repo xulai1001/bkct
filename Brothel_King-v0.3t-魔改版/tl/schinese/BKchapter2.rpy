@@ -20740,13 +20740,13 @@ translate schinese c2_meet_papa_freak_3f036dab:
 translate schinese c2_meet_papa_freak_3a022827:
 
     # "When you are ready, visit the {b}[NPC_freak.location.name]{/b} to bring Papa Freak the girl of his dreams."
-    "当你准备好了,就去{b}[_loc.name]{/b}拜访弗里克老爹,给他找一个梦中情人吧。"
+    "当你准备好了,就去{b}[NPC_freak.location.name]{/b}拜访弗里克老爹,给他找一个梦中情人吧。"
 
 # game/BKchapter2.rpy:9919
 translate schinese visit_papa_07c43704:
 
     # "Choose a girl from your brothel to bring with you (reminder: she must have at least 50 in Beauty, Body, Refinement and Charm, and be open to whoring)"
-    "从你的青楼里选一个女孩带去(注意:她必须在美貌、身材、修养和魅力上都达到50或更高,并且愿意做妓女)"
+    "从你的青楼里选一个女孩带去(注意:她必须在美貌、身材、修养和魅力上都达到50或更高,并且愿意卖淫)"
 
 # game/BKchapter2.rpy:9922
 translate schinese visit_papa_58d0222f:

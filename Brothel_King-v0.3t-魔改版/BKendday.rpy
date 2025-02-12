@@ -697,7 +697,7 @@ label end_day:
                 log.add_report(event_color["bad"] % text1)
 
                 night_early.add("青楼臭不可闻", "header")
-                night_early.add("客人失望的离开: -%s" % len(lost_customers), col="bad", ttip = get_customer_population_count(lost_customers))
+                night_early.add("失望离开的客人: -%s" % len(lost_customers), col="bad", ttip = get_customer_population_count(lost_customers))
                 cust_text += "\n离开的客人: %s人" % plus_text(-len(lost_customers))
                 if rep_loss:
                     night_early.add("Reputation lost: %s" % plus_text(rep_loss))
@@ -1092,7 +1092,7 @@ label end_day:
         rep_chg = sum(c.get_reputation_change() for c in customers)
         rep_chg = brothel.change_rep(rep_chg)
 
-        night_late.add("青楼名声: %s (%s)" % (str_int(brothel.rep) + "/" + str_int(brothel.max_rep), event_color["rep"] % (plus_text(rep_chg))), "header", ttip=plus_text(rep_chg) + "声望，满意的顾客越多增长得就越快。")
+        night_late.add("青楼知名度: %s (%s)" % (str_int(brothel.rep) + "/" + str_int(brothel.max_rep), event_color["rep"] % (plus_text(rep_chg))), "header", ttip=plus_text(rep_chg) + "知名度，满意的顾客越多增长得就越快。")
 
         log.add_report(event_color["rep"] % ("青楼的知名度由%i变为%i (%s)" % (old_rep, brothel.rep, plus_text(round_int(rep_chg)))))
 

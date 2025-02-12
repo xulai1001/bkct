@@ -51,7 +51,7 @@ define thug2 = Character("混混", color= c_red, image = "thug2", window_left_pa
 define thug3 = Character("混混", color= c_lightred, image = "thug", window_left_padding=int(config.screen_height*0.205))
 define drogon = Character("龙", color= c_darkred, image = "drogon", window_left_padding=int(config.screen_height*0.205))
 define security = Character("安全警报", color= c_white, image = "security", window_left_padding=int(config.screen_height*0.205))
-define security_breach = Character("安全漏洞", color= c_red, image = "security_breach", window_left_padding=int(config.screen_height*0.205))
+define security_breach = Character("突发情况", color= c_red, image = "security_breach", window_left_padding=int(config.screen_height*0.205))
 define programmer = Character("青楼之王编辑器", color = c_lightblue, image="crying_man", window_left_padding=int(config.screen_height*0.205))
 
 
@@ -92,7 +92,7 @@ define initiate1 = Character("第一个initiate", color=c_lightblue, image="init
 define initiate2 = Character("第二个initiate", color=c_lightred, image="initiate", window_left_padding=int(config.screen_height*0.205))
 define spirit = Character("深层的精神世界", color=c_white, image="spirit", window_left_padding=int(config.screen_height*0.205))
 define milkmaid = Character("挤奶工", color=c_pink, image="milkmaid", window_left_padding=int(config.screen_height*0.205))
-define relative = Character("薇儿的表亲", color=c_copper)
+define relative = Character("薇儿的亲戚", color=c_copper)
 define blood1 = Character("金发女官员", color=c_yellow, image="blood1", window_left_padding=int(config.screen_height*0.205))
 define blood2 = Character("红发女官员", color=c_copper, image="blood2", window_left_padding=int(config.screen_height*0.205))
 

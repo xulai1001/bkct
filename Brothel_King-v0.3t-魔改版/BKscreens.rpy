@@ -2522,7 +2522,7 @@ screen button_overlay(girl, context="girls"):
 
             xfill True
 
-            $ text1 = str(girl.get_price('buy')) + " gold"
+            $ text1 = str(girl.get_price('buy')) + "金币"
 
             text text1 xalign 0.0
 
@@ -3733,7 +3733,7 @@ screen suzume_hints(contact_list):
                     if npc == NPC_suzume:
                         tooltip "与{b}云雀{/b}讨论模糊的线索，或者告诉她你收集到的关于某个忍者的全部3条线索。"
                     else:
-                        tooltip "让云雀在{b}%s{/b}调查，以此来获得女忍者的线索。{b}消耗1{/b}{image=img_AP}。" % ttip
+                        tooltip "让云雀向{b}%s{/b}打听，看看能否获得一些女忍者的线索。{b}消耗1{/b}{image=img_AP}。" % ttip
 
             textbutton "返回" text_bold True xalign 0.5 yalign 0.5 xsize xres(120) ysize yres(120) xpadding 6 ypadding 6 action Return(False) # Note that 'None' is not a valid return value
 
@@ -3791,7 +3791,7 @@ screen districts(context = "visit"): # returns a chosen district. Context can be
             if suzume_hints_active and context == "visit":
                 frame background c_ui_dark xpadding 6 ypadding 6 xalign 0.35:
                     vbox:
-                        text "The Hunt" size res_font(14) xalign 0.5 yalign 0.5
+                        text "追捕女忍者" size res_font(14) xalign 0.5 yalign 0.5
                         button xsize yres(120) ysize yres(120) xpadding 6 ypadding 6:
                             if MC.interactions >= 1:
                                 action Call("c3_interrogate_contacts")
@@ -4808,12 +4808,12 @@ screen brothel_options():
                         hbox box_wrap True:
                             for furn in [f for f in brothel.furniture if f.can_deactivate]:
 
-                                button xsize xres(56) ysize yres(56) action Function(furn.toggle) tooltip __("Click here to activate or deactivate %s.\n%s ({b}%s{/b})") % (furn.name, get_description("", furn.effects), {True: "active", False: "inactive"}[furn.active]):
+                                button xsize xres(56) ysize yres(56) action Function(furn.toggle) tooltip __("点击此处开启或关闭 %s。\n%s ({b}%s{/b})") % (furn.name, get_description("", furn.effects), {True: "active", False: "inactive"}[furn.active]):
 
-                                    add furn.pic.get(*res_tb(50)) xalign 0.5 yalign 0.5
+                                    add furn.pic.get(*res_tb(50)) xalign 0.7 yalign 0.7
 
                                     if not furn.active:
-                                        text "X" color c_crimson size res_font(48) xalign 0.5 yalign 0.5
+                                        text "X" color c_crimson size res_font(48) xalign 0.7 yalign 0.7
                     text "" size res_font(22)
 
                 # This will unlock with the 'billboard' upgrade
@@ -6407,15 +6407,17 @@ screen postings(qlist):
 
                                 if selected_quest.pos_traits:
 
-                                    text __("Desirable") size res_font(18) color c_prune
+                                    text "有利特质" size res_font(18) color c_prune
 
-                                    text selected_quest.pos_traits[0].name + ", " + selected_quest.pos_traits[1].name size res_font(14) color c_emerald
+                                    text selected_quest.pos_traits[0].name size res_font(14) color c_emerald
+
+                                    text selected_quest.pos_traits[1].name size res_font(14) color c_emerald
 
                                     text "" size res_font(18)
 
                                 if selected_quest.neg_trait:
 
-                                    text __("Undesirable") size res_font(18) color c_prune
+                                    text "不利特质" size res_font(18) color c_prune
 
                                     text selected_quest.neg_trait.name size res_font(14) color c_crimson
 
@@ -6458,8 +6460,8 @@ screen postings(qlist):
 
                 hbox:
 
-                    textbutton "委托" text_size res_font(14) xsize xres(80) xfill True style "posting_button" action (Return("quests"), SelectedIf(qlist == quest_board.quests))
-                    textbutton "培训" text_size res_font(14) xsize xres(80) xfill True style "posting_button" action (Return("classes"), SelectedIf(qlist == quest_board.classes))
+                    textbutton "任务委托" text_size res_font(14) xsize xres(80) xfill True style "posting_button" action (Return("quests"), SelectedIf(qlist == quest_board.quests))
+                    textbutton "培训课程" text_size res_font(14) xsize xres(80) xfill True style "posting_button" action (Return("classes"), SelectedIf(qlist == quest_board.classes))
 
 
                 if qlist:
@@ -6510,9 +6512,9 @@ screen postings(qlist):
                                                 $ text1 = ""
                                             text text1 + "[quest.name!t]"  size res_font(13)
                                             if quest.type != "class" or not story_flags["postings free class"]:
-                                                text str(int(quest.gold)) + " gold" size res_font(13)
+                                                text str(int(quest.gold)) + "金币" size res_font(13)
                                             else:
-                                                text __("FREE") size res_font(13)
+                                                text __("免费试听") size res_font(13)
 
                 if calendar.active_contract:
                     text ""
@@ -6619,7 +6621,7 @@ screen farm_menu(prog, can_cancel=True):
             hbox spacing xres(10):
                 add girl.portrait.get(xres(40), yres(40))
                 text girl.fullname bold True yalign 0.5
-            text __("Farm Training Menu") bold True yalign 0.5
+            text __("农场训练菜单") bold True yalign 0.5
             if can_cancel:
                 use close(Return("back"))
 
@@ -6652,16 +6654,16 @@ screen farm_menu(prog, can_cancel=True):
                             $ _warning = False
 
                 elif prog.installation:
-                    $ text1 += __(" at the {b}") + capitalize(prog.installation.name) + __("{/b}.")
+                    $ text1 += __("在{b}") + capitalize(prog.installation.name) + __("{/b}。")
 
                     # $ other_assigned_girls = [g for g in inst.return_assigned_girls() if g != prog.girl]
                     $ free_m = len(prog.installation.get_healthy_minions()) - prog.installation.count_busy_minions()
 
                     if free_m < 0:
                         if prog.target == "group":
-                            $ _warning = __("There may not be enough valid minions for group training. I may assign her to a different facility if other minions are available.")
+                            $ _warning = __("这里没有足够多的仆从训练群交。如果其他设施里人手充足，我会把她安排到那里去。")
                         else:
-                            $ _warning = __("There are not enough valid minions in the %s, I may have to rotate this girl in and out of the facility.") % prog.installation.name
+                            $ _warning = __("%s里没有足够多的仆从, 我可能得让这女孩轮流进出设施。") % prog.installation.name
 
         if _warning:
             $ pic = "side gizel upset"

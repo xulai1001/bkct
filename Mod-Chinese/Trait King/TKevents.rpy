@@ -169,7 +169,7 @@ label traitking_day: # day: triggers after morning, but still before player can 
 
             if renpy.random.random() <= 0.06 and not girl.free: # In demand trait (add) # todo: implement "Fan favorite"
             
-                add_trait_perkless(girl, trait_dict["In demand"])
+                add_trait_perkless(girl, trait_dict[_("In demand")])
                 
                 renpy.say("","Recently a lot of slavers have been inquiring about " + girl.name + ". It would seem that she is {b}{color=[c_orange]}in high demand{/color}{/b}. If you were willing to part with her, it could prove to be very lucrative.")
                 
@@ -210,7 +210,7 @@ label traitking_night: # night: first thing that happens as you press 'end day'
                         girl.unknown_trait_counter = 1
                         renpy.call("undervalued_interact", girl)
                     else:
-                         girl.unknown_trait_counter += 1
+                        girl.unknown_trait_counter += 1
 
     $ calendar.set_alarm(calendar.time + 1, StoryEvent(label="traitking_night", type="night"))
     

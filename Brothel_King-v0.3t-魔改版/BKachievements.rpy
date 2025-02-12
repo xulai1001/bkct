@@ -134,7 +134,7 @@ init python:
                         Achievement(_("富甲一方"), __("拥有%s金币的现金。"), pic="jewel bag.webp", pic_path="items/misc/", level_nb=5, target="gold", requirements={1 : 1000, 2 : 10000, 3 : 100000, 4 : 1000000, 5 : 10000000}, multi=10),
                         Achievement(_("和和睦睦"), __("你的女孩中有%s个有好朋友。"), pic="heart.webp", pic_path="UI/", level_nb=5, target="friends", requirements={1 : 2, 2 : 4, 3 : 8, 4 : 16, 5 : 32}, multi=5),
                         Achievement(_("勾心斗角"), __("你的女孩中有%s个和别人结仇。"), pic="broken heart.webp", pic_path="UI/", level_nb=5, target="rivals", requirements={1 : 2, 2 : 4, 3 : 8, 4 : 16, 5 : 32}, multi=5),
-                        Achievement(_("久经沙场"), __("安全度过%s个安全事件。"), pic="shield.webp", pic_path="UI/", level_nb=5, target="security events", requirements={1 : 10, 2 : 25, 3 : 50, 4 : 125, 5 : 250}, multi=5),
+                        Achievement(_("久经沙场"), __("安全度过%s个突发事件。"), pic="shield.webp", pic_path="UI/", level_nb=5, target="security events", requirements={1 : 10, 2 : 25, 3 : 50, 4 : 125, 5 : 250}, multi=5),
                         Achievement(_("擒贼先擒王"), __("捕获一名敌方首领。"), pic="portrait.webp", pic_path="NPC/Kenshin", target="general captured", multi=25),
                         Achievement(_("解救人质"), __("拯救一个被绑架的女孩。"), pic="knight portrait.webp", pic_path="NPC/Misc/", target="rescued from kidnapping", multi=25),
                         Achievement(_("蠢蠢欲动"), __("在你的女孩身上发现 %s 个正面性癖。"), pic="droplet.webp", pic_path="UI/", target="pos fixations", level_nb=5, requirements={1 : 10, 2 : 25, 3 : 50, 4 : 125, 5 : 250}, multi=5),
@@ -181,30 +181,30 @@ init python:
                         Achievement(_("十艘跳"), __("同时拥有十个女朋友。"), pic="heart.webp", pic_path="UI/", target="girlfriends", requirements={1 : 10}, multi=25),
                         Achievement(_("原班人马"), __("在你的青楼里有%s位原始女孩。"), pic="license2.webp", pic_path="UI/", target="originals", level_nb=5, requirements={1 : 1, 2 : 4, 3 : 8, 4 : 16, 5 : 32}, multi=2),
 
-                        Achievement(_("一掷千金：乞丐"), __("让一名乞丐在青楼里花光所有的钱。"), pic="beggar.webp", pic_path="UI/customers/", target="broke beggars"),
-                        Achievement(_("一掷千金：混混"), __("让一名混混在青楼里花光所有的钱。"), pic="thug.webp", pic_path="UI/customers/", target="broke thugs", multi=2),
+                        Achievement(_("一掷千金：混混"), __("让一名混混在青楼里花光所有的钱。"), pic="beggar.webp", pic_path="UI/customers/", target="broke beggars"),
+                        Achievement(_("一掷千金：冒险者"), __("让一名冒险者在青楼里花光所有的钱。"), pic="thug.webp", pic_path="UI/customers/", target="broke thugs", multi=2),
                         Achievement(_("一掷千金：工人"), __("让一名工人在青楼里花光所有的钱。"), pic="Laborer.webp", pic_path="UI/customers/", target="broke laborers", multi=2),
                         Achievement(_("一掷千金：水手"), __("让一名水手在青楼里花光所有的钱。"), pic="Sailor.webp", pic_path="UI/customers/", target="broke sailors", multi=2),
-                        Achievement(_("一掷千金：平民"), __("让一名平民在青楼里花光所有的钱。"), pic="Commoner.webp", pic_path="UI/customers/", target="broke commoners", multi=3),
+                        Achievement(_("一掷千金：社畜"), __("让一名社畜在青楼里花光所有的钱。"), pic="Commoner.webp", pic_path="UI/customers/", target="broke commoners", multi=3),
                         Achievement(_("一掷千金：工匠"), __("让一名工匠在青楼里花光所有的钱。"), pic="Craftsman.webp", pic_path="UI/customers/", target="broke craftsmen", multi=3),
-                        Achievement(_("一掷千金：富豪"), __("让一名富豪顾客在青楼里花光所有的钱。"), pic="Bourgeois.webp", pic_path="UI/customers/", target="broke bourgeois", multi=3),
-                        Achievement(_("一掷千金：公会职员"), __("让一名公会成员在青楼里花光所有的钱。"), pic="Guild Member.webp", pic_path="UI/customers/", target="broke guild members", multi=4),
-                        Achievement(_("一掷千金：骑士阶级"), __("让一名骑士阶级顾客在青楼里花光所有的钱。"), pic="Patrician.webp", pic_path="UI/customers/", target="broke patricians", multi=4),
-                        Achievement(_("一掷千金：新晋贵族"), __("让一名新晋贵族顾客在青楼里花光所有的钱。"), pic="aristocrat.webp", pic_path="UI/customers/", target="broke aristocrats", multi=4),
-                        Achievement(_("一掷千金：贵族阶级"), __("让一名贵族阶级顾客在青楼里花光所有的钱。"), pic="Noble.webp", pic_path="UI/customers/", target="broke nobles", multi=5),
-                        Achievement(_("一掷千金：皇亲国戚"), __("让一名王室阶级顾客在青楼里花光所有的钱。"), pic="Royal.webp", pic_path="UI/customers/", target="broke royals", multi=10),
-                        Achievement(_("五星好评：乞丐"), __("让一名乞丐在青楼里完全满足。"), pic="beggar.webp", pic_path="UI/customers/", target="happy beggars"),
-                        Achievement(_("五星好评：混混"), __("让一名混混在青楼里完全满足。"), pic="thug.webp", pic_path="UI/customers/", target="happy thugs", multi=2),
-                        Achievement(_("五星好评：工人"), __("让一名工人顾客在青楼里完全满足。"), pic="Laborer.webp", pic_path="UI/customers/", target="happy laborers", multi=2),
-                        Achievement(_("五星好评：水手"), __("让一名水手顾客在青楼里完全满足。"), pic="Sailor.webp", pic_path="UI/customers/", target="happy sailors", multi=2),
-                        Achievement(_("五星好评：平民"), __("让一名平民顾客在青楼里完全满足。"), pic="Commoner.webp", pic_path="UI/customers/", target="happy commoners", multi=3),
+                        Achievement(_("一掷千金：公务员"), __("让一名公务员在青楼里花光所有的钱。"), pic="Bourgeois.webp", pic_path="UI/customers/", target="broke bourgeois", multi=3),
+                        Achievement(_("一掷千金：生意人"), __("让一名生意人在青楼里花光所有的钱。"), pic="Guild Member.webp", pic_path="UI/customers/", target="broke guild members", multi=4),
+                        Achievement(_("一掷千金：骑士"), __("让一名骑士在青楼里花光所有的钱。"), pic="Patrician.webp", pic_path="UI/customers/", target="broke patricians", multi=4),
+                        Achievement(_("一掷千金：法师"), __("让一名法师在青楼里花光所有的钱。"), pic="aristocrat.webp", pic_path="UI/customers/", target="broke aristocrats", multi=4),
+                        Achievement(_("一掷千金：贵族子弟"), __("让一名贵族子弟在青楼里花光所有的钱。"), pic="Noble.webp", pic_path="UI/customers/", target="broke nobles", multi=5),
+                        Achievement(_("一掷千金：皇室成员"), __("让一名皇室成员在青楼里花光所有的钱。"), pic="Royal.webp", pic_path="UI/customers/", target="broke royals", multi=10),
+                        Achievement(_("五星好评：混混"), __("让一名混混在青楼里完全满足。"), pic="beggar.webp", pic_path="UI/customers/", target="happy beggars"),
+                        Achievement(_("五星好评：冒险者"), __("让一名冒险者在青楼里完全满足。"), pic="thug.webp", pic_path="UI/customers/", target="happy thugs", multi=2),
+                        Achievement(_("五星好评：工人"), __("让一名工人在青楼里完全满足。"), pic="Laborer.webp", pic_path="UI/customers/", target="happy laborers", multi=2),
+                        Achievement(_("五星好评：水手"), __("让一名水手在青楼里完全满足。"), pic="Sailor.webp", pic_path="UI/customers/", target="happy sailors", multi=2),
+                        Achievement(_("五星好评：社畜"), __("让一名社畜在青楼里完全满足。"), pic="Commoner.webp", pic_path="UI/customers/", target="happy commoners", multi=3),
                         Achievement(_("五星好评：工匠"), __("让一名工匠在青楼里完全满足。"), pic="Craftsman.webp", pic_path="UI/customers/", target="happy craftsmen", multi=3),
-                        Achievement(_("五星好评：富豪"), __("让一名富豪顾客在青楼里完全满足。"), pic="Bourgeois.webp", pic_path="UI/customers/", target="happy bourgeois", multi=3),
-                        Achievement(_("五星好评：公会职员"), __("让一名公会成员在青楼里完全满足。"), pic="Guild Member.webp", pic_path="UI/customers/", target="happy guild members", multi=4),
-                        Achievement(_("五星好评：骑士阶级"), __("让一名骑士阶级顾客在青楼里完全满足。"), pic="Patrician.webp", pic_path="UI/customers/", target="happy patricians", multi=4),
-                        Achievement(_("五星好评：新晋贵族"), __("让一名新晋贵族顾客在青楼里完全满足。"), pic="aristocrat.webp", pic_path="UI/customers/", target="happy aristocrats", multi=4),
-                        Achievement(_("五星好评：贵族阶级"), __("让一名贵族阶级顾客在青楼里完全满足。"), pic="Noble.webp", pic_path="UI/customers/", target="happy nobles", multi=5),
-                        Achievement(_("五星好评：皇亲国戚"), __("让一名王室阶级顾客在青楼里完全满足。"), pic="Royal.webp", pic_path="UI/customers/", target="happy royals", multi=10),
+                        Achievement(_("五星好评：公务员"), __("让一名公务员在青楼里完全满足。"), pic="Bourgeois.webp", pic_path="UI/customers/", target="happy bourgeois", multi=3),
+                        Achievement(_("五星好评：生意人"), __("让一名生意人在青楼里完全满足。"), pic="Guild Member.webp", pic_path="UI/customers/", target="happy guild members", multi=4),
+                        Achievement(_("五星好评：骑士"), __("让一名骑士在青楼里完全满足。"), pic="Patrician.webp", pic_path="UI/customers/", target="happy patricians", multi=4),
+                        Achievement(_("五星好评：法师"), __("让一名法师在青楼里完全满足。"), pic="aristocrat.webp", pic_path="UI/customers/", target="happy aristocrats", multi=4),
+                        Achievement(_("五星好评：贵族子弟"), __("让一名贵族子弟在青楼里完全满足。"), pic="Noble.webp", pic_path="UI/customers/", target="happy nobles", multi=5),
+                        Achievement(_("五星好评：皇室成员"), __("让一名皇室成员在青楼里完全满足。"), pic="Royal.webp", pic_path="UI/customers/", target="happy royals", multi=10),
 
                         Achievement(_("登峰造极：女仆"), __("让一名女孩上解锁女仆天赋树上的所有的天赋分支。"), pic="The Maid portrait.webp", pic_path="perks/", target="The Maid", multi=5),
                         Achievement(_("登峰造极：优伶"), __("让一名女孩上解锁优伶天赋树上的所有的天赋分支。"), pic="The Player portrait.webp", pic_path="perks/", target="The Player", multi=5),
@@ -258,7 +258,7 @@ init python:
         achievement_dict[achv.target] = achv
 
     # List of achievement targets that are tested with a game.track() update
-    tracked_achievements = ["used toy", "farm_days", "had sex", "completed quest", "completed class", "completed contracts", "total_gold", "security events", "neg fixation removed", "hypnotize success", "hypnotize failure", "sell girl gold", "raped", "beaten", "punished", "rewarded", "free girl acquired", "origin stories", "gold spent slavemarket", "gold spent shops", "gold clean", "kosmo", "powers", "purple mojo", "green mojo", "blue mojo", "red mojo", "yellow mojo", "broken", "broken girl street"]
+    tracked_achievements = ["used toy", "farm_days", "had sex", "completed quest", "completed class", "completed contracts", "total_gold", "security events", "neg fixation removed", "hypnotize success", "hypnotize failure", "sell girl gold", "raped", "beaten", "punished", "rewarded", "free girl acquired", "origin stories", "gold spent slavemarket", "gold spent shops", "gold clean", "kosmo", "powers", "purple mojo", "green mojo", "blue mojo", "red mojo", "yellow mojo", "broken", "broken girl street", "perform service", "perform sex", "perform anal", "perform fetish"]
 
     def unlock_achievement(target, level_cap=99):
         if achievement_dict[target].unlock(level_cap):

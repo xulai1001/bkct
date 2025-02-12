@@ -1596,7 +1596,7 @@ translate schinese strings:
 
     # game/BKscreens.rpy:6101
     old "You get 1 skill point for every new level."
-    new "你每升一级都会获得1点技能点。"
+    new "你每升一级都会获得1点属性点。"
 
     # game/BKscreens.rpy:6135
     old "Change your character's picture."
@@ -1662,97 +1662,21 @@ translate schinese strings:
     old "Requirements"
     new "任务要求"
 
-    # game/BKscreens.rpy:6406
-    old "Desirable"
-    new "有利特质"
-
-    # game/BKscreens.rpy:6414
-    old "Undesirable"
-    new "不利特质"
-
     # game/BKscreens.rpy:6419
     old "No task is currently available."
     new "现在没有可以接取的委托。"
 
-    # game/BKscreens.rpy:6457
-    old "Quests"
-    new "Quests"
-
-    # game/BKscreens.rpy:6458
-    old "Classes"
-    new "Classes"
-
     # game/BKscreens.rpy:6518
     old "Active contract"
-    new "Active contract"
-
-    # game/BKscreens.rpy:6554
-    old "Pers. "
-    new "Pers. "
-
-    # game/BKscreens.rpy:6555
-    old "Tastes"
-    new "Tastes"
-
-    # game/BKscreens.rpy:6556
-    old "Sex. "
-    new "Sex. "
-
-    # game/BKscreens.rpy:6557
-    old "Events"
-    new "Events"
+    new "签订的合约"
 
     # game/BKscreens.rpy:6618
     old "Farm Training Menu"
-    new "Farm Training Menu"
-
-    # game/BKscreens.rpy:6628
-    old " will {b}Rest{/b} in her cell."
-    new " will {b}Rest{/b} in her cell."
-
-    # game/BKscreens.rpy:6632
-    old " will improve her {b}"
-    new " will improve her {b}"
-
-    # game/BKscreens.rpy:6632
-    old "{/b} from doing chores."
-    new "{/b} from doing chores."
-
-    # game/BKscreens.rpy:6635
-    old " will receive {b}automatic training{/b}"
-    new " will receive {b}automatic training{/b}"
-
-    # game/BKscreens.rpy:6637
-    old " will receive {b}"
-    new " will receive {b}"
-
-    # game/BKscreens.rpy:6637
-    old " training{/b}"
-    new " training{/b}"
-
-    # game/BKscreens.rpy:6640
-    old ".\nI will assign her an {b}automatic facility{/b}, if there is room."
-    new ".\nI will assign her an {b}automatic facility{/b}, if there is room."
-
-    # game/BKscreens.rpy:6642
-    old "There might not be enough free minions to take care of her in all your facilities."
-    new "There might not be enough free minions to take care of her in all your facilities."
+    new "农场训练菜单"
 
     # game/BKscreens.rpy:6651
     old " at the {b}"
     new " at the {b}"
-
-    # game/BKscreens.rpy:6651
-    old "{/b}."
-    new "{/b}."
-
-    # game/BKscreens.rpy:6658
-    old "There may not be enough valid minions for group training. I may assign her to a different facility if other minions are available."
-    new "There may not be enough valid minions for group training. I may assign her to a different facility if other minions are available."
-
-    # game/BKscreens.rpy:6660
-    old "There are not enough valid minions in the %s, I may have to rotate this girl in and out of the facility."
-    new "There are not enough valid minions in the %s, I may have to rotate this girl in and out of the facility."
 
     # game/BKscreens.rpy:6664
     old "\n{b}Warning{/b}: "

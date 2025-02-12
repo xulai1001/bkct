@@ -135,9 +135,9 @@ init -3 python:
 
     goal_channels = ("story", "story2", "story3", "advance", "advance2", "papa", "contract", "other")
     goal_channels_no_story = ("advance", "advance2", "contract", "other")
-    goal_categories = {"story" : "STORY", "story2" : "STORY", "story3" : "STORY", "advance" : "ADVANCE", "advance2" : "ADVANCE", "contract" : "CONTRACT", "other" : "MISC", "papa" : "MISC"}
+    goal_categories = {"story" : "主线任务", "story2" : "主线任务", "story3" : "主线任务", "advance" : "章节目标", "advance2" : "章节目标", "contract" : "合 同", "other" : "支线任务", "papa" : "支线任务"}
     goal_tb = {"story" : "tb story", "story2" : "tb story", "story3" : "tb story", "advance" : "tb advance", "advance2" : "tb advance", "contract" : "tb contract", "other" : "tb other", "papa" : "tb papa"}
-    goal_colors = {"STORY" : c_softpurple, "ADVANCE" : c_magenta, "CONTRACT" : c_firered, "MISC" : c_yellow}
+    goal_colors = {"主线任务" : c_softpurple, "章节目标" : c_magenta, "合 同" : c_firered, "支线任务" : c_yellow}
 
 #### TAG LIST ####
 
@@ -174,7 +174,7 @@ init -3 python:
                         "pref" : "性技培训速度",
                         "xp" : "等级经验倍率",
                         "jp" : "职业经验倍率",
-                        "rep" : "女孩声望倍率",
+                        "rep" : "女孩人气倍率",
                         "prestige" : "主角声望倍率",
                         "tax rate" : "公会税款倍率",
                         "satisfaction" : "顾客的满意度",
@@ -190,11 +190,11 @@ init -3 python:
                         "pref" : "调整女孩{b}性倾向{/b}的增长速度。",
                         "xp" : "调整女孩{b}等级经验{/b}的增长速度。",
                         "jp" : "调整女孩{b}职业经验{/b}的增长速度。",
-                        "rep" : "调整女孩{b}声望{/b}的增长速度。",
+                        "rep" : "调整女孩{b}人气{/b}的增长速度。",
                         "prestige" : "影响主角 {b}声望{/b}的增长。",
                         "tax rate" : "增加或减少交给公会的 {b}税款{/b}。",
                         "satisfaction" : "改变客户{b}满意度{/b}的增长速度。",
-                        "security" : "调整每次安全事件之间的间隔时间。",
+                        "security" : "调整每次突发事件之间的间隔时间。",
                         }
 
     diff_settings_range = {
@@ -378,8 +378,8 @@ init -3 python:
                     "有些人在城里卖稀奇古怪的东西，甚至连野兽和怪物。它们有什么用？。",
                     "性技能无法通过升级点数来提高。只有在实战中才能提升属性。",
                     "让女孩参加培训课程有助于更快地提高女孩较低的属性。",
-                    "每个女孩都有自己的声望，与青楼的知名度不同。女孩的声望达到一定水平才能提升阶级。",
-                    "提高女孩声望的最好方法就是让她完成公告大厅里发布的悬赏任务。",
+                    "每个女孩都有自己的人气，与青楼的知名度不同。女孩的人气达到一定水平才能提升阶级。",
+                    "提高女孩人气的最好方法就是让她完成公告大厅里发布的悬赏任务。",
                     "女孩会获得来自青楼协会的评级。阶级影响很多东西，包括女孩的最高等级和属性上限。",
                     "在最开始，女孩的属性上限只有50点。每次阶级提升，属性上限都会提高50点。",
                     "女孩升级时，她会根据当前等级获得属性点。每升两级还会获得额外奖励。",
@@ -813,10 +813,10 @@ init -4 python:
                         "monster2" : ["ck", "k", "rk", "rz", "rm", "xx", "uz", "oo", "hu", "qq", "tz", "zt", "rh", "th"],
                         }
 
-    girl_name_dict = {"syllabs" : ["sha", "she", "shee", "shi", "wa", "ri", "ree", "ra", "ru", "ti", "ta", "ty", "ya", "yu", "sa", "so", "su", "se", "sy", "da", "de", "di", "do", "dy", "fa", "fe", "fio", "fia", "gi", "hu", "ha", "hyu", "ja", "ju", "ji", "ka", "ky", "ki", "kyo", "kyu", "la", "li", "le", "lo", "lu", "lyu", "lia", "lya", "lee", "loo", "za", "zi", "zu", "ze", "zee", "xa", "xy", "xe", "ca", "ce", "chi", "chu", "va", "vi", "vy", "ve", "bu", "be", "na", "ne", "ni", "nya", "nyu", "nee", "ma", "mu", "me", "mi", "myu", "mia", "mya"],
-                      "fillers" : ["n", "r", "l", "s", "'", "", "", ""],
-                      "enders" : ["n", "l", "nn", "a", "ya", "na", "ly", "", "", ""],
-                      "last_syllabs" : ["jo", "sho", "to", "ya", "ma", "mi", "yo", "ko", "na", "ye", "yu", "ka", "ta", "fu", "ro", "sa", "shi", "ki", "no", "ra", "re", "tsu", "chi", "shi", "se", "n", "mu", "ne", "kyo", "ku"],
+    girl_name_dict = {"syllabs" : ["赵", "钱", "孙", "李", "周", "吴", "郑", "王", "冯", "陈", "朱", "孔", "曹", "孟", "何", "吕", "施", "张", "蒋", "沈", "韩", "杨", "上官", "欧阳", "西门", "姜", "唐", "柳", "星", "郝", "纪", "方", "文", "温", "秋", "邱", "祝", "竹", "彩", "帝", "林", "灵", "凌", "风", "凤", "商", "严", "魏", "谢", "水", "云", "苏", "素", "花", "苗", "安", "罗", "俞", "任", "袁", "倪", "乐", "于", "时", "傅", "顾", "米", "明", "杜", "江", "梅", "虞", "高", "夏", "柯", "夕", "希", "宁", "束", "叶", "司"],
+                      "fillers" : ["铃", "雪", "诗", "妍", "琳", "婉", "馨", "悠", "恬", "甜", "柔", "小", "瑶", "香", "书", "美", "飘", "墨", "蓝", "兰", "襄", "晨", "梦", "若", "芷", "茹", "一", "依", "瑄", "天", "景", "妃", "蕾", "巧", "尤", "月", "花", "华", "冬", "芊", "紫", "梓", "桃", "幂", "珍", "贞", "仙", "蒂", "雯", "玉"],
+                      "enders" : ["儿", "语", "羽", "盈", "蕊", "彤", "茜", "娜", "菲", "琪", "涵", "曦", "兮", "然", "纯", "冰", "一", "乔", "悠", "诗", "师", "莉", "丽", "依", "瑄", "天", "景", "妃", "梅", "兰", "竹", "菊"],
+                      "last_syllabs" : ["酱", "sho"],
                       }
 
 
@@ -2426,7 +2426,7 @@ init -4 python:
                         "constitution bonus" : "客人%s认为她的身体很健美。",
                         "sensitivity bonus" : "客人%s喜欢她敏感的身体。",
 
-                        "DT_group" : "顾客们轮流把他们的肉棒塞到她的喉咙里，c插的越深越爽。",
+                        "DT_group" : "顾客们轮流把他们的肉棒塞到她的喉咙里，插的越深越爽。",
                         "DT" : "顾客惊讶地发现她可以把他的肉棒整根吞下。",
                         "bukkake" : "她全身上下的每一个洞都塞满了肉棒，每个人都用她的脸颊擦拭肉棒，给她做了个面膜。",
                         "creampie" : "客人把精液射满了她的小穴和小腹，她被快感刺激得呻吟声不止。",

@@ -188,7 +188,7 @@ translate schinese strings:
 
     # game/BKclasses.rpy:2117
     old ". :pron: :verb: elated to meet :girl:."
-    new ". :pron: :verb: elated to meet :girl:."
+    new ". :pron: :verb: 对 :girl: 很满意。"
 
     # game/BKclasses.rpy:2119
     old ":cust: came looking for a girl with "
@@ -204,7 +204,7 @@ translate schinese strings:
 
     # game/BKclasses.rpy:2131
     old ":pron: :verb: elated to meet :girl:."
-    new ":pron: :verb: elated to meet :girl:."
+    new ":pron: :verb: 对 :girl: 很满意。"
 
     # game/BKclasses.rpy:2133
     old ":pron: :verb: pleased to meet :girl:."
@@ -496,7 +496,7 @@ translate schinese strings:
 
     # game/BKclasses.rpy:4935
     old " reputation"
-    new "点声望"
+    new "点知名度"
 
     # game/BKclasses.rpy:4938
     old "you must gather "
@@ -553,4 +553,20 @@ translate schinese strings:
     # game/BKclasses.rpy:6861
     old " has been built.\n\n"
     new "已经修建完成。\n\n"
+
+    # game/BKclasses.rpy:4874
+    old "Cheap"
+    new "折扣价"
+
+    # game/BKclasses.rpy:4874
+    old "Masterclass"
+    new "大师班"
+
+    # game/BKclasses.rpy:4876
+    old "High reward"
+    new "高报酬"
+
+    # game/BKclasses.rpy:4876
+    old "Notorious"
+    new "高难度"
 

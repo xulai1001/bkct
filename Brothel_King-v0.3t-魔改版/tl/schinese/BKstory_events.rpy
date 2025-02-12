@@ -934,13 +934,13 @@ translate schinese renza_friend3_menu_50b21bea:
 translate schinese renza_friend3_menu_92a281b2:
 
     # renza "But I wasn't much interested in their lessons, you know. As a teenager, I spent all my time away from the guild, fooling around with boys and getting in trouble..."
-    renza "不过,你知道,我对他们的教导并不太感兴趣。作为teenager的时候,我都在外面和男孩子们胡闹,惹了一堆麻烦..."
+    renza "不过,你知道,我对他们的教导并不太感兴趣。在我还小的时候,我整天和男孩子们四处胡闹,惹了一堆麻烦..."
 
 # game/BKstory_events.rpy:546
 translate schinese renza_friend3_menu_06368b28:
 
     # you "Really? You look so serious and business-like to me..."
-    you "真的吗?你看起来好像那么正经和事业心强..."
+    you "真的吗?你明明看起来很正经..."
 
 # game/BKstory_events.rpy:550
 translate schinese renza_friend3_menu_0bc7db9d:
@@ -15994,7 +15994,7 @@ translate schinese willow_relative_412a353f:
 translate schinese willow_relative_2f5cd276:
 
     # sill "There is a visitor from outside town. A relative of Willow the crazy monster catcher, apparently."
-    sill "外来了一位访客,是疯狂的怪物捕捉者Willow的亲戚。"
+    sill "外面来了一位访客,她自称是疯狂的怪物猎手薇儿的亲戚。"
 
 # game/BKstory_events.rpy:8096
 translate schinese willow_relative_a776e4a2:
@@ -16012,7 +16012,7 @@ translate schinese willow_relative_419ab219:
 translate schinese willow_relative_c5fabd04:
 
     # you "Oh, really? I hope she paid top denar to use that onsen. I don't operate a damn charity hospice..."
-    you "哦,是吗?我希望她出重金使用那个温泉。我可不是在经营什么慈善疗养院..."
+    you "哦,是吗?我希望她能付得起门票钱。我可不是在经营什么慈善疗养院..."
 
 # game/BKstory_events.rpy:8102
 translate schinese willow_relative_0c2cad9f:
@@ -16024,7 +16024,7 @@ translate schinese willow_relative_0c2cad9f:
 translate schinese willow_relative_3fb9397a:
 
     # you "SHE DIDN'T PAY???" with vpunch
-    you "她没付费???" with vpunch
+    you "她没付钱???" with vpunch
 
 # game/BKstory_events.rpy:8106
 translate schinese willow_relative_f1e2f95e:
@@ -16036,13 +16036,13 @@ translate schinese willow_relative_f1e2f95e:
 translate schinese willow_relative_242f814c:
 
     # you "Hot damn!!!" with vpunch
-    you "乱吼乱叫的!" with vpunch
+    you "杀千刀的!" with vpunch
 
 # game/BKstory_events.rpy:8110
 translate schinese willow_relative_ad64e7d9:
 
     # you "This is going too far! I going to shake the money off this old sack of bones!"
-    you "这已经太过分了!我要去把钱从那个老骨头身上敲出来!"
+    you "这太过分了!我要去把钱从那个老骨头身上敲出来!"
 
 # game/BKstory_events.rpy:8112
 translate schinese willow_relative_1b15a8dc:
@@ -16060,7 +16060,7 @@ translate schinese willow_relative_ab07b018:
 translate schinese willow_relative_fc8e6119:
 
     # you "WHERE IS WILLOW'S RELATIVE! SHOW YOURSELF!"
-    you "Willow亲戚,现身吧!"
+    you "薇儿的亲戚,给我出来!"
 
 # game/BKstory_events.rpy:8125
 translate schinese willow_relative_ae93959d:
@@ -16078,7 +16078,7 @@ translate schinese willow_relative_de19cb1f:
 translate schinese willow_relative_882bfa05:
 
     # relative "Yes? [emo_heart]"
-    relative "是的?[emo_heart]"
+    relative "怎么了?[emo_heart]"
 
 # game/BKstory_events.rpy:8129
 translate schinese willow_relative_dae0ec55:
@@ -16132,7 +16132,7 @@ translate schinese willow_relative_4be400c4:
 translate schinese willow_relative_e54b79aa:
 
     # relative "Oh, my, this is awfully nice of you..."
-    relative "哦,天哪,你实在太好了..."
+    relative "哦,天哪,你实在太贴心了..."
 
 # game/BKstory_events.rpy:8154
 translate schinese willow_relative_9aa749e4:
@@ -16174,7 +16174,7 @@ translate schinese willow_relative_567fac12:
 translate schinese willow_relative_26a5145b:
 
     # relative "Her great-great-auntie... Her great-granma is my big sister..."
-    relative "她的曾曾祖母...她的祖母是我的大姐..."
+    relative "她的曾曾祖母...她的祖母是我的姐姐..."
 
 # game/BKstory_events.rpy:8168
 translate schinese willow_relative_2123de63:
@@ -16198,13 +16198,13 @@ translate schinese willow_relative_e2f5b7a5:
 translate schinese willow_relative_1bd47185:
 
     # relative "But bathing in this sweet onsen, I feel like a spry young woman! It's like I'm 75 all over again!"
-    relative "但在这个甜蜜的温泉里泡澡,我感觉就像个活力充沛的年轻女子!就像我又变成75岁了一样!"
+    relative "但在这个温暖的温泉里泡澡,我感觉就像个活力充沛的年轻女子!就像我又变成75岁了一样!"
 
 # game/BKstory_events.rpy:8176
 translate schinese willow_relative_7e8dddc9:
 
     # you "But, Willow... She looks human... You look human... I mean..."
-    you "但是薇儿...她看起来很人类...你看起来也很人类...我是说..."
+    you "但是薇儿...她看起来很像人类...你看起来也很像人类...我是说..."
 
 # game/BKstory_events.rpy:8178
 translate schinese willow_relative_bcce0723:
@@ -16258,13 +16258,13 @@ translate schinese willow_relative_85f6d859:
 translate schinese willow_relative_dd618a63:
 
     # relative "Anyway, I am very thankful that you are friends with her and that your establishment doesn't discriminate."
-    relative "总之,我非常感谢你们与她成为朋友,并且你的场所不会歧视我们。"
+    relative "总之,我非常感谢你们与她成为朋友,并且你不会歧视我们。"
 
 # game/BKstory_events.rpy:8196
 translate schinese willow_relative_5c561cc0:
 
     # you "So... You're one of the animal people?"
-    you "所以...你们就是那些动物人?"
+    you "所以...你们就是那些动物化形?"
 
 # game/BKstory_events.rpy:8198
 translate schinese willow_relative_f8001e4f:
@@ -16306,13 +16306,13 @@ translate schinese willow_relative_da2b645f:
 translate schinese willow_relative_f032784e:
 
     # relative "It is said that each tribe had a totem guardian, and as a mark of devotion, the first tribes took some of their attributes from the spirits."
-    relative "据说每个部落都有一个图腾守护神,作为虔诚的标志,最早的部落从这些精灵那里获取了一些属性。"
+    relative "据说每个部落都有一个守护图腾,作为虔诚的信仰,最早的部落从这些精灵那里获取了一些祝福。"
 
 # game/BKstory_events.rpy:8212
 translate schinese willow_relative_6e2306f9:
 
     # relative "This is how the fairy people now referred to as the Kemono were created."
-    relative "这就是被称为Kemono的仙族人的起源。"
+    relative "这就是被称为Kemono的仙人的起源。"
 
 # game/BKstory_events.rpy:8214
 translate schinese willow_relative_8c042ed2:
@@ -16336,19 +16336,19 @@ translate schinese willow_relative_b2d08e13:
 translate schinese willow_relative_07aa5291:
 
     # relative "No one knows exactly... There are many surviving tribes, but even more were lost over the ages. We still have bird people, dog people, elephant people, pony people, nine-tail fox people..."
-    relative "没人确切知道...仍有许多幸存的部落,但有更多在岁月中消失了。我们仍有鸟类人、狗类人、象类人、小马人、九尾狐人..."
+    relative "没人确切知道...仍有许多幸存的部落,但有更多在历史长河中消失了。我们仍有翼人、犬耳娘、象类人、赛马娘、狐仙..."
 
 # game/BKstory_events.rpy:8222
 translate schinese willow_relative_b112276d:
 
     # relative "And cat people, of course. They're everywhere... Probably because they make such good thieves... and lovers."
-    relative "当然还有猫人。到处都有...可能是因为他们是如此优秀的小偷...和情人。"
+    relative "当然还有猫娘。到处都有...可能是因为他们是优秀的小偷...和情人。"
 
 # game/BKstory_events.rpy:8224
 translate schinese willow_relative_ad5fe7a7:
 
     # relative "Also, people like to share their memes - whatever that is."
-    relative "而且人们喜欢分享他们的memes - 无论那是什么。"
+    relative "而且人们喜欢分享他们的梗 - 无论那是什么。"
 
 # game/BKstory_events.rpy:8226
 translate schinese willow_relative_8dd2fb6a:
@@ -16366,7 +16366,7 @@ translate schinese willow_relative_fe1c52e1:
 translate schinese willow_relative_11ab3218:
 
     # relative "Yes. So many lost cultures, with a rich, unique take on life... And their very own smells..."
-    relative "是啊。 如此多失落的文化,他们对生活有独特而丰富的理解...甚至有自己独特的气味..."
+    relative "是啊。那么多的文明消失了,他们对生活有独特而丰富的理解...甚至有自己独特的气味..."
 
 # game/BKstory_events.rpy:8227
 translate schinese willow_relative_dae0ec55_1:
@@ -16396,13 +16396,13 @@ translate schinese willow_relative_d5dff942:
 translate schinese willow_relative_7e9d8623:
 
     # relative "I really enjoyed your hospitality. I look forward to coming back to see you, and enjoy this wonderful onsen next month."
-    relative "我真的很享受你的款待。下个月我期待回来,再次拜访并享受这个美妙的温泉。"
+    relative "我真的很感谢你的款待。我很期待下个月,再次拜访并享受这个美妙的温泉。"
 
 # game/BKstory_events.rpy:8242
 translate schinese willow_relative_2f3fad6c:
 
     # you "Why, of course! You will always be welcome!"
-    you "当然!你永远都受欢迎!"
+    you "当然!大门永远为你敞开!"
 
 # game/BKstory_events.rpy:8244
 translate schinese willow_relative_0c9a39ca:
@@ -16414,7 +16414,7 @@ translate schinese willow_relative_0c9a39ca:
 translate schinese willow_relative_1ca98fcb:
 
     # "Watching her juicy curves as she steps out of the bath and heads towards the shower, rocking her hips, you are not even upset that you just agreed to give her free onsen for life."
-    "目送她从浴池中走出,向淋浴间摇曳着丰满的身姿,你丝毫不生气刚才同意永远免费让她使用温泉。"
+    "目送她从浴池中走出,向淋浴间摇曳着丰满的身姿,你丝毫不生气免费让她使用温泉。"
 
 # game/BKstory_events.rpy:8250
 translate schinese willow_relative_03b18590:
@@ -16426,13 +16426,13 @@ translate schinese willow_relative_03b18590:
 translate schinese willow_relative_returns_4afb0937:
 
     # "Willow's great-great-auntie came back to soak in the onsen tonight."
-    "今晚威尔洛的曾祖母回来泡温泉了。"
+    "今晚薇儿的曾祖母回来泡温泉了。"
 
 # game/BKstory_events.rpy:8267
 translate schinese willow_relative_returns_202246dd:
 
     # "Sill made sure to give her a private pool to keep the lusty customers at bay."
-    "希露确保给她准备了一个私人泳池,以免引起太多色眯眯的客人。"
+    "希露给她准备一个私人浴池,以免引起太多好色的客人。"
 
 # game/BKstory_events.rpy:8270
 translate schinese willow_relative_returns_9492a44a:
@@ -16444,13 +16444,13 @@ translate schinese willow_relative_returns_9492a44a:
 translate schinese willow_relative_returns_6deb1c78:
 
     # you "Helloooo my lady..."
-    you "哈喽,我的lady..."
+    you "哈喽,尊敬的女士..."
 
 # game/BKstory_events.rpy:8280
 translate schinese willow_relative_returns_e0ae47f6:
 
     # relative "Oh, Master [MC.name]! Nice to see you."
-    relative "哦,[MC.name]大人!很高兴见到你。"
+    relative "哦,[MC.name]先生!很高兴见到你。"
 
 # game/BKstory_events.rpy:8282
 translate schinese willow_relative_returns_9069cc4e:
@@ -16462,7 +16462,7 @@ translate schinese willow_relative_returns_9069cc4e:
 translate schinese willow_relative_returns_98c49488:
 
     # relative "Well... I guess I could use company. Why don't you get a fresh towel and hop in?"
-    relative "嗯...我想我可以用个陪伴。不如你拿条毛巾来,一起泡泡吧?"
+    relative "嗯...我想我需要一个浴友。不如你拿条毛巾来,一起泡泡吧?"
 
 # game/BKstory_events.rpy:8286
 translate schinese willow_relative_returns_7d255d93:
@@ -16474,13 +16474,13 @@ translate schinese willow_relative_returns_7d255d93:
 translate schinese willow_relative_returns_2612c731:
 
     # "Grabbing a towel, a wooden platter and a bottle of sake, you join Willow's relative inside the hot springs."
-    "拿着毛巾、一个木盘和一瓶清酒,你加入了Willow的亲属进入热泉池。"
+    "拿着毛巾、一个托盘和一瓶清酒,你和薇儿的祖母一起进入了热泉池。"
 
 # game/BKstory_events.rpy:8292
 translate schinese willow_relative_returns_eb0ad1cd:
 
     # you "It's pretty hot in here... I brought us some refreshments. Can I interest you in a cup of sake?"
-    you "这里真热啊....我给我们拿了些饮品。你想喝一杯清酒吗?"
+    you "这里好热啊....我拿了些饮品。你想喝一杯清酒吗?"
 
 # game/BKstory_events.rpy:8294
 translate schinese willow_relative_returns_da126c56:
@@ -16492,7 +16492,7 @@ translate schinese willow_relative_returns_da126c56:
 translate schinese willow_relative_returns_de7254ba:
 
     # relative "Sure, I need to unwind... This place is a long way from the countryside; I've been walking all day."
-    relative "好啊,我需要放松一下....这地方离乡下可远着呢,我一路走过来。"
+    relative "好啊,我需要放松一下....这地方离乡下可远着呢,我一路跋山涉水。"
 
 # game/BKstory_events.rpy:8298
 translate schinese willow_relative_returns_daa2fb33:
@@ -37108,13 +37108,13 @@ translate schinese ninja_guest3_2ca1b1a1:
 translate schinese ninja_guest3_8760e94f:
 
     # girl_scientist "Why, I'm a doctor studying under the great Katryn Lapusel. I also moonlight as a contractor for the Slavers' Guild. My research is invaluable to them."
-    girl_scientist "我是卡特琳·拉普塞尔教授的研究助理。同时也为奴隶工会做一些工作。我的研究对他们来说非常宝贵。"
+    girl_scientist "我是卡特琳·拉普塞尔教授的研究助理。同时也为奴隶公会做一些工作。我的研究对他们来说非常宝贵。"
 
 # game/BKstory_events.rpy:18792
 translate schinese ninja_guest3_c24386a3:
 
     # you "Really? I know the Slaveres' Guild, and I didn't pick them to be science guys."
-    you "真的吗?我知道奴隶工会,可没想到他们也做科研。"
+    you "真的吗?我知道奴隶公会,可没想到他们也做科研。"
 
 # game/BKstory_events.rpy:18794
 translate schinese ninja_guest3_f4ac0da6:

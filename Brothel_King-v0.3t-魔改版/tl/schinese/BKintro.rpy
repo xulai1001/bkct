@@ -3262,7 +3262,8 @@ translate schinese brothel_first_time_03af0acd:
 translate schinese brothel_first_time_997f44cb:
 
     # gio "So, I see you've chosen the {b}[room.name]{/b}. A good choice, my friend!"
-    gio "所以,你选择了{b}[room.name]{/b}。原来你好这口,我的朋友!"
+    $ room.name_cn = tl_cn(room.name, location_name_dict)
+    gio "所以,你选择了{b}[room.name_cn]{/b}。原来你好这口,我的朋友!"
 
 # game/BKintro.rpy:2170
 translate schinese brothel_first_time_1eb42fe8:
@@ -3280,7 +3281,8 @@ translate schinese main_first_time_f76e2db9:
 translate schinese main_first_time_a4cfd4ac:
 
     # gio "The [room.name] is in order now."
-    gio "[room.name]已经收拾好了。"
+    $ room.name_cn = tl_cn(room.name, location_name_dict)
+    gio "[room.name_cn]已经帮你收拾好了。"
 
 # game/BKintro.rpy:2196
 translate schinese main_first_time_1da6dcb3:
